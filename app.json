@@ -16,7 +16,7 @@
     "android": {
       "package": "com.toblerone72.theotok",
       "adaptiveIcon": {
-        "backgroundColor": "#1C2128",
+        "backgroundColor": "#000000",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },

@@ -1,8 +1,8 @@
-import { buildDailyReminderSchedule, DAILY_REMINDER_MESSAGES } from './dailyReminder';
+import { buildDailyReminderSchedule } from './dailyReminder';
 
 export interface ScheduledNotification {
   content: { title: string; body: string };
-  trigger: { type: 'date'; date: Date; channelId?: string } | null;
+  trigger: { type: 'date'; date: Date; channelId?: string };
 }
 
 export interface NotificationClient {
@@ -28,7 +28,6 @@ export interface DailyReminderManager {
   ensure: (
     options: EnableDailyRemindersOptions & { notificationIds: string[] },
   ) => Promise<{ enabled: boolean; notificationIds: string[] }>;
-  sendTest: (messageCursor: number) => Promise<boolean>;
   disable: (notificationIds: string[]) => Promise<void>;
 }
 
@@ -73,22 +72,6 @@ export function createDailyReminderManager(
     },
     async disable(notificationIds) {
       await Promise.all(notificationIds.map((id) => client.cancelScheduledNotificationAsync(id)));
-    },
-    async sendTest(messageCursor) {
-      if (platform === 'android') await client.setNotificationChannelAsync(CHANNEL_ID);
-
-      let { status } = await client.getPermissionsAsync();
-      if (status !== 'granted') ({ status } = await client.requestPermissionsAsync());
-      if (status !== 'granted') return false;
-
-      await client.scheduleNotificationAsync({
-        content: {
-          title: 'TheoTok',
-          body: DAILY_REMINDER_MESSAGES[messageCursor % DAILY_REMINDER_MESSAGES.length],
-        },
-        trigger: null,
-      });
-      return true;
     },
     async ensure({ notificationIds, ...options }) {
       const scheduledIds = new Set(await client.getAllScheduledNotificationIdsAsync());

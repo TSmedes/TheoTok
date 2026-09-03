@@ -9,7 +9,6 @@ import { CONTENT_TYPES, TRADITION_LABELS, type ContentType } from '@/content/typ
 import { SELECTABLE_TRADITIONS, buildPool } from '@/feed/buildPool';
 import { usePreferences } from '@/store/preferences';
 import { dailyReminderManager } from '@/notifications/expoDailyReminder';
-import { nextDailyReminderMessageIndex as advanceDailyReminderMessageIndex } from '@/notifications/dailyReminder';
 import { useSaved } from '@/store/saved';
 import { useSeen } from '@/store/seen';
 import { colors, fonts, maxCardWidth, spacing } from '@/theme/tokens';
@@ -34,7 +33,6 @@ export default function SettingsScreen() {
   const clearSaved = useSaved((s) => s.clear);
   const savedCount = useSaved((s) => s.ids.length);
   const [reminderBusy, setReminderBusy] = useState(false);
-  const [testNotificationBusy, setTestNotificationBusy] = useState(false);
 
   const poolSize = buildPool(CARDS, { traditions, types }).length;
 
@@ -71,32 +69,6 @@ export default function SettingsScreen() {
       Alert.alert('Reminder unavailable', 'We could not schedule the daily reminder. Please try again.');
     } finally {
       setReminderBusy(false);
-    }
-  };
-
-  const sendTestNotification = async () => {
-    if (testNotificationBusy) return;
-    setTestNotificationBusy(true);
-
-    try {
-      const sent = await dailyReminderManager.sendTest(nextDailyReminderMessageIndex);
-      if (sent) {
-        setDailyReminders({
-          enabled: dailyReminderEnabled,
-          notificationIds: dailyReminderNotificationIds,
-          nextMessageIndex: advanceDailyReminderMessageIndex(nextDailyReminderMessageIndex),
-        });
-      }
-      Alert.alert(
-        sent ? 'Test notification sent' : 'Notifications are off',
-        sent
-          ? 'Background TheoTok for a moment to see it in the notification tray.'
-          : 'Allow notifications in your device settings, then try again.',
-      );
-    } catch {
-      Alert.alert('Test unavailable', 'We could not send a test notification. Please try again.');
-    } finally {
-      setTestNotificationBusy(false);
     }
   };
 
@@ -164,11 +136,6 @@ export default function SettingsScreen() {
               label={reminderBusy ? 'Updating reminder…' : 'Daily 8 AM reminder'}
               selected={dailyReminderEnabled}
               onPress={() => void toggleDailyReminder()}
-            />
-            <Chip
-              label={testNotificationBusy ? 'Sending test…' : 'Send test notification now'}
-              selected={false}
-              onPress={() => void sendTestNotification()}
             />
           </View>
         </Section>

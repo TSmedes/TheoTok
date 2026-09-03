@@ -17,18 +17,13 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { BOOKS } from '../src/content/books.ts';
+import { syncWebBible } from './sync-web-bible.ts';
 
 const TRANSLATION = 'eng_kja';
 const SOURCE_URL = `https://bible.helloao.org/api/${TRANSLATION}/complete.simple.json`;
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT_DIR = join(ROOT, 'src', 'content', 'bible', 'kjv');
-/**
- * A second copy under `public/`, served as a static file on web. Native pulls
- * books out of the bundle with `require`; web fetches them on demand, so ~5 MB
- * of Scripture never lands in the JS bundle and delays first paint.
- */
-const WEB_DIR = join(ROOT, 'public', 'bible', 'kjv');
 const MAP_FILE = join(ROOT, 'src', 'content', 'bible', 'bookMap.generated.ts');
 const CACHE = join(ROOT, 'node_modules', '.cache', 'theotok', `${TRANSLATION}.json`);
 
@@ -185,7 +180,6 @@ async function main() {
   }
 
   mkdirSync(OUT_DIR, { recursive: true });
-  mkdirSync(WEB_DIR, { recursive: true });
 
   let totalBytes = 0;
   let totalVerses = 0;
@@ -198,7 +192,6 @@ async function main() {
 
     const json = JSON.stringify(normalised);
     writeFileSync(join(OUT_DIR, `${meta.id}.json`), json);
-    writeFileSync(join(WEB_DIR, `${meta.id}.json`), json);
 
     totalBytes += json.length;
     totalChapters += Object.keys(normalised.chapters).length;
@@ -206,12 +199,14 @@ async function main() {
   }
 
   writeBookMap();
+  // Web reads the same books over HTTP from public/ — see sync-web-bible.ts.
+  syncWebBible();
 
   console.log(
-    `\nWrote ${BOOKS.length} books to src/content/bible/kjv/ and public/bible/kjv/` +
+    `\nWrote ${BOOKS.length} books to src/content/bible/kjv/ (mirrored to public/bible/kjv/)` +
       `\n  chapters: ${totalChapters.toLocaleString()}` +
       `\n  verses:   ${totalVerses.toLocaleString()}` +
-      `\n  per copy: ${(totalBytes / 1e6).toFixed(2)} MB`,
+      `\n  size:     ${(totalBytes / 1e6).toFixed(2)} MB`,
   );
 }
 

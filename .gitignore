@@ -41,3 +41,6 @@ example
 # generated native folders
 /ios
 /android
+
+# Generated mirror of src/content/bible/kjv for the web build (npm run sync:web-bible)
+/public/bible/

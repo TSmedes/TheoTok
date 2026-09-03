@@ -16,18 +16,14 @@ export const dailyReminderManager = createDailyReminderManager(
       });
     },
     scheduleNotificationAsync: ({ content, trigger }) =>
-      Notifications.scheduleNotificationAsync(
-        trigger === null
-          ? { content, trigger: null }
-          : {
-              content,
-              trigger: {
-                type: Notifications.SchedulableTriggerInputTypes.DATE,
-                date: trigger.date,
-                channelId: trigger.channelId,
-              },
-            },
-      ),
+      Notifications.scheduleNotificationAsync({
+        content,
+        trigger: {
+          type: Notifications.SchedulableTriggerInputTypes.DATE,
+          date: trigger.date,
+          channelId: trigger.channelId,
+        },
+      }),
     cancelScheduledNotificationAsync: Notifications.cancelScheduledNotificationAsync,
   },
   Platform.OS === 'android' ? 'android' : 'ios',

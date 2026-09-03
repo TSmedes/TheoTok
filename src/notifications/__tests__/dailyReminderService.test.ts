@@ -77,21 +77,6 @@ describe('daily reminder manager', () => {
     expect(fake.cancelled).toEqual(['reminder-1', 'reminder-2']);
   });
 
-  it('sends the current rotating message immediately for a test', async () => {
-    const fake = createNotificationClient();
-    const manager = createDailyReminderManager(fake.client, 'android');
-
-    const sent = await manager.sendTest(2);
-
-    expect(sent).toBe(true);
-    expect(fake.scheduled).toEqual([
-      {
-        content: { title: 'TheoTok', body: DAILY_REMINDER_MESSAGES[2] },
-        trigger: null,
-      },
-    ]);
-  });
-
   it('keeps the existing queue when at least a week of reminders remains', async () => {
     const existingIds = Array.from({ length: 7 }, (_, index) => `reminder-${index + 1}`);
     const fake = createNotificationClient('granted', existingIds);

@@ -15,6 +15,8 @@ interface FeedSessionState {
 
   setIndex: (index: number) => void;
   reveal: (id: string) => void;
+  /** Cover a revealed answer again, so a card can be re-read as a question. */
+  hide: (id: string) => void;
   /** Called when the filters change and the old position no longer means anything. */
   restart: () => void;
 }
@@ -30,6 +32,13 @@ export const useFeedSession = create<FeedSessionState>()((set, get) => ({
 
   reveal: (id) =>
     set((state) => (state.revealed.includes(id) ? state : { revealed: [...state.revealed, id] })),
+
+  hide: (id) =>
+    set((state) =>
+      state.revealed.includes(id)
+        ? { revealed: state.revealed.filter((existing) => existing !== id) }
+        : state,
+    ),
 
   restart: () => set({ index: 0, revealed: [] }),
 }));

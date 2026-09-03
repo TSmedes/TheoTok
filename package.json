@@ -64,6 +64,12 @@
   "private": true,
   "jest": {
     "preset": "jest-expo/android",
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "moduleNameMapper": {
+      "\\.css$": "<rootDir>/__mocks__/styleMock.js"
+    },
     "testMatch": [
       "**/__tests__/**/*.test.ts",
       "**/__tests__/**/*.test.tsx"

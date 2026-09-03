@@ -34,6 +34,8 @@ interface Props {
    */
   hidden?: boolean;
   onReveal?: () => void;
+  /** Covers the answer again. Absent on screens where re-hiding means nothing. */
+  onHide?: () => void;
 }
 
 /**
@@ -41,11 +43,12 @@ interface Props {
  * citation is pinned to the bottom, so however the text scales, the citation
  * always sits in the same place — the eye learns where to look.
  */
-export function Card({ card, variant = 'feed', hidden = false, onReveal }: Props) {
+export function Card({ card, variant = 'feed', hidden = false, onReveal, onHide }: Props) {
   const insets = useSafeAreaInsets();
   const share = variant === 'share';
   // A shared image is never a riddle, and a card with no cue has nothing to withhold.
-  const withheld = hidden && !share && card.cue != null;
+  const isQuestion = !share && card.cue != null;
+  const withheld = hidden && isQuestion;
 
   const body = (
     <LinearGradient
@@ -71,11 +74,12 @@ export function Card({ card, variant = 'feed', hidden = false, onReveal }: Props
               {card.cueLabel ? <Text style={styles.cueLabel}>{card.cueLabel}</Text> : null}
               <AutoScaleText>{card.cue!}</AutoScaleText>
             </View>
+            {/*
+              Decorative here: the whole card is the press target while the
+              answer is covered, so the pill must not swallow that tap.
+            */}
             <View style={styles.revealRow}>
-              <View style={styles.revealPill}>
-                <Ionicons name="eye-outline" size={16} color={colors.accent} />
-                <Text style={styles.revealText}>Show the answer</Text>
-              </View>
+              <RevealPill icon="eye-outline" label="Show the answer" />
             </View>
           </>
         ) : (
@@ -84,7 +88,17 @@ export function Card({ card, variant = 'feed', hidden = false, onReveal }: Props
               {card.prompt ? <Text style={styles.prompt}>{card.prompt}</Text> : null}
               <AutoScaleText companionLength={card.prompt?.length ?? 0}>{card.body}</AutoScaleText>
             </View>
-            <Citation type={card.type} citation={card.citation} attribution={card.attribution} />
+            {isQuestion && onHide ? (
+              <View style={styles.revealRow}>
+                <RevealPill icon="eye-off-outline" label="Hide the answer" onPress={onHide} />
+              </View>
+            ) : null}
+            <Citation
+              type={card.type}
+              citation={card.citation}
+              attribution={card.attribution}
+              railInset={!share}
+            />
           </>
         )}
       </View>
@@ -102,6 +116,41 @@ export function Card({ card, variant = 'feed', hidden = false, onReveal }: Props
       accessibilityLabel={`${card.cueLabel ?? 'Card'}: ${card.cue}. Show the answer.`}
       style={styles.fill}>
       {body}
+    </Pressable>
+  );
+}
+
+/**
+ * The one control that both covers and uncovers the answer. It keeps the same
+ * shape and the same place in the layout in either direction, so the card reads
+ * as one thing being toggled rather than two different screens.
+ */
+function RevealPill({
+  icon,
+  label,
+  onPress,
+}: {
+  icon: keyof typeof Ionicons.glyphMap;
+  label: string;
+  onPress?: () => void;
+}) {
+  const content = (
+    <>
+      <Ionicons name={icon} size={16} color={colors.accent} />
+      <Text style={styles.revealText}>{label}</Text>
+    </>
+  );
+
+  if (!onPress) return <View style={styles.revealPill}>{content}</View>;
+
+  return (
+    <Pressable
+      onPress={onPress}
+      accessibilityRole="button"
+      accessibilityLabel={label}
+      hitSlop={8}
+      style={({ pressed }) => [styles.revealPill, pressed && styles.revealPillPressed]}>
+      {content}
     </Pressable>
   );
 }
@@ -138,7 +187,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.md,
   },
   // Sits where the citation would, so the layout does not jump on reveal.
-  revealRow: { alignItems: 'flex-start' },
+  revealRow: { alignItems: 'flex-start', marginBottom: spacing.md },
   revealPill: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -150,6 +199,7 @@ const styles = StyleSheet.create({
     borderColor: colors.accentDim,
     backgroundColor: 'rgba(228, 192, 122, 0.10)',
   },
+  revealPillPressed: { opacity: 0.55, transform: [{ scale: 0.96 }] },
   revealText: {
     color: colors.accent,
     fontFamily: fonts.ui,

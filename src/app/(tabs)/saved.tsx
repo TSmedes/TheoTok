@@ -4,24 +4,16 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { TopScrim } from '@/components/TopScrim';
-import { CARDS, toRendered } from '@/content/library';
 import type { ContentType } from '@/content/types';
 import { useSaved } from '@/store/saved';
+import { useSavedItems } from '@/store/savedCards';
 import { colors, fonts, gradients, maxCardWidth, spacing } from '@/theme/tokens';
 
 export default function SavedScreen() {
   const insets = useSafeAreaInsets();
   const router = useRouter();
-  const savedIds = useSaved((s) => s.ids);
   const remove = useSaved((s) => s.remove);
-
-  const byId = new Map(CARDS.map((c) => [c.id, c]));
-  // A saved id whose card no longer exists is skipped rather than crashing —
-  // content edits should never break somebody's collection.
-  const items = savedIds.flatMap((id) => {
-    const card = byId.get(id);
-    return card ? [{ card, rendered: toRendered(card) }] : [];
-  });
+  const items = useSavedItems();
 
   return (
     <View style={styles.screen}>
@@ -47,12 +39,14 @@ export default function SavedScreen() {
         </View>
       ) : (
         <View style={styles.list}>
-          {items.map(({ card, rendered }) => (
+          {items.map(({ card, rendered }, index) => (
             <Pressable
               key={card.id}
-              onPress={() => router.push({ pathname: '/reader', params: { cardId: card.id } })}
+              onPress={() =>
+                router.push({ pathname: '/saved-card', params: { index: String(index) } })
+              }
               accessibilityRole="button"
-              accessibilityLabel={`${rendered.citation}. Open in reader.`}
+              accessibilityLabel={`${rendered.citation}. Open card.`}
               style={({ pressed }) => [styles.row, pressed && styles.rowPressed]}>
               <View style={[styles.stripe, { backgroundColor: accentFor(rendered.type) }]} />
               <View style={styles.rowBody}>

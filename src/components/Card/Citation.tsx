@@ -13,15 +13,23 @@ interface Props {
   type: ContentType;
   citation: string;
   attribution?: string;
+  /**
+   * Give up the width the action rail occupies. The body already does this;
+   * without it a long source title — "The Longer Catechism of the Orthodox,
+   * Catholic, Eastern Church" — wraps at the full card width and runs
+   * underneath the rail's lower buttons. Off for the shared image, which has
+   * no rail to avoid.
+   */
+  railInset?: boolean;
 }
 
 /**
  * Every card carries this. The citation string is rendered from the card's
  * source record rather than typed per card, so it cannot drift.
  */
-export function Citation({ type, citation, attribution }: Props) {
+export function Citation({ type, citation, attribution, railInset = false }: Props) {
   return (
-    <View>
+    <View testID="citation-block" style={railInset ? styles.railInset : undefined}>
       <View style={styles.rule} />
       <Text style={styles.label}>{TYPE_LABEL[type].toUpperCase()}</Text>
       <Text style={styles.citation}>{citation}</Text>
@@ -31,6 +39,8 @@ export function Citation({ type, citation, attribution }: Props) {
 }
 
 const styles = StyleSheet.create({
+  /** Wider than the rail's 44pt buttons, which sit 16 in from the card edge. */
+  railInset: { paddingRight: spacing.xxl },
   rule: {
     width: 44,
     height: 1,

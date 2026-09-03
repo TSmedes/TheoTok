@@ -91,6 +91,15 @@ export default function RootLayout() {
             name="reader"
             options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
           />
+          {/*
+            fullScreenModal rather than modal: a card is meant to fill the
+            screen edge to edge, and a sheet that leaves the list peeking out
+            behind it would crop the gradient.
+          */}
+          <Stack.Screen
+            name="saved-card"
+            options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }}
+          />
         </Stack>
       </SafeAreaProvider>
     </GestureHandlerRootView>

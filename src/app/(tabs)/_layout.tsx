@@ -1,6 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
-import { Platform, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import { colors, fonts } from '@/theme/tokens';
 
@@ -49,7 +49,7 @@ export default function TabsLayout() {
 const styles = StyleSheet.create({
   bar: {
     position: 'absolute',
-    backgroundColor: 'transparent',
+    backgroundColor: '#000000',
     borderTopWidth: StyleSheet.hairlineWidth,
     borderTopColor: 'rgba(255,255,255,0.10)',
     elevation: 0,
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: Platform.OS === 'web' ? 'rgba(5,5,9,0.82)' : colors.scrim,
+    backgroundColor: '#000000',
   },
   label: {
     fontFamily: fonts.ui,

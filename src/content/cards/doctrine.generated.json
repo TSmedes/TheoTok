@@ -1,0 +1,4875 @@
+[
+  {
+    "id": "doc-wsc-1",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Man's chief end is to glorify God, and to enjoy him for ever.",
+    "locus": "1",
+    "prompt": "What is the chief end of man?"
+  },
+  {
+    "id": "doc-wsc-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The Word of God, which is contained in the Scriptures of the Old and New Testaments, is the only rule to direct us how we may glorify and enjoy him.",
+    "locus": "2",
+    "prompt": "What rule hath God given to direct us how we may glorify and enjoy him?"
+  },
+  {
+    "id": "doc-wsc-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "God is a Spirit, infinite, eternal, and unchangeable in his being, wisdom, power, holiness, justice, goodness, and truth.",
+    "locus": "4",
+    "prompt": "What is God?"
+  },
+  {
+    "id": "doc-wsc-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "There is but one only, the living and true God.",
+    "locus": "5",
+    "prompt": "Are there more Gods than one?"
+  },
+  {
+    "id": "doc-wsc-7",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The decrees of God are, his eternal purpose, according to the counsel of his will, whereby, for his own glory, he hath foreordained whatsoever comes to pass.",
+    "locus": "7",
+    "prompt": "What are the decrees of God?"
+  },
+  {
+    "id": "doc-wsc-8",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "God executeth his decrees in the works of creation and providence.",
+    "locus": "8",
+    "prompt": "How doth God execute his decrees?"
+  },
+  {
+    "id": "doc-wsc-10",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "God created man male and female, after his own image, in knowledge, righteousness, and holiness, with dominion over the creatures.",
+    "locus": "10",
+    "prompt": "How did God create man?"
+  },
+  {
+    "id": "doc-wsc-11",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "God's works of providence are, his most holy, wise, and powerful preserving and governing all his creatures, and all their actions.",
+    "locus": "11",
+    "prompt": "What are God's works of providence?"
+  },
+  {
+    "id": "doc-wsc-13",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Our first parents, being left to the freedom of their own will, fell from the estate wherein they were created, by sinning against God.",
+    "locus": "13",
+    "prompt": "Did our first parents continue in the estate wherein they were created?"
+  },
+  {
+    "id": "doc-wsc-14",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Sin is any want of conformity unto, or transgression of, the law of God.",
+    "locus": "14",
+    "prompt": "What is sin?"
+  },
+  {
+    "id": "doc-wsc-16",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The covenant being made with Adam, not only for himself, but for his posterity; all mankind, descending from him by ordinary generation, sinned in him, and fell with him, in his first transgression.",
+    "locus": "16",
+    "prompt": "Did all mankind fall in Adam's first transgression?"
+  },
+  {
+    "id": "doc-wsc-17",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The fall brought mankind into an estate of sin and misery.",
+    "locus": "17",
+    "prompt": "Into what estate did the fall bring mankind?"
+  },
+  {
+    "id": "doc-wsc-19",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "All mankind by their fall lost communion with God, are under his wrath and curse, and so made liable to all miseries in this life, to death itself, and to the pains of hell for ever.",
+    "locus": "19",
+    "prompt": "What is the misery of that estate whereinto man fell?"
+  },
+  {
+    "id": "doc-wsc-20",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "God having, out of his mere good pleasure, from all eternity, elected some to everlasting life did enter into a covenant of grace, to deliver them out of the estate of sin and misery, and to bring them into an estate of salvation by a Redeemer.",
+    "locus": "20",
+    "prompt": "Did God leave all mankind to perish in the estate of sin and misery?"
+  },
+  {
+    "id": "doc-wsc-22",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Christ, the Son of God, became man, by taking to himself a true body, and a reasonable soul, being conceived by the power of the Holy Ghost, in the womb of the virgin Mary, and born of her yet without sin.",
+    "locus": "22",
+    "prompt": "How did Christ, being the Son of God, become man?"
+  },
+  {
+    "id": "doc-wsc-23",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Christ, as our Redeemer, executeth the offices of a prophet, of a priest, and of a king, both in his estate of humiliation and exaltation.",
+    "locus": "23",
+    "prompt": "What offices doth Christ execute as our Redeemer?"
+  },
+  {
+    "id": "doc-wsc-25",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Christ executeth the office of a priest, in his once offering up of himself a sacrifice to satisfy divine justice, and reconcile us to God; and in making continual intercession for us.",
+    "locus": "25",
+    "prompt": "How doth Christ execute the office of a priest?"
+  },
+  {
+    "id": "doc-wsc-26",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Christ executeth the office of a king, in subduing us to himself, in ruling and defending us, and in restraining and conquering all his and our enemies.",
+    "locus": "26",
+    "prompt": "How doth Christ execute the office of a king?"
+  },
+  {
+    "id": "doc-wsc-28",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Christ's exaltation consisteth in his rising again from the dead on the third day, in ascending up into heaven, in sitting at the right hand of God the Father, and in coming to judge the world at the last day.",
+    "locus": "28",
+    "prompt": "Wherein consisteth Christ's exaltation?"
+  },
+  {
+    "id": "doc-wsc-29",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "We are made partakers of the redemption purchased by Christ, by the effectual application of it to us by his Holy Spirit.",
+    "locus": "29",
+    "prompt": "How are we made partakers of the redemption purchased by Christ?"
+  },
+  {
+    "id": "doc-wsc-31",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Effectual calling is the work of God's Spirit, whereby, convincing us of our sin and misery, enlightening our minds in the knowledge of Christ, and renewing our wills, he doth persuade and enable us to embrace Jesus Christ, freely offered to us in the gospel.",
+    "locus": "31",
+    "prompt": "What is effectual calling?"
+  },
+  {
+    "id": "doc-wsc-32",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "They that are effectually called do in this life partake of justification, adoption, and sanctification, and the several benefits which in this life do either accompany or flow from them.",
+    "locus": "32",
+    "prompt": "What benefits do they that are effectually called partake of in this life?"
+  },
+  {
+    "id": "doc-wsc-34",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Adoption is an act of God's free grace, whereby we are received into the number, and have a right to all the privileges, of the sons of God.",
+    "locus": "34",
+    "prompt": "What is adoption?"
+  },
+  {
+    "id": "doc-wsc-35",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Sanctification is the work of God's free grace, whereby we are renewed in the whole man after the image of God, and are enabled more and more to die unto sin, and live unto righteousness.",
+    "locus": "35",
+    "prompt": "What is sanctification?"
+  },
+  {
+    "id": "doc-wsc-37",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The souls of believers are at their death made perfect in holiness, and do immediately pass into glory; and their bodies, being still united to Christ, do rest in their graves till the resurrection.",
+    "locus": "37",
+    "prompt": "What benefits do believers receive from Christ at death?"
+  },
+  {
+    "id": "doc-wsc-38",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "At the resurrection, believers being raised up in glory, shall be openly acknowledged and acquitted in the day of judgment, and made perfectly blessed in the full enjoying of God to all eternity.",
+    "locus": "38",
+    "prompt": "What benefits do believers receive from Christ at the resurrection?"
+  },
+  {
+    "id": "doc-wsc-40",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The rule which God at first revealed to man for his obedience, was the moral law.",
+    "locus": "40",
+    "prompt": "What did God at first reveal to man for the rule of his obedience?"
+  },
+  {
+    "id": "doc-wsc-41",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The moral law is summarily comprehended in the ten commandments.",
+    "locus": "41",
+    "prompt": "Wherein is the moral law summarily comprehended?"
+  },
+  {
+    "id": "doc-wsc-43",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The preface to the ten commandments is in these words, I am the Lord thy God, which have brought thee out of the land of Egypt, out of the house of bondage.",
+    "locus": "43",
+    "prompt": "What is the preface to the ten commandments?"
+  },
+  {
+    "id": "doc-wsc-44",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The preface to the ten commandments teacheth us, That because God is the Lord, and our God, and Redeemer, therefore we are bound to keep all his commandments.",
+    "locus": "44",
+    "prompt": "What doth the preface to the ten commandments teach us?"
+  },
+  {
+    "id": "doc-wsc-46",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The first commandment requireth us to know and acknowledge God to be the only true God, and our God; and to worship and glorify him accordingly.",
+    "locus": "46",
+    "prompt": "What is required in the first commandment?"
+  },
+  {
+    "id": "doc-wsc-47",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The first commandment forbiddeth the denying, or not worshipping and glorifying the true God as God, and our God; and the giving of that worship and glory to any other, which is due to him alone.",
+    "locus": "47",
+    "prompt": "What is forbidden in the first commandment?"
+  },
+  {
+    "id": "doc-wsc-50",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The second commandment requireth the receiving, observing, and keeping pure and entire, all such religious worship and ordinances as God hath appointed in his Word.",
+    "locus": "50",
+    "prompt": "What is required in the second commandment?"
+  },
+  {
+    "id": "doc-wsc-51",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The second commandment forbiddeth the worshipping of God by images, or any other way not appointed in his Word.",
+    "locus": "51",
+    "prompt": "What is forbidden in the second commandment?"
+  },
+  {
+    "id": "doc-wsc-53",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The third commandment is, Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain.",
+    "locus": "53",
+    "prompt": "Which is the third commandment?"
+  },
+  {
+    "id": "doc-wsc-54",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The third commandment requireth the holy and reverend use of God's names, titles, attributes, ordinances, Word, and works.",
+    "locus": "54",
+    "prompt": "What is required in the third commandment?"
+  },
+  {
+    "id": "doc-wsc-56",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The reason annexed to the third commandment is, that however the breakers of this commandment may escape punishment from men, yet the Lord our God will not suffer them to escape his righteous judgment.",
+    "locus": "56",
+    "prompt": "What is the reason annexed to the third commandment?"
+  },
+  {
+    "id": "doc-wsc-58",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The fourth commandment requireth the keeping holy to God such set times as he hath appointed in his Word; expressly one whole day in seven, to be a holy sabbath to himself.",
+    "locus": "58",
+    "prompt": "What is required in the fourth commandment?"
+  },
+  {
+    "id": "doc-wsc-60",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The sabbath is to be sanctified by a holy resting all that day, even from such worldly employments and recreations as are lawful on other days; and spending the whole time in the public and private exercises of God's worship, except so much as is to be taken up in the works of necessity and mercy.",
+    "locus": "60",
+    "prompt": "How is the sabbath to be sanctified?"
+  },
+  {
+    "id": "doc-wsc-61",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The fourth commandment forbiddeth the omission or careless performance of the duties required, and the profaning the day by idleness, or doing that which is in itself sinful, or by unnecessary thoughts, words, or works, about our worldly employments or recreations.",
+    "locus": "61",
+    "prompt": "What is forbidden in the fourth commandment?"
+  },
+  {
+    "id": "doc-wsc-63",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The fifth commandment is, Honour thy father and thy mother; that thy days may be long upon the land which the Lord thy God giveth thee.",
+    "locus": "63",
+    "prompt": "Which is the fifth commandment?"
+  },
+  {
+    "id": "doc-wsc-64",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The fifth commandment requireth the preserving the honor, and performing the duties, belonging to everyone in their several places and relations, as superiors, inferiors, or equals.",
+    "locus": "64",
+    "prompt": "What is required in the fifth commandment?"
+  },
+  {
+    "id": "doc-wsc-66",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The reason annexed to the fifth commandment is, a promise of long life and prosperity (as far as it shall serve for God's glory and their own good) to all such as keep this commandment.",
+    "locus": "66",
+    "prompt": "What is the reason annexed to the fifth commandment?"
+  },
+  {
+    "id": "doc-wsc-67",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The sixth commandment is, Thou shalt not kill.",
+    "locus": "67",
+    "prompt": "Which is the sixth commandment?"
+  },
+  {
+    "id": "doc-wsc-69",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The sixth commandment forbiddeth the taking away of our own life, or the life of our neighbour, unjustly, or whatsoever tendeth thereunto.",
+    "locus": "69",
+    "prompt": "What is forbidden in the sixth commandment?"
+  },
+  {
+    "id": "doc-wsc-70",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The seventh commandment is, Thou shalt not commit adultery.",
+    "locus": "70",
+    "prompt": "Which is the seventh commandment?"
+  },
+  {
+    "id": "doc-wsc-72",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The seventh commandment forbiddeth all unchaste thoughts, words, and actions.",
+    "locus": "72",
+    "prompt": "What is forbidden in the seventh commandment?"
+  },
+  {
+    "id": "doc-wsc-73",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The eighth commandment is, Thou shalt not steal.",
+    "locus": "73",
+    "prompt": "Which is the eighth commandment?"
+  },
+  {
+    "id": "doc-wsc-75",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The eighth commandment forbiddeth whatsoever doth, or may, unjustly hinder our own, or our neighbour's, wealth or outward estate.",
+    "locus": "75",
+    "prompt": "What is forbidden in the eighth commandment?"
+  },
+  {
+    "id": "doc-wsc-76",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The ninth commandment is, Thou shalt not bear false witness against thy neighbour.",
+    "locus": "76",
+    "prompt": "Which is the ninth commandment?"
+  },
+  {
+    "id": "doc-wsc-78",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The ninth commandment forbiddeth whatsoever is prejudicial to truth, or injurious to our own, or our neighbour's, good name.",
+    "locus": "78",
+    "prompt": "What is forbidden in the ninth commandment?"
+  },
+  {
+    "id": "doc-wsc-79",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The tenth commandment is, Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor anything that is thy neighbour's.",
+    "locus": "79",
+    "prompt": "Which is the tenth commandment?"
+  },
+  {
+    "id": "doc-wsc-81",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The tenth commandment forbiddeth all discontentment with our own estate, envying or grieving at the good of our neighbour, and all inordinate motions and affections to anything that is his.",
+    "locus": "81",
+    "prompt": "What is forbidden in the tenth commandment?"
+  },
+  {
+    "id": "doc-wsc-82",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "No mere man, since the fall, is able in this life perfectly to keep the commandments of God, but doth daily break them in thought, word, and deed.",
+    "locus": "82",
+    "prompt": "Is any man able perfectly to keep the commandments of God?"
+  },
+  {
+    "id": "doc-wsc-84",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Every sin deserveth God's wrath and curse, both in this life, and that which is to come.",
+    "locus": "84",
+    "prompt": "What doth every sin deserve?"
+  },
+  {
+    "id": "doc-wsc-85",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "To escape the wrath and curse of God, due to us for sin, God requireth of us faith in Jesus Christ, repentance unto life, with the diligent use of all the outward means whereby Christ communicateth to us the benefits of redemption.",
+    "locus": "85",
+    "prompt": "What doth God require of us, that we may escape his wrath and curse, due to us for sin?"
+  },
+  {
+    "id": "doc-wsc-87",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Repentance unto life is a saving grace, whereby a sinner, out of a true sense of his sin, and apprehension of the mercy of God in Christ, doth, with grief and hatred of his sin, turn from it unto God, with full purpose of, and endeavour after, new obedience.",
+    "locus": "87",
+    "prompt": "What is repentance unto life?"
+  },
+  {
+    "id": "doc-wsc-88",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The outward and ordinary means whereby Christ communicateth to us the benefits of redemption are, his ordinances, especially the Word, sacraments, and prayer; all which are made effectual to the elect for salvation.",
+    "locus": "88",
+    "prompt": "What are the outward and ordinary means whereby Christ communicateth to us the benefits of redemption?"
+  },
+  {
+    "id": "doc-wsc-90",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "That the Word may become effectual to salvation, we must attend thereunto with diligence, preparation, and prayer; receive it with faith and love, lay it up in our hearts, and practice it in our lives.",
+    "locus": "90",
+    "prompt": "How is the Word to be read and heard, that it may become effectual to salvation?"
+  },
+  {
+    "id": "doc-wsc-91",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The sacraments become effectual means of salvation, not from any virtue in them, or in him that doth administer them; but only by the blessing of Christ, and the working of his Spirit in them that by faith receive them.",
+    "locus": "91",
+    "prompt": "How do the sacraments become effectual means of salvation?"
+  },
+  {
+    "id": "doc-wsc-93",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The sacraments of the New Testament are, Baptism, and the Lord's Supper.",
+    "locus": "93",
+    "prompt": "Which are the sacraments of the New Testament?"
+  },
+  {
+    "id": "doc-wsc-94",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "Baptism is a sacrament, wherein the washing with water in the name of the Father, and of the Son, and of the Holy Ghost, doth signify and seal our ingrafting into Christ, and partaking of the benefits of the covenant of grace, and our engagement to be the Lord's.",
+    "locus": "94",
+    "prompt": "What is Baptism?"
+  },
+  {
+    "id": "doc-wsc-96",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The Lord's Supper is a sacrament, wherein, by giving and receiving bread and wine, according to Christ's appointment, his death is showed forth; and the worthy receivers are, not after a corporal and carnal manner, but by faith, made partakers of his body and blood, with all his benefits, to their spiritual nourishment, and growth in grace.",
+    "locus": "96",
+    "prompt": "What is the Lord's Supper?"
+  },
+  {
+    "id": "doc-wsc-97",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "It is required of them that would worthily partake of the Lord's Supper, that they examine themselves of their knowledge to discern the Lord's body, of their faith to feed upon him, of their repentance, love, and new obedience; lest, coming unworthily, they eat and drink judgment to themselves.",
+    "locus": "97",
+    "prompt": "What is required for the worthy receiving of the Lord's Supper?"
+  },
+  {
+    "id": "doc-wsc-99",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The whole Word of God is of use to direct us in prayer; but the special rule of direction is that form of prayer which Christ taught his disciples, commonly called The Lord's Prayer.",
+    "locus": "99",
+    "prompt": "What rule hath God given for our direction in prayer?"
+  },
+  {
+    "id": "doc-wsc-100",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "The preface of the Lord's Prayer, which is, Our Father which art in heaven, teacheth us to draw near to God with all holy reverence and confidence, as children to a father, able and ready to help us; and that we should pray with and for others.",
+    "locus": "100",
+    "prompt": "What doth the preface of the Lord's Prayer teach us?"
+  },
+  {
+    "id": "doc-wsc-102",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "In the second petition, which is, Thy kingdom come, we pray, that Satan's kingdom may be destroyed; and that the kingdom of grace may be advanced, ourselves and others brought into it, and kept in it; and that the kingdom of glory may be hastened.",
+    "locus": "102",
+    "prompt": "What do we pray for in the second petition?"
+  },
+  {
+    "id": "doc-wsc-103",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "In the third petition, which is, Thy will be done in earth, as it is in heaven, we pray, that God, by his grace, would make us able and willing to know, obey, and submit to his will in all things, as the angels do in heaven.",
+    "locus": "103",
+    "prompt": "What do we pray for in the third petition?"
+  },
+  {
+    "id": "doc-wsc-105",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "In the fifth petition, which is, And forgive us our debts, as we forgive our debtors, we pray that God, for Christ's sake, would freely pardon all our sins; which we are the rather encouraged to ask, because by his grace we are enabled from the heart to forgive others.",
+    "locus": "105",
+    "prompt": "What do we pray for in the fifth petition?"
+  },
+  {
+    "id": "doc-wsc-106",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "wsc"
+    ],
+    "sourceId": "wsc",
+    "body": "In the sixth petition, which is, And lead us not into temptation, but deliver us from evil, we pray, that God would either keep us from being tempted to sin, or support and deliver us when we are tempted.",
+    "locus": "106",
+    "prompt": "What do we pray for in the sixth petition?"
+  },
+  {
+    "id": "doc-heid-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "First, how great my sins and misery are; second, how I am delivered from all my sins and misery; third, how I am to be thankful to God for such deliverance.",
+    "locus": "2",
+    "prompt": "What do you need to know in order to live and die in the joy of this comfort?"
+  },
+  {
+    "id": "doc-heid-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Christ teaches us this in a summary in Matthew 22: You shall love the LORD your God with all your heart, and with all your soul, and with all your mind. This is the great and first commandment. And a second is like it, You shall love your neighbour as yourself. On these two commandments depend all the law and the prophets.",
+    "locus": "4",
+    "prompt": "What does God's law require of us?"
+  },
+  {
+    "id": "doc-heid-6",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "No, on the contrary, God created man good and in His image, that is, in true righteousness and holiness, so that he might rightly know God His Creator, heartily love Him, and live with Him in eternal blessedness to praise and glorify Him.",
+    "locus": "6",
+    "prompt": "Did God, then, create man so wicked and perverse?"
+  },
+  {
+    "id": "doc-heid-8",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Yes, unless we are regenerated by the Spirit of God.",
+    "locus": "8",
+    "prompt": "But are we so corrupt that we are totally unable to do any good and inclined to all evil?"
+  },
+  {
+    "id": "doc-heid-10",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Certainly not. He is terribly displeased with our original sin as well as our actual sins. Therefore He will punish them by a just judgment both now and eternally, as He has declared: Cursed be every one who does not abide by all things written in the book of the law, and do them (Galatians 3:10).",
+    "locus": "10",
+    "prompt": "Will God allow such disobedience and apostasy to go unpunished?"
+  },
+  {
+    "id": "doc-heid-13",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Certainly not. On the contrary, we daily increase our debt.",
+    "locus": "13",
+    "prompt": "Can we ourselves make this payment?"
+  },
+  {
+    "id": "doc-heid-15",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "One who is a true and righteous man, and yet more powerful than all creatures; that is, one who is at the same time true God.",
+    "locus": "15",
+    "prompt": "What kind of mediator and deliverer must we seek?"
+  },
+  {
+    "id": "doc-heid-16",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "He must be a true man because the justice of God requires that the same human nature which has sinned should pay for sin. He must be a righteous man because one who himself is a sinner cannot pay for others.",
+    "locus": "16",
+    "prompt": "Why must He be a true and righteous man?"
+  },
+  {
+    "id": "doc-heid-18",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Our Lord Jesus Christ, whom God made our wisdom, our righteousness and sanctification and redemption (I Corinthians 1:30).",
+    "locus": "18",
+    "prompt": "But who is that Mediator who at the same time is true God and a true and righteous man?"
+  },
+  {
+    "id": "doc-heid-20",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "No. Only those are saved who by a true faith are grafted into Christ and accept all His benefits.",
+    "locus": "20",
+    "prompt": "Are all men, then, saved by Christ just as they perished through Adam?"
+  },
+  {
+    "id": "doc-heid-22",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "All that is promised us in the Gospel, which the articles of our catholic and undoubted Christian faith teach us in a summary.",
+    "locus": "22",
+    "prompt": "What, then, must a Christian believe?"
+  },
+  {
+    "id": "doc-heid-25",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Because God has so revealed Himself in His Word that these three distinct persons are the one, true, eternal God.",
+    "locus": "25",
+    "prompt": "Since there is only one God, why do you speak of three persons, Father, Son, and Holy Spirit?"
+  },
+  {
+    "id": "doc-heid-28",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "We can be patient in adversity, thankful in prosperity, and with a view to the future we can have a firm confidence in our faithful God and Father that no creature shall separate us from His love; for all creatures are so completely in His hand that without His will they cannot so much as move.",
+    "locus": "28",
+    "prompt": "What does it benefit us to know that God has created all things and still upholds them by His providence?"
+  },
+  {
+    "id": "doc-heid-29",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Because He saves us from all our sins, and because salvation is not to be sought or found in anyone else.",
+    "locus": "29",
+    "prompt": "Why is the Son of God called Jesus, that is, Saviour?"
+  },
+  {
+    "id": "doc-heid-33",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Because Christ alone is the eternal, natural Son of God. We, however, are children of God by adoption, through grace, for Christ's sake.",
+    "locus": "33",
+    "prompt": "Why is He called God's only begotten Son, since we also are children of God?"
+  },
+  {
+    "id": "doc-heid-35",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "The eternal Son of God, who is and remains true and eternal God, took upon Himself true human nature from the flesh and blood of the virgin Mary, through the working of the Holy Spirit. Thus He is also the true seed of David, and like His brothers in every respect, yet without sin.",
+    "locus": "35",
+    "prompt": "What do you confess when you say: He was conceived by the Holy Spirit, born of the virgin Mary?"
+  },
+  {
+    "id": "doc-heid-37",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "During all the time He lived on earth, but especially at the end, Christ bore in body and soul the wrath of God against the sin of the whole human race. Thus, by His suffering, as the only atoning sacrifice, He has redeemed our body and soul from everlasting damnation, and obtained for us the grace of God, righteousness, and eternal life.",
+    "locus": "37",
+    "prompt": "What do you confess when you say that He suffered?"
+  },
+  {
+    "id": "doc-heid-39",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Yes. Thereby I am assured that He took upon Himself the curse which lay on me, for a crucified one was cursed by God.",
+    "locus": "39",
+    "prompt": "Does it have a special meaning that Christ was crucified and did not die in a different way?"
+  },
+  {
+    "id": "doc-heid-41",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "His burial testified that He had really died.",
+    "locus": "41",
+    "prompt": "Why was he buried?"
+  },
+  {
+    "id": "doc-heid-42",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Our death is not a payment for our sins, but it puts an end to sin and is an entrance into eternal life.",
+    "locus": "42",
+    "prompt": "Since Christ has died for us, why do we still have to die?"
+  },
+  {
+    "id": "doc-heid-44",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "In my greatest sorrows and temptations I may be assured and comforted that my Lord Jesus Christ, by His unspeakable anguish, pain, terror, and agony, which He endured throughout all His sufferings but especially on the cross, has delivered me from the anguish and torment of hell.",
+    "locus": "44",
+    "prompt": "Why is there added: He descended into hell?"
+  },
+  {
+    "id": "doc-heid-46",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "That Christ, before the eyes of His disciples, was taken up from the earth into heaven, and that He is there for our benefit until He comes again to judge the living and the dead.",
+    "locus": "46",
+    "prompt": "What do you confess when you say, He ascended into heaven?"
+  },
+  {
+    "id": "doc-heid-49",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "First, He is our Advocate in heaven before His Father. Second, we have our flesh in heaven as a sure pledge that He, our Head, will also take us, His members, up to Himself. Third, He sends us His Spirit as a counter-pledge, by whose power we seek the things that are above, where Christ is, seated at the right hand of God, and not the things that are on earth.",
+    "locus": "49",
+    "prompt": "How does Christ's ascension into heaven benefit us?"
+  },
+  {
+    "id": "doc-heid-51",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "First, by His Holy Spirit He pours out heavenly gifts upon us, His members. Second, by His power He defends and preserves us against all enemies.",
+    "locus": "51",
+    "prompt": "How does the glory of Christ, our Head, benefit us?"
+  },
+  {
+    "id": "doc-heid-53",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "First, He is, together with the Father and the Son, true and eternal God. Second, He is also given to me, to make me by true faith share in Christ and all His benefits, to comfort me, and to remain with me forever.",
+    "locus": "53",
+    "prompt": "What do you believe concerning the Holy Spirit?"
+  },
+  {
+    "id": "doc-heid-54",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "I believe that the Son of God, out of the whole human race, from the beginning of the world to its end, gathers, defends, and preserves for Himself, by His Spirit and Word, in the unity of the true faith, a church chosen to everlasting life. And I believe that I am and forever shall remain a living member of it.",
+    "locus": "54",
+    "prompt": "What do you believe concerning the holy catholic Christian church?"
+  },
+  {
+    "id": "doc-heid-56",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "I believe that God, because of Christ's satisfaction, will no more remember my sins, nor my sinful nature, against which I have to struggle all my life, but He will graciously grant me the righteousness of Christ, that I may never come into condemnation.",
+    "locus": "56",
+    "prompt": "What do you believe concerning the forgiveness of sins?"
+  },
+  {
+    "id": "doc-heid-58",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Since I now already feel in my heart the beginning of eternal joy, I shall after this life possess perfect blessedness, such as no eye has seen, nor ear heard, nor the heart of man conceived-- a blessedness in which to praise God forever.",
+    "locus": "58",
+    "prompt": "What comfort do you receive from the article about the life everlasting?"
+  },
+  {
+    "id": "doc-heid-61",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Not that I am acceptable to God on account of the worthiness of my faith, for only the satisfaction, righteousness, and holiness of Christ is my righteousness before God. I can receive this righteousness and make it mine my own by faith only.",
+    "locus": "61",
+    "prompt": "Why do you say that you are righteous only by faith?"
+  },
+  {
+    "id": "doc-heid-63",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "This reward is not earned; it is a gift of grace.",
+    "locus": "63",
+    "prompt": "But do our good works earn nothing, even though God promises to reward them in this life and the next?"
+  },
+  {
+    "id": "doc-heid-65",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "From the Holy Spirit, who works it in our hearts by the preaching of the gospel, and strengthens it by the use of the sacraments.",
+    "locus": "65",
+    "prompt": "Since then faith alone makes us share in Christ and all His benefits, where does this faith come from?"
+  },
+  {
+    "id": "doc-heid-66",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "The sacraments are holy, visible signs and seals. They were instituted by God so that by their use He might the more fully declare and seal to us the promise of the gospel. And this is the promise: that God graciously grants us forgiveness of sins and everlasting life because of the one sacrifice of Christ accomplished on the cross.",
+    "locus": "66",
+    "prompt": "What are the sacraments?"
+  },
+  {
+    "id": "doc-heid-69",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "In this way: Christ instituted this outward washing and with it gave the promise that, as surely as water washes away the dirt from the body, so certainly His blood and Spirit wash away the impurity of my soul, that is, all my sins.",
+    "locus": "69",
+    "prompt": "How does holy baptism signify and seal to you that the one sacrifice of Christ on the cross benefits you?"
+  },
+  {
+    "id": "doc-heid-72",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "No, only the blood of Jesus Christ and the Holy Spirit cleanse us from all sins.",
+    "locus": "72",
+    "prompt": "Does this outward washing with water itself wash away sins?"
+  },
+  {
+    "id": "doc-heid-78",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "No. Just as the water of baptism is not changed into the blood of Christ and is not the washing away of sins itself but is simply God's sign and pledge, so also the bread in the Lord's supper does not become the body of Christ itself, although it is called Christ's body in keeping with the nature and usage of sacraments.",
+    "locus": "78",
+    "prompt": "Are then the bread and wine changed into the real body and blood of Christ?"
+  },
+  {
+    "id": "doc-heid-83",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "The preaching of the holy gospel and church discipline. By these two the kingdom of heaven is opened to believers and closed to unbelievers.",
+    "locus": "83",
+    "prompt": "What are the keys of the kingdom of heaven?"
+  },
+  {
+    "id": "doc-heid-88",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "It is the dying of the old nature and the coming to life of the new.",
+    "locus": "88",
+    "prompt": "What is the true repentance or conversion of man?"
+  },
+  {
+    "id": "doc-heid-89",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "It is to grieve with heartfelt sorrow that we have offended God by our sin, and more and more to hate it and flee from it.",
+    "locus": "89",
+    "prompt": "What is the dying of the old nature?"
+  },
+  {
+    "id": "doc-heid-91",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Only those which are done out of true faith, in accordance with the law of God, and to His glory, and not those based on our own opinion or on precepts of men.",
+    "locus": "91",
+    "prompt": "But what are good works?"
+  },
+  {
+    "id": "doc-heid-95",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Idolatry is having or inventing something in which to put our trust instead of, or in addition to, the only true God who has revealed Himself in His Word.",
+    "locus": "95",
+    "prompt": "What is idolatry?"
+  },
+  {
+    "id": "doc-heid-97",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "God cannot and may not be visibly portrayed in any way. Creatures may be portrayed, but God forbids us to make or have any images of them in order to worship them or to serve God through them.",
+    "locus": "97",
+    "prompt": "May we then not make any image at all?"
+  },
+  {
+    "id": "doc-heid-99",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "We are not to blaspheme or to abuse the Name of God by cursing, perjury, or unnecessary oaths, nor to share in such horrible sins by being silent bystanders. In short, we must use the holy Name of God only with fear and reverence, so that we may rightly confess Him, call upon Him, and praise Him in all our words and works.",
+    "locus": "99",
+    "prompt": "What is required in the third commandment?"
+  },
+  {
+    "id": "doc-heid-102",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "No. A lawful oath is a calling upon God, who alone knows the heart, to bear witness to the truth, and to punish me if I swear falsely. No creature is worthy of such honour.",
+    "locus": "102",
+    "prompt": "May we also swear by saints or other creatures?"
+  },
+  {
+    "id": "doc-heid-104",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "That I show all honour, love, and faithfulness to my father and mother and to all those in authority over me, submit myself with due obedience to their good instruction and discipline, and also have patience with their weaknesses and shortcomings, since it is God's will to govern us by their hand.",
+    "locus": "104",
+    "prompt": "What does God require in the fifth commandment?"
+  },
+  {
+    "id": "doc-heid-106",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "By forbidding murder God teaches us that He hates the root of murder, such as envy, hatred, anger, and desire of revenge, and that He regards all these as murder.",
+    "locus": "106",
+    "prompt": "But does this commandment speak only of killing?"
+  },
+  {
+    "id": "doc-heid-108",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "That all unchastity is cursed by God. We must therefore detest it from the heart and live chaste and disciplined lives, both within and outside of holy marriage.",
+    "locus": "108",
+    "prompt": "What does the seventh commandment teach us?"
+  },
+  {
+    "id": "doc-heid-110",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "God forbids not only outright theft and robbery but also such wicked schemes and devices as false weights and measures, deceptive merchandising, counterfeit money, and usury; we must not defraud our neighbour in any way, whether by force or by show of right. In addition God forbids all greed and all abuse or squandering of His gifts.",
+    "locus": "110",
+    "prompt": "What does God forbid in the eighth commandment?"
+  },
+  {
+    "id": "doc-heid-113",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "That not even the slightest thought or desire contrary to any of God's commandments should ever arise in our heart. Rather, we should always hate all sin with all our heart, and delight in all righteousness.",
+    "locus": "113",
+    "prompt": "What does the tenth commandment require of us?"
+  },
+  {
+    "id": "doc-heid-115",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "First, that throughout our life we may more and more become aware of our sinful nature, and therefore seek more eagerly the forgiveness of sins and righteousness in Christ. Second, that we may be zealous for good deeds and constantly pray to God for the grace of the Holy Spirit, that He may more and more renew us after God's image, until after this life we reach the goal of perfection.",
+    "locus": "115",
+    "prompt": "If in this life no one can keep the ten commandments perfectly, why does God have them preached so strictly?"
+  },
+  {
+    "id": "doc-heid-116",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Because prayer is the most important part of the thankfulness which God requires of us. Moreover, God will give His grace and the Holy Spirit only to those who constantly and with heartfelt longing ask Him for these gifts and thank Him for them.",
+    "locus": "116",
+    "prompt": "Why is prayer necessary for Christians?"
+  },
+  {
+    "id": "doc-heid-119",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Our Father who art in heaven, Hallowed be Thy Name. Thy kingdom come, Thy will be done, On earth as it is in heaven. Give us this day our daily bread; And forgive us our debts, As we also have forgiven our debtors; And lead us not into temptation, But deliver us from the evil one. For Thine is the kingdom, and the power, and the glory, for ever. Amen.",
+    "locus": "119",
+    "prompt": "What is the Lord's prayer?"
+  },
+  {
+    "id": "doc-heid-121",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "These words teach us not to think of God's heavenly majesty in an earthly manner, and to expect from His almighty power all things we need for body and soul.",
+    "locus": "121",
+    "prompt": "Why is there added, Who art in heaven?"
+  },
+  {
+    "id": "doc-heid-123",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Thy kingdom come. That is: So rule us by Thy Word and Spirit that more and more we submit to Thee. Preserve and increase Thy church. Destroy the works of the devil, every power that raises itself against Thee, and every conspiracy against Thy holy Word. Do all this until the fulness of Thy kingdom comes, wherein Thou shalt be all in all.",
+    "locus": "123",
+    "prompt": "What is the second petition?"
+  },
+  {
+    "id": "doc-heid-125",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "Give us this day our daily bread. That is: Provide us with all our bodily needs so that we may acknowledge that Thou art the only fountain of all good, and that our care and labour, and also Thy gifts, cannot do us any good without Thy blessing. Grant therefore that we may withdraw our trust from all creatures, and place it only in Thee.",
+    "locus": "125",
+    "prompt": "What is the fourth petition?"
+  },
+  {
+    "id": "doc-heid-128",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "heid"
+    ],
+    "sourceId": "heidelberg",
+    "body": "For Thine is the kingdom, and the power, and the glory, for ever. That is: All this we ask of Thee because, as our King, having power over all things, Thou art both willing and able to give us all that is good, and because not we but Thy holy Name should so receive all glory for ever.",
+    "locus": "128",
+    "prompt": "How do you conclude your prayer?"
+  },
+  {
+    "id": "doc-wcf-1-1-part-1-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-holy-scripture"
+    ],
+    "sourceId": "wcf",
+    "body": "Although the light of nature, and the works of creation and providence, do so far manifest the goodness, wisdom, and power of God, as to leave men inexcusable; yet are they not sufficient to give that knowledge of God, and of his will, which is necessary unto salvation;",
+    "locus": "1.1, part 1 of 3"
+  },
+  {
+    "id": "doc-wcf-1-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-holy-scripture"
+    ],
+    "sourceId": "wcf",
+    "body": "The books commonly called Apocrypha, not being of divine inspiration, are no part of the Canon of the Scripture; and therefore are of no authority in the Church of God, nor to be any otherwise approved, or made use of, than other human writings.",
+    "locus": "1.3"
+  },
+  {
+    "id": "doc-wcf-1-6-part-3-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-holy-scripture"
+    ],
+    "sourceId": "wcf",
+    "body": "and that there are some circumstances concerning the worship of God, and government of the Church, common to human actions and societies, which are to be ordered by the light of nature and Christian prudence, according to the general rules of the Word, which are always to be observed.",
+    "locus": "1.6, part 3 of 3"
+  },
+  {
+    "id": "doc-wcf-2-1-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-god-and-of-the-holy-trinity"
+    ],
+    "sourceId": "wcf",
+    "body": "most loving, gracious, merciful, long-suffering, abundant in goodness and truth, forgiving iniquity, transgression, and sin; the rewarder of them that diligently seek him; and withal most just and terrible in his judgments; hating all sin, and who will by no means clear the guilty.",
+    "locus": "2.1, part 2 of 2"
+  },
+  {
+    "id": "doc-wcf-3-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-god-s-eternal-decree"
+    ],
+    "sourceId": "wcf",
+    "body": "Although God knows whatsoever may or can come to pass upon all supposed conditions, yet hath he not decreed anything because he foresaw it as future, or as that which would come to pass upon such conditions.",
+    "locus": "3.2"
+  },
+  {
+    "id": "doc-wcf-3-7",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-god-s-eternal-decree"
+    ],
+    "sourceId": "wcf",
+    "body": "The rest of mankind God was pleased, according to the unsearchable counsel of his own will, whereby he extendeth or withholdeth mercy as he pleaseth, for the glory of his sovereign power over his creatures, to pass by, and to ordain them to dishonor and wrath for their sin, to the praise of his glorious justice.",
+    "locus": "3.7"
+  },
+  {
+    "id": "doc-wcf-5-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-providence"
+    ],
+    "sourceId": "wcf",
+    "body": "Although in relation to the foreknowledge and decree of God, the first cause, all things come to pass immutably and infallibly, yet by the same providence he ordereth them to fall out, according to the nature of second causes, either necessarily, freely, or contingently.",
+    "locus": "5.2"
+  },
+  {
+    "id": "doc-wcf-5-6-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-providence"
+    ],
+    "sourceId": "wcf",
+    "body": "As for those wicked and ungodly men whom God, as a righteous judge, for former sins, doth blind and harden, from them he not only withholdeth his grace, whereby they might have been enlightened in their understandings and wrought upon in their hearts, but sometimes also withdraweth the gifts which they had, and exposeth them to such objects as their corruption makes occasion of sin;",
+    "locus": "5.6, part 1 of 2"
+  },
+  {
+    "id": "doc-wcf-6-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-fall-of-man-of-sin-and-of-the-pun"
+    ],
+    "sourceId": "wcf",
+    "body": "From this original corruption, whereby we are utterly indisposed, disabled, and made opposite to all good, and wholly inclined to all evil, do proceed all actual transgressions.",
+    "locus": "6.4"
+  },
+  {
+    "id": "doc-wcf-7-6-part-1-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-god-s-covenant-with-man"
+    ],
+    "sourceId": "wcf",
+    "body": "Under the gospel, when Christ the substance was exhibited, the ordinances in which this covenant is dispensed are the preaching of the Word and the administration of the sacraments of Baptism and the Lord's Supper;",
+    "locus": "7.6, part 1 of 3"
+  },
+  {
+    "id": "doc-wcf-8-2-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-christ-the-mediator"
+    ],
+    "sourceId": "wcf",
+    "body": "So that two whole, perfect, and distinct natures, the Godhead and the manhood, were inseparably joined together in one person, without conversion, composition, or confusion. Which person is very God and very man, yet one Christ, the only mediator between God and man.",
+    "locus": "8.2, part 2 of 2"
+  },
+  {
+    "id": "doc-wcf-8-7",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-christ-the-mediator"
+    ],
+    "sourceId": "wcf",
+    "body": "Christ, in the work of mediation, acteth according to both natures; by each nature doing that which is proper to itself; yet, by reason of the unity of the person, that which is proper to one nature is sometimes, in Scripture, attributed to the person denominated by the other nature.",
+    "locus": "8.7"
+  },
+  {
+    "id": "doc-wcf-9-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-free-will"
+    ],
+    "sourceId": "wcf",
+    "body": "When God converts a sinner, and translates him into the state of grace, he freeth him from his natural bondage under sin, and by his grace alone enables him freely to will and to do that which is spiritually good; yet so as that, by reason of his remaining corruption, he doth not perfectly, nor only, will that which is good, but doth also will that which is evil.",
+    "locus": "9.4"
+  },
+  {
+    "id": "doc-wcf-10-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-effectual-calling"
+    ],
+    "sourceId": "wcf",
+    "body": "and to assert and maintain that they may is very pernicious, and to be detested.",
+    "locus": "10.4"
+  },
+  {
+    "id": "doc-wcf-11-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-justification"
+    ],
+    "sourceId": "wcf",
+    "body": "God doth continue to forgive the sins of those that are justified; and although they can never fall from the state of justification, yet they may by their sins fall under God's fatherly displeasure, and not have the light of his countenance restored unto them, until they humble themselves, confess their sins, beg pardon, and renew their faith and repentance.",
+    "locus": "11.5"
+  },
+  {
+    "id": "doc-wcf-13-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-sanctification"
+    ],
+    "sourceId": "wcf",
+    "body": "This sanctification is throughout in the whole man, yet imperfect in this life; there abideth still some remnants of corruption in every part, whence ariseth a continual and irreconcilable war, the flesh lusting against the spirit, and the spirit against the flesh.",
+    "locus": "13.2"
+  },
+  {
+    "id": "doc-wcf-15-1",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-repentance-unto-life"
+    ],
+    "sourceId": "wcf",
+    "body": "Repentance unto life is an evangelical grace, the doctrine whereof is to be preached by every minister of the gospel, as well as that of faith in Christ.",
+    "locus": "15.1"
+  },
+  {
+    "id": "doc-wcf-16-2-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-good-works"
+    ],
+    "sourceId": "wcf",
+    "body": "These good works, done in obedience to God's commandments, are the fruits and evidences of a true and lively faith;",
+    "locus": "16.2, part 1 of 2"
+  },
+  {
+    "id": "doc-wcf-16-5-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-good-works"
+    ],
+    "sourceId": "wcf",
+    "body": "We cannot, by our best works, merit pardon of sin, or eternal life at the hand of God, by reason of the great disproportion that is between them and the glory to come, and the infinite distance that is between us and God, whom by them we can neither profit nor satisfy for the debt of our former sins; but when we have done all we can, we have done but our duty, and are unprofitable servants;",
+    "locus": "16.5, part 1 of 2"
+  },
+  {
+    "id": "doc-wcf-17-2-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-perseverance-of-the-saints"
+    ],
+    "sourceId": "wcf",
+    "body": "and the nature of the covenant of grace: from all which ariseth also the certainty and infallibility thereof.",
+    "locus": "17.2, part 2 of 2"
+  },
+  {
+    "id": "doc-wcf-18-3-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-assurance-of-grace-and-salvation"
+    ],
+    "sourceId": "wcf",
+    "body": "And therefore it is the duty of everyone to give all diligence to make his calling and election sure; that thereby his heart may be enlarged in peace and joy in the Holy Ghost, in love and thankfulness to God, and in strength and cheerfulness in the duties of obedience, the proper fruits of this assurance: so far is it from inclining men to looseness.",
+    "locus": "18.3, part 2 of 2"
+  },
+  {
+    "id": "doc-wcf-19-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-law-of-god"
+    ],
+    "sourceId": "wcf",
+    "body": "The moral law doth forever bind all, as well justified persons as others, to the obedience thereof; and that not only in regard of the matter contained in it, but also in respect of the authority of God the Creator who gave it. Neither doth Christ in the gospel any way dissolve, but much strengthen, this obligation.",
+    "locus": "19.5"
+  },
+  {
+    "id": "doc-wcf-20-1-part-2-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-christian-liberty-and-liberty-of-cons"
+    ],
+    "sourceId": "wcf",
+    "body": "as also in their free access to God, and their yielding obedience unto him, not out of slavish fear, but a child-like love and willing mind.",
+    "locus": "20.1, part 2 of 3"
+  },
+  {
+    "id": "doc-wcf-20-4-part-2-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-christian-liberty-and-liberty-of-cons"
+    ],
+    "sourceId": "wcf",
+    "body": "And for their publishing of such opinions, or maintaining of such practices, as are contrary to the light of nature, or to the known principles of Christianity, whether concerning faith, worship, or conversation; or to the power of godliness;",
+    "locus": "20.4, part 2 of 3"
+  },
+  {
+    "id": "doc-wcf-21-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-religious-worship-and-the-sabbath-day"
+    ],
+    "sourceId": "wcf",
+    "body": "Prayer is to be made for things lawful, and for all sorts of men living, or that shall live hereafter; but not for the dead, nor for those of whom it may be known that they have sinned the sin unto death.",
+    "locus": "21.4"
+  },
+  {
+    "id": "doc-wcf-21-8-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-religious-worship-and-the-sabbath-day"
+    ],
+    "sourceId": "wcf",
+    "body": "This Sabbath is then kept holy unto the Lord, when men, after a due preparing of their hearts, and ordering of their common affairs beforehand, do not only observe an holy rest all the day from their own works, words, and thoughts, about their worldly employments and recreations;",
+    "locus": "21.8, part 1 of 2"
+  },
+  {
+    "id": "doc-wcf-22-3-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-lawful-oaths-and-vows"
+    ],
+    "sourceId": "wcf",
+    "body": "Yet it is a sin to refuse an oath touching anything that is good and just, being imposed by lawful authority.",
+    "locus": "22.3, part 2 of 2"
+  },
+  {
+    "id": "doc-wcf-23-1",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-civil-magistrate"
+    ],
+    "sourceId": "wcf",
+    "body": "God, the Supreme Lord and King of all the world, hath ordained civil magistrates to be under him, over the people, for his own glory and the public good, and to this end hath armed them with the power of the sword, for the defense and encouragement of them that are good, and for the punishment of evil-doers.",
+    "locus": "23.1"
+  },
+  {
+    "id": "doc-wcf-24-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-marriage-and-divorce"
+    ],
+    "sourceId": "wcf",
+    "body": "Marriage was ordained for the mutual help of husband and wife; for the increase of mankind with a legitimate issue, and of the Church with an holy seed; and for preventing of uncleanness.",
+    "locus": "24.2"
+  },
+  {
+    "id": "doc-wcf-24-6-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-marriage-and-divorce"
+    ],
+    "sourceId": "wcf",
+    "body": "Although the corruption of man be such as is apt to study arguments, unduly to put asunder those whom God hath joined together in marriage; yet nothing but adultery, or such wilful desertion as can no way be remedied by the Church or civil magistrate, is cause sufficient of dissolving the bond of marriage; wherein a public and orderly course of proceeding is to be observed;",
+    "locus": "24.6, part 1 of 2"
+  },
+  {
+    "id": "doc-wcf-25-6",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-church"
+    ],
+    "sourceId": "wcf",
+    "body": "There is no other Head of the Church but the Lord Jesus Christ: nor can the Pope of Rome, in any sense be head thereof; but is that Antichrist, that man of sin and son of perdition, that exalteth himself in the Church against Christ, and all that is called God.",
+    "locus": "25.6"
+  },
+  {
+    "id": "doc-wcf-27-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-sacraments"
+    ],
+    "sourceId": "wcf",
+    "body": "The grace which is exhibited in or by the sacraments, rightly used, is not conferred by any power in them; neither doth the efficacy of a sacrament depend upon the piety or intention of him that doth administer it, but upon the work of the Spirit, and the word of institution, which contains, together with a precept authorizing the use thereof, a promise of benefit to worthy receivers.",
+    "locus": "27.3"
+  },
+  {
+    "id": "doc-wcf-28-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-baptism"
+    ],
+    "sourceId": "wcf",
+    "body": "Although it be a great sin to contemn or neglect this ordinance, yet grace and salvation are not so inseparably annexed unto it, as that no person can be regenerated or saved without it, or that all that are baptized are undoubtedly regenerated.",
+    "locus": "28.5"
+  },
+  {
+    "id": "doc-wcf-29-3-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-lord-s-supper"
+    ],
+    "sourceId": "wcf",
+    "body": "The Lord Jesus hath, in this ordinance, appointed his ministers to declare his word of institution to the people, to pray, and bless the elements of bread and wine, and thereby to set them apart from a common to an holy use; and to take and break the bread, to take the cup, and (they communicating also themselves) to give both to the communicants;",
+    "locus": "29.3, part 1 of 2"
+  },
+  {
+    "id": "doc-wcf-29-7-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-lord-s-supper"
+    ],
+    "sourceId": "wcf",
+    "body": "Worthy receivers, outwardly partaking of the visible elements in this sacrament, do then also inwardly by faith, really and indeed, yet not carnally and corporally, but spiritually, receive and feed upon Christ crucified, and all benefits of his death: the body and blood of Christ being then not corporally or carnally in, with, or under the bread and wine;",
+    "locus": "29.7, part 1 of 2"
+  },
+  {
+    "id": "doc-wcf-30-3-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-church-censures"
+    ],
+    "sourceId": "wcf",
+    "body": "Church censures are necessary for the reclaiming and gaining of offending brethren; for deterring of others from the like offenses; for purging out of that leaven which might infect the whole lump; for vindicating the honor of Christ, and the holy profession of the gospel;",
+    "locus": "30.3, part 1 of 2"
+  },
+  {
+    "id": "doc-wcf-31-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-synods-and-councils"
+    ],
+    "sourceId": "wcf",
+    "body": "All synods or councils since the apostles' times, whether general or particular, may err, and many have erred; therefore they are not to be made the rule of faith or practice, but to be used as a help in both.",
+    "locus": "31.4"
+  },
+  {
+    "id": "doc-wcf-32-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-state-of-men-after-death-and-of-t"
+    ],
+    "sourceId": "wcf",
+    "body": "The bodies of the unjust shall, by the power of Christ, be raised to dishonor; the bodies of the just, by his Spirit, unto honor, and be made conformable to his own glorious body.",
+    "locus": "32.3"
+  },
+  {
+    "id": "doc-belgic-1",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-only-god"
+    ],
+    "sourceId": "belgic",
+    "body": "We all believe in our hearts and confess with our mouths that there is a single and simple spiritual being, whom we call God- eternal, incomprehensible, invisible, unchangeable, infinite, almighty; completely wise, just, and good, and the overflowing source of all good.",
+    "locus": "1"
+  },
+  {
+    "id": "doc-belgic-4-part-2-of-6",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-canonical-books"
+    ],
+    "sourceId": "belgic",
+    "body": "In the church of God the list is as follows: In the Old Testament, the five books of Moses- Genesis, Exodus, Leviticus, Numbers, Deuteronomy; the books of Joshua, Judges, and Ruth; the two books of Samuel, and two of Kings; the two books of Chronicles, called Paralipomenon; the first book of Ezra; Nehemiah, Esther, Job; the Psalms of David;",
+    "locus": "4, part 2 of 6"
+  },
+  {
+    "id": "doc-belgic-6-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-difference-between-canonical-and-apo"
+    ],
+    "sourceId": "belgic",
+    "body": "We distinguish between these holy books and the apocryphal ones, which are the third and fourth books of Esdras; the books of Tobit, Judith, Wisdom, Jesus Sirach, Baruch; what was added to the Story of Esther; the Song of the Three Children in the Furnace; the Story of Susannah; the Story of Bel and the Dragon; the Prayer of Manasseh; and the two books of Maccabees.",
+    "locus": "6, part 1 of 2"
+  },
+  {
+    "id": "doc-belgic-8-part-1-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-trinity"
+    ],
+    "sourceId": "belgic",
+    "body": "In keeping with this truth and Word of God we believe in one God, who is one single essence, in whom there are three persons, really, truly, and eternally distinct according to their incommunicable properties- namely, Father, Son, and Holy Spirit. The Father is the cause, origin, and source of all things, visible as well as invisible. The Son is the Word, the Wisdom, and the image of the Father.",
+    "locus": "8, part 1 of 4"
+  },
+  {
+    "id": "doc-belgic-9-part-4-of-9",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-scriptural-witness-on-the-trinity"
+    ],
+    "sourceId": "belgic",
+    "body": "For when our Lord was baptized in the Jordan, the voice of the Father was heard saying, \"This is my Son, the Beloved;\" (Matt. 3:17) the Son was seen in the water; and the Holy Spirit appeared in the form of a dove. So, in the baptism of all believers this form was prescribed by Christ: Baptize all people \"in the name of the Father and of the Son and of the Holy Spirit.\" (Matt.",
+    "locus": "9, part 4 of 9"
+  },
+  {
+    "id": "doc-belgic-10-part-1-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-deity-of-christ"
+    ],
+    "sourceId": "belgic",
+    "body": "We believe that Jesus Christ, according to his divine nature, is the only Son of God- eternally begotten, not made or created, for then he would be a creature. He is one in essence with the Father; coeternal; the exact image of the person of the Father and the \"reflection of God's glory,\" (Col. 1:15, Heb. 1:3) being like the Father in all things.",
+    "locus": "10, part 1 of 4"
+  },
+  {
+    "id": "doc-belgic-12-part-3-of-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-creation-of-all-things"
+    ],
+    "sourceId": "belgic",
+    "body": "Some of them have fallen from the excellence in which God created them into eternal perdition; and the others have persisted and remained in their original state, by the grace of God. The devils and evil spirits are so corrupt that they are enemies of God and of everything good.",
+    "locus": "12, part 3 of 5"
+  },
+  {
+    "id": "doc-belgic-13-part-5-of-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-doctrine-of-god-s-providence"
+    ],
+    "sourceId": "belgic",
+    "body": "(Matt. 10:29-30) In this thought we rest, knowing that God holds in check the devils and all our enemies, who cannot hurt us without divine permission and will. For that reason we reject the damnable error of the Epicureans, who say that God does not get involved in anything and leaves everything to chance.",
+    "locus": "13, part 5 of 5"
+  },
+  {
+    "id": "doc-belgic-14-part-6-of-7",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-creation-and-fall-of-humanity"
+    ],
+    "sourceId": "belgic",
+    "body": "8:7) Who can speak of their own knowledge in view of the fact that \"those who are unspiritual do not receive the gifts of God's Spirit\"? (1 Cor. 2:14) In short, who can produce a single thought, knowing that we are not able to think a thing about ourselves, by ourselves, but that \"our competence is from God\"? (2 Cor.",
+    "locus": "14, part 6 of 7"
+  },
+  {
+    "id": "doc-belgic-17-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-recovery-of-fallen-humanity"
+    ],
+    "sourceId": "belgic",
+    "body": "We believe that our good God, by marvelous divine wisdom and goodness, seeing that Adam and Eve had plunged themselves in this manner into both physical and spiritual death and made themselves completely miserable, set out to find them, though they, trembling all over, were fleeing from God. And God comforted them, promising to give them his Son, born of a woman, (Gal.",
+    "locus": "17, part 1 of 2"
+  },
+  {
+    "id": "doc-belgic-18-part-5-of-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-incarnation"
+    ],
+    "sourceId": "belgic",
+    "body": "7:14) having descended from the Jews according to the flesh; descended from Abraham- having assumed descent from Abraham and Sarah, and was made like his brothers and sisters, yet without sin. (Heb. 2:17, Heb 4:15) In this way Christ is truly our Immanuel- that is: \"God with us.\" (Matt. 1:23)",
+    "locus": "18, part 5 of 5"
+  },
+  {
+    "id": "doc-belgic-20-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-justice-and-mercy-of-god-in-christ"
+    ],
+    "sourceId": "belgic",
+    "body": "So God made known his justice toward his Son, who was charged with our sin, and he poured out his goodness and mercy on us, who are guilty and worthy of damnation, giving to us his Son to die, by a most perfect love, and raising him to life for our justification, in order that by him we might have immortality and eternal life.",
+    "locus": "20, part 2 of 2"
+  },
+  {
+    "id": "doc-belgic-22-part-1-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-righteousness-of-faith"
+    ],
+    "sourceId": "belgic",
+    "body": "We believe that for us to acquire the true knowledge of this great mystery the Holy Spirit kindles in our hearts a true faith that embraces Jesus Christ, with all his merits, and makes him its own, and no longer looks for anything apart from him.",
+    "locus": "22, part 1 of 4"
+  },
+  {
+    "id": "doc-belgic-23-part-4-of-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-justification-of-sinners"
+    ],
+    "sourceId": "belgic",
+    "body": "That is enough to cover all our sins and to make us confident, freeing the conscience from the fear, dread, and terror of God's approach, without doing what our first parents, Adam and Eve, did, who trembled as they tried to cover themselves with fig leaves.",
+    "locus": "23, part 4 of 5"
+  },
+  {
+    "id": "doc-belgic-24-part-6-of-8",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-sanctification-of-sinners"
+    ],
+    "sourceId": "belgic",
+    "body": "2:13) - thus keeping in mind what is written: \"When you have done all that you were ordered to do, say, 'We are worthless slaves; we have done only what we ought to have done.'\" (Luke 17:10) Yet we do not wish to deny that God rewards good works- but it is by grace that God crowns these gifts.",
+    "locus": "24, part 6 of 8"
+  },
+  {
+    "id": "doc-belgic-26-part-2-of-12",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-intercession-of-christ"
+    ],
+    "sourceId": "belgic",
+    "body": "But this Mediator, whom the Father has appointed between himself and us, ought not terrify us by his greatness, so that we have to look for another one, according to our fancy. For neither in heaven nor among the creatures on earth is there anyone who loves us more than Jesus Christ does.",
+    "locus": "26, part 2 of 12"
+  },
+  {
+    "id": "doc-belgic-26-part-9-of-12",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-intercession-of-christ"
+    ],
+    "sourceId": "belgic",
+    "body": "Let us therefore approach the throne of grace with boldness, so that we may receive mercy and find grace to help in time of need.\" (Heb. 4:14-16) The same apostle says that we \"have confidence to enter the sanctuary by the blood of Jesus.\" \"Let us approach with a true heart in full assurance of faith....\" (Heb. 10:19, Heb. 10:22) Likewise, Christ \"holds his priesthood permanently....",
+    "locus": "26, part 9 of 12"
+  },
+  {
+    "id": "doc-belgic-27-part-3-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-holy-catholic-church"
+    ],
+    "sourceId": "belgic",
+    "body": "For example, during the very dangerous time of Ahab the Lord preserved for himself seven thousand who did not bend their knees to Baal. (1 Kings 19:18) And so this holy church is not confined, bound, or limited to a certain place or certain people.",
+    "locus": "27, part 3 of 4"
+  },
+  {
+    "id": "doc-belgic-29-part-2-of-8",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-marks-of-the-true-church"
+    ],
+    "sourceId": "belgic",
+    "body": "But we are speaking of distinguishing the body and fellowship of the true church from all sects that call themselves \"the church.\" The true church can be recognized if it has the following marks: The church engages in the pure preaching of the gospel; it makes use of the pure administration of the sacraments as Christ instituted them; it practices church discipline for correcting faults.",
+    "locus": "29, part 2 of 8"
+  },
+  {
+    "id": "doc-belgic-29-part-8-of-8",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-marks-of-the-true-church"
+    ],
+    "sourceId": "belgic",
+    "body": "These two churches are easy to recognize and thus to distinguish from each other.",
+    "locus": "29, part 8 of 8"
+  },
+  {
+    "id": "doc-belgic-31-part-4-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-officers-of-the-church"
+    ],
+    "sourceId": "belgic",
+    "body": "Moreover, to keep God's holy order from being violated or despised, we say that everyone ought, as much as possible, to hold the ministers of the Word and elders of the church in special esteem, because of the work they do, and be at peace with them, without grumbling, quarreling, or fighting.",
+    "locus": "31, part 4 of 4"
+  },
+  {
+    "id": "doc-belgic-34-part-2-of-11",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-sacrament-of-baptism"
+    ],
+    "sourceId": "belgic",
+    "body": "By it we are received into God's church and set apart from all other people and alien religions, that we may wholly belong to him whose mark and sign we bear. Baptism also witnesses to us that God, being our gracious Father, will be our God forever.",
+    "locus": "34, part 2 of 11"
+  },
+  {
+    "id": "doc-belgic-34-part-8-of-11",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-sacrament-of-baptism"
+    ],
+    "sourceId": "belgic",
+    "body": "(Col. 3:9-10) For this reason we believe that anyone who aspires to reach eternal life ought to be baptized only once without ever repeating it- for we cannot be born twice. Yet this baptism is profitable not only when the water is on us and when we receive it but throughout our entire lives.",
+    "locus": "34, part 8 of 11"
+  },
+  {
+    "id": "doc-belgic-35-part-4-of-12",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-sacrament-of-the-lord-s-supper"
+    ],
+    "sourceId": "belgic",
+    "body": "To represent to us this spiritual and heavenly bread Christ has instituted an earthly and visible bread as the sacrament of his body and wine as the sacrament of his blood.",
+    "locus": "35, part 4 of 12"
+  },
+  {
+    "id": "doc-belgic-35-part-10-of-12",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-sacrament-of-the-lord-s-supper"
+    ],
+    "sourceId": "belgic",
+    "body": "Finally, with humility and reverence we receive the holy sacrament in the gathering of God's people, as we engage together, with thanksgiving, in a holy remembrance of the death of Christ our Savior, and as we thus confess our faith and Christian religion.",
+    "locus": "35, part 10 of 12"
+  },
+  {
+    "id": "doc-belgic-37-part-3-of-9",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "the-last-judgement"
+    ],
+    "sourceId": "belgic",
+    "body": "4:16) For all those who died before that time will be raised from the earth, their spirits being joined and united with their own bodies in which they lived. And as for those who are still alive, they will not die like the others but will be changed \"in the twinkling of an eye\" from perishable to imperishable. (1 Cor.",
+    "locus": "37, part 3 of 9"
+  },
+  {
+    "id": "doc-dort-1-a1-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-divine-predestination"
+    ],
+    "sourceId": "dort",
+    "body": "As all men have sinned in Adam, lie under the curse, and are deserving of eternal death, God would have done no injustice by leaving them all to perish, and delivering them over to condemnation on account of sin, according to the words of the apostle, \"that every mouth may be stopped, and all the world may become guilty before God\" (Rom. 3:19).",
+    "locus": "1.A1, part 1 of 2"
+  },
+  {
+    "id": "doc-dort-1-a6-part-2-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-divine-predestination"
+    ],
+    "sourceId": "dort",
+    "body": "According to which decree, He graciously softens the hearts of the elect, however obstinate, and inclines them to believe, while He leaves the non-elect in His just judgment to their own wickedness and obduracy.",
+    "locus": "1.A6, part 2 of 3"
+  },
+  {
+    "id": "doc-dort-1-a10-part-2-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-divine-predestination"
+    ],
+    "sourceId": "dort",
+    "body": "but that He was pleased out of the common mass of sinners to adopt some certain persons as a peculiar people to Himself, as it is written, \"For the children being not yet born, neither having done any good or evil,\" etc.",
+    "locus": "1.A10, part 2 of 3"
+  },
+  {
+    "id": "doc-dort-1-a15-part-2-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-divine-predestination"
+    ],
+    "sourceId": "dort",
+    "body": "whom God, out of His sovereign, most just, irreprehensible and unchangeable good pleasure, hath decreed to leave in the common misery into which they have wilfully plunged themselves, and not to bestow upon them saving faith and the grace of conversion;",
+    "locus": "1.A15, part 2 of 4"
+  },
+  {
+    "id": "doc-dort-1-r1-part-2-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-divine-predestination"
+    ],
+    "sourceId": "dort",
+    "body": "For these deceive the simple and plainly contradict the Scriptures which declare that God will not only save those who will believe, but that He has also from eternity chosen certain particular persons to whom above others He in time will grant both faith in Christ and perseverance, as it is written: \"I have manifested Thy Name unto the men which Thou gavest Me out of the world\" (John 17:6).",
+    "locus": "1.R1, part 2 of 3"
+  },
+  {
+    "id": "doc-dort-1-r5-part-2-of-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-divine-predestination"
+    ],
+    "sourceId": "dort",
+    "body": "and that this is the gracious and evangelical worthiness for the sake of which he who is chosen is more worthy than he who is not chosen;",
+    "locus": "1.R5, part 2 of 5"
+  },
+  {
+    "id": "doc-dort-1-r7-part-2-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-divine-predestination"
+    ],
+    "sourceId": "dort",
+    "body": "For not only is it absurd to speak of an uncertain certainty, but also contrary to the experience of the saints, who by virtue of the consciousness of their election rejoice with the apostle and praise this favor of God, Ephesians 1;",
+    "locus": "1.R7, part 2 of 4"
+  },
+  {
+    "id": "doc-dort-2-a4-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-death-of-christ-and-the-redemptio"
+    ],
+    "sourceId": "dort",
+    "body": "This death derives its infinite value and dignity from these considerations because the person who submitted to it was not only really man and perfectly holy, but also the only begotten Son of God, of the same eternal and infinite essence with the Father and the Holy Spirit, which qualifications were necessary to constitute Him a Savior for us;",
+    "locus": "2.A4, part 1 of 2"
+  },
+  {
+    "id": "doc-dort-2-r1-part-3-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-death-of-christ-and-the-redemptio"
+    ],
+    "sourceId": "dort",
+    "body": "And the prophet Isaiah saith concerning the Savior: \"When thou shalt make His soul an offering for sin, He shall see His seed, He shall prolong his days, and the pleasure of the LORD shall prosper in his hand\" (Is. 53:10). Finally, this contradicts the article of faith according to which we believe the catholic Christian church.",
+    "locus": "2.R1, part 3 of 3"
+  },
+  {
+    "id": "doc-dort-2-r6-part-1-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-death-of-christ-and-the-redemptio"
+    ],
+    "sourceId": "dort",
+    "body": "The use of the difference between meriting and appropriating, to the end that they may instill into the minds of the imprudent and inexperienced this teaching that God, as far as He is concerned, has been minded of applying to all equally the benefits gained by the death of Christ;",
+    "locus": "2.R6, part 1 of 3"
+  },
+  {
+    "id": "doc-dort-3-4-a4-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-corruption-of-man-his-conversion-"
+    ],
+    "sourceId": "dort",
+    "body": "There remain, however, in man since the fall, the glimmerings of natural light, whereby he retains some knowledge of God, of natural things, and of the differences between good and evil, and discovers some regard for virtue, good order in society, and for maintaining an orderly external deportment.",
+    "locus": "3&4.A4, part 1 of 2"
+  },
+  {
+    "id": "doc-dort-3-4-a9-part-1-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-corruption-of-man-his-conversion-"
+    ],
+    "sourceId": "dort",
+    "body": "It is not the fault of the gospel nor of Christ, offered therein, nor of God, who calls men by the gospel and confers upon them various gifts, that those who are called by the ministry of the Word refuse to come and be converted.",
+    "locus": "3&4.A9, part 1 of 4"
+  },
+  {
+    "id": "doc-dort-3-4-a12-part-1-of-5",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-corruption-of-man-his-conversion-"
+    ],
+    "sourceId": "dort",
+    "body": "And this is the regeneration so highly celebrated in Scripture and denominated a new creation: a resurrection from the dead, a making alive, which God works in us without our aid.",
+    "locus": "3&4.A12, part 1 of 5"
+  },
+  {
+    "id": "doc-dort-3-4-a15-part-3-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-corruption-of-man-his-conversion-"
+    ],
+    "sourceId": "dort",
+    "body": "With respect to those who make an external profession of faith and live regular lives, we are bound, after the example of the apostle, to judge and speak of them in the most favorable manner. For the secret recesses of the heart are unknown to us. And as to others, who have not yet been called, it is our duty to pray for them to God, who calls the things that are not, as if they were.",
+    "locus": "3&4.A15, part 3 of 4"
+  },
+  {
+    "id": "doc-dort-3-4-r1-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-corruption-of-man-his-conversion-"
+    ],
+    "sourceId": "dort",
+    "body": "And: \"The wages of sin is death\" (Rom. 6:23).",
+    "locus": "3&4.R1, part 2 of 2"
+  },
+  {
+    "id": "doc-dort-3-4-r4-part-4-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-corruption-of-man-his-conversion-"
+    ],
+    "sourceId": "dort",
+    "body": "\"Create in me a clean heart, O God; and renew a right spirit within me\"; \"Then shalt Thou be pleased with the sacrifices of righteousness, with burnt offering and whole burnt offering: then shall they offer bullocks upon Thine altar\" (Ps. 51:10, 19); \"Blessed are they which do hunger and thirst after righteousness: for they shall be filled\" (Matt. 5:6).",
+    "locus": "3&4.R4, part 4 of 4"
+  },
+  {
+    "id": "doc-dort-3-4-r7-part-3-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-corruption-of-man-his-conversion-"
+    ],
+    "sourceId": "dort",
+    "body": "But this is altogether Pelagian and contrary to the whole Scripture which, besides this, teaches yet another and far more powerful and divine manner of the Holy Spirit's working in the conversion of man, as in Ezekiel: \"A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh\" (Ezek.",
+    "locus": "3&4.R7, part 3 of 4"
+  },
+  {
+    "id": "doc-dort-4-a3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-perseverance-of-the-saints"
+    ],
+    "sourceId": "dort",
+    "body": "By reason of these remains of indwelling sin, and the temptations of sin and of the world, those who are converted could not persevere in a state of grace, if left to their own strength. But God is faithful, who having conferred grace, mercifully confirms, and powerfully preserves them herein, even to the end.",
+    "locus": "4.A3"
+  },
+  {
+    "id": "doc-dort-4-a8-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-perseverance-of-the-saints"
+    ],
+    "sourceId": "dort",
+    "body": "Thus, it is not in consequence of their own merits, or strength, but of God's free mercy, that they do not totally fall from faith and grace, nor continue and perish finally in their backslidings; which, with respect to themselves, is not only possible, but would undoubtedly happen;",
+    "locus": "4.A8, part 1 of 2"
+  },
+  {
+    "id": "doc-dort-4-a15-part-1-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-perseverance-of-the-saints"
+    ],
+    "sourceId": "dort",
+    "body": "The carnal mind is unable to comprehend this doctrine of the perseverance of the saints, and the certainty thereof; which God hath most abundantly revealed in his Word, for the glory of his name, and the consolation of pious souls, and which he impresses upon the hearts of the faithful.",
+    "locus": "4.A15, part 1 of 3"
+  },
+  {
+    "id": "doc-dort-4-r3-part-1-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-perseverance-of-the-saints"
+    ],
+    "sourceId": "dort",
+    "body": "Who teach: That the true believers and regenerate not only can fall from justifying faith and likewise from grace and salvation wholly and to the end, but indeed often do fall from this and are lost forever.",
+    "locus": "4.R3, part 1 of 4"
+  },
+  {
+    "id": "doc-dort-4-r6-part-1-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "of-the-perseverance-of-the-saints"
+    ],
+    "sourceId": "dort",
+    "body": "Who teach: That the doctrine of the certainty of perseverance and of salvation from its own character and nature is a cause of indolence and is injurious to godliness, good morals, prayers and other holy exercises, but that on the contrary it is praiseworthy to doubt. For these show that they do not know the power of divine grace and the working of the indwelling Holy Spirit.",
+    "locus": "4.R6, part 1 of 3"
+  },
+  {
+    "id": "doc-cyc-4",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "By loving him and doing what he commands.",
+    "locus": "4",
+    "prompt": "How can you glorify God?"
+  },
+  {
+    "id": "doc-cyc-11",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "No; I cannot see God, but he always sees me.",
+    "locus": "11",
+    "prompt": "Can you see God?"
+  },
+  {
+    "id": "doc-cyc-17",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "God made the body of Adam out of the ground, and formed Eve from the body of Adam.",
+    "locus": "17",
+    "prompt": "Of what were our first parents made?"
+  },
+  {
+    "id": "doc-cyc-21",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "He made them holy and happy.",
+    "locus": "21",
+    "prompt": "In what condition did God make Adam and Eve?"
+  },
+  {
+    "id": "doc-cyc-27",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "No; he sinned against God.",
+    "locus": "27",
+    "prompt": "Did Adam keep the covenant of works?"
+  },
+  {
+    "id": "doc-cyc-32",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "The devil tempted Eve, and she gave the fruit to Adam.",
+    "locus": "32",
+    "prompt": "Who tempted them to this sin?"
+  },
+  {
+    "id": "doc-cyc-37",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "The wrath and curse of God.",
+    "locus": "37",
+    "prompt": "What does every sin deserve?"
+  },
+  {
+    "id": "doc-cyc-43",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "With Christ, his eternal Son.",
+    "locus": "43",
+    "prompt": "With whom did God the Father make the covenant of grace?"
+  },
+  {
+    "id": "doc-cyc-48",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "Christ's satisfying divine justice, by his sufferings and death, in the place of sinners.",
+    "locus": "48",
+    "prompt": "What is meant by the Atonement?"
+  },
+  {
+    "id": "doc-cyc-52",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "For those whom the Father had given him.",
+    "locus": "52",
+    "prompt": "For whom did Christ obey and suffer?"
+  },
+  {
+    "id": "doc-cyc-56",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "To be sorry for sin, and to hate and forsake it because it is displeasing to God.",
+    "locus": "56",
+    "prompt": "What is it to repent?"
+  },
+  {
+    "id": "doc-cyc-60",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "More than eighteen hundred years.",
+    "locus": "60",
+    "prompt": "How long ago is it since Christ died?"
+  },
+  {
+    "id": "doc-cyc-64",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "Christ has three offices.",
+    "locus": "64",
+    "prompt": "What offices has Christ?"
+  },
+  {
+    "id": "doc-cyc-68",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "Because he rules over us and defends us.",
+    "locus": "68",
+    "prompt": "How is Christ a king?"
+  },
+  {
+    "id": "doc-cyc-77",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "All my fellow-men are my neighbors.",
+    "locus": "77",
+    "prompt": "Who is your neighbor?"
+  },
+  {
+    "id": "doc-cyc-83",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "To worship God in a proper manner, and to avoid idolatry.",
+    "locus": "83",
+    "prompt": "What does the second commandment teach us?"
+  },
+  {
+    "id": "doc-cyc-88",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "The first day of the week, called the Lord's day.",
+    "locus": "88",
+    "prompt": "What day of the week is the Christian Sabbath?"
+  },
+  {
+    "id": "doc-cyc-92",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "To love and obey our parents and teachers.",
+    "locus": "92",
+    "prompt": "What does the fifth commandment teach us?"
+  },
+  {
+    "id": "doc-cyc-97",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "The eighth commandment is, Thou shalt not steal.",
+    "locus": "97",
+    "prompt": "What is the eighth commandment?"
+  },
+  {
+    "id": "doc-cyc-102",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "To be content with our lot.",
+    "locus": "102",
+    "prompt": "What does the tenth commandment teach us?"
+  },
+  {
+    "id": "doc-cyc-106",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "Only in the name of Christ.",
+    "locus": "106",
+    "prompt": "In whose name should we pray?"
+  },
+  {
+    "id": "doc-cyc-114",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "'Thy will be done in earth, as it is in heaven.'",
+    "locus": "114",
+    "prompt": "What is the third petition?"
+  },
+  {
+    "id": "doc-cyc-118",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "'And forgive us our debts, as we forgive our debtors.'",
+    "locus": "118",
+    "prompt": "What is the fifth petition?"
+  },
+  {
+    "id": "doc-cyc-123",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "Baptism and the Lord's Supper.",
+    "locus": "123",
+    "prompt": "What are they?"
+  },
+  {
+    "id": "doc-cyc-129",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "Believers and their children.",
+    "locus": "129",
+    "prompt": "Who are to be baptized?"
+  },
+  {
+    "id": "doc-cyc-133",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "The eating of bread and drinking of wine in remembrance of the sufferings and death of Christ.",
+    "locus": "133",
+    "prompt": "What is the Lord's Supper?"
+  },
+  {
+    "id": "doc-cyc-137",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "No; he rose from the tomb on the third day after his death.",
+    "locus": "137",
+    "prompt": "Did Christ remain in the tomb after his crucifixion?"
+  },
+  {
+    "id": "doc-cyc-141",
+    "type": "doctrine",
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "cyc"
+    ],
+    "sourceId": "young-children",
+    "body": "Yes; 'the trumpet shall sound and the dead shall be raised.'",
+    "locus": "141",
+    "prompt": "Will the bodies of the dead be raised to life again?"
+  },
+  {
+    "id": "doc-lbcf-1-1-part-1-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-holy-scriptures"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "The Holy Scripture is the only sufficient, certain, and infallible rule of all saving Knowledge, Faith and Obedience; Although the light of Nature, and the works of Creation and Providence do so far manifest the goodness, wisdom and power of God, as to leave men unexcusable; yet are they not sufficient to give that knowledge of God and His will, which is necessary unto Salvation.",
+    "locus": "1.1, part 1 of 3"
+  },
+  {
+    "id": "doc-lbcf-1-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-holy-scriptures"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "The Books commonly called Apocrypha not being of Divine inspiration, are no part of the Canon (or rule) of the Scripture, and therefore are of no authority to the Church of God, nor to be any otherwise approved or made use of, then other humane writings.",
+    "locus": "1.3"
+  },
+  {
+    "id": "doc-lbcf-1-6-part-3-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-holy-scriptures"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "which are to be ordered by the light of nature, and Christian prudence according to the general rules of the Word, which are always to be observed.",
+    "locus": "1.6, part 3 of 3"
+  },
+  {
+    "id": "doc-lbcf-2-1",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-god-and-of-the-holy-trinity"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "The Lord our God is but one only living, and true God; whose subsistence is in and of himself, infinite in being, and perfection, whose Essence cannot be comprehended by any but himself;",
+    "locus": "2.1"
+  },
+  {
+    "id": "doc-lbcf-3-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-god-s-decree"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "Although God knoweth whatsoever may, or can come to passe upon all supposed conditions; yet hath he not Decreed anything, because he foresaw it as future, or as that which would come to pass upon such conditions.",
+    "locus": "3.2"
+  },
+  {
+    "id": "doc-lbcf-3-6-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-god-s-decree"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "neither are any other redeemed by Christ, or effectually called, justified, adopted, sanctified, and saved, but the Elect only.",
+    "locus": "3.6, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-4-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-creation"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "Besides the Law written in their hearts, they received a command not to eat of the tree of knowledge of good and evil; which whilst they kept, they were happy in their Communion with God, and had dominion over the Creatures.",
+    "locus": "4.3"
+  },
+  {
+    "id": "doc-lbcf-5-4-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-divine-providence"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "(and that not by a bare permission) which also he most wisely and powerfully boundeth, and otherwise ordereth, and governeth, in a manifold dispensation to his most holy ends: yet so, as the sinfulness of their acts proceedeth only from the Creatures, and not from God; who being most holy and righteous, neither is nor can be, the author or approver of sin.",
+    "locus": "5.4, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-5-7",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-divine-providence"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "As the Providence of God doth in general reach to all Creatures, so after a most special manner it taketh care of his Church, and disposeth of all things to the good thereof.",
+    "locus": "5.7"
+  },
+  {
+    "id": "doc-lbcf-6-4",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-fall-of-man-of-sin-and-of-the-pun"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "From this original corruption, whereby we are utterly indisposed, disabled, and made opposite to all good, and wholly inclined to all evil, do proceed all actual transgressions.",
+    "locus": "6.4"
+  },
+  {
+    "id": "doc-lbcf-7-3-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-god-s-covenant"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "and it is alone by the Grace of this Covenant, that all of the posterity of fallen Adam, that ever were saved, did obtain life and a blessed immortality; Man being now utterly uncapable of acceptance with God upon those terms, on which Adam stood in his state of innocency.",
+    "locus": "7.3, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-8-4-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-christ-the-mediator"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "This office the Lord Jesus did most willingly undertake, which that he might discharge he was made under the Law, and did perfectly fulfill it, and underwent the punishment due to us, which we should have born and suffered, being made Sin and a Curse for us: enduring most grievous sorrows in his Soul; and most painful sufferings in his body;",
+    "locus": "8.4, part 1 of 2"
+  },
+  {
+    "id": "doc-lbcf-8-8-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-christ-the-mediator"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "To all those for whom Christ hath obtained eternal redemption, he doth certainly, and effectually apply, and communicate the same; making intercession for them, uniting them to himself by his spirit, revealing unto them, in and by the word, the mystery of salvation; perswading them to believe, and obey;",
+    "locus": "8.8, part 1 of 2"
+  },
+  {
+    "id": "doc-lbcf-9-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-free-will"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "Man in his state of innocency, had freedom, and power, to will, and to do that which was good, and well-pleasing to God; but yet was mutable, so that he might fall from it.",
+    "locus": "9.2"
+  },
+  {
+    "id": "doc-lbcf-10-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-effectual-calling"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "and that by no less power, then that which raised up Christ from the dead.",
+    "locus": "10.2"
+  },
+  {
+    "id": "doc-lbcf-11-1-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-justification"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "but by imputing Christs active obedience unto the whole Law, and passive obedience in his death, for their whole and sole Righteousnnss, they receiving, and resting on him, and his Righteousness, by Faith; which faith they have not of themselves, it is the gift of God.",
+    "locus": "11.1, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-11-5",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-justification"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "God doth continue to Forgive the sins of those that are justified, and although they can never fall from the state of justication; yet they may by their sins fall under Gods Fatherly displeasure; and in that condition, they have not usually the light of his Countenance restored unto them, untill they humble themselves, confess their sins, beg pardon, and renew their faith, and repentance.",
+    "locus": "11.5"
+  },
+  {
+    "id": "doc-lbcf-13-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-sanctification"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "This Sanctification is throughout, in the whole man, yet imperfect in this life; there abideth still some remnants of corruption in every part, whence ariseth a continual, and irreconcilable war; the Flesh lusting against the Spirit, and the Spirit against the Flesh.",
+    "locus": "13.2"
+  },
+  {
+    "id": "doc-lbcf-14-2-part-2-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-saving-faith"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "and the Power and Fullness of the Holy Spirit in his Workings, and Operations; and so is enabled to cast his Soul upon the truth thus beleived; and also acteth differently, upon that which each particular, passage thereof containeth;",
+    "locus": "14.2, part 2 of 3"
+  },
+  {
+    "id": "doc-lbcf-15-3-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-repentance-unto-life-and-salvation"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "This saving Repentance is an evangelical Grace, whereby a person being by the Holy Spirit made sensible of the manifold evils of his sin, doth, by Faith in Christ, humble himself for it, with godly sorrow, detestation of it, and self abhorrency;",
+    "locus": "15.3, part 1 of 2"
+  },
+  {
+    "id": "doc-lbcf-16-2-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-good-works"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "These good works, done in obedience to Gods commandments, are the fruits, and evidences of a true, and lively faith;",
+    "locus": "16.2, part 1 of 2"
+  },
+  {
+    "id": "doc-lbcf-16-5-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-good-works"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "and because as they are good they proceed from his Spirit, and as they are wrought by us they are defiled and mixed with so much weakness and imperfection that they cannot endure the severity of Gods judgement.",
+    "locus": "16.5, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-17-2-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-perseverance-of-the-saints"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "upon the efficacy of the merit and intercession of Jesus Christ and Union with him, the oath of God, the abiding of his Spirit & the seed of God within them, and the nature of the Covenant of Grace from all which ariseth also the certainty and infallibility thereof.",
+    "locus": "17.2, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-18-2-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-assurance-of-grace-and-salvation"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "This certainty is not a bare conjectural, and probable perswasion, grounded upon a fallible hope; but an infallible assurance of faith founded on the Blood and Righteousness of Christ revealed in the Gospel;",
+    "locus": "18.2, part 1 of 2"
+  },
+  {
+    "id": "doc-lbcf-19-1",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-law-of-god"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "God gave to Adam a Law of universal obedience, written in his Heart, and a particular precept of not eating the Fruit of the tree of knowledge of good and evil; by which he bound him, and all his posterity to personal entire exact and perpetual obedience; promised life upon the fulfilling, and threatned death upon the breach of it; and indued him with power and ability to keep it.",
+    "locus": "19.1"
+  },
+  {
+    "id": "doc-lbcf-19-5",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-law-of-god"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "The moral Law doth for ever bind all, as well justified persons as others, to the obedience thereof, and that not only in regard of the matter contained in it, but also in respect of the authority of God the Creator; who gave it: Neither doth Christ in the Gospel any way dissolve, but much strengthen this obligation.",
+    "locus": "19.5"
+  },
+  {
+    "id": "doc-lbcf-20-1",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-christian-liberty-and-liberty-of-cons"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "The Covenant of Works being broken by Sin, and made unprofitable unto Life; God was pleased to give forth the promise of Christ, the Seed of the Woman, as the means of calling the Elect, and begetting in them Faith and Repentance; in this Promise, the Gospel, as to the substance of it, was revealed, and therein Effectual, for the Conversion and Salvation of Sinners.",
+    "locus": "20.1"
+  },
+  {
+    "id": "doc-lbcf-21-1-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-christian-liberty-and-liberty-of-cons"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "The Liberty which Christ hath purchased for Believers under the Gospel, consists in their freedom from the guilt of Sin, the condemning wrath of God, the Rigour and Curse of the Law; and in their being delivered from this present evil World, Bondage to Satan, and Dominion of Sin; from the Evil of Afflictions; the Fear, and Sting of Death, the Victory of the Grave, and Everlasting Damnation;",
+    "locus": "21.1, part 1 of 2"
+  },
+  {
+    "id": "doc-lbcf-21-3-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-christian-liberty-and-liberty-of-cons"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "so they wholy destroy the end of Christian Liberty, which is, that being delivered out of the hands of all our Enemies we might serve the Lord without fear in Holiness, and Righteousness before him, all the days of our Life.",
+    "locus": "21.3, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-22-5-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-religious-worship-and-the-sabbath-day"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "The reading of the Scriptures, Preaching, and hearing the word of God, teaching and admonishing one another in Psalms, Hymns and Spiritual songs, singing with grace in our Hearts to the Lord; as also the Administration of Baptism, and the Lords Supper are all parts of Religious worship of God, to be performed in obedience to him, with understanding, faith, reverence, and godly fear;",
+    "locus": "22.5, part 1 of 2"
+  },
+  {
+    "id": "doc-lbcf-22-7-part-2-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-religious-worship-and-the-sabbath-day"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "so by his Word in a positive-moral, and perpetual Commandement, binding all men, in all Ages, he hath particularly appointed one day in seven for a Sabbath to be kept holy unto him, which from the beginning of the World to the Resurrection of Christ, was the last day of the week; and from the resurrection of Christ, was changed into the first day of the week which is called the Lords day;",
+    "locus": "22.7, part 2 of 3"
+  },
+  {
+    "id": "doc-lbcf-23-4",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-lawful-oaths-and-vows"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "An Oath is to be taken in the plain, and common sense of the words; without equivocation, or mental reservation.",
+    "locus": "23.4"
+  },
+  {
+    "id": "doc-lbcf-25-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-civil-magistrate"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "Marriage was ordained for the mutual help of Husband and Wife, for the increase of Man-kind, with a legitimate issue, and for preventing of uncleanness.",
+    "locus": "25.2"
+  },
+  {
+    "id": "doc-lbcf-26-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-church"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "The purest Churches under heaven are subject to mixture, and error; and som have so degenerated as to become no Churches of Christ, but Synagogues of Satan; nevertheless Christ always hath had, and ever shall have a Kingdome in this world, to the end thereof, of such as believe in him, and make profession of his Name.",
+    "locus": "26.3"
+  },
+  {
+    "id": "doc-lbcf-26-8-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-church"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "A particular Church gathered, and compleatly Organized, according to the mind of Christ, consists of Officers, and Members;",
+    "locus": "26.8, part 1 of 2"
+  },
+  {
+    "id": "doc-lbcf-26-10-part-2-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-church"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "it is incumbent on the Churches to whom they Minister, not only to give them all due respect, but also to communicate to them of all their good things according to their ability, so as they may have a comfortable supply, without being themselves entangled in Secular Affairs; and may also be capable of exercising Hospitality toward others;",
+    "locus": "26.10, part 2 of 3"
+  },
+  {
+    "id": "doc-lbcf-26-14-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-church"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "and upon all occasions to further it (every one within the bounds of their places, and callings, in the Exercise of their Gifts and Graces) so the Churches (when planted by the providence of God so as they may injoy opportunity and advantage for it) ought to hold communion amongst themselves for their peace, increase of love, and mutual edification.",
+    "locus": "26.14, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-27-2-part-1-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-communion-of-the-saints"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "Saints by profession are bound to maintain an holy fellowship and communion in the worship of God, and in performing such other spiritual services, as tend to their mutual edification; as also in relieving each other in outward things according to their several abilities, and necessities;",
+    "locus": "27.2, part 1 of 3"
+  },
+  {
+    "id": "doc-lbcf-29-1",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-baptism"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "Baptism is an Ordinance of the New Testament, ordained by Jesus Christ, to be unto the party Baptized, a sign of his fellowship with him, in his death, and resurrection; of his being engrafted into him; of remission of sins; and of his giving up unto God through Jesus Christ to live and walk in newness of Life.",
+    "locus": "29.1"
+  },
+  {
+    "id": "doc-lbcf-30-2-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-lord-s-supper"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "so that the Popish sacrifice of the Mass (as they call it) is most abominable, injurious to Christs own only sacrifice, the alone propitiation for all the sins of the Elect.",
+    "locus": "30.2, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-30-6-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-lord-s-supper"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "overthroweth the nature of the ordinance, and hath been and is the cause of manifold superstitions, yea, of gross Idolatries.",
+    "locus": "30.6, part 2 of 2"
+  },
+  {
+    "id": "doc-lbcf-32-1-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "of-the-last-judgment"
+    ],
+    "sourceId": "lbcf-1689",
+    "body": "God hath appointed a Day wherein he will judge the world in Righteousness, by Jesus Christ; to whom all power and judgement is given of the Father; in which Day not only the Apostate Angels shall be judged; but likewise all persons that have lived upon the Earth, shall appear before the Tribunal of Christ;",
+    "locus": "32.1, part 1 of 2"
+  },
+  {
+    "id": "doc-keach-1",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "God is the first and best of beings.",
+    "locus": "1",
+    "prompt": "Who is the first and best of beings?"
+  },
+  {
+    "id": "doc-keach-3",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The light of nature in man, and the works of God, plainly declare that there is a God; but His Word and Spirit only, do effectually reveal Him unto us for our salvation.",
+    "locus": "3",
+    "prompt": "How do we know there is a God?"
+  },
+  {
+    "id": "doc-keach-6",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "All men are not only permitted, but commanded and exhorted, to read, hear, and understand the Scriptures.",
+    "locus": "6",
+    "prompt": "May all men make use of the Scriptures?"
+  },
+  {
+    "id": "doc-keach-9",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "There is but one only, the living and true God.",
+    "locus": "9",
+    "prompt": "Are there more gods than one?"
+  },
+  {
+    "id": "doc-keach-12",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "God executes His decrees in the works of creation and providence.",
+    "locus": "12",
+    "prompt": "How does God execute His decrees?"
+  },
+  {
+    "id": "doc-keach-15",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "God's works of providence are His most holy, wise, and powerful preserving and governing all His creatures, and all their actions.",
+    "locus": "15",
+    "prompt": "What are God's works of providence?"
+  },
+  {
+    "id": "doc-keach-18",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "Sin is any want of conformity unto, or transgression of, the law of God.",
+    "locus": "18",
+    "prompt": "What is sin?"
+  },
+  {
+    "id": "doc-keach-21",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The fall brought mankind into an estate of sin and misery.",
+    "locus": "21",
+    "prompt": "Into what estate did the fall bring mankind?"
+  },
+  {
+    "id": "doc-keach-24",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "God, out of His mere good pleasure, from all eternity, having chosen a people to everlasting life, did enter into a covenant of grace, to deliver them out of the estate of sin and misery, and to bring them into an estate of salvation, by a Redeemer.",
+    "locus": "24",
+    "prompt": "Did God leave all mankind to perish in the estate of sin and misery?"
+  },
+  {
+    "id": "doc-keach-27",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "Christ, as our Redeemer, executes the offices of a prophet, of a priest, and of a king, both in His estate of humiliation and exaltation.",
+    "locus": "27",
+    "prompt": "What offices does Christ execute as our Redeemer?"
+  },
+  {
+    "id": "doc-keach-30",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "Christ executes the office of a king, in subduing us to Himself, in ruling and defending us, and in restraining and conquering all His and our enemies.",
+    "locus": "30",
+    "prompt": "How does Christ execute the office of a king?"
+  },
+  {
+    "id": "doc-keach-32",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "Christ's exaltation consists in His rising again from the dead on the third day, in ascending up into heaven, in sitting at the right hand of God the Father, and in coming to judge the world at the last day.",
+    "locus": "32",
+    "prompt": "Wherein consists Christ's exaltation?"
+  },
+  {
+    "id": "doc-keach-35",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "Effectual calling is the work of God's Spirit, whereby, convincing us of our sin and misery, enlightening our minds in the knowledge of Christ, and renewing our wills, He does persuade and enable us to embrace Jesus Christ, freely offered to us in the Gospel.",
+    "locus": "35",
+    "prompt": "What is effectual calling?"
+  },
+  {
+    "id": "doc-keach-38",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "Adoption is an act of God's free grace, whereby we are received into the number, and have a right to all the privileges of the sons of God.",
+    "locus": "38",
+    "prompt": "What is adoption?"
+  },
+  {
+    "id": "doc-keach-41",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The souls of believers are at death made perfect in holiness, and do immediately pass into glory, and their bodies, being still united to Christ, do rest in their graves till the resurrection.",
+    "locus": "41",
+    "prompt": "What benefits do believers receive from Christ at death?"
+  },
+  {
+    "id": "doc-keach-44",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "At the day of judgement, the bodies of the wicked, being raised out of their graves, shall be sentenced, together with their souls, to unspeakable torments with the devil and his angels forever.",
+    "locus": "44",
+    "prompt": "What shall be done to the wicked at the day of judgement?"
+  },
+  {
+    "id": "doc-keach-47",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The moral law is summarily comprehended in the Ten Commandments.",
+    "locus": "47",
+    "prompt": "Where is the moral law summarily comprehended?"
+  },
+  {
+    "id": "doc-keach-50",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The preface to the Ten Commandments teaches us, that because God is the Lord, and our God and Redeemer, therefore we are bound to keep all His commandments.",
+    "locus": "50",
+    "prompt": "What does the preface to the Ten Commandments teach us?"
+  },
+  {
+    "id": "doc-keach-53",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The first commandment forbids the denying, or not worshipping and glorifying the true God, as God and our God; and the giving that worship and glory to any other, which is due unto Him alone.",
+    "locus": "53",
+    "prompt": "What is forbidden in the first commandment?"
+  },
+  {
+    "id": "doc-keach-57",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The second commandment forbids the worshipping of God by images, or any other way not appointed in His Word.",
+    "locus": "57",
+    "prompt": "What is forbidden in the second commandment?"
+  },
+  {
+    "id": "doc-keach-60",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The third commandment requires the holy and reverent use of God's names, titles, attributes, ordinances, words, and works.",
+    "locus": "60",
+    "prompt": "What is required in the third commandment?"
+  },
+  {
+    "id": "doc-keach-62",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The reason annexed to the third commandment is, that howsoever the breakers of this commandment may escape punishment from men, yet the Lord our God will not suffer them to escape His righteous judgment.",
+    "locus": "62",
+    "prompt": "What is the reason annexed to the third commandment?"
+  },
+  {
+    "id": "doc-keach-66",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The Sabbath is to sanctified by a holy resting all that day, even from such worldly employments and recreations as are lawful on other days, and spending the time in the public and private exercises of God's worship, except so much as is to be taken up in the works of necessity and mercy.",
+    "locus": "66",
+    "prompt": "How is the Sabbath to be sanctified?"
+  },
+  {
+    "id": "doc-keach-69",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The fifth commandment is, \"Honor thy father and thy mother, that thy days may be long upon the land which the Lord thy God giveth thee.\"",
+    "locus": "69",
+    "prompt": "Which is the fifth commandment?"
+  },
+  {
+    "id": "doc-keach-72",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The reason annexed to the fifth commandment is a promise of long life and prosperity (as far as it shall serve God's glory and their own good), to all such as keep this commandment.",
+    "locus": "72",
+    "prompt": "What is the reason annexed to the fifth commandment?"
+  },
+  {
+    "id": "doc-keach-75",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The sixth commandment forbids the taking away our own life, or the life of our neighbor unjustly, or whatsoever tends thereto.",
+    "locus": "75",
+    "prompt": "What is forbidden in the sixth commandment?"
+  },
+  {
+    "id": "doc-keach-78",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The seventh commandment forbids all unchaste thoughts, words, and actions.",
+    "locus": "78",
+    "prompt": "What is forbidden in the seventh commandment?"
+  },
+  {
+    "id": "doc-keach-81",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The eighth commandment forbids whatsoever does or may unjustly hinder our own or our neighbor's wealth or outward state.",
+    "locus": "81",
+    "prompt": "What is forbidden in the eighth commandment?"
+  },
+  {
+    "id": "doc-keach-84",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The ninth commandment forbids whatsoever is pre- judicial to truth, or injurious to our own, or our neighbor's good name.",
+    "locus": "84",
+    "prompt": "What is forbidden in the ninth commandment?"
+  },
+  {
+    "id": "doc-keach-87",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The tenth commandment forbids all discontentment with our own estate, envying or grieving at the good of our neighbor, and all inordinate motions and affections to anything that is his.",
+    "locus": "87",
+    "prompt": "What is forbidden in the tenth commandment?"
+  },
+  {
+    "id": "doc-keach-90",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "Some sins in themselves and by reason of several aggravations, are more heinous in the sight of God than others.",
+    "locus": "90",
+    "prompt": "Are all transgressions of the law equally heinous?"
+  },
+  {
+    "id": "doc-keach-92",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "To escape the wrath and curse of God due to us for sin, God requires of us faith in Jesus Christ, repentance unto life, with the diligent use of all the outward and ordinary means whereby Christ communicates to us the benefits of redemption.",
+    "locus": "92",
+    "prompt": "What does God require of us, that we may escape His wrath and curse, due to us for sin?"
+  },
+  {
+    "id": "doc-keach-95",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The outward and ordinary means whereby Christ communicates to us the benefits of redemption are His ordinances, especially the Word, Baptism, the Lord's Supper and Prayer; all which are made effectual to the elect for salvation.",
+    "locus": "95",
+    "prompt": "What are the outward and ordinary means whereby Christ communicates to us the benefits of redemption?"
+  },
+  {
+    "id": "doc-keach-98",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "Baptism and the Lord's Supper become effectual means of salvation, not from any virtue in them or in him that administers them, but only by the blessing of Christ and the working of His Spirit in them that by faith receive them.",
+    "locus": "98",
+    "prompt": "How do Baptism and the Lord's Supper become effectual means of salvation?"
+  },
+  {
+    "id": "doc-keach-101",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "Baptism is to be administered to all those who actually profess repentance towards God, faith in, and obedience to our Lord Jesus Christ; and to none other.",
+    "locus": "101",
+    "prompt": "To whom is Baptism to be administered?"
+  },
+  {
+    "id": "doc-keach-104",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "It is the duty of those who are rightly baptized to give up (join) themselves to some visible and orderly church of Jesus Christ, that they may walk in all the commandments and ordinances of the Lord blameless.",
+    "locus": "104",
+    "prompt": "What is the duty of those who are rightly baptized?"
+  },
+  {
+    "id": "doc-keach-107",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The Lord's Supper is a holy ordinance, wherein, by giving and receiving bread and wine, according to Christ's appointment, His death is showed forth, and the worthy receivers are, not after a corporeal and carnal manner, but by faith, made partakers of His body and blood, with all His benefits, to their spiritual nourishment, and growth in grace.",
+    "locus": "107",
+    "prompt": "What is the Lord's Supper?"
+  },
+  {
+    "id": "doc-keach-110",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "The whole Word of God is of use to direct us in prayer, but the special rule of direction is that prayer, which Christ taught His disciples, commonly called the Lord's Prayer.",
+    "locus": "110",
+    "prompt": "What rule has God given for our direction in prayer?"
+  },
+  {
+    "id": "doc-keach-113",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "In the second petition, which is \"Thy kingdom come,\" we pray that satan's kingdom may be destroyed, and that the kingdom of grace may be advanced; ourselves and others brought into it, and kept in it, and that the kingdom of glory may be hastened.",
+    "locus": "113",
+    "prompt": "What do we pray for in the second petition?"
+  },
+  {
+    "id": "doc-keach-116",
+    "type": "doctrine",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "keach"
+    ],
+    "sourceId": "keach",
+    "body": "In the fifth petition, which is, \"And forgive us our debts, as we forgive our debtors,\" we pray that God, for Christ's sake, would freely pardon all our sins; which we are the rather encouraged to ask, because by His grace we are enabled from the heart to forgive others.",
+    "locus": "116",
+    "prompt": "What do we pray for in the fifth petition?"
+  },
+  {
+    "id": "doc-apostles-1",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "apostles"
+    ],
+    "sourceId": "apostles-creed",
+    "body": "I believe in God, the Father almighty, creator of heaven and earth.",
+    "locus": "1"
+  },
+  {
+    "id": "doc-apostles-2",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "apostles"
+    ],
+    "sourceId": "apostles-creed",
+    "body": "I believe in Jesus Christ, God's only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended to the dead. On the third day he rose again; he ascended into heaven, he is seated at the right hand of the Father, and he will come to judge the living and the dead.",
+    "locus": "2"
+  },
+  {
+    "id": "doc-apostles-3",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "apostles"
+    ],
+    "sourceId": "apostles-creed",
+    "body": "I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and the life everlasting. Amen.",
+    "locus": "3"
+  },
+  {
+    "id": "doc-nicene-1",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "nicene"
+    ],
+    "sourceId": "nicene-creed",
+    "body": "We believe in one God, the Father Almighty, Maker of heaven and earth, and of all things visible and invisible.",
+    "locus": "1"
+  },
+  {
+    "id": "doc-nicene-2",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "nicene"
+    ],
+    "sourceId": "nicene-creed",
+    "body": "And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all worlds; God of God, Light of Light, very God of very God; begotten, not made, being of one substance with the Father, by whom all things were made.",
+    "locus": "2"
+  },
+  {
+    "id": "doc-nicene-3-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "nicene"
+    ],
+    "sourceId": "nicene-creed",
+    "body": "Who, for us men and for our salvation, came down from heaven, and was incarnate by the Holy Spirit of the virgin Mary, and was made man; and was crucified also for us under Pontius Pilate; He suffered and was buried; and the third day He rose again, according to the Scriptures; and ascended into heaven, and sits on the right hand of the Father;",
+    "locus": "3, part 1 of 2"
+  },
+  {
+    "id": "doc-nicene-3-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "nicene"
+    ],
+    "sourceId": "nicene-creed",
+    "body": "and He shall come again, with glory, to judge the quick and the dead; whose kingdom shall have no end.",
+    "locus": "3, part 2 of 2"
+  },
+  {
+    "id": "doc-nicene-4",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "nicene"
+    ],
+    "sourceId": "nicene-creed",
+    "body": "And we believe in the Holy Ghost, the Lord and Giver of Life; who proceeds from the Father and the Son; who with the Father and the Son together is worshipped and glorified; who spoke by the prophets.",
+    "locus": "4"
+  },
+  {
+    "id": "doc-nicene-5",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "nicene"
+    ],
+    "sourceId": "nicene-creed",
+    "body": "And we believe in one holy catholic and apostolic Church. We acknowledge one baptism for the remission of sins; and we look for the resurrection of the dead, and the life of the world to come. Amen.",
+    "locus": "5"
+  },
+  {
+    "id": "doc-athanasian-1-part-1-of-7",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "athanasian"
+    ],
+    "sourceId": "athanasian-creed",
+    "body": "Whosoever will be saved, before all things it is necessary that he hold the catholic faith. Which faith unless every one do keep whole and undefiled, without doubt he shall perish everlastingly. And the catholic faith is this: that we worship one God in Trinity, and Trinity in Unity; neither confounding the Persons, nor dividing the Essence.",
+    "locus": "1, part 1 of 7"
+  },
+  {
+    "id": "doc-athanasian-1-part-2-of-7",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "athanasian"
+    ],
+    "sourceId": "athanasian-creed",
+    "body": "For there is one Person of the Father; another of the Son; and another of the Holy Ghost. But the Godhead of the Father, of the Son, and of the Holy Ghost, is all one; the Glory equal, the Majesty coeternal. Such as the Father is; such is the Son; and such is the Holy Ghost. The Father uncreated; the Son uncreated; and the Holy Ghost uncreated.",
+    "locus": "1, part 2 of 7"
+  },
+  {
+    "id": "doc-athanasian-1-part-3-of-7",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "athanasian"
+    ],
+    "sourceId": "athanasian-creed",
+    "body": "The Father unlimited; the Son unlimited; and the Holy Ghost unlimited. The Father eternal; the Son eternal; and the Holy Ghost eternal. And yet they are not three eternals; but one eternal. As also there are not three uncreated; nor three infinites, but one uncreated; and one infinite. So likewise the Father is Almighty; the Son Almighty; and the Holy Ghost Almighty.",
+    "locus": "1, part 3 of 7"
+  },
+  {
+    "id": "doc-athanasian-1-part-5-of-7",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "athanasian"
+    ],
+    "sourceId": "athanasian-creed",
+    "body": "For like as we are compelled by the Christian verity; to acknowledge every Person by himself to be God and Lord; So are we forbidden by the catholic religion; to say, There are three Gods, or three Lords. The Father is made of none; neither created, nor begotten. The Son is of the Father alone; not made, nor created; but begotten.",
+    "locus": "1, part 5 of 7"
+  },
+  {
+    "id": "doc-athanasian-1-part-6-of-7",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "athanasian"
+    ],
+    "sourceId": "athanasian-creed",
+    "body": "The Holy Ghost is of the Father and of the Son; neither made, nor created, nor begotten; but proceeding. So there is one Father, not three Fathers; one Son, not three Sons; one Holy Ghost, not three Holy Ghosts. And in this Trinity none is before, or after another; none is greater, or less than another. But the whole three Persons are coeternal, and coequal.",
+    "locus": "1, part 6 of 7"
+  },
+  {
+    "id": "doc-athanasian-1-part-7-of-7",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "athanasian"
+    ],
+    "sourceId": "athanasian-creed",
+    "body": "So that in all things, as aforesaid; the Unity in Trinity, and the Trinity in Unity, is to be worshipped. He therefore that will be saved, let him thus think of the Trinity.",
+    "locus": "1, part 7 of 7"
+  },
+  {
+    "id": "doc-athanasian-2-part-2-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "athanasian"
+    ],
+    "sourceId": "athanasian-creed",
+    "body": "Perfect God; and perfect Man, of a reasonable soul and human flesh subsisting. Equal to the Father, as touching his Godhead; and inferior to the Father as touching his Manhood. Who although he is God and Man; yet he is not two, but one Christ. One; not by conversion of the Godhead into flesh; but by assumption of the Manhood by God.",
+    "locus": "2, part 2 of 4"
+  },
+  {
+    "id": "doc-athanasian-2-part-3-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "athanasian"
+    ],
+    "sourceId": "athanasian-creed",
+    "body": "One altogether; not by confusion of Essence; but by unity of Person. For as the reasonable soul and flesh is one man; so God and Man is one Christ; Who suffered for our salvation; descended into hell; rose again the third day from the dead. He ascended into heaven, he sitteth on the right hand of the God the Father Almighty, from whence he will come to judge the living and the dead.",
+    "locus": "2, part 3 of 4"
+  },
+  {
+    "id": "doc-chalcedon-part-1-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "chalcedon"
+    ],
+    "sourceId": "chalcedon",
+    "body": "Therefore, following the holy fathers, we all with one accord teach men to acknowledge one and the same Son, our Lord Jesus Christ, at once complete in Godhead and complete in manhood, truly God and truly man, consisting also of a reasonable soul and body; of one substance with the Father as regards his Godhead, and at the same time of one substance with us as regards his manhood;",
+    "locus": "part 1 of 4"
+  },
+  {
+    "id": "doc-chalcedon-part-2-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "chalcedon"
+    ],
+    "sourceId": "chalcedon",
+    "body": "like us in all respects, apart from sin; as regards his Godhead, begotten of the Father before the ages, but yet as regards his manhood begotten, for us men and for our salvation, of Mary the Virgin, the God-bearer; one and the same Christ, Son, Lord, Only-begotten, recognized in two natures, without confusion, without change, without division, without separation;",
+    "locus": "part 2 of 4"
+  },
+  {
+    "id": "doc-chalcedon-part-3-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "chalcedon"
+    ],
+    "sourceId": "chalcedon",
+    "body": "the distinction of natures being in no way annulled by the union, but rather the characteristics of each nature being preserved and coming together to form one person and subsistence, not as parted or separated into two persons, but one and the same Son and Only-begotten God the Word, Lord Jesus Christ;",
+    "locus": "part 3 of 4"
+  },
+  {
+    "id": "doc-chalcedon-part-4-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "chalcedon"
+    ],
+    "sourceId": "chalcedon",
+    "body": "even as the prophets from earliest times spoke of him, and our Lord Jesus Christ himself taught us, and the creed of the fathers has handed down to us.",
+    "locus": "part 4 of 4"
+  },
+  {
+    "id": "doc-orange-1-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-1"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "If anyone denies that it is the whole man, that is, both body and soul, that was \"changed for the worse\" through the offense of Adam's sin, but believes that the freedom of the soul remains unimpaired and that only the body is subject to corruption, he is deceived by the error of Pelagius and contradicts the scripture which says, \"The soul that sins shall die\" (Ezek.",
+    "locus": "1, part 1 of 2"
+  },
+  {
+    "id": "doc-orange-3",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-3"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "If anyone says that the grace of God can be conferred as a result of human prayer, but that it is not grace itself which makes us pray to God, he contradicts the prophet Isaiah, or the Apostle who says the same thing, \"I have been found by those who did not seek me; I have shown myself to those who did not ask for me\" (Rom 10:20, quoting Isa. 65:1).",
+    "locus": "3"
+  },
+  {
+    "id": "doc-orange-4-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-4"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "8:35, LXX), and the salutary word of the Apostle, \"For God is at work in you, both to will and to work for his good pleasure\" (Phil. 2:13).",
+    "locus": "4, part 2 of 2"
+  },
+  {
+    "id": "doc-orange-6-part-2-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-6"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "or if anyone makes the assistance of grace depend on the humility or obedience of man and does not agree that it is a gift of grace itself that we are obedient and humble, he contradicts the Apostle who says, \"What have you that you did not receive?\"",
+    "locus": "6, part 2 of 3"
+  },
+  {
+    "id": "doc-orange-7-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-7"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "our competence is from God\" (2 Cor.",
+    "locus": "7, part 1 of 2"
+  },
+  {
+    "id": "doc-orange-8-part-2-of-4",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-8"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "For he denies that the free will of all men has been weakened through the sin of the first man, or at least holds that it has been affected in such a way that they have still the ability to seek the mystery of eternal salvation by themselves without the revelation of God.",
+    "locus": "8, part 2 of 4"
+  },
+  {
+    "id": "doc-orange-10",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-10"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "Concerning the succor of God. The succor of God is to be ever sought by the regenerate and converted also, so that they may be able to come to a successful end or persevere in good works.",
+    "locus": "10"
+  },
+  {
+    "id": "doc-orange-12",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-12"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "Of what sort we are whom God loves. God loves us for what we shall be by his gift, and not by our own deserving.",
+    "locus": "12"
+  },
+  {
+    "id": "doc-orange-15",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-15"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "Adam was changed, but for the worse, through his own iniquity from what God made him. Through the grace of God the believer is changed, but for the better, from what his iniquity has done for him. The one, therefore, was the change brought about by the first sinner; the other, according to the Psalmist, is the change of the right hand of the Most High (Ps. 77:10).",
+    "locus": "15"
+  },
+  {
+    "id": "doc-orange-16-part-2-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-16"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "4:8, quoting Ps. 68:18). It is from this source that any man has what he does; but whoever denies that he has it from this source either does not truly have it, or else \"even what he has will be taken away\" (Matt. 25:29).",
+    "locus": "16, part 2 of 2"
+  },
+  {
+    "id": "doc-orange-18",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-18"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "That grace is not preceded by merit. Recompense is due to good works if they are performed; but grace, to which we have no claim, precedes them, to enable them to be done.",
+    "locus": "18"
+  },
+  {
+    "id": "doc-orange-21-part-1-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-21"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "Concerning nature and grace. As the Apostle most truly says to those who would be justified by the law and have fallen from grace, \"If justification were through the law, then Christ died to no purpose\" (Gal.",
+    "locus": "21, part 1 of 3"
+  },
+  {
+    "id": "doc-orange-21-part-3-of-3",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-21"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "Not in vain did Christ therefore die, so that the law might be fulfilled by him who said, \"I have come not to abolish them (the law and prophets) but to fulfill them\" (Matt. 5:17), and that the nature which had been destroyed by Adam might be restored by him who said that he had come \"to seek and to save the lost\" (Luke 19:10).",
+    "locus": "21, part 3 of 3"
+  },
+  {
+    "id": "doc-orange-24-part-1-of-2",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-24"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "Concerning the branches of the vine. The branches on the vine do not give life to the vine, but receive life from it; thus the vine is related to its branches in such a way that it supplies them with what they need to live, and does not take this from them. Thus it is to the advantage of the disciples, not Christ, both to have Christ abiding in them and to abide in Christ.",
+    "locus": "24, part 1 of 2"
+  },
+  {
+    "id": "doc-orange-25",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon-25"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "Concerning the love with which we love God. It is wholly a gift of God to love God. He who loves, even though he is not loved, allowed himself to be loved. We are loved, even when we displease him, so that we might have means to please him. For the Spirit, whom we love with the Father and the Son, has poured into our hearts the love of the Father and the Son (Rom. 5:5).",
+    "locus": "25"
+  },
+  {
+    "id": "doc-orange-c-part-2-of-9",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "conclusion"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "We therefore believe that the glorious faith which was given to Abel the righteous, and Noah, and Abraham, and Isaac, and Jacob, and to all the saints of old, and which the Apostle Paul1 commends in extolling them (Heb. 11), was not given through natural goodness as it was before to Adam, but was bestowed by the grace of God.",
+    "locus": "C, part 2 of 9"
+  },
+  {
+    "id": "doc-orange-c-part-5-of-9",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "conclusion"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "He did not say, \"because I was faithful,\" but \"to be faithful.\" And again, \"What have you that you did not receive?\" (1 Cor. 4:7). And again, \"Every good endowment and every perfect gift is from above, coming down from the Father of lights\" (Jas. 1:17). And again, \"No one can receive anything except what is given him from heaven\" (John 3:27).",
+    "locus": "C, part 5 of 9"
+  },
+  {
+    "id": "doc-orange-c-part-7-of-9",
+    "type": "doctrine",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "conclusion"
+    ],
+    "sourceId": "council-of-orange",
+    "body": "According to the catholic faith we also believe that after grace has been received through baptism, all baptized persons have the ability and responsibility, if they desire to labor faithfully, to perform with the aid and cooperation of Christ what is of essential importance in regard to the salvation of their soul.",
+    "locus": "C, part 7 of 9"
+  }
+]

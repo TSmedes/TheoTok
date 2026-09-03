@@ -1,0 +1,208 @@
+[
+  {
+    "id": "doc-augsburg-4",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["justification", "faith", "grace"],
+    "weight": 1.3,
+    "sourceId": "augsburg",
+    "locus": "IV",
+    "prompt": "Of Justification.",
+    "body": "Men cannot be justified before God by their own strength, merits, or works, but are freely justified for Christ's sake, through faith, when they believe that they are received into favour, and that their sins are forgiven for Christ's sake.",
+    "proofTexts": [{ "book": "ROM", "chapter": 3, "verseStart": 28 }]
+  },
+  {
+    "id": "doc-augsburg-7",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["church", "sacraments", "unity"],
+    "sourceId": "augsburg",
+    "locus": "VII",
+    "prompt": "Of the Church.",
+    "body": "The Church is the congregation of saints, in which the Gospel is rightly taught and the Sacraments rightly administered. And to the true unity of the Church it is enough to agree concerning the doctrine of the Gospel and the administration of the Sacraments."
+  },
+  {
+    "id": "doc-augsburg-20",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["good-works", "faith"],
+    "sourceId": "augsburg",
+    "locus": "XX",
+    "prompt": "Of Good Works.",
+    "body": "It is also taught among us that good works should and must be done, not that we are to rely on them to earn grace, but because it is God's will."
+  },
+  {
+    "id": "doc-small-catechism-creed-1",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["creation", "providence"],
+    "sourceId": "small-catechism",
+    "locus": "Creed, First Article",
+    "prompt": "What does this mean?",
+    "body": "I believe that God has made me and all creatures; that he has given me my body and soul, eyes, ears, and all my members, my reason and all my senses, and still takes care of them."
+  },
+  {
+    "id": "doc-small-catechism-lp-4",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["prayer", "providence", "daily-bread"],
+    "sourceId": "small-catechism",
+    "locus": "Lord's Prayer, Fourth Petition",
+    "prompt": "Give us this day our daily bread. What does this mean?",
+    "body": "God gives daily bread, indeed without our prayer, also to all the wicked; but we pray in this petition that he would lead us to know it, and to receive our daily bread with thanksgiving."
+  },
+  {
+    "id": "doc-small-catechism-baptism-1",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["baptism", "sacraments"],
+    "sourceId": "small-catechism",
+    "locus": "Baptism, I",
+    "prompt": "What is Baptism?",
+    "body": "Baptism is not simply plain water, but it is water comprehended in God's command and connected with God's Word."
+  },
+  {
+    "id": "doc-articles-39-6",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["scripture", "sufficiency", "authority"],
+    "weight": 1.2,
+    "sourceId": "articles-39",
+    "locus": "VI",
+    "prompt": "Of the Sufficiency of the Holy Scriptures for Salvation.",
+    "body": "Holy Scripture containeth all things necessary to salvation: so that whatsoever is not read therein, nor may be proved thereby, is not to be required of any man, that it should be believed as an article of the Faith.",
+    "proofTexts": [{ "book": "2TI", "chapter": 3, "verseStart": 16, "verseEnd": 17 }]
+  },
+  {
+    "id": "doc-articles-39-11",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["justification", "faith"],
+    "sourceId": "articles-39",
+    "locus": "XI",
+    "prompt": "Of the Justification of Man.",
+    "body": "We are accounted righteous before God, only for the merit of our Lord and Saviour Jesus Christ by faith, and not for our own works or deservings."
+  },
+  {
+    "id": "doc-articles-39-19",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["church", "word", "sacraments"],
+    "sourceId": "articles-39",
+    "locus": "XIX",
+    "prompt": "Of the Church.",
+    "body": "The visible Church of Christ is a congregation of faithful men, in the which the pure Word of God is preached, and the Sacraments be duly ministered according to Christ's ordinance in all those things that of necessity are requisite to the same."
+  },
+  {
+    "id": "doc-bcp-general-confession",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["confession", "prayer", "repentance"],
+    "weight": 1.2,
+    "sourceId": "bcp-1662",
+    "locus": "Morning Prayer",
+    "prompt": "The General Confession.",
+    "body": "We have left undone those things which we ought to have done, and we have done those things which we ought not to have done; and there is no health in us. But thou, O Lord, have mercy upon us, miserable offenders."
+  },
+  {
+    "id": "doc-articles-religion-5",
+    "type": "doctrine",
+    "traditions": ["methodist"],
+    "themes": ["scripture", "sufficiency", "authority"],
+    "sourceId": "articles-religion",
+    "locus": "V",
+    "prompt": "Of the Sufficiency of the Holy Scriptures for Salvation.",
+    "body": "The Holy Scriptures contain all things necessary to salvation; so that whatsoever is not read therein, nor may be proved thereby, is not to be required of any man that it should be believed as an article of faith."
+  },
+  {
+    "id": "doc-articles-religion-9",
+    "type": "doctrine",
+    "traditions": ["methodist"],
+    "themes": ["justification", "faith"],
+    "sourceId": "articles-religion",
+    "locus": "IX",
+    "prompt": "Of the Justification of Man.",
+    "body": "We are accounted righteous before God only for the merit of our Lord and Saviour Jesus Christ, by faith, and not for our own works or deservings."
+  },
+  {
+    "id": "doc-wesley-sermons-catholic-spirit",
+    "type": "doctrine",
+    "traditions": ["methodist"],
+    "themes": ["charity", "unity", "conscience"],
+    "sourceId": "wesley-sermons",
+    "locus": "Catholic Spirit",
+    "body": "Though we cannot think alike, may we not love alike? May we not be of one heart, though we are not of one opinion? Without all doubt, we may.",
+    "weight": 1.2
+  },
+  {
+    "id": "doc-baltimore-6",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["chief-end", "beatitude", "purpose"],
+    "weight": 1.4,
+    "sourceId": "baltimore",
+    "locus": "6",
+    "prompt": "Why did God make you?",
+    "body": "God made me to know him, to love him, and to serve him in this world, and to be happy with him for ever in heaven."
+  },
+  {
+    "id": "doc-baltimore-1",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["creation"],
+    "sourceId": "baltimore",
+    "locus": "1",
+    "prompt": "Who made the world?",
+    "body": "God made the world."
+  },
+  {
+    "id": "doc-baltimore-4",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["anthropology", "image-of-god", "soul"],
+    "sourceId": "baltimore",
+    "locus": "4",
+    "prompt": "What is man?",
+    "body": "Man is a creature composed of body and soul, and made to the image and likeness of God."
+  },
+  {
+    "id": "doc-trent-catechism-creed",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["faith", "creed", "catechesis"],
+    "sourceId": "trent-catechism",
+    "locus": "Preface",
+    "body": "The knowledge of the things of faith is not to be sought from the reasonings of men, but from the word of God; and all Christian doctrine is contained in the Creed, the Sacraments, the Commandments, and the Lord's Prayer."
+  },
+  {
+    "id": "doc-philaret-1",
+    "type": "doctrine",
+    "traditions": ["orthodox"],
+    "themes": ["catechesis", "faith"],
+    "sourceId": "philaret",
+    "locus": "1",
+    "prompt": "What is an Orthodox Catechism?",
+    "body": "An Orthodox Catechism is instruction in the Orthodox Christian faith, to be taught to every Christian, to enable him to please God and save his own soul."
+  },
+  {
+    "id": "doc-philaret-3",
+    "type": "doctrine",
+    "traditions": ["orthodox"],
+    "themes": ["faith", "hope", "love"],
+    "sourceId": "philaret",
+    "locus": "3",
+    "prompt": "What is necessary in order to please God and to save one's own soul?",
+    "body": "In the first place, a knowledge of the true God, and a right faith in him; in the second place, a life according to faith, and good works.",
+    "proofTexts": [{ "book": "HEB", "chapter": 11, "verseStart": 6 }]
+  },
+  {
+    "id": "doc-philaret-8",
+    "type": "doctrine",
+    "traditions": ["orthodox"],
+    "themes": ["tradition", "scripture", "authority"],
+    "sourceId": "philaret",
+    "locus": "8",
+    "prompt": "What is Holy Tradition?",
+    "body": "By the name of Holy Tradition is meant the doctrine of the faith, the law of God, the sacraments, and the ritual as handed down by the true believers and worshippers of God by word and example from one to another, and from generation to generation."
+  }
+]

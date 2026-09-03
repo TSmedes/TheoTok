@@ -6,15 +6,18 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "theotok",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#050509",
+    "primaryColor": "#050509",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "bundleIdentifier": "com.toblerone72.theotok",
+      "supportsTablet": true
     },
     "android": {
+      "package": "com.toblerone72.theotok",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#1C2128",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false
@@ -28,11 +31,15 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#050509",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 140,
+          "resizeMode": "contain"
         }
-      ]
+      ],
+      "expo-sharing",
+      "expo-notifications",
+      "expo-system-ui"
     ],
     "experiments": {
       "typedRoutes": true,

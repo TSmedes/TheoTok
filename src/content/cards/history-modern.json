@@ -1,0 +1,250 @@
+[
+  {
+    "id": "his-luther-95-theses",
+    "type": "history",
+    "traditions": ["lutheran", "reformed"],
+    "themes": ["reformation", "indulgences", "protest"],
+    "weight": 1.4,
+    "headline": "He was proposing an academic debate, not starting a schism.",
+    "body": "The Ninety-Five Theses were written in Latin, in the format of a university disputation, and addressed a specific abuse in the sale of indulgences. Luther expected a scholarly argument. Someone translated them into German and put them through a printing press, and the argument escaped.",
+    "year": 1517,
+    "sourceId": "luther-95"
+  },
+  {
+    "id": "his-luther-first-thesis",
+    "type": "history",
+    "traditions": ["lutheran"],
+    "themes": ["repentance", "reformation"],
+    "headline": "The first thesis is about a mistranslation.",
+    "body": "Luther's opening move was philological. The Vulgate rendered Jesus's command as \"do penance\"; the Greek says \"repent\". So thesis one: when our Lord said repent, he willed that the whole life of believers should be repentance — not an act performed, but a direction travelled.",
+    "year": 1517,
+    "sourceId": "luther-95",
+    "locus": "1"
+  },
+  {
+    "id": "his-calvin-detour",
+    "type": "history",
+    "traditions": ["reformed"],
+    "themes": ["calling", "providence", "reformation"],
+    "weight": 1.2,
+    "headline": "He was only passing through Geneva for one night.",
+    "body": "Calvin wanted a quiet life of scholarship and was travelling to Strasbourg when a war forced a detour through Geneva. Farel found him at the inn and told him God would curse his studies if he refused to stay. Calvin, by his own account terrified, stayed, and spent most of his life there.",
+    "year": 1536,
+    "sourceId": "calvin-institutes",
+    "locus": "preface"
+  },
+  {
+    "id": "his-calvin-knowledge",
+    "type": "history",
+    "traditions": ["reformed"],
+    "themes": ["knowledge", "self-knowledge", "theology"],
+    "headline": "The Institutes open by refusing to say which comes first.",
+    "body": "Calvin begins with the claim that nearly all wisdom consists of two parts, the knowledge of God and of ourselves — and then admits he cannot say which precedes the other, since we never truly see ourselves without first looking at God, nor God without being confronted with ourselves.",
+    "year": 1559,
+    "sourceId": "calvin-institutes",
+    "locus": "I.1.1"
+  },
+  {
+    "id": "his-tyndale-last-words",
+    "type": "history",
+    "traditions": ["anglican", "baptist", "reformed"],
+    "themes": ["scripture", "translation", "martyrdom"],
+    "weight": 1.4,
+    "headline": "He was killed for translating, and his prayer was answered in three years.",
+    "body": "William Tyndale put the New Testament into English against the law and was strangled and burned for it. At the stake, by Foxe's account, he cried: Lord, open the King of England's eyes. Within three years an English Bible drawing heavily on his own work was licensed by that same king.",
+    "year": 1536,
+    "sourceId": "foxe"
+  },
+  {
+    "id": "his-tyndale-ploughboy",
+    "type": "history",
+    "traditions": ["anglican", "baptist"],
+    "themes": ["scripture", "translation", "literacy"],
+    "weight": 1.3,
+    "headline": "A boy behind a plough should know more Scripture than a priest.",
+    "body": "Arguing with a clergyman who valued the Pope's law above God's, Tyndale is reported to have said that if God spared his life he would see to it that a boy driving a plough knew more of the Scriptures than the man did. He then spent his life doing exactly that, in exile.",
+    "year": 1523,
+    "yearDisplay": "c. 1523",
+    "sourceId": "foxe"
+  },
+  {
+    "id": "his-cranmer-right-hand",
+    "type": "history",
+    "traditions": ["anglican", "reformed"],
+    "themes": ["martyrdom", "repentance", "reformation"],
+    "weight": 1.4,
+    "headline": "He put the hand in the fire first.",
+    "body": "Under pressure Thomas Cranmer had signed recantations of his Protestant convictions. Brought out to be burned anyway, he withdrew them publicly, and when the fire was lit he stretched his right hand into the flames ahead of the rest of him — the hand that had signed, he said, should suffer first.",
+    "year": 1556,
+    "sourceId": "foxe"
+  },
+  {
+    "id": "his-latimer-candle",
+    "type": "history",
+    "traditions": ["anglican", "reformed"],
+    "themes": ["martyrdom", "courage", "reformation"],
+    "weight": 1.3,
+    "headline": "Be of good comfort — we shall light such a candle.",
+    "body": "Hugh Latimer and Nicholas Ridley were burned together at Oxford. As the fire was lit Latimer is reported to have turned to Ridley: be of good comfort, and play the man; we shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.",
+    "year": 1555,
+    "sourceId": "foxe"
+  },
+  {
+    "id": "his-bcp-1549",
+    "type": "history",
+    "traditions": ["anglican"],
+    "themes": ["liturgy", "language", "worship"],
+    "headline": "A prayer book written to be heard, not admired.",
+    "body": "Cranmer's brief was to give England worship in a language the people understood. What he produced shaped the language itself: dearly beloved, till death us do part, ashes to ashes, the peace which passeth all understanding. Much of it is Tyndale's phrasing, set to a liturgical rhythm.",
+    "year": 1549,
+    "sourceId": "bcp-1662"
+  },
+  {
+    "id": "his-trent-response",
+    "type": "history",
+    "traditions": ["catholic"],
+    "themes": ["council", "reform", "counter-reformation"],
+    "headline": "The council took eighteen years and met in three separate stretches.",
+    "body": "Trent answered the Reformation and reformed a good deal that the reformers had complained about: it required bishops to reside in their dioceses, established seminaries for training clergy, and banned the sale of indulgences outright, while restating the doctrines under dispute.",
+    "year": 1563,
+    "yearDisplay": "1545-1563",
+    "sourceId": "trent-council"
+  },
+  {
+    "id": "his-kjv-committee",
+    "type": "history",
+    "traditions": ["anglican", "ecumenical"],
+    "themes": ["translation", "scripture", "collaboration"],
+    "weight": 1.2,
+    "headline": "The most influential book in English was written by a committee of forty-seven.",
+    "body": "Six companies at Westminster, Oxford and Cambridge each took a portion, then reviewed one another's work, then a general committee reviewed the whole aloud — because it was meant to be read in church. Committee prose is rarely beautiful. This is the exception.",
+    "year": 1611,
+    "sourceId": "kjv"
+  },
+  {
+    "id": "his-bunyan-prison",
+    "type": "history",
+    "traditions": ["baptist"],
+    "themes": ["imprisonment", "preaching", "conscience"],
+    "weight": 1.3,
+    "headline": "Twelve years in gaol because he would not promise to stop preaching.",
+    "body": "Bunyan was a tinker with no formal education, jailed for preaching without a licence. He could have walked out at any point by agreeing to stop. He did not, and wrote instead — including, eventually, the allegory that became the best-selling English book after the Bible.",
+    "year": 1660,
+    "yearDisplay": "1660-1672",
+    "sourceId": "bunyan-grace"
+  },
+  {
+    "id": "his-bunyan-pilgrim",
+    "type": "history",
+    "traditions": ["baptist", "reformed"],
+    "themes": ["allegory", "perseverance", "literature"],
+    "headline": "A book about walking, written by a man who could not leave his cell.",
+    "body": "The Pilgrim's Progress follows a traveller from the City of Destruction to the Celestial City, through the Slough of Despond, Vanity Fair and the Valley of the Shadow. Bunyan wrote much of it in prison, and gave English the vocabulary it still uses for spiritual struggle.",
+    "year": 1678,
+    "sourceId": "bunyan-pilgrims"
+  },
+  {
+    "id": "his-westminster-assembly",
+    "type": "history",
+    "traditions": ["reformed", "baptist"],
+    "themes": ["confession", "assembly", "catechesis"],
+    "headline": "It sat for over a thousand sessions during a civil war.",
+    "body": "The Westminster Assembly met in the middle of the English Civil War and worked for years, producing a confession, two catechisms and a directory for worship. The political settlement it was meant to serve collapsed; the documents outlived it and shaped Presbyterianism worldwide.",
+    "year": 1643,
+    "yearDisplay": "1643-1653",
+    "sourceId": "wcf"
+  },
+  {
+    "id": "his-edwards-awakening",
+    "type": "history",
+    "traditions": ["reformed"],
+    "themes": ["revival", "awakening", "observation"],
+    "headline": "He wrote up a revival the way a naturalist writes up a species.",
+    "body": "When an unusual religious stirring swept Northampton, Edwards recorded it with the care of a scientist: who was affected, at what ages, in what order, and what happened afterwards. The Faithful Narrative circulated widely and effectively taught the English-speaking world what to call a revival.",
+    "year": 1737,
+    "sourceId": "edwards-narrative"
+  },
+  {
+    "id": "his-whitefield-fields",
+    "type": "history",
+    "traditions": ["methodist", "anglican"],
+    "themes": ["preaching", "revival", "open-air"],
+    "headline": "Locked out of the churches, he preached to coal miners in a field.",
+    "body": "Whitefield found pulpits closed to him and went instead to Kingswood, near Bristol, to preach outdoors to colliers coming off shift. He noted the white streaks running down their blackened faces. Within weeks the crowds ran to thousands, and open-air preaching became a movement.",
+    "year": 1739,
+    "sourceId": "whitefield-journals"
+  },
+  {
+    "id": "his-wesley-aldersgate",
+    "type": "history",
+    "traditions": ["methodist", "anglican"],
+    "themes": ["conversion", "assurance", "revival"],
+    "weight": 1.3,
+    "headline": "A missionary who had already failed, listening to a preface read aloud.",
+    "body": "John Wesley had been a priest for years and a missionary to Georgia, and considered himself unconverted. At a meeting in Aldersgate Street someone was reading Luther's preface to Romans. He wrote afterwards: I felt my heart strangely warmed. I felt I did trust in Christ alone for salvation.",
+    "year": 1738,
+    "sourceId": "wesley-journal"
+  },
+  {
+    "id": "his-wesley-world-parish",
+    "type": "history",
+    "traditions": ["methodist"],
+    "themes": ["mission", "preaching", "order"],
+    "headline": "Told he had no parish, he claimed the world.",
+    "body": "Wesley's field preaching broke the parish system, and clergy objected that he had no business in their districts. His answer became the movement's motto: I look upon all the world as my parish. He is estimated to have ridden a quarter of a million miles on horseback making the point.",
+    "year": 1739,
+    "sourceId": "wesley-journal"
+  },
+  {
+    "id": "his-newton-amazing-grace",
+    "type": "history",
+    "traditions": ["anglican", "ecumenical"],
+    "themes": ["conversion", "slavery", "repentance"],
+    "weight": 1.3,
+    "headline": "The hymn was written for a Wednesday prayer meeting in a small village.",
+    "body": "John Newton had captained slave ships before becoming a curate at Olney, where he wrote a hymn each week to go with the sermon. Amazing Grace was one of them. Late in life he testified before Parliament against the trade he had once worked in.",
+    "year": 1772,
+    "sourceId": "schaff-history"
+  },
+  {
+    "id": "his-carey-expect-great-things",
+    "type": "history",
+    "traditions": ["baptist"],
+    "themes": ["mission", "vision", "obligation"],
+    "weight": 1.2,
+    "headline": "A cobbler with a homemade map argued the church back into mission.",
+    "body": "Carey mended shoes and taught himself languages, with a leather globe he had made hanging in his workshop. His Enquiry argued that the command to go into all the world had not expired with the apostles. He went to India and stayed forty years without a furlough.",
+    "year": 1792,
+    "sourceId": "carey-enquiry"
+  },
+  {
+    "id": "his-newman-development",
+    "type": "history",
+    "traditions": ["catholic", "anglican"],
+    "themes": ["doctrine", "development", "conversion"],
+    "headline": "To live is to change, and to be perfect is to have changed often.",
+    "body": "Newman was an Anglican leader working out how doctrine could develop over time without becoming a different religion. He finished the essay, and the argument carried him out of the Church of England and into Rome, at enormous personal cost to his friendships.",
+    "year": 1845,
+    "sourceId": "newman-apologia"
+  },
+  {
+    "id": "his-spurgeon-students",
+    "type": "history",
+    "traditions": ["baptist"],
+    "themes": ["preaching", "training", "humour"],
+    "headline": "His advice to preachers included when not to preach.",
+    "body": "Spurgeon trained hundreds of ministers and lectured them with unusual bluntness: on the minister's fainting fits, on sermons that go nowhere, and on the wisdom of stopping. He preached to thousands weekly while suffering from gout and recurring depression, and said so publicly.",
+    "year": 1875,
+    "sourceId": "spurgeon-lectures"
+  },
+  {
+    "id": "his-schaff-history",
+    "type": "history",
+    "traditions": ["ecumenical"],
+    "themes": ["scholarship", "history", "ecumenism"],
+    "headline": "The reference work behind half the footnotes in this app.",
+    "body": "Philip Schaff spent decades on a history of the church and on Creeds of Christendom, gathering the confessions of the Western traditions into one place with critical notes. A great deal of what is freely available today about these documents traces back through his editions.",
+    "year": 1890,
+    "sourceId": "schaff-history"
+  }
+]

@@ -1,12 +1,27 @@
 import type { ReactNode } from 'react';
+import type { SharedValue } from 'react-native-reanimated';
 
 export interface FeedRenderInfo<T> {
   item: T;
   index: number;
   /** Measured height of one page, so the card can fill it exactly. */
   height: number;
-  /** True only for the card currently snapped into view. Gates speech, animation, autoplay. */
+  /**
+   * True for the card occupying most of the viewport. Flips at the halfway
+   * crossing rather than on settle, so an entrance animation can start with the
+   * gesture — see `visualIndex.ts`. Gates animation and autoplay.
+   */
   isActive: boolean;
+  /**
+   * The feed's scroll offset, live on the UI thread, for motion that has to
+   * track the gesture rather than follow it.
+   *
+   * Null on web, which has no Reanimated: there the feed is a scroll-snapping
+   * DOM element and its motion is CSS. Consumers are platform-split and the web
+   * half never reads this, so the import above is type-only and no Reanimated
+   * runtime reaches the web bundle.
+   */
+  scrollY: SharedValue<number> | null;
 }
 
 export interface FeedProps<T> {

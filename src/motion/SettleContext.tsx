@@ -1,4 +1,5 @@
 import { createContext, useContext } from 'react';
+import type { SharedValue } from 'react-native-reanimated';
 
 import type { MotionPreference } from '@/store/preferences';
 
@@ -6,6 +7,15 @@ export interface SettleState {
   /** Whether this card is the one the reader is on. Drives the entrance. */
   active: boolean;
   motion: MotionPreference;
+  /**
+   * How far the card's text is displaced within its own card, in pixels, live
+   * on the UI thread. Read by exactly one `<Drift>` per card — never by
+   * `<Settle>`, which nests, and would compound the offset once per level.
+   *
+   * Null where there is no scroll-linked motion: on web, and under reduced
+   * motion.
+   */
+  drift: SharedValue<number> | null;
 }
 
 /**

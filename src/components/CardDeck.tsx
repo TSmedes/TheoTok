@@ -91,11 +91,11 @@ export function CardDeck<T extends DeckItem>({
       <Feed<T>
         data={data}
         keyExtractor={keyExtractor}
-        renderItem={({ item, index, isActive }) => {
+        renderItem={({ item, index, isActive, height, scrollY }) => {
           const withheld =
             revealAnswers && item.rendered.cue != null && !revealed.includes(item.card.id);
           return (
-            <CardSurface isActive={isActive}>
+            <CardSurface isActive={isActive} index={index} height={height} scrollY={scrollY}>
               <Card
                 card={item.rendered}
                 hidden={withheld}

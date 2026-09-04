@@ -1,7 +1,15 @@
 import { FlashList } from '@shopify/flash-list';
-import { useCallback, useRef, useState } from 'react';
-import { View, type LayoutChangeEvent, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
+import { useCallback, useMemo, useRef, useState } from 'react';
+import {
+  View,
+  type LayoutChangeEvent,
+  type NativeScrollEvent,
+  type NativeSyntheticEvent,
+  type ScrollView,
+} from 'react-native';
+import { useAnimatedRef, useScrollOffset } from 'react-native-reanimated';
 
+import { makeAnimatedScroller } from './AnimatedScroller';
 import type { FeedProps } from './types';
 import { visualIndexFor } from './visualIndex';
 
@@ -32,6 +40,17 @@ export function Feed<T>({
    * settles — too late to animate an entrance with. See `visualIndex.ts`.
    */
   const [visualIndex, setVisualIndex] = useState(startIndex);
+
+  /**
+   * The scroll offset, live on the UI thread, for motion that tracks the
+   * gesture rather than following it. `visualIndex` above is the same
+   * information at one-per-card resolution, and is what React renders from;
+   * this is what the animations read, sixty times a second, without a render.
+   */
+  const scrollRef = useAnimatedRef<ScrollView>();
+  const scrollY = useScrollOffset(scrollRef);
+  // Identity has to be stable: FlashList memoises its scroll view on this prop.
+  const renderScrollComponent = useMemo(() => makeAnimatedScroller(scrollRef), [scrollRef]);
 
   const onLayout = useCallback((e: LayoutChangeEvent) => {
     setHeight(e.nativeEvent.layout.height);
@@ -70,9 +89,10 @@ export function Feed<T>({
           keyExtractor={keyExtractor}
           renderItem={({ item, index }) => (
             <View style={{ height }}>
-              {renderItem({ item, index, height, isActive: index === visualIndex })}
+              {renderItem({ item, index, height, isActive: index === visualIndex, scrollY })}
             </View>
           )}
+          renderScrollComponent={renderScrollComponent}
           initialScrollIndex={startIndex}
           pagingEnabled
           decelerationRate="fast"

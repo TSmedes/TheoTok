@@ -1,32 +1,60 @@
-import { useMemo, type ReactNode } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { useMemo } from 'react';
+import { StyleSheet } from 'react-native';
+import Animated, { useAnimatedStyle, useDerivedValue } from 'react-native-reanimated';
 
+import { centreProgress, rampTo, textDrift } from '@/motion/progress';
 import { SettleContext, type SettleState } from '@/motion/SettleContext';
 import { useMotionPreference } from '@/motion/useMotionPreference';
+import { motion as motionTokens } from '@/theme/tokens';
 
-interface Props {
-  /** True for the card occupying most of the viewport — see `visualIndex.ts`. */
-  isActive: boolean;
-  children: ReactNode;
-}
+import type { CardSurfaceProps } from './cardSurfaceTypes';
 
 /**
- * Everything on one page of the feed, and the one place that decides whether
- * that page is animating.
+ * One page of the feed, and the only place that knows the page is moving.
  *
- * It exists so that `Card` and `ActionRail` stay unaware of motion: they mark
- * *which* of their parts move and in what order, and this answers whether any
- * of it should happen at all. Crucially it is mounted only from the feed, never
- * around the off-screen share target, which is what keeps a captured image free
- * of half-finished animations.
+ * Two jobs, which are really one. It answers whether this card is animating, so
+ * that `Card` and `ActionRail` can mark which of their parts move without
+ * knowing anything about motion (Layer A). And it applies the depth — the card
+ * settling to full size as it arrives, its text trailing slightly behind the
+ * gradient it sits on (Layer B).
+ *
+ * Both come off the feed's scroll offset rather than off React state, so they
+ * track the gesture at frame rate without a single re-render. The card scale
+ * lives here, on the whole page; the text drift is handed to the individual
+ * `Settle` elements, since it must move the words and not the gradient beneath
+ * them.
+ *
+ * Mounted only from the feed, never around the off-screen share target — which
+ * is what keeps a captured image free of half-finished animations.
  */
-export function CardSurface({ isActive, children }: Props) {
+export function CardSurface({ isActive, index, height, scrollY, children }: CardSurfaceProps) {
   const motion = useMotionPreference();
-  const state = useMemo<SettleState>(() => ({ active: isActive, motion }), [isActive, motion]);
+  // Reduced motion keeps the fades of Layer A and drops Layer B entirely: the
+  // scale and the parallax are the parts that actually move.
+  const still = motion === 'reduced' || scrollY === null || height <= 0;
+
+  const drift = useDerivedValue(() => {
+    if (still || !scrollY) return 0;
+    return textDrift(index, scrollY.get(), height);
+  });
+
+  const state = useMemo<SettleState>(
+    () => ({ active: isActive, motion, drift: still ? null : drift }),
+    [isActive, motion, still, drift],
+  );
+
+  const depth = useAnimatedStyle(() => {
+    if (still || !scrollY) return { opacity: 1, transform: [{ scale: 1 }] };
+    const progress = centreProgress(index, scrollY.get(), height);
+    return {
+      opacity: rampTo(progress, motionTokens.restOpacity),
+      transform: [{ scale: rampTo(progress, motionTokens.restScale) }],
+    };
+  });
 
   return (
     <SettleContext.Provider value={state}>
-      <View style={styles.page}>{children}</View>
+      <Animated.View style={[styles.page, depth]}>{children}</Animated.View>
     </SettleContext.Provider>
   );
 }

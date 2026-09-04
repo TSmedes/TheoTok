@@ -192,7 +192,8 @@ export function Feed<T>({
             // Reanimated on web, so the entrance is a CSS keyframe and this is
             // what starts it — see `Settle.web.tsx` and `global.css`.
             className={active ? 'feed-page is-active' : 'feed-page'}>
-            {renderItem({ item, index, height: pageHeight, isActive: active })}
+            {/* No Reanimated here: the web feed's motion is CSS. */}
+            {renderItem({ item, index, height: pageHeight, isActive: active, scrollY: null })}
           </div>
         );
       })}

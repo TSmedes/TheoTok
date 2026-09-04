@@ -4,6 +4,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import type { RenderedCard } from '@/content/types';
+import { Drift } from '@/motion/Drift';
 import { Settle } from '@/motion/Settle';
 import { SettleContext } from '@/motion/SettleContext';
 import {
@@ -59,7 +60,11 @@ export function Card({ card, variant = 'feed', hidden = false, onReveal, onHide 
       end={gradientEnd}
       locations={gradientLocations}
       style={styles.fill}>
-      <View
+      {/*
+        The content, which drifts fractionally against the gradient behind it as
+        the card scrolls. One wrapper for the whole of it — see `Drift`.
+      */}
+      <Drift
         style={[
           styles.inner,
           share
@@ -117,7 +122,7 @@ export function Card({ card, variant = 'feed', hidden = false, onReveal, onHide 
             </Settle>
           </>
         )}
-      </View>
+      </Drift>
     </LinearGradient>
   );
 

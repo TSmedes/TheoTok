@@ -91,10 +91,6 @@ export const motion = {
   dim: 380,
   /** Non-active pages on web, where there is no parallax opacity ramp. */
   dimOpacity: 0.55,
-  /** ActionRail buttons, which wait for the body before arriving. */
-  rail: 280,
-  railStagger: 50,
-  railDelay: 180,
   /** Layer B: text moves at this fraction of the gradient's scroll rate. */
   parallax: 0.85,
   /** Layer B: what an off-centre card settles back to. */

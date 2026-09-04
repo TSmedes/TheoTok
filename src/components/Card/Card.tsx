@@ -4,6 +4,8 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import type { RenderedCard } from '@/content/types';
+import { Settle } from '@/motion/Settle';
+import { SettleContext } from '@/motion/SettleContext';
 import {
   colors,
   fonts,
@@ -71,8 +73,14 @@ export function Card({ card, variant = 'feed', hidden = false, onReveal, onHide 
         {withheld ? (
           <>
             <View style={[styles.body, styles.bodyWithRail]}>
-              {card.cueLabel ? <Text style={styles.cueLabel}>{card.cueLabel}</Text> : null}
-              <AutoScaleText>{card.cue!}</AutoScaleText>
+              {card.cueLabel ? (
+                <Settle order={0}>
+                  <Text style={styles.cueLabel}>{card.cueLabel}</Text>
+                </Settle>
+              ) : null}
+              <Settle order={1}>
+                <AutoScaleText>{card.cue!}</AutoScaleText>
+              </Settle>
             </View>
             {/*
               Decorative here: the whole card is the press target while the
@@ -85,25 +93,40 @@ export function Card({ card, variant = 'feed', hidden = false, onReveal, onHide 
         ) : (
           <>
             <View style={[styles.body, !share && styles.bodyWithRail]}>
-              {card.prompt ? <Text style={styles.prompt}>{card.prompt}</Text> : null}
-              <AutoScaleText companionLength={card.prompt?.length ?? 0}>{card.body}</AutoScaleText>
+              {card.prompt ? (
+                <Settle order={0}>
+                  <Text style={styles.prompt}>{card.prompt}</Text>
+                </Settle>
+              ) : null}
+              <Settle order={1}>
+                <AutoScaleText companionLength={card.prompt?.length ?? 0}>{card.body}</AutoScaleText>
+              </Settle>
             </View>
             {isQuestion && onHide ? (
               <View style={styles.revealRow}>
                 <RevealPill icon="eye-off-outline" label="Hide the answer" onPress={onHide} />
               </View>
             ) : null}
-            <Citation
-              type={card.type}
-              citation={card.citation}
-              attribution={card.attribution}
-              railInset={!share}
-            />
+            <Settle order={2}>
+              <Citation
+                type={card.type}
+                citation={card.citation}
+                attribution={card.attribution}
+                railInset={!share}
+              />
+            </Settle>
           </>
         )}
       </View>
     </LinearGradient>
   );
+
+  // A shared image is photographed from the live view hierarchy, so an
+  // animation that has started but not committed would be captured mid-flight.
+  // `ShareCard` renders this component outside the feed and therefore outside
+  // any provider, which already makes every `Settle` static; providing `null`
+  // here as well means a provider added higher up later cannot break a capture.
+  if (share) return <SettleContext.Provider value={null}>{body}</SettleContext.Provider>;
 
   if (!withheld) return body;
 

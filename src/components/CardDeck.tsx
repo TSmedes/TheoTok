@@ -4,6 +4,7 @@ import { Platform, StyleSheet, View } from 'react-native';
 
 import { ActionRail } from '@/components/ActionRail';
 import { Card } from '@/components/Card';
+import { CardSurface } from '@/components/Card/CardSurface';
 import { Feed } from '@/components/Feed';
 import { ShareCard } from '@/components/ShareCard';
 import type { Card as CardData, RenderedCard } from '@/content/types';
@@ -85,11 +86,11 @@ export function CardDeck<T extends DeckItem>({
       <Feed<T>
         data={data}
         keyExtractor={keyExtractor}
-        renderItem={({ item, index }) => {
+        renderItem={({ item, index, isActive }) => {
           const withheld =
             revealAnswers && item.rendered.cue != null && !revealed.includes(item.card.id);
           return (
-            <View style={styles.page}>
+            <CardSurface isActive={isActive}>
               <Card
                 card={item.rendered}
                 hidden={withheld}
@@ -107,7 +108,7 @@ export function CardDeck<T extends DeckItem>({
                 hidden={withheld}
                 onReveal={() => reveal(item.card.id)}
               />
-            </View>
+            </CardSurface>
           );
         }}
         initialIndex={initialIndex}
@@ -123,5 +124,4 @@ export function CardDeck<T extends DeckItem>({
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: colors.void },
-  page: { flex: 1 },
 });

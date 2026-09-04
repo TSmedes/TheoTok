@@ -4,6 +4,8 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { CONTENT_TYPES, type ContentType, type Tradition } from '@/content/types';
 
+export type MotionPreference = 'full' | 'reduced';
+
 interface PreferencesState {
   /** Empty means no tradition filter, which is what "skip" in onboarding leaves behind. */
   traditions: Tradition[];
@@ -15,6 +17,13 @@ interface PreferencesState {
    * app is for, so it should be chosen rather than arrived at.
    */
   revealAnswers: boolean;
+  /**
+   * How much the feed is allowed to move. 'reduced' keeps the fades but drops
+   * the parallax, the scale and the stagger. The OS accessibility setting is
+   * OR'd with this at read time, so the system can only ever tighten what the
+   * reader chose — see `@/motion/useMotionPreference`.
+   */
+  motion: MotionPreference;
   dailyReminderEnabled: boolean;
   dailyReminderNotificationIds: string[];
   nextDailyReminderMessageIndex: number;
@@ -23,6 +32,7 @@ interface PreferencesState {
   toggleTradition: (tradition: Tradition) => void;
   toggleType: (type: ContentType) => void;
   setRevealAnswers: (value: boolean) => void;
+  setMotion: (value: MotionPreference) => void;
   setDailyReminders: (value: {
     enabled: boolean;
     notificationIds: string[];
@@ -39,6 +49,7 @@ export const usePreferences = create<PreferencesState>()(
       types: [...CONTENT_TYPES],
       onboarded: false,
       revealAnswers: false,
+      motion: 'full',
       dailyReminderEnabled: false,
       dailyReminderNotificationIds: [],
       nextDailyReminderMessageIndex: 0,
@@ -63,6 +74,8 @@ export const usePreferences = create<PreferencesState>()(
         }),
 
       setRevealAnswers: (revealAnswers) => set({ revealAnswers }),
+
+      setMotion: (motion) => set({ motion }),
 
       setDailyReminders: ({
         enabled: dailyReminderEnabled,

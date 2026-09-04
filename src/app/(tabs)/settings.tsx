@@ -24,6 +24,8 @@ export default function SettingsScreen() {
   const { traditions, types, toggleTradition, toggleType, restartOnboarding } = usePreferences();
   const revealAnswers = usePreferences((s) => s.revealAnswers);
   const setRevealAnswers = usePreferences((s) => s.setRevealAnswers);
+  const motionPreference = usePreferences((s) => s.motion);
+  const setMotion = usePreferences((s) => s.setMotion);
   const dailyReminderEnabled = usePreferences((s) => s.dailyReminderEnabled);
   const dailyReminderNotificationIds = usePreferences((s) => s.dailyReminderNotificationIds);
   const nextDailyReminderMessageIndex = usePreferences((s) => s.nextDailyReminderMessageIndex);
@@ -125,6 +127,23 @@ export default function SettingsScreen() {
               onPress={() => setRevealAnswers(false)}
             />
             <Chip label="Test me" selected={revealAnswers} onPress={() => setRevealAnswers(true)} />
+          </View>
+        </Section>
+
+        <Section
+          title="Motion"
+          note="Cards drift and settle as you scroll. Gentle keeps the fades but drops the movement — useful if motion makes you uneasy, or to save battery. Turning animations off for your whole device does this too.">
+          <View style={styles.chips}>
+            <Chip
+              label="Full"
+              selected={motionPreference === 'full'}
+              onPress={() => setMotion('full')}
+            />
+            <Chip
+              label="Gentle"
+              selected={motionPreference === 'reduced'}
+              onPress={() => setMotion('reduced')}
+            />
           </View>
         </Section>
 

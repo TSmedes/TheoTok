@@ -13,12 +13,12 @@ import type { CardSurfaceProps } from './cardSurfaceTypes';
  * comes from `global.css` dimming the pages either side instead.
  *
  * So all this does is answer whether the card is animating, which is what Layer
- * A needs. `drift` is null: nothing displaces the text.
+ * A needs. Nothing displaces or scales the content.
  */
 export function CardSurface({ isActive, children }: CardSurfaceProps) {
   const motion = useMotionPreference();
   const state = useMemo<SettleState>(
-    () => ({ active: isActive, motion, drift: null }),
+    () => ({ active: isActive, motion, drift: null, contentScale: null }),
     [isActive, motion],
   );
 

@@ -8,14 +8,21 @@ export interface SettleState {
   active: boolean;
   motion: MotionPreference;
   /**
-   * How far the card's text is displaced within its own card, in pixels, live
-   * on the UI thread. Read by exactly one `<Drift>` per card — never by
-   * `<Settle>`, which nests, and would compound the offset once per level.
+   * How far the card's content is displaced within its own card, in pixels, and
+   * how far it has receded, live on the UI thread.
+   *
+   * Both are read by exactly one `<Drift>` per card — never by `<Settle>`, which
+   * nests, and would compound them once per level. They apply to the content
+   * rather than to the card because the card has to keep filling its page
+   * exactly: anything that insets it exposes the backdrop around its edges, and
+   * the feed reads as cards floating on another surface rather than as one
+   * surface.
    *
    * Null where there is no scroll-linked motion: on web, and under reduced
    * motion.
    */
   drift: SharedValue<number> | null;
+  contentScale: SharedValue<number> | null;
 }
 
 /**

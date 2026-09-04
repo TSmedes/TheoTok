@@ -22,7 +22,7 @@ describe('SettleContext', () => {
 
   it('can be forced back to static inside a provider', async () => {
     await render(
-      <SettleContext.Provider value={{ active: true, motion: 'full', drift: null }}>
+      <SettleContext.Provider value={{ active: true, motion: 'full', drift: null, contentScale: null }}>
         <SettleContext.Provider value={null}>
           <Probe />
         </SettleContext.Provider>
@@ -33,7 +33,7 @@ describe('SettleContext', () => {
 
   it('carries the active flag and the motion preference to the elements', async () => {
     await render(
-      <SettleContext.Provider value={{ active: true, motion: 'reduced', drift: null }}>
+      <SettleContext.Provider value={{ active: true, motion: 'reduced', drift: null, contentScale: null }}>
         <Probe />
       </SettleContext.Provider>,
     );
@@ -53,7 +53,7 @@ describe('Settle', () => {
 
   it('renders its children on an active card', async () => {
     await render(
-      <SettleContext.Provider value={{ active: true, motion: 'full', drift: null }}>
+      <SettleContext.Provider value={{ active: true, motion: 'full', drift: null, contentScale: null }}>
         <Settle order={1}>
           <Text>In the beginning</Text>
         </Settle>
@@ -66,7 +66,7 @@ describe('Settle', () => {
     // They are transparent, not absent: the text has to be there to be read by
     // a screen reader, and to be laid out before it settles in.
     await render(
-      <SettleContext.Provider value={{ active: false, motion: 'full', drift: null }}>
+      <SettleContext.Provider value={{ active: false, motion: 'full', drift: null, contentScale: null }}>
         <Settle order={1}>
           <Text>In the beginning</Text>
         </Settle>
@@ -77,7 +77,7 @@ describe('Settle', () => {
 
   it('renders the rule variant, which has no children of its own', async () => {
     await render(
-      <SettleContext.Provider value={{ active: true, motion: 'full', drift: null }}>
+      <SettleContext.Provider value={{ active: true, motion: 'full', drift: null, contentScale: null }}>
         <Settle order={3} variant="rule" style={{ width: 44, height: 1 }} />
       </SettleContext.Provider>,
     );

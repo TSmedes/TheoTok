@@ -38,18 +38,30 @@ export function CardSurface({ isActive, index, height, scrollY, children }: Card
     return textDrift(index, scrollY.get(), height);
   });
 
+  const contentScale = useDerivedValue(() => {
+    if (still || !scrollY) return 1;
+    return rampTo(centreProgress(index, scrollY.get(), height), motionTokens.restScale);
+  });
+
   const state = useMemo<SettleState>(
-    () => ({ active: isActive, motion, drift: still ? null : drift }),
-    [isActive, motion, still, drift],
+    () => ({
+      active: isActive,
+      motion,
+      drift: still ? null : drift,
+      contentScale: still ? null : contentScale,
+    }),
+    [isActive, motion, still, drift, contentScale],
   );
 
+  /**
+   * Opacity only. The card must keep filling its page exactly — a scale here
+   * would inset it and expose the backdrop as a border around every edge, which
+   * is the one thing the backdrop must never look like. The receding happens to
+   * the content instead, in `Drift`.
+   */
   const depth = useAnimatedStyle(() => {
-    if (still || !scrollY) return { opacity: 1, transform: [{ scale: 1 }] };
-    const progress = centreProgress(index, scrollY.get(), height);
-    return {
-      opacity: rampTo(progress, motionTokens.restOpacity),
-      transform: [{ scale: rampTo(progress, motionTokens.restScale) }],
-    };
+    if (still || !scrollY) return { opacity: 1 };
+    return { opacity: rampTo(centreProgress(index, scrollY.get(), height), motionTokens.restOpacity) };
   });
 
   return (

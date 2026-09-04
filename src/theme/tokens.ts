@@ -69,3 +69,47 @@ export function tierFor(text: string) {
 
 /** Cards are centred and letterboxed past this width so desktop web stays readable. */
 export const maxCardWidth = 620;
+
+/**
+ * "Reverent": slow, soft, small travel — motion you feel rather than notice.
+ * Durations in ms, distances in px.
+ *
+ * This module is imported by the web bundle and by tests, so it must stay free
+ * of Reanimated. It exports plain numbers; `@/motion/curves` turns `ease` into a
+ * native `Easing.bezier`, and `global.css` mirrors these as `--motion-*` custom
+ * properties. There is no build step joining the two, so a change here means a
+ * matching change there.
+ */
+export const motion = {
+  /** One element's entrance. */
+  settle: 320,
+  /** Between cue → body → rule. Three elements land in ~440ms. */
+  stagger: 60,
+  /** How far an entering element travels up. */
+  rise: 16,
+  /** Web's active/inactive page opacity transition. */
+  dim: 380,
+  /** Non-active pages on web, where there is no parallax opacity ramp. */
+  dimOpacity: 0.55,
+  /** ActionRail buttons, which wait for the body before arriving. */
+  rail: 280,
+  railStagger: 50,
+  railDelay: 180,
+  /** Layer B: text moves at this fraction of the gradient's scroll rate. */
+  parallax: 0.85,
+  /** Layer B: what an off-centre card settles back to. */
+  restScale: 0.94,
+  restOpacity: 0.45,
+  /** Matches the rule in `Citation`; the wipe is scaleX from 0, never width. */
+  ruleWidth: 44,
+  /** Reduced motion keeps the fade but drops the travel, and shortens it. */
+  reduced: 200,
+  /** Web keyboard-driven page scroll (`scrollTween`). */
+  scroll: 320,
+} as const;
+
+export const motionEase = {
+  /** Ease-out with a long tail — the deceleration is the whole character. */
+  out: [0.22, 1, 0.36, 1] as const,
+  cssOut: 'cubic-bezier(0.22, 1, 0.36, 1)',
+} as const;

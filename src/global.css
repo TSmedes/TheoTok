@@ -6,6 +6,21 @@
     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   --font-rounded: 'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif;
   --font-serif: Georgia, 'Times New Roman', serif;
+
+  /*
+   * Mirrors `motion` / `motionEase` in src/theme/tokens.ts. There is no build
+   * step injecting these, so the two have to be changed together.
+   */
+  --motion-settle: 320ms;
+  --motion-stagger: 60ms;
+  --motion-rise: 16px;
+  --motion-dim: 380ms;
+  --motion-dim-opacity: 0.55;
+  --motion-rail: 280ms;
+  --motion-rail-stagger: 50ms;
+  --motion-rail-delay: 180ms;
+  --motion-reduced: 200ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 html,

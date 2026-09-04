@@ -24,6 +24,7 @@ export function Feed<T>({
   keyExtractor,
   renderItem,
   onIndexChange,
+  renderBackdrop,
   initialIndex = 0,
 }: FeedProps<T>) {
   const [height, setHeight] = useState(0);
@@ -83,6 +84,7 @@ export function Feed<T>({
 
   return (
     <View style={{ flex: 1 }} onLayout={onLayout}>
+      {height > 0 && renderBackdrop?.({ scrollY, height })}
       {height > 0 && (
         <FlashList
           data={data as T[]}

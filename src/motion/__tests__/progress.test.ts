@@ -1,6 +1,6 @@
 import { motion } from '@/theme/tokens';
 
-import { centreDistance, centreProgress, rampTo, textDrift } from '../progress';
+import { blendWeights, centreDistance, centreProgress, rampTo, textDrift } from '../progress';
 
 const PAGE = 800;
 
@@ -85,5 +85,51 @@ describe('rampTo', () => {
   it('interpolates evenly in between', () => {
     expect(rampTo(0.5, 0.9)).toBeCloseTo(0.95);
     expect(rampTo(0.25, 0.4)).toBeCloseTo(0.85);
+  });
+});
+
+// Indices into CONTENT_TYPES: 0 scripture, 1 history, 2 doctrine.
+const SCRIPTURE = 0;
+const HISTORY = 1;
+const DOCTRINE = 2;
+
+describe('blendWeights', () => {
+  const types = [SCRIPTURE, HISTORY, DOCTRINE];
+
+  it('shows one colour outright when settled on a card', () => {
+    expect(blendWeights(0, PAGE, types)).toEqual([1, 0, 0]);
+    expect(blendWeights(PAGE, PAGE, types)).toEqual([0, 1, 0]);
+    expect(blendWeights(2 * PAGE, PAGE, types)).toEqual([0, 0, 1]);
+  });
+
+  it('crosses between two colours in proportion to the scroll', () => {
+    expect(blendWeights(PAGE / 2, PAGE, types)).toEqual([0.5, 0.5, 0]);
+    expect(blendWeights(PAGE * 1.25, PAGE, types)).toEqual([0, 0.75, 0.25]);
+  });
+
+  it('always sums to one, so the backdrop is never washed out or doubled', () => {
+    for (let offset = 0; offset <= 2 * PAGE; offset += 37) {
+      const sum = blendWeights(offset, PAGE, types).reduce((a, b) => a + b, 0);
+      expect(sum).toBeCloseTo(1);
+    }
+  });
+
+  it('sums neighbours of the same type onto one weight', () => {
+    // Otherwise a run of scripture cards would fade against itself for no reason.
+    expect(blendWeights(PAGE / 2, PAGE, [SCRIPTURE, SCRIPTURE, SCRIPTURE])).toEqual([1, 0, 0]);
+  });
+
+  it('holds the end colour through a rubber-band overscroll', () => {
+    expect(blendWeights(-300, PAGE, types)).toEqual([1, 0, 0]);
+    expect(blendWeights(99 * PAGE, PAGE, types)).toEqual([0, 0, 1]);
+  });
+
+  it('returns no weight at all before the feed has measured or loaded', () => {
+    expect(blendWeights(0, 0, types)).toEqual([0, 0, 0]);
+    expect(blendWeights(0, PAGE, [])).toEqual([0, 0, 0]);
+  });
+
+  it('handles a single-card feed', () => {
+    expect(blendWeights(0, PAGE, [DOCTRINE])).toEqual([0, 0, 1]);
   });
 });

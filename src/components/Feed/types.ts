@@ -31,6 +31,15 @@ export interface FeedProps<T> {
   /** Fires when the snapped card changes. */
   onIndexChange?: (index: number) => void;
   /**
+   * Drawn behind the list, given the same live scroll offset the pages get.
+   *
+   * The feed owns the scroll position, so anything that has to paint behind it
+   * in response to scrolling can only be reached from in here. Not called on
+   * web: there the feed is a scrolling DOM element, and anything rendered
+   * inside it would scroll along with the content rather than stay behind it.
+   */
+  renderBackdrop?: (info: { scrollY: SharedValue<number> | null; height: number }) => ReactNode;
+  /**
    * Card to open on. Read once at mount: the tab navigator unmounts the feed,
    * and coming back should land where the reader left off rather than at the
    * top of a fresh shuffle.

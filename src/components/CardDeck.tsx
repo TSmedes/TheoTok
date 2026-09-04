@@ -1,13 +1,14 @@
 import { useRouter } from 'expo-router';
-import { useCallback, useRef, useState, type ReactNode } from 'react';
+import { useCallback, useMemo, useRef, useState, type ReactNode } from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
 
 import { ActionRail } from '@/components/ActionRail';
 import { Card } from '@/components/Card';
 import { CardSurface } from '@/components/Card/CardSurface';
 import { Feed } from '@/components/Feed';
+import { GradientBackdrop } from '@/components/GradientBackdrop';
 import { ShareCard } from '@/components/ShareCard';
-import type { Card as CardData, RenderedCard } from '@/content/types';
+import { CONTENT_TYPES, type Card as CardData, type RenderedCard } from '@/content/types';
 import { cardLanded } from '@/motion/haptics';
 import { shareCard } from '@/share/shareCard';
 import { useFeedSession } from '@/store/feedSession';
@@ -49,6 +50,16 @@ export function CardDeck<T extends DeckItem>({
   const revealed = useFeedSession((s) => s.revealed);
   const reveal = useFeedSession((s) => s.reveal);
   const hide = useFeedSession((s) => s.hide);
+
+  /**
+   * The feed's colours, as indices rather than names: the backdrop reads this
+   * inside a worklet on every frame, and a list of small numbers crosses to the
+   * UI thread far more cheaply than a list of strings.
+   */
+  const types = useMemo(
+    () => data.map((item) => CONTENT_TYPES.indexOf(item.rendered.type)),
+    [data],
+  );
 
   // One capture target for the whole screen, swapped to whichever card is being
   // shared — far cheaper than mounting a hidden copy behind every page.
@@ -116,6 +127,9 @@ export function CardDeck<T extends DeckItem>({
             </CardSurface>
           );
         }}
+        renderBackdrop={({ scrollY, height }) => (
+          <GradientBackdrop types={types} scrollY={scrollY} height={height} />
+        )}
         initialIndex={initialIndex}
         onIndexChange={handleIndexChange}
       />

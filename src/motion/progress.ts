@@ -49,3 +49,35 @@ export function rampTo(progress: number, restValue: number): number {
   'worklet';
   return 1 + (restValue - 1) * progress;
 }
+
+/**
+ * How much of each content type's gradient is showing behind the feed.
+ *
+ * `types` holds one index into `CONTENT_TYPES` per card. Between two cards the
+ * weight crosses from one to the other in proportion to the scroll, so colour
+ * flows continuously instead of cutting at the snap boundary. Two cards of the
+ * same type sum to a full weight on that one, which is why these are summed
+ * rather than assigned.
+ *
+ * Returns one weight per content type, in `CONTENT_TYPES` order, summing to 1.
+ */
+export function blendWeights(
+  scrollY: number,
+  pageHeight: number,
+  types: readonly number[],
+): [number, number, number] {
+  'worklet';
+  const weights: [number, number, number] = [0, 0, 0];
+  if (pageHeight <= 0 || types.length === 0) return weights;
+
+  // Clamped before the split so a rubber-band overscroll past either end holds
+  // the end card's colour rather than blending toward a card that isn't there.
+  const position = Math.max(0, Math.min(types.length - 1, scrollY / pageHeight));
+  const current = Math.floor(position);
+  const next = Math.min(types.length - 1, current + 1);
+  const fraction = position - current;
+
+  weights[types[current]] += 1 - fraction;
+  weights[types[next]] += fraction;
+  return weights;
+}

@@ -6,6 +6,18 @@
     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   --font-rounded: 'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif;
   --font-serif: Georgia, 'Times New Roman', serif;
+
+  /*
+   * Mirrors `motion` / `motionEase` in src/theme/tokens.ts. There is no build
+   * step injecting these, so the two have to be changed together.
+   */
+  --motion-settle: 320ms;
+  --motion-stagger: 60ms;
+  --motion-rise: 16px;
+  --motion-dim: 380ms;
+  --motion-dim-opacity: 0.55;
+  --motion-reduced: 200ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 html,
@@ -55,8 +67,125 @@ body {
   min-height: 0;
 }
 
+/*
+ * The card entrance, Layer A. Native drives this from a shared value; here it
+ * is a pair of transitions, switched by the `is-active` class the feed puts on
+ * the page.
+ *
+ * Transitions rather than keyframes because the exit matters as much as the
+ * entrance. A keyframed animation stops existing the moment `is-active` is
+ * removed, so a card leaving would snap its text to invisible; a transition
+ * eases both ways. The stagger is applied only on the way in — an outgoing card
+ * is already sliding off screen, and running its elements out one at a time
+ * reads as hesitation. This mirrors what `Settle.tsx` does on native.
+ *
+ * `data-settle` is written by `Settle.web.tsx` through React Native Web's
+ * `dataSet` prop. It exists because RNW's own class names are hashed and
+ * unstable, so there is nothing else inside a card that a stylesheet can
+ * reliably select.
+ *
+ * The order values are a running order, not durations: 0 cue, 1 body,
+ * 2 citation, 3 the rule beneath it, 4+ the action rail. They must match the
+ * `order` props passed in Card, Citation and ActionRail.
+ */
+[data-settle] {
+  opacity: 0;
+  transform: translateY(var(--motion-rise));
+  transition:
+    opacity var(--motion-settle) var(--motion-ease),
+    transform var(--motion-settle) var(--motion-ease);
+}
+
+/* Wipes outward from the margin. scaleX, never width — animating width forces
+   a layout pass every frame. */
+[data-settle-variant='rule'] {
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.feed-page.is-active [data-settle] {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(var(--motion-stagger) * var(--settle-order, 0));
+}
+
+.feed-page.is-active [data-settle-variant='rule'] {
+  transform: scaleX(1);
+}
+
+.feed-page.is-active [data-settle='1'] {
+  --settle-order: 1;
+}
+.feed-page.is-active [data-settle='2'] {
+  --settle-order: 2;
+}
+.feed-page.is-active [data-settle='3'] {
+  --settle-order: 3;
+}
+.feed-page.is-active [data-settle='4'] {
+  --settle-order: 4;
+}
+.feed-page.is-active [data-settle='5'] {
+  --settle-order: 5;
+}
+.feed-page.is-active [data-settle='6'] {
+  --settle-order: 6;
+}
+.feed-page.is-active [data-settle='7'] {
+  --settle-order: 7;
+}
+
+/*
+ * Web has no scroll-linked parallax, so the sense of one card being the subject
+ * has to come from somewhere else. Dimming the pages either side is it. This
+ * sits on the page rather than on each element so it composites once.
+ */
+.feed-page {
+  transition: opacity var(--motion-dim) var(--motion-ease);
+}
+
+.feed-page:not(.is-active) {
+  opacity: var(--motion-dim-opacity);
+}
+
+/*
+ * Reduced motion, whether the reader chose it in Settings — `data-motion`,
+ * written by `useMotionPreference` — or the OS did. The travel goes and the
+ * stagger goes; the fade stays, since opacity is not the part that causes
+ * trouble.
+ */
+:root[data-motion='reduced'] [data-settle],
+:root[data-motion='reduced'] [data-settle-variant='rule'],
+:root[data-motion='reduced'] .feed-page.is-active [data-settle-variant='rule'] {
+  transform: none;
+  transition-duration: var(--motion-reduced);
+}
+
+:root[data-motion='reduced'] .feed-page.is-active [data-settle] {
+  transition-delay: 0ms;
+}
+
+:root[data-motion='reduced'] .feed-page {
+  transition: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .feed-scroller {
     scroll-behavior: auto;
+  }
+
+  [data-settle],
+  [data-settle-variant='rule'],
+  .feed-page.is-active [data-settle-variant='rule'] {
+    transform: none;
+    transition-duration: var(--motion-reduced);
+  }
+
+  .feed-page.is-active [data-settle] {
+    transition-delay: 0ms;
+  }
+
+  .feed-page {
+    transition: none;
   }
 }

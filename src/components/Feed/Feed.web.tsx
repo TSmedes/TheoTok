@@ -184,9 +184,16 @@ export function Feed<T>({
 
       {visible.map((item, i) => {
         const index = range.start + i;
+        const active = index === activeIndex;
         return (
-          <div key={keyExtractor(item, index)} className="feed-page">
-            {renderItem({ item, index, height: pageHeight, isActive: index === activeIndex })}
+          <div
+            key={keyExtractor(item, index)}
+            // The card's own elements animate off this class. There is no
+            // Reanimated on web, so the entrance is a CSS keyframe and this is
+            // what starts it — see `Settle.web.tsx` and `global.css`.
+            className={active ? 'feed-page is-active' : 'feed-page'}>
+            {/* No Reanimated here: the web feed's motion is CSS. */}
+            {renderItem({ item, index, height: pageHeight, isActive: active, scrollY: null })}
           </div>
         );
       })}

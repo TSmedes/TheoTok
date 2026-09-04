@@ -1,8 +1,9 @@
 import { Ionicons } from '@expo/vector-icons';
-import * as Haptics from 'expo-haptics';
-import { Platform, Pressable, StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
 
 import type { Card, RenderedCard } from '@/content/types';
+import { cardSaved, tap } from '@/motion/haptics';
+import { Settle } from '@/motion/Settle';
 import { useIsSaved, useSaved } from '@/store/saved';
 import { useSpeech } from '@/store/speech';
 import { colors, spacing } from '@/theme/tokens';
@@ -29,23 +30,23 @@ export function ActionRail({ card, rendered, onShare, onRead, hidden, onReveal }
   const toggleSpeech = useSpeech((s) => s.toggle);
   const speaking = speakingId === card.id;
 
-  const tap = () => {
-    // Haptics are iOS/Android only; calling on web logs a warning.
-    if (Platform.OS !== 'web') void Haptics.selectionAsync();
-  };
-
   return (
     <View style={styles.rail}>
       <RailButton
+        order={4}
         icon={saved ? 'bookmark' : 'bookmark-outline'}
         label={saved ? 'Remove from saved' : 'Save card'}
         active={saved}
         onPress={() => {
-          tap();
+          // Only saving gets the completion. Removing a card keeps the ordinary
+          // click: a "done!" on the undo would be celebrating the wrong thing.
+          if (saved) tap();
+          else cardSaved();
           toggleSaved(card.id);
         }}
       />
       <RailButton
+        order={5}
         icon="share-outline"
         label="Share card"
         onPress={() => {
@@ -54,6 +55,7 @@ export function ActionRail({ card, rendered, onShare, onRead, hidden, onReveal }
         }}
       />
       <RailButton
+        order={6}
         icon="book-outline"
         label="Read in context"
         onPress={() => {
@@ -62,6 +64,7 @@ export function ActionRail({ card, rendered, onShare, onRead, hidden, onReveal }
         }}
       />
       <RailButton
+        order={7}
         icon={speaking ? 'stop-circle-outline' : 'volume-medium-outline'}
         label={speaking ? 'Stop reading aloud' : 'Read aloud'}
         active={speaking}
@@ -77,26 +80,34 @@ export function ActionRail({ card, rendered, onShare, onRead, hidden, onReveal }
   );
 }
 
+/**
+ * Arrives after the card's text has, continuing the same running order — the
+ * rail is the last thing to settle, so the eye reaches the words first.
+ */
 function RailButton({
   icon,
   label,
   onPress,
   active,
+  order,
 }: {
   icon: keyof typeof Ionicons.glyphMap;
   label: string;
   onPress: () => void;
   active?: boolean;
+  order: number;
 }) {
   return (
-    <Pressable
-      onPress={onPress}
-      accessibilityRole="button"
-      accessibilityLabel={label}
-      hitSlop={10}
-      style={({ pressed }) => [styles.button, pressed && styles.pressed]}>
-      <Ionicons name={icon} size={25} color={active ? colors.accent : colors.text} />
-    </Pressable>
+    <Settle order={order}>
+      <Pressable
+        onPress={onPress}
+        accessibilityRole="button"
+        accessibilityLabel={label}
+        hitSlop={10}
+        style={({ pressed }) => [styles.button, pressed && styles.pressed]}>
+        <Ionicons name={icon} size={25} color={active ? colors.accent : colors.text} />
+      </Pressable>
+    </Settle>
   );
 }
 

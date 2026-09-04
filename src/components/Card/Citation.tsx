@@ -1,7 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native';
 
 import type { ContentType } from '@/content/types';
-import { colors, fonts, spacing } from '@/theme/tokens';
+import { Settle } from '@/motion/Settle';
+import { colors, fonts, motion, spacing } from '@/theme/tokens';
 
 const TYPE_LABEL: Record<ContentType, string> = {
   scripture: 'Scripture',
@@ -30,7 +31,12 @@ interface Props {
 export function Citation({ type, citation, attribution, railInset = false }: Props) {
   return (
     <View testID="citation-block" style={railInset ? styles.railInset : undefined}>
-      <View style={styles.rule} />
+      {/*
+        Draws itself outward once the citation beneath it has arrived, which is
+        the last thing to happen on a card. Outside the feed there is no
+        `SettleContext`, so this is a plain full-width rule — see `Settle`.
+      */}
+      <Settle order={3} variant="rule" style={styles.rule} />
       <Text style={styles.label}>{TYPE_LABEL[type].toUpperCase()}</Text>
       <Text style={styles.citation}>{citation}</Text>
       {attribution ? <Text style={styles.attribution}>{attribution}</Text> : null}
@@ -42,7 +48,7 @@ const styles = StyleSheet.create({
   /** Wider than the rail's 44pt buttons, which sit 16 in from the card edge. */
   railInset: { paddingRight: spacing.xxl },
   rule: {
-    width: 44,
+    width: motion.ruleWidth,
     height: 1,
     backgroundColor: colors.accentDim,
     marginBottom: spacing.md,

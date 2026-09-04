@@ -14,18 +14,31 @@
  * clean.
  */
 
-const DURATION_MS = 320;
+import { motion } from '@/theme/tokens';
 
 export interface ScrollTween {
   cancel(): void;
 }
 
+/**
+ * Deliberately not `motionEase.out`. That curve is a cubic-bezier, which needs a
+ * numeric solver to evaluate in JS, and this is the one place in the app that
+ * drives an animation from JS rather than CSS or the UI thread. Cubic ease-out
+ * is close enough in character — a long decelerating tail — that the difference
+ * is invisible on a 320ms page scroll, and it costs no solver.
+ */
 function easeOutCubic(t: number): number {
   return 1 - Math.pow(1 - t, 3);
 }
 
 function prefersReducedMotion(): boolean {
-  return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (typeof window === 'undefined') return false;
+  // The reader's own choice as well as the OS setting. `data-motion` is written
+  // by `useMotionPreference`, which is the one place the two are combined; this
+  // reads the attribute rather than the store because it is a plain function,
+  // called from an event handler rather than from a component.
+  if (document.documentElement.dataset.motion === 'reduced') return true;
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
 
 export function animateScrollTo(el: HTMLElement, to: number): ScrollTween {
@@ -67,7 +80,7 @@ export function animateScrollTo(el: HTMLElement, to: number): ScrollTween {
   const start = performance.now();
   const step = (now: number) => {
     if (done) return;
-    const t = Math.min(1, (now - start) / DURATION_MS);
+    const t = Math.min(1, (now - start) / motion.scroll);
     el.scrollTop = from + delta * easeOutCubic(t);
     if (t < 1) {
       frame = requestAnimationFrame(step);

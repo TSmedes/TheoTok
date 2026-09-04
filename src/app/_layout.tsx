@@ -1,13 +1,13 @@
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
-import * as Notifications from 'expo-notifications';
 import { useEffect } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { useStoresHydrated } from '@/store/hydration';
 import { dailyReminderManager } from '@/notifications/expoDailyReminder';
+import { loadExpoNotifications } from '@/notifications/expoNotifications';
 import { usePreferences } from '@/store/preferences';
 import { colors } from '@/theme/tokens';
 
@@ -18,7 +18,7 @@ import { colors } from '@/theme/tokens';
  */
 SplashScreen.preventAutoHideAsync().catch(() => {});
 SplashScreen.setOptions({ duration: 300, fade: true });
-Notifications.setNotificationHandler({
+loadExpoNotifications()?.setNotificationHandler({
   handleNotification: async () => ({
     shouldShowBanner: true,
     shouldShowList: true,

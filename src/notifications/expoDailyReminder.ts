@@ -1,30 +1,51 @@
-import * as Notifications from 'expo-notifications';
 import { Platform } from 'react-native';
 
-import { createDailyReminderManager } from './dailyReminderService';
+import {
+  createDailyReminderManager,
+  type DailyReminderManager,
+  type NotificationClient,
+} from './dailyReminderService';
+import { loadExpoNotifications } from './expoNotifications';
 
-export const dailyReminderManager = createDailyReminderManager(
-  {
-    getPermissionsAsync: Notifications.getPermissionsAsync,
-    requestPermissionsAsync: Notifications.requestPermissionsAsync,
+const Notifications = loadExpoNotifications();
+
+/*
+ * Without the native module there is nothing to schedule, so `ensure` hands back
+ * the stored queue untouched: a launch under Expo Go must not quietly clear the
+ * user's reminders or advance the message rotation. `enable` reports failure,
+ * and settings explains why before it ever gets that far.
+ */
+const unavailableManager: DailyReminderManager = {
+  enable: async () => ({ enabled: false, notificationIds: [] }),
+  ensure: async ({ notificationIds }) => ({ enabled: true, notificationIds }),
+  disable: async () => {},
+};
+
+function createClient(notifications: NonNullable<typeof Notifications>): NotificationClient {
+  return {
+    getPermissionsAsync: notifications.getPermissionsAsync,
+    requestPermissionsAsync: notifications.requestPermissionsAsync,
     getAllScheduledNotificationIdsAsync: async () =>
-      (await Notifications.getAllScheduledNotificationsAsync()).map((notification) => notification.identifier),
+      (await notifications.getAllScheduledNotificationsAsync()).map((notification) => notification.identifier),
     setNotificationChannelAsync: async (id) => {
-      await Notifications.setNotificationChannelAsync(id, {
+      await notifications.setNotificationChannelAsync(id, {
         name: 'Daily scripture reminder',
-        importance: Notifications.AndroidImportance.DEFAULT,
+        importance: notifications.AndroidImportance.DEFAULT,
       });
     },
     scheduleNotificationAsync: ({ content, trigger }) =>
-      Notifications.scheduleNotificationAsync({
+      notifications.scheduleNotificationAsync({
         content,
         trigger: {
-          type: Notifications.SchedulableTriggerInputTypes.DATE,
+          type: notifications.SchedulableTriggerInputTypes.DATE,
           date: trigger.date,
           channelId: trigger.channelId,
         },
       }),
-    cancelScheduledNotificationAsync: Notifications.cancelScheduledNotificationAsync,
-  },
-  Platform.OS === 'android' ? 'android' : 'ios',
-);
+    cancelScheduledNotificationAsync: notifications.cancelScheduledNotificationAsync,
+  };
+}
+
+export const dailyReminderManager: DailyReminderManager = Notifications
+  ? createDailyReminderManager(createClient(Notifications), Platform.OS === 'android' ? 'android' : 'ios')
+  : unavailableManager;

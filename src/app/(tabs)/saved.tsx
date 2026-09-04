@@ -39,22 +39,30 @@ export default function SavedScreen() {
         </View>
       ) : (
         <View style={styles.list}>
+          {/*
+            The row is a plain View with two buttons side by side rather than a
+            remove button nested inside a pressable row. React Native Web renders
+            anything with `accessibilityRole="button"` as a real <button>, and a
+            button inside a button is invalid DOM — React warns about it and the
+            browser's own behaviour for the inner one is undefined.
+          */}
           {items.map(({ card, rendered }, index) => (
-            <Pressable
-              key={card.id}
-              onPress={() =>
-                router.push({ pathname: '/saved-card', params: { index: String(index) } })
-              }
-              accessibilityRole="button"
-              accessibilityLabel={`${rendered.citation}. Open card.`}
-              style={({ pressed }) => [styles.row, pressed && styles.rowPressed]}>
-              <View style={[styles.stripe, { backgroundColor: accentFor(rendered.type) }]} />
-              <View style={styles.rowBody}>
-                <Text style={styles.rowCitation}>{rendered.citation}</Text>
-                <Text style={styles.rowText} numberOfLines={2}>
-                  {rendered.prompt ?? rendered.body}
-                </Text>
-              </View>
+            <View key={card.id} style={styles.row}>
+              <Pressable
+                onPress={() =>
+                  router.push({ pathname: '/saved-card', params: { index: String(index) } })
+                }
+                accessibilityRole="button"
+                accessibilityLabel={`${rendered.citation}. Open card.`}
+                style={({ pressed }) => [styles.rowMain, pressed && styles.rowPressed]}>
+                <View style={[styles.stripe, { backgroundColor: accentFor(rendered.type) }]} />
+                <View style={styles.rowBody}>
+                  <Text style={styles.rowCitation}>{rendered.citation}</Text>
+                  <Text style={styles.rowText} numberOfLines={2}>
+                    {rendered.prompt ?? rendered.body}
+                  </Text>
+                </View>
+              </Pressable>
               <Pressable
                 onPress={() => remove(card.id)}
                 hitSlop={12}
@@ -63,7 +71,7 @@ export default function SavedScreen() {
                 style={styles.removeButton}>
                 <Ionicons name="close" size={18} color={colors.textTertiary} />
               </Pressable>
-            </Pressable>
+            </View>
           ))}
         </View>
       )}
@@ -107,11 +115,14 @@ const styles = StyleSheet.create({
   list: { gap: spacing.sm },
   row: {
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'stretch',
     backgroundColor: colors.surface,
     borderRadius: 14,
     overflow: 'hidden',
   },
+  // The stripe lives inside the pressable half so it dims with the row's text
+  // rather than staying lit beside it.
+  rowMain: { flex: 1, flexDirection: 'row', alignItems: 'center' },
   rowPressed: { opacity: 0.7 },
   stripe: { width: 4, alignSelf: 'stretch' },
   rowBody: { flex: 1, paddingVertical: spacing.md, paddingHorizontal: spacing.md, gap: 3 },
@@ -123,5 +134,5 @@ const styles = StyleSheet.create({
     letterSpacing: 0.3,
   },
   rowText: { color: colors.textSecondary, fontFamily: fonts.display, fontSize: 15, lineHeight: 21 },
-  removeButton: { padding: spacing.md },
+  removeButton: { padding: spacing.md, justifyContent: 'center' },
 });

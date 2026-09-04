@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Alert, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useRouter } from 'expo-router';
+import { Alert, Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Chip } from '@/components/Chip';
@@ -9,6 +10,7 @@ import { CONTENT_TYPES, TRADITION_LABELS, type ContentType } from '@/content/typ
 import { SELECTABLE_TRADITIONS, buildPool } from '@/feed/buildPool';
 import { usePreferences } from '@/store/preferences';
 import { dailyReminderManager } from '@/notifications/expoDailyReminder';
+import { notificationsAvailable } from '@/notifications/expoNotifications';
 import { useSaved } from '@/store/saved';
 import { useSeen } from '@/store/seen';
 import { colors, fonts, maxCardWidth, spacing } from '@/theme/tokens';
@@ -21,6 +23,7 @@ const TYPE_LABELS: Record<ContentType, string> = {
 
 export default function SettingsScreen() {
   const insets = useSafeAreaInsets();
+  const router = useRouter();
   const { traditions, types, toggleTradition, toggleType, restartOnboarding } = usePreferences();
   const revealAnswers = usePreferences((s) => s.revealAnswers);
   const setRevealAnswers = usePreferences((s) => s.setRevealAnswers);
@@ -42,6 +45,22 @@ export default function SettingsScreen() {
 
   const poolSize = buildPool(CARDS, { traditions, types }).length;
 
+  // The scroll detents are iOS-only — see `@/motion/haptics` — so on Android the
+  // switch beneath the master would govern nothing.
+  const scrollHapticsOffered = Platform.OS !== 'android';
+  // Web has no haptics at all, so the whole section is a switch for nothing.
+  const hapticsOffered = Platform.OS !== 'web';
+
+  /**
+   * Clearing the flag on its own only changes where `app/index` would send
+   * someone on a cold start, which is why this used to look like a chip that did
+   * nothing. The navigation has to be asked for as well.
+   */
+  const showOnboardingAgain = () => {
+    restartOnboarding();
+    router.replace('/onboarding/traditions');
+  };
+
   const toggleDailyReminder = async () => {
     if (reminderBusy) return;
     setReminderBusy(true);
@@ -54,6 +73,14 @@ export default function SettingsScreen() {
           notificationIds: [],
           nextMessageIndex: nextDailyReminderMessageIndex,
         });
+        return;
+      }
+
+      if (!notificationsAvailable) {
+        Alert.alert(
+          'Reminders need a development build',
+          'Expo Go on Android cannot schedule notifications since SDK 53. Run the app in a development build to use the daily reminder.',
+        );
         return;
       }
 
@@ -86,7 +113,7 @@ export default function SettingsScreen() {
           styles.content,
           { paddingTop: insets.top + spacing.lg, paddingBottom: insets.bottom + 96 },
         ]}>
-        <Text style={styles.title}>Filters</Text>
+        <Text style={styles.title}>Options</Text>
         <Text style={styles.subtitle}>
           {poolSize} {poolSize === 1 ? 'card' : 'cards'} in your feed
         </Text>
@@ -151,27 +178,36 @@ export default function SettingsScreen() {
           </View>
         </Section>
 
-        <Section title="Haptics" note="Feel a vibration when you scroll and when you tap.">
-          <View style={styles.chips}>
-            <Chip
-              label="Haptics"
-              selected={hapticsEnabled}
-              onPress={() => setHaptics(!hapticsEnabled)}
-            />
-            {/*
-              Only offered while haptics are on at all: with the master off there
-              is nothing left to subdivide, and a chip that changes nothing is
-              worse than one that isn't there.
-            */}
-            {hapticsEnabled ? (
+        {hapticsOffered ? (
+          <Section
+            title="Haptics"
+            note={
+              scrollHapticsOffered
+                ? 'Feel a vibration when you scroll and when you tap.'
+                : 'Feel a vibration when you tap.'
+            }>
+            <View style={styles.chips}>
               <Chip
-                label="While scrolling"
-                selected={scrollHapticsEnabled}
-                onPress={() => setScrollHaptics(!scrollHapticsEnabled)}
+                label="Haptics"
+                selected={hapticsEnabled}
+                onPress={() => setHaptics(!hapticsEnabled)}
               />
-            ) : null}
-          </View>
-        </Section>
+              {/*
+                Only offered while haptics are on at all: with the master off there
+                is nothing left to subdivide, and a chip that changes nothing is
+                worse than one that isn't there. Android never fires the scroll
+                notches, so the same reasoning hides the chip there too.
+              */}
+              {hapticsEnabled && scrollHapticsOffered ? (
+                <Chip
+                  label="While scrolling"
+                  selected={scrollHapticsEnabled}
+                  onPress={() => setScrollHaptics(!scrollHapticsEnabled)}
+                />
+              ) : null}
+            </View>
+          </Section>
+        ) : null}
 
         <Section
           title="Daily reminder"
@@ -194,7 +230,7 @@ export default function SettingsScreen() {
         <Section title="Saved" note={`${savedCount} saved ${savedCount === 1 ? 'card' : 'cards'}.`}>
           <View style={styles.chips}>
             <Chip label="Clear saved cards" selected={false} onPress={clearSaved} />
-            <Chip label="Show onboarding again" selected={false} onPress={restartOnboarding} />
+            <Chip label="Show onboarding again" selected={false} onPress={showOnboardingAgain} />
           </View>
         </Section>
       </ScrollView>

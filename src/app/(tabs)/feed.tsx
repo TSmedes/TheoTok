@@ -30,7 +30,7 @@ function EmptyPool() {
     <View style={[styles.root, styles.centred]}>
       <Text style={styles.emptyTitle}>Nothing to show</Text>
       <Text style={styles.emptyBody}>
-        No cards match your filters. Turn a content type back on under Filters.
+        No cards match your filters. Turn a content type back on under Options.
       </Text>
     </View>
   );

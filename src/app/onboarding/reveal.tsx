@@ -68,7 +68,7 @@ export default function RevealStep() {
         })}
       </View>
 
-      <Text style={styles.note}>You can change this at any time under Filters.</Text>
+      <Text style={styles.note}>You can change this at any time under Options.</Text>
     </OnboardingScaffold>
   );
 }

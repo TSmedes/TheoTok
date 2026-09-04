@@ -51,9 +51,15 @@ const MIN_LANDING_MS = 120;
  *
  * `Light` deliberately: this fires ten times a card, and anything with body to
  * it would be exhausting at that rate. The landing below is what has weight.
+ *
+ * iOS only. Android's vibrator answers a rapid run of impacts with a coarse
+ * buzz rather than distinct notches, so what reads as texture on the Taptic
+ * Engine reads as a rattle there. Better nothing than a bad version of it — the
+ * landing and the button confirmations carry the feel on Android.
  */
 export function scrollTick(): void {
   if (silent()) return;
+  if (Platform.OS === 'android') return;
   // The one haptic with a switch of its own beneath the master, because it is
   // the one that fires continuously rather than in answer to a press: a reader
   // can find the notching wearing without wanting to lose the confirmations
@@ -92,24 +98,24 @@ export function tap(): void {
 }
 
 /**
- * Saving a card: a completion rather than an acknowledgement. The reader has
- * taken something away with them, and that deserves more than the click every
- * other button in the rail gets.
+ * Saving a card: on iOS a completion rather than an acknowledgement, because the
+ * reader has taken something away with them.
  *
  * On iOS this is the same pattern the App Store plays when an install finishes —
  * a light tap followed by a heavier one, which is why it reads as a checkmark
  * being drawn rather than as a button being pressed. It is already two-part, so
  * resist stacking an `impactAsync` in front of it; a third beat only muddies it.
  *
- * Android gets `AndroidHaptics.Confirm`, the platform's own confirmation effect,
- * which is better tuned to the device than the generic vibration pattern
- * `notificationAsync` falls back to there.
+ * Android gets the same click as every other button in the rail. The platform's
+ * `Confirm` effect is long and heavy enough there that saving felt like a
+ * different class of event from the buttons beside it; matching them keeps the
+ * rail consistent under the thumb.
  */
 export function cardSaved(): void {
   if (silent()) return;
 
   if (Platform.OS === 'android') {
-    void Haptics.performAndroidHapticsAsync(Haptics.AndroidHaptics.Confirm);
+    void Haptics.selectionAsync();
     return;
   }
 

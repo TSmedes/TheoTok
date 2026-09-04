@@ -44,3 +44,6 @@ example
 
 # Generated mirror of src/content/bible/kjv for the web build (npm run sync:web-bible)
 /public/bible/
+
+# Agent worktrees
+.claude/worktrees/

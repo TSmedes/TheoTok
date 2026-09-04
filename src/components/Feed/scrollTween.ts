@@ -32,7 +32,13 @@ function easeOutCubic(t: number): number {
 }
 
 function prefersReducedMotion(): boolean {
-  return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (typeof window === 'undefined') return false;
+  // The reader's own choice as well as the OS setting. `data-motion` is written
+  // by `useMotionPreference`, which is the one place the two are combined; this
+  // reads the attribute rather than the store because it is a plain function,
+  // called from an event handler rather than from a component.
+  if (document.documentElement.dataset.motion === 'reduced') return true;
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
 
 export function animateScrollTo(el: HTMLElement, to: number): ScrollTween {

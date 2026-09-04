@@ -1,8 +1,8 @@
 import { Ionicons } from '@expo/vector-icons';
-import * as Haptics from 'expo-haptics';
-import { Platform, Pressable, StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
 
 import type { Card, RenderedCard } from '@/content/types';
+import { cardSaved, tap } from '@/motion/haptics';
 import { Settle } from '@/motion/Settle';
 import { useIsSaved, useSaved } from '@/store/saved';
 import { useSpeech } from '@/store/speech';
@@ -30,11 +30,6 @@ export function ActionRail({ card, rendered, onShare, onRead, hidden, onReveal }
   const toggleSpeech = useSpeech((s) => s.toggle);
   const speaking = speakingId === card.id;
 
-  const tap = () => {
-    // Haptics are iOS/Android only; calling on web logs a warning.
-    if (Platform.OS !== 'web') void Haptics.selectionAsync();
-  };
-
   return (
     <View style={styles.rail}>
       <RailButton
@@ -43,7 +38,10 @@ export function ActionRail({ card, rendered, onShare, onRead, hidden, onReveal }
         label={saved ? 'Remove from saved' : 'Save card'}
         active={saved}
         onPress={() => {
-          tap();
+          // Only saving gets the completion. Removing a card keeps the ordinary
+          // click: a "done!" on the undo would be celebrating the wrong thing.
+          if (saved) tap();
+          else cardSaved();
           toggleSaved(card.id);
         }}
       />

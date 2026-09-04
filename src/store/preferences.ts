@@ -24,6 +24,23 @@ interface PreferencesState {
    * reader chose — see `@/motion/useMotionPreference`.
    */
   motion: MotionPreference;
+  /**
+   * Whether the app answers touch at all. A master switch: the scroll detents,
+   * the save confirmation, the card landing and the action rail's clicks all ask
+   * this one question — see `@/motion/haptics`.
+   *
+   * Deliberately independent of `motion`. Reduced motion is about movement on
+   * screen, and someone who asked for less of it has not asked to lose the feel
+   * of the page turning under their thumb.
+   */
+  haptics: boolean;
+  /**
+   * Whether the scroll itself notches under the thumb. Subordinate to `haptics`:
+   * this is the one haptic that fires continuously rather than in answer to a
+   * press, so it is the one someone is most likely to want gone on its own while
+   * keeping the confirmations that mark something happening.
+   */
+  scrollHaptics: boolean;
   dailyReminderEnabled: boolean;
   dailyReminderNotificationIds: string[];
   nextDailyReminderMessageIndex: number;
@@ -33,6 +50,8 @@ interface PreferencesState {
   toggleType: (type: ContentType) => void;
   setRevealAnswers: (value: boolean) => void;
   setMotion: (value: MotionPreference) => void;
+  setHaptics: (value: boolean) => void;
+  setScrollHaptics: (value: boolean) => void;
   setDailyReminders: (value: {
     enabled: boolean;
     notificationIds: string[];
@@ -50,6 +69,8 @@ export const usePreferences = create<PreferencesState>()(
       onboarded: false,
       revealAnswers: false,
       motion: 'full',
+      haptics: true,
+      scrollHaptics: true,
       dailyReminderEnabled: false,
       dailyReminderNotificationIds: [],
       nextDailyReminderMessageIndex: 0,
@@ -76,6 +97,10 @@ export const usePreferences = create<PreferencesState>()(
       setRevealAnswers: (revealAnswers) => set({ revealAnswers }),
 
       setMotion: (motion) => set({ motion }),
+
+      setHaptics: (haptics) => set({ haptics }),
+
+      setScrollHaptics: (scrollHaptics) => set({ scrollHaptics }),
 
       setDailyReminders: ({
         enabled: dailyReminderEnabled,

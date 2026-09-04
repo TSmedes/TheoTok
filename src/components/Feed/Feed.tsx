@@ -9,6 +9,9 @@ import {
 } from 'react-native';
 import { useAnimatedRef, useScrollOffset } from 'react-native-reanimated';
 
+import { scrollTick } from '@/motion/haptics';
+import { detentAt } from '@/motion/scrollDetents';
+
 import { makeAnimatedScroller } from './AnimatedScroller';
 import type { FeedProps } from './types';
 import { visualIndexFor } from './visualIndex';
@@ -41,6 +44,12 @@ export function Feed<T>({
    * settles — too late to animate an entrance with. See `visualIndex.ts`.
    */
   const [visualIndex, setVisualIndex] = useState(startIndex);
+  /**
+   * The last notch the feed passed under the reader's thumb. `null` until the
+   * first scroll frame, so mounting the list or restoring a saved position
+   * doesn't fire a haptic for a movement nobody made.
+   */
+  const detent = useRef<number | null>(null);
 
   /**
    * The scroll offset, live on the UI thread, for motion that tracks the
@@ -59,10 +68,20 @@ export function Feed<T>({
 
   const onScroll = useCallback(
     (e: NativeSyntheticEvent<NativeScrollEvent>) => {
-      const next = visualIndexFor(e.nativeEvent.contentOffset.y, height);
+      const offsetY = e.nativeEvent.contentOffset.y;
+      const next = visualIndexFor(offsetY, height);
       // Fires up to 60×/sec, so bail before touching state on all but the one
       // frame per swipe where the answer actually changes.
       setVisualIndex((prev) => (prev === next ? prev : next));
+
+      // The same stream at a much finer resolution: ten notches per card rather
+      // than one. Comparing for inequality rather than counting the gap is what
+      // lets a fling thin out on its own — crossing three detents inside one
+      // frame is still one tick, so the rate is bounded by the frame rate and
+      // falls away naturally as the scroll decelerates.
+      const notch = detentAt(offsetY, height);
+      if (detent.current !== null && notch !== detent.current) scrollTick();
+      detent.current = notch;
     },
     [height],
   );

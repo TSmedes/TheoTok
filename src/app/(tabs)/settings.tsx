@@ -26,6 +26,10 @@ export default function SettingsScreen() {
   const setRevealAnswers = usePreferences((s) => s.setRevealAnswers);
   const motionPreference = usePreferences((s) => s.motion);
   const setMotion = usePreferences((s) => s.setMotion);
+  const hapticsEnabled = usePreferences((s) => s.haptics);
+  const setHaptics = usePreferences((s) => s.setHaptics);
+  const scrollHapticsEnabled = usePreferences((s) => s.scrollHaptics);
+  const setScrollHaptics = usePreferences((s) => s.setScrollHaptics);
   const dailyReminderEnabled = usePreferences((s) => s.dailyReminderEnabled);
   const dailyReminderNotificationIds = usePreferences((s) => s.dailyReminderNotificationIds);
   const nextDailyReminderMessageIndex = usePreferences((s) => s.nextDailyReminderMessageIndex);
@@ -144,6 +148,28 @@ export default function SettingsScreen() {
               selected={motionPreference === 'reduced'}
               onPress={() => setMotion('reduced')}
             />
+          </View>
+        </Section>
+
+        <Section title="Haptics" note="Feel a vibration when you scroll and when you tap.">
+          <View style={styles.chips}>
+            <Chip
+              label="Haptics"
+              selected={hapticsEnabled}
+              onPress={() => setHaptics(!hapticsEnabled)}
+            />
+            {/*
+              Only offered while haptics are on at all: with the master off there
+              is nothing left to subdivide, and a chip that changes nothing is
+              worse than one that isn't there.
+            */}
+            {hapticsEnabled ? (
+              <Chip
+                label="While scrolling"
+                selected={scrollHapticsEnabled}
+                onPress={() => setScrollHaptics(!scrollHapticsEnabled)}
+              />
+            ) : null}
           </View>
         </Section>
 

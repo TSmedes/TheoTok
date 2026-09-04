@@ -8,6 +8,7 @@ import { CardSurface } from '@/components/Card/CardSurface';
 import { Feed } from '@/components/Feed';
 import { ShareCard } from '@/components/ShareCard';
 import type { Card as CardData, RenderedCard } from '@/content/types';
+import { cardLanded } from '@/motion/haptics';
 import { shareCard } from '@/share/shareCard';
 import { useFeedSession } from '@/store/feedSession';
 import { usePreferences } from '@/store/preferences';
@@ -76,6 +77,10 @@ export function CardDeck<T extends DeckItem>({
     (index: number) => {
       // Reading aloud should not follow you to the next card.
       stopSpeech();
+      // Fired here, on the landing, rather than when the animations switch
+      // cards at the halfway crossing: a fling that crosses ten cards should
+      // land once, not buzz ten times on the way past.
+      cardLanded();
       onIndexChange?.(index);
     },
     [onIndexChange, stopSpeech],

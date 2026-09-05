@@ -1,5 +1,6 @@
 /**
- * Mirrors the KJV book files into `public/` for the web build.
+ * Mirrors the on-demand content files — Bible books and confession documents —
+ * into `public/` for the web build.
  *
  * The two platforms need the same bytes in two different shapes. Native pulls a
  * book out of the bundle with `require`, so the files must sit inside `src/`
@@ -26,19 +27,25 @@ const SRC_DIR = join(ROOT, 'src', 'content', 'bible', 'kjv');
 const WEB_DIR = join(ROOT, 'public', 'bible', 'kjv');
 const SRC_DIR_NRSV = join(ROOT, 'src', 'content', 'bible', 'nrsv');
 const WEB_DIR_NRSV = join(ROOT, 'public', 'bible', 'nrsv');
+// Confession documents are tier two for the same reason books are, and need
+// the same two shapes: bundled for native, served from a URL for web.
+const SRC_DIR_CONFESSIONS = join(ROOT, 'src', 'content', 'confessions');
+const WEB_DIR_CONFESSIONS = join(ROOT, 'public', 'confessions');
 
-function syncDir(src: string, web: string): number {
+function syncDir(src: string, web: string, rebuild = 'npm run build:bible'): number {
   let sources: string[];
   try {
+    // .json only: the confessions directory also holds its loaders and its
+    // generated map, which belong in the bundle and not in public/.
     sources = readdirSync(src).filter((f) => f.endsWith('.json'));
   } catch {
     throw new Error(
-      `No book files at ${src}. Run \`npm run build:bible\` first — it downloads and normalises the text.`,
+      `No files at ${src}. Run \`${rebuild}\` first — it downloads and normalises the text.`,
     );
   }
 
   if (sources.length === 0) {
-    throw new Error(`${src} contains no .json books. Run \`npm run build:bible\` first.`);
+    throw new Error(`${src} contains no .json files. Run \`${rebuild}\` first.`);
   }
 
   mkdirSync(web, { recursive: true });
@@ -76,6 +83,9 @@ export function syncWebBible(): number {
   let total = 0;
   try { total += syncDir(SRC_DIR, WEB_DIR); } catch (e) { console.warn((e as Error).message); }
   try { total += syncDir(SRC_DIR_NRSV, WEB_DIR_NRSV); } catch (e) { console.warn((e as Error).message); }
+  try {
+    total += syncDir(SRC_DIR_CONFESSIONS, WEB_DIR_CONFESSIONS, 'npm run build:confessions');
+  } catch (e) { console.warn((e as Error).message); }
   return total;
 }
 
@@ -85,7 +95,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   const copied = syncWebBible();
   console.log(
     copied === 0
-      ? 'public/bible/kjv and public/bible/nrsv are already up to date.'
-      : `Synced ${copied} book(s) to public/bible/kjv and public/bible/nrsv/.`,
+      ? 'public/bible and public/confessions are already up to date.'
+      : `Synced ${copied} file(s) to public/bible/ and public/confessions/.`,
   );
 }

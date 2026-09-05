@@ -42,8 +42,9 @@ example
 /ios
 /android
 
-# Generated mirror of src/content/bible/kjv for the web build (npm run sync:web-bible)
+# Generated mirrors of the on-demand content for the web build (npm run sync:web-bible)
 /public/bible/
+/public/confessions/
 
 # Agent worktrees
 .claude/worktrees/

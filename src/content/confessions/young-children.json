@@ -1,0 +1,730 @@
+{
+  "sourceId": "young-children",
+  "entries": [
+    {
+      "locus": "1",
+      "body": "God.",
+      "prompt": "Who made you?"
+    },
+    {
+      "locus": "2",
+      "body": "God made all things.",
+      "prompt": "What else did God make?"
+    },
+    {
+      "locus": "3",
+      "body": "For his own glory.",
+      "prompt": "Why did God make you and all things?"
+    },
+    {
+      "locus": "4",
+      "body": "By loving him and doing what he commands.",
+      "prompt": "How can you glorify God?"
+    },
+    {
+      "locus": "5",
+      "body": "Because he made me and takes care of me.",
+      "prompt": "Why ought you to glorify God?"
+    },
+    {
+      "locus": "6",
+      "body": "There is only one God.",
+      "prompt": "Are there more gods than one?"
+    },
+    {
+      "locus": "7",
+      "body": "In three persons.",
+      "prompt": "In how many persons does this one God exist?"
+    },
+    {
+      "locus": "8",
+      "body": "The Father, the Son and the Holy Ghost.",
+      "prompt": "What are they?"
+    },
+    {
+      "locus": "9",
+      "body": "God is a Spirit, and has not a body like men.",
+      "prompt": "What is God?"
+    },
+    {
+      "locus": "10",
+      "body": "God is everywhere.",
+      "prompt": "Where is God?"
+    },
+    {
+      "locus": "11",
+      "body": "No; I cannot see God, but he always sees me.",
+      "prompt": "Can you see God?"
+    },
+    {
+      "locus": "12",
+      "body": "Yes; nothing can be hid from God.",
+      "prompt": "Does God know all things?"
+    },
+    {
+      "locus": "13",
+      "body": "Yes; God can do all his holy will.",
+      "prompt": "Can God do all things?"
+    },
+    {
+      "locus": "14",
+      "body": "In the Bible alone.",
+      "prompt": "Where do you learn how to love and obey God?"
+    },
+    {
+      "locus": "15",
+      "body": "Holy men who were taught by the Holy Ghost.",
+      "prompt": "Who wrote the Bible?"
+    },
+    {
+      "locus": "16",
+      "body": "Adam and Eve.",
+      "prompt": "Who were our first parents?"
+    },
+    {
+      "locus": "17",
+      "body": "God made the body of Adam out of the ground, and formed Eve from the body of Adam.",
+      "prompt": "Of what were our first parents made?"
+    },
+    {
+      "locus": "18",
+      "body": "He gave them souls that could never die.",
+      "prompt": "What did God give Adam and Eve besides bodies?"
+    },
+    {
+      "locus": "19",
+      "body": "Yes; I have a soul that can never die.",
+      "prompt": "Have you a soul as well as a body?"
+    },
+    {
+      "locus": "20",
+      "body": "Because I can think about God and the world to come.",
+      "prompt": "How do you know that you have a soul?"
+    },
+    {
+      "locus": "21",
+      "body": "He made them holy and happy.",
+      "prompt": "In what condition did God make Adam and Eve?"
+    },
+    {
+      "locus": "22",
+      "body": "An agreement between two or more persons.",
+      "prompt": "What is a covenant?"
+    },
+    {
+      "locus": "23",
+      "body": "The covenant of works.",
+      "prompt": "What covenant did God make with Adam?"
+    },
+    {
+      "locus": "24",
+      "body": "To obey God perfectly.",
+      "prompt": "What was Adam bound to do by the covenant of works?"
+    },
+    {
+      "locus": "25",
+      "body": "To reward Adam with life if he obeyed him.",
+      "prompt": "What did God promise in the covenant of works?"
+    },
+    {
+      "locus": "26",
+      "body": "To punish Adam with death if he disobeyed.",
+      "prompt": "What did God threaten in the covenant of works?"
+    },
+    {
+      "locus": "27",
+      "body": "No; he sinned against God.",
+      "prompt": "Did Adam keep the covenant of works?"
+    },
+    {
+      "locus": "28",
+      "body": "Sin is any want of conformity unto, or transgression of, the law of God.",
+      "prompt": "What is sin?"
+    },
+    {
+      "locus": "29",
+      "body": "Not being or doing what God requires.",
+      "prompt": "What is meant by want of conformity?"
+    },
+    {
+      "locus": "30",
+      "body": "Doing what God forbids.",
+      "prompt": "What is meant by transgression?"
+    },
+    {
+      "locus": "31",
+      "body": "Eating the forbidden fruit.",
+      "prompt": "What was the sin of our first parents?"
+    },
+    {
+      "locus": "32",
+      "body": "The devil tempted Eve, and she gave the fruit to Adam.",
+      "prompt": "Who tempted them to this sin?"
+    },
+    {
+      "locus": "33",
+      "body": "Instead of being holy and happy, they became sinful and miserable.",
+      "prompt": "What befell our first parents when they had sinned?"
+    },
+    {
+      "locus": "34",
+      "body": "No; he represented all his posterity.",
+      "prompt": "Did Adam act for himself alone in the covenant of works?"
+    },
+    {
+      "locus": "35",
+      "body": "All mankind are born in a state of sin and misery.",
+      "prompt": "What effect had the sin of Adam on all mankind?"
+    },
+    {
+      "locus": "36",
+      "body": "Original sin.",
+      "prompt": "What is that sinful nature which we inherit from Adam called?"
+    },
+    {
+      "locus": "37",
+      "body": "The wrath and curse of God.",
+      "prompt": "What does every sin deserve?"
+    },
+    {
+      "locus": "38",
+      "body": "No, our hearts must be changed before we can be fit for heaven.",
+      "prompt": "Can any one go to heaven with this sinful nature?"
+    },
+    {
+      "locus": "39",
+      "body": "Regeneration.",
+      "prompt": "What is a change of heart called?"
+    },
+    {
+      "locus": "40",
+      "body": "The Holy Spirit alone.",
+      "prompt": "Who can change a sinner's heart?"
+    },
+    {
+      "locus": "41",
+      "body": "None can be saved through the covenant of works.",
+      "prompt": "Can any one be saved through the covenant of works?"
+    },
+    {
+      "locus": "42",
+      "body": "Because all have broken it, and are condemned by it.",
+      "prompt": "Why can none be saved through the covenant of works?"
+    },
+    {
+      "locus": "43",
+      "body": "With Christ, his eternal Son.",
+      "prompt": "With whom did God the Father make the covenant of grace?"
+    },
+    {
+      "locus": "44",
+      "body": "His elect people.",
+      "prompt": "Whom did Christ represent in the covenant of grace?"
+    },
+    {
+      "locus": "45",
+      "body": "To keep the whole law for his people, and to suffer the punishment due to their sins.",
+      "prompt": "What did Christ undertake in the covenant of grace?"
+    },
+    {
+      "locus": "46",
+      "body": "No; he was holy, harmless and undefiled.",
+      "prompt": "Did our Lord Jesus Christ ever commit the least sin?"
+    },
+    {
+      "locus": "47",
+      "body": "Christ, the Son of God, became man that he might obey and suffer in our nature.",
+      "prompt": "How could the Son of God suffer?"
+    },
+    {
+      "locus": "48",
+      "body": "Christ's satisfying divine justice, by his sufferings and death, in the place of sinners.",
+      "prompt": "What is meant by the Atonement?"
+    },
+    {
+      "locus": "49",
+      "body": "To justify and sanctify those for whom Christ should die.",
+      "prompt": "What did God the Father undertake in the covenant of grace?"
+    },
+    {
+      "locus": "50",
+      "body": "It is God's forgiving sinners, and treating them as if they had never sinned.",
+      "prompt": "What is justification?"
+    },
+    {
+      "locus": "51",
+      "body": "It is God's making sinners holy in heart and conduct.",
+      "prompt": "What is sanctification?"
+    },
+    {
+      "locus": "52",
+      "body": "For those whom the Father had given him.",
+      "prompt": "For whom did Christ obey and suffer?"
+    },
+    {
+      "locus": "53",
+      "body": "A life of poverty and suffering.",
+      "prompt": "What kind of life did Christ live on earth?"
+    },
+    {
+      "locus": "54",
+      "body": "The painful and shameful death of the cross.",
+      "prompt": "What kind of death did Christ die?"
+    },
+    {
+      "locus": "55",
+      "body": "Only those who repent of sin, believe in Christ and lead holy lives.",
+      "prompt": "Who will be saved?"
+    },
+    {
+      "locus": "56",
+      "body": "To be sorry for sin, and to hate and forsake it because it is displeasing to God.",
+      "prompt": "What is it to repent?"
+    },
+    {
+      "locus": "57",
+      "body": "To trust in Christ alone for salvation.",
+      "prompt": "What is it to believe or have faith in Christ?"
+    },
+    {
+      "locus": "58",
+      "body": "No; I can do nothing good without the help of God's Holy Spirit.",
+      "prompt": "Can you repent and believe in Christ by your own power?"
+    },
+    {
+      "locus": "59",
+      "body": "God has told us that we must pray to him for the Holy Spirit.",
+      "prompt": "How can you get the help of the Holy Spirit?"
+    },
+    {
+      "locus": "60",
+      "body": "More than eighteen hundred years.",
+      "prompt": "How long ago is it since Christ died?"
+    },
+    {
+      "locus": "61",
+      "body": "By believing in a Saviour to come.",
+      "prompt": "How were pious persons saved before the coming of Christ if"
+    },
+    {
+      "locus": "62",
+      "body": "By offering sacrifices on God's altar.",
+      "prompt": "How did they show their faith?"
+    },
+    {
+      "locus": "63",
+      "body": "Christ, the Lamb of God, who was to die for sinners.",
+      "prompt": "What did these sacrifices represent?"
+    },
+    {
+      "locus": "64",
+      "body": "Christ has three offices.",
+      "prompt": "What offices has Christ?"
+    },
+    {
+      "locus": "65",
+      "body": "The offices of a prophet, of a priest, and of a king.",
+      "prompt": "What are they?"
+    },
+    {
+      "locus": "66",
+      "body": "Because he teaches us the will of God.",
+      "prompt": "How is Christ a prophet?"
+    },
+    {
+      "locus": "67",
+      "body": "Because he died for our sins and pleads with God for us.",
+      "prompt": "How is Christ a priest?"
+    },
+    {
+      "locus": "68",
+      "body": "Because he rules over us and defends us.",
+      "prompt": "How is Christ a king?"
+    },
+    {
+      "locus": "69",
+      "body": "Because I am ignorant.",
+      "prompt": "Why do you need Christ as a prophet?"
+    },
+    {
+      "locus": "70",
+      "body": "Because I am guilty.",
+      "prompt": "Why do you need Christ as a priest?"
+    },
+    {
+      "locus": "71",
+      "body": "Because I am weak and helpless.",
+      "prompt": "Why do you need Christ as a king?"
+    },
+    {
+      "locus": "72",
+      "body": "Ten commandments.",
+      "prompt": "How many commandments did God give on Mount Sinai?"
+    },
+    {
+      "locus": "73",
+      "body": "The Decalogue.",
+      "prompt": "What are the ten commandments sometimes called?"
+    },
+    {
+      "locus": "74",
+      "body": "Our duty to God.",
+      "prompt": "What do the first four commandments teach?"
+    },
+    {
+      "locus": "75",
+      "body": "Our duty to our fellow-men.",
+      "prompt": "What do the last six commandments teach?"
+    },
+    {
+      "locus": "76",
+      "body": "To love God with all my heart, and my neighbor as myself.",
+      "prompt": "What is the sum of the ten commandments?"
+    },
+    {
+      "locus": "77",
+      "body": "All my fellow-men are my neighbors.",
+      "prompt": "Who is your neighbor?"
+    },
+    {
+      "locus": "78",
+      "body": "Yes; he says, 'I love them that love me.'",
+      "prompt": "Is God pleased with those who love and obey him?"
+    },
+    {
+      "locus": "79",
+      "body": "Yes; 'God is angry with the wicked every day.'",
+      "prompt": "Is God displeased with those who do not love and obey him?"
+    },
+    {
+      "locus": "80",
+      "body": "The first commandment is, Thou shalt have no other gods before me.",
+      "prompt": "What is the first commandment?"
+    },
+    {
+      "locus": "81",
+      "body": "To worship God alone.",
+      "prompt": "What does the first commandment teach us?"
+    },
+    {
+      "locus": "82",
+      "body": "The second commandment is, Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth. Thou shalt not bow down thyself to them, nor serve them; for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children, unto the third and fourth generation of them that hate me; and showing mercy unto thousands of them that love me and keep my commandments.",
+      "prompt": "What is the second commandment?"
+    },
+    {
+      "locus": "83",
+      "body": "To worship God in a proper manner, and to avoid idolatry.",
+      "prompt": "What does the second commandment teach us?"
+    },
+    {
+      "locus": "84",
+      "body": "The third commandment is, Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain.",
+      "prompt": "What is the third commandment?"
+    },
+    {
+      "locus": "85",
+      "body": "To reverence God's name, word, and works.",
+      "prompt": "What does the third commandment teach us?"
+    },
+    {
+      "locus": "86",
+      "body": "The fourth commandment is, Remember the Sabbath day to keep it holy. Six days shalt thou labor and do all thy work; but the seventh day is the Sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy man-servant, nor thy maid-servant, nor thy cattle, nor thy stranger that is within thy gates: for in six days the Lord made heaven and earth, the sea, and all that in them is, and rested on the seventh day: wherefore the Lord blessed the Sabbath day, and hallowed it.",
+      "prompt": "What is the fourth commandment?"
+    },
+    {
+      "locus": "87",
+      "body": "To keep the Sabbath holy.",
+      "prompt": "What does the fourth commandment teach us?"
+    },
+    {
+      "locus": "88",
+      "body": "The first day of the week, called the Lord's day.",
+      "prompt": "What day of the week is the Christian Sabbath?"
+    },
+    {
+      "locus": "89",
+      "body": "Because on that day Christ rose from the dead.",
+      "prompt": "Why is it called the Lord's day?"
+    },
+    {
+      "locus": "90",
+      "body": "In prayer and praise, in hearing and reading God's word, and in doing good to our fellow-men.",
+      "prompt": "How should the Sabbath be spent?"
+    },
+    {
+      "locus": "91",
+      "body": "The fifth commandment is, Honor thy father and thy mother, that thy days may be long upon the land which the Lord thy God giveth thee.",
+      "prompt": "What is the fifth commandment?"
+    },
+    {
+      "locus": "92",
+      "body": "To love and obey our parents and teachers.",
+      "prompt": "What does the fifth commandment teach us?"
+    },
+    {
+      "locus": "93",
+      "body": "The sixth commandment is, Thou shalt not kill.",
+      "prompt": "What is the sixth commandment?"
+    },
+    {
+      "locus": "94",
+      "body": "To avoid angry passions.",
+      "prompt": "What does the sixth commandment teach us?"
+    },
+    {
+      "locus": "95",
+      "body": "The seventh commandment is, Thou shalt not commit adultery.",
+      "prompt": "What is the seventh commandment?"
+    },
+    {
+      "locus": "96",
+      "body": "To be pure in heart, language, and conduct.",
+      "prompt": "What does the seventh commandment teach us?"
+    },
+    {
+      "locus": "97",
+      "body": "The eighth commandment is, Thou shalt not steal.",
+      "prompt": "What is the eighth commandment?"
+    },
+    {
+      "locus": "98",
+      "body": "To be honest and industrious.",
+      "prompt": "What does the eighth commandment teach us?"
+    },
+    {
+      "locus": "99",
+      "body": "The ninth commandment is, Thou shalt not bear false witness against thy neighbor.",
+      "prompt": "What is the ninth commandment?"
+    },
+    {
+      "locus": "100",
+      "body": "To tell the truth.",
+      "prompt": "What does the ninth commandment teach us?"
+    },
+    {
+      "locus": "101",
+      "body": "The tenth commandment is, Thou shalt not covet thy neighbor's house, thou shalt not covet thy neighbor's wife, nor his man-servant, nor his maid-servant, nor his ox, nor his ass, nor any thing that is thy neighbor's.",
+      "prompt": "What is the tenth commandment?"
+    },
+    {
+      "locus": "102",
+      "body": "To be content with our lot.",
+      "prompt": "What does the tenth commandment teach us?"
+    },
+    {
+      "locus": "103",
+      "body": "No mere man, since the fall of Adam, ever did or can keep the ten commandments perfectly.",
+      "prompt": "Can any man keep these ten commandments perfectly?"
+    },
+    {
+      "locus": "104",
+      "body": "They teach us our duty, and show our need of a Saviour.",
+      "prompt": "Of what use are the ten commandments to us?"
+    },
+    {
+      "locus": "105",
+      "body": "Prayer is asking God for things which he has promised to give.",
+      "prompt": "What is prayer?"
+    },
+    {
+      "locus": "106",
+      "body": "Only in the name of Christ.",
+      "prompt": "In whose name should we pray?"
+    },
+    {
+      "locus": "107",
+      "body": "The Lord's Prayer.",
+      "prompt": "What has Christ given us to teach us how to pray?"
+    },
+    {
+      "locus": "108",
+      "body": "OUR FATHER WHICH ART IN HEAVEN, HALLOWED BE THY NAME. THY KINGDOM COME. THY WILL BE DONE IN EARTH, AS IT IS IN HEAVEN. GIVE US THIS DAY OUR DAILY BREAD; AND FORGIVE US OUR DEBTS, AS WE FORGIVE OUR DEBTORS; AND LEAD US NOT INTO TEMPTATION, BUT DELIVER US FROM EVIL. FOR THINE IS THE KINGDOM, AND THE POWER, AND THE GLORY, FOR EVER. AMEN.",
+      "prompt": "Repeat the Lord's Prayer."
+    },
+    {
+      "locus": "109",
+      "body": "Six.",
+      "prompt": "How many petitions are there in the Lord's Prayer?"
+    },
+    {
+      "locus": "110",
+      "body": "'Hallowed be thy name.'",
+      "prompt": "What is the first petition?"
+    },
+    {
+      "locus": "111",
+      "body": "That God's name may be honored by us and all men.",
+      "prompt": "What do we pray for in the first petition?"
+    },
+    {
+      "locus": "112",
+      "body": "'Thy kingdom come.'",
+      "prompt": "What is the second petition?"
+    },
+    {
+      "locus": "113",
+      "body": "That the gospel may be preached in all the world, and believed and obeyed by us and all men.",
+      "prompt": "What do we pray for in the second petition?"
+    },
+    {
+      "locus": "114",
+      "body": "'Thy will be done in earth, as it is in heaven.'",
+      "prompt": "What is the third petition?"
+    },
+    {
+      "locus": "115",
+      "body": "That men on earth may serve God as the angels do in heaven.",
+      "prompt": "What do we pray for in the third petition?"
+    },
+    {
+      "locus": "116",
+      "body": "'Give us this day our daily bread.'",
+      "prompt": "What is the fourth petition?"
+    },
+    {
+      "locus": "117",
+      "body": "That God would give us all things needful for our bodies and souls.",
+      "prompt": "What do we pray for in the fourth petition?"
+    },
+    {
+      "locus": "118",
+      "body": "'And forgive us our debts, as we forgive our debtors.'",
+      "prompt": "What is the fifth petition?"
+    },
+    {
+      "locus": "119",
+      "body": "That God would pardon our sins for Christ's sake, and enable us to forgive those who have injured us.",
+      "prompt": "What do we pray for in the fifth petition?"
+    },
+    {
+      "locus": "120",
+      "body": "'And lead us not into temptation, but deliver us from evil.'",
+      "prompt": "What is the sixth petition?"
+    },
+    {
+      "locus": "121",
+      "body": "That God would keep us from sin.",
+      "prompt": "What do we pray for in the sixth petition?"
+    },
+    {
+      "locus": "122",
+      "body": "Two.",
+      "prompt": "How many sacraments are there?"
+    },
+    {
+      "locus": "123",
+      "body": "Baptism and the Lord's Supper.",
+      "prompt": "What are they?"
+    },
+    {
+      "locus": "124",
+      "body": "The Lord Jesus Christ.",
+      "prompt": "Who appointed these sacraments?"
+    },
+    {
+      "locus": "125",
+      "body": "To distinguish his disciples from the world, and to comfort and strengthen them.",
+      "prompt": "Why did Christ appoint these sacraments?"
+    },
+    {
+      "locus": "126",
+      "body": "The washing with water.",
+      "prompt": "What sign is used in baptism?"
+    },
+    {
+      "locus": "127",
+      "body": "That we are cleansed from sin by the blood of Christ.",
+      "prompt": "What does this signify?"
+    },
+    {
+      "locus": "128",
+      "body": "In the name of the Father, and of the Son, and of the Holy Ghost.",
+      "prompt": "In whose name are we baptized?"
+    },
+    {
+      "locus": "129",
+      "body": "Believers and their children.",
+      "prompt": "Who are to be baptized?"
+    },
+    {
+      "locus": "130",
+      "body": "Because they have a sinful nature and need a Saviour.",
+      "prompt": "Why should infants be baptized?"
+    },
+    {
+      "locus": "131",
+      "body": "Yes; for he says, SUFFER THE LITTLE CHILDREN TO COME UNTO ME, AND FORBID THEM NOT, FOR OF SUCH IS THE KINGDOM OF HEAVEN.",
+      "prompt": "Does Christ care for little children?"
+    },
+    {
+      "locus": "132",
+      "body": "To be a true follower of Christ.",
+      "prompt": "To what does your baptism bind you?"
+    },
+    {
+      "locus": "133",
+      "body": "The eating of bread and drinking of wine in remembrance of the sufferings and death of Christ.",
+      "prompt": "What is the Lord's Supper?"
+    },
+    {
+      "locus": "134",
+      "body": "The body of Christ, broken for our sins.",
+      "prompt": "What does the bread represent?"
+    },
+    {
+      "locus": "135",
+      "body": "The blood of Christ, shed for our salvation.",
+      "prompt": "What does the wine represent?"
+    },
+    {
+      "locus": "136",
+      "body": "Only those who repent of their sins, believe in Christ for salvation, and love their fellow-men.",
+      "prompt": "Who should partake of the Lord's Supper?"
+    },
+    {
+      "locus": "137",
+      "body": "No; he rose from the tomb on the third day after his death.",
+      "prompt": "Did Christ remain in the tomb after his crucifixion?"
+    },
+    {
+      "locus": "138",
+      "body": "In heaven, interceding for sinners.",
+      "prompt": "Where is Christ now?"
+    },
+    {
+      "locus": "139",
+      "body": "Yes; at the last day Christ will come to judge the world.",
+      "prompt": "Will he come again?"
+    },
+    {
+      "locus": "140",
+      "body": "The body returns to dust, and the soul goes into the world of spirits.",
+      "prompt": "What becomes of men at death?"
+    },
+    {
+      "locus": "141",
+      "body": "Yes; 'the trumpet shall sound and the dead shall be raised.'",
+      "prompt": "Will the bodies of the dead be raised to life again?"
+    },
+    {
+      "locus": "142",
+      "body": "They shall be cast into hell.",
+      "prompt": "What will become of the wicked in the day of judgment?"
+    },
+    {
+      "locus": "143",
+      "body": "A place of dreadful and endless torment.",
+      "prompt": "What is hell?"
+    },
+    {
+      "locus": "144",
+      "body": "They shall be taken to heaven.",
+      "prompt": "What will become of the righteous?"
+    },
+    {
+      "locus": "145",
+      "body": "A glorious and happy place, where the righteous shall be for ever with the LORD.",
+      "prompt": "What is heaven?"
+    }
+  ]
+}

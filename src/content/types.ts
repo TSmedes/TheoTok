@@ -101,6 +101,13 @@ export interface DoctrineCard extends CardBase {
   prompt?: string;
   body: string;
   proofTexts?: Ref[];
+  /**
+   * Where in the source document this card came from, as an index into that
+   * document's `entries`. Set by the importer for generated cards; absent on
+   * hand-written ones, whose works were never imported whole. The reader uses
+   * it to show the surrounding articles — see `src/content/confessions/`.
+   */
+  docIndex?: number;
 }
 
 export interface HistoryCard extends CardBase {

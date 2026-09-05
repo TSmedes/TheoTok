@@ -67,6 +67,7 @@ export const doctrineCardSchema = z.object({
   prompt: z.string().min(1).max(PROMPT_MAX_CHARS).optional(),
   body: z.string().min(1).max(BODY_MAX_CHARS),
   proofTexts: z.array(refSchema).optional(),
+  docIndex: z.number().int().nonnegative().optional(),
 });
 
 export const historyCardSchema = z.object({

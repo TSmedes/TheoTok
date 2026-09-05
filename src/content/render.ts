@@ -20,8 +20,16 @@ export function formatRef(ref: Ref): string {
 export function formatSourceCitation(source: Source, locus?: string): string {
   const work = source.author ? `${source.author}, ${source.title}` : source.title;
   if (!locus) return work;
-  const rendered = source.locusPrefix ? `${source.locusPrefix} ${locus}` : locus;
-  return `${work}, ${rendered}`;
+  return `${work}, ${formatLocus(source, locus)}`;
+}
+
+/**
+ * The locus alone — "Q. 1", "Art. IV", "1.2" — for places that have already
+ * named the work and only need to say where in it we are, such as the reader
+ * showing an article among its neighbours.
+ */
+export function formatLocus(source: Source, locus: string): string {
+  return source.locusPrefix ? `${source.locusPrefix} ${locus}` : locus;
 }
 
 export interface RenderContext {

@@ -1,5 +1,5 @@
 /**
- * The canonical book list, in KJV order, including the Apocrypha as printed in
+ * The canonical book list, in NRSV/KJV order, including the Apocrypha as printed in
  * the 1611 edition. This is the single source of truth: the app imports it for
  * types and citation rendering, and `scripts/build-bible.ts` imports it to know
  * what to fetch and in what order.

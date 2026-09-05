@@ -6,7 +6,7 @@
  * network calls: the feed works offline, and no upstream API can take it down.
  *
  * Only tier one — the verses the card library actually cites — is loaded here.
- * The full KJV stays in per-book files for the reader sheet to pull in on
+ * The full NRSV (and KJV fallback) stays in per-book files for the reader sheet to pull in on
  * demand, so ~5 MB of Scripture never sits in the way of first paint.
  */
 
@@ -62,4 +62,23 @@ export const renderContext: RenderContext = {
 
 export function toRendered(card: Card): RenderedCard {
   return renderCard(card, renderContext);
+}
+
+/**
+ * `toRendered`, memoised by card id.
+ *
+ * Cards are immutable and the render context is a module constant, so a card
+ * renders to the same result for the life of the process. The feed asks for
+ * these one row at a time as the reader scrolls, and a reader who scrolls the
+ * whole library would otherwise re-render every card they scrolled back past.
+ */
+const RENDERED = new Map<string, RenderedCard>();
+
+export function renderedFor(card: Card): RenderedCard {
+  let rendered = RENDERED.get(card.id);
+  if (!rendered) {
+    rendered = renderCard(card, renderContext);
+    RENDERED.set(card.id, rendered);
+  }
+  return rendered;
 }

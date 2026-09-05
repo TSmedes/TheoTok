@@ -2,94 +2,160 @@
   {
     "id": "his-cyril-methodius-alphabet",
     "type": "history",
-    "traditions": ["orthodox", "catholic"],
-    "themes": ["mission", "translation", "language"],
+    "traditions": [
+      "orthodox",
+      "catholic"
+    ],
+    "themes": [
+      "mission",
+      "translation",
+      "language"
+    ],
     "weight": 1.3,
     "headline": "They invented an alphabet so a people could read the liturgy.",
     "body": "Sent to Great Moravia, Cyril and Methodius found a language with no writing. Rather than impose Greek or Latin, they devised a script for Slavonic and translated the Scriptures and services into it. Cyrillic, named for one of them, is still used by hundreds of millions.",
     "year": 863,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "3"
   },
   {
     "id": "his-vladimir-envoys",
     "type": "history",
-    "traditions": ["orthodox"],
-    "themes": ["conversion", "worship", "beauty"],
+    "traditions": [
+      "orthodox"
+    ],
+    "themes": [
+      "conversion",
+      "worship",
+      "beauty"
+    ],
     "weight": 1.2,
     "headline": "They chose a religion on the strength of a church service.",
     "body": "The chronicles say Prince Vladimir of Kiev sent envoys to inspect the faiths. In Constantinople, at the liturgy in Hagia Sophia, they reported they did not know whether they were in heaven or on earth. The Rus were baptised, and Russia became Orthodox.",
     "year": 988,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "3"
   },
   {
     "id": "his-great-schism",
     "type": "history",
-    "traditions": ["orthodox", "catholic"],
-    "themes": ["schism", "division", "authority"],
+    "traditions": [
+      "orthodox",
+      "catholic"
+    ],
+    "themes": [
+      "schism",
+      "division",
+      "authority"
+    ],
     "weight": 1.2,
     "headline": "The legates laid the excommunication on the altar and walked out.",
     "body": "The break between East and West had been widening for centuries over authority and a clause added to the creed. In 1054 papal legates placed a bull of excommunication on the altar of Hagia Sophia. The mutual anathemas were not lifted until 1965.",
     "year": 1054,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "4"
   },
   {
     "id": "his-fall-constantinople",
     "type": "history",
-    "traditions": ["orthodox"],
-    "themes": ["loss", "empire", "endurance"],
+    "traditions": [
+      "orthodox"
+    ],
+    "themes": [
+      "loss",
+      "empire",
+      "endurance"
+    ],
     "headline": "The liturgy was interrupted mid-service and never finished.",
     "body": "When Constantinople fell in 1453, the Divine Liturgy was being celebrated in Hagia Sophia. Byzantine Christianity lost its capital, and the centre of Orthodox life shifted north to Moscow — which began, not modestly, to call itself the third Rome.",
     "year": 1453,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "5"
   },
   {
     "id": "his-hesychasm",
     "type": "history",
-    "traditions": ["orthodox"],
-    "themes": ["prayer", "mysticism", "stillness"],
+    "traditions": [
+      "orthodox"
+    ],
+    "themes": [
+      "prayer",
+      "mysticism",
+      "stillness"
+    ],
     "headline": "A whole tradition of prayer built on one short sentence.",
     "body": "Monks on Mount Athos practised hesychia, stillness, repeating the Jesus Prayer — Lord Jesus Christ, Son of God, have mercy on me, a sinner — until it ran with the breath. Gregory Palamas defended the practice against the charge that it claimed too much, and it remains central to Orthodox spirituality.",
     "year": 1341,
     "yearDisplay": "c. 1341",
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "5"
   },
   {
     "id": "his-xavier-languages",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["mission", "asia", "language"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "mission",
+      "asia",
+      "language"
+    ],
     "headline": "He baptised across Asia while never mastering the languages.",
     "body": "Francis Xavier reached India, the Moluccas and Japan in ten years, working largely through interpreters and phonetic phrases he had memorised without understanding. He died on an island within sight of the Chinese mainland, waiting for a boat that never came.",
     "year": 1552,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "6"
   },
   {
     "id": "his-ricci-scholar",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["mission", "china", "culture"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "mission",
+      "china",
+      "culture"
+    ],
     "weight": 1.2,
     "headline": "He entered China dressed as a Buddhist monk, then changed into a scholar's robes.",
     "body": "Matteo Ricci judged that Confucian scholars, not monks, held the respect he needed, and re-presented himself accordingly — learning classical Chinese, publishing on mathematics and astronomy, and arguing that Christian faith completed rather than replaced what China already honoured.",
     "year": 1601,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "6"
   },
   {
     "id": "his-moravian-watch",
     "type": "history",
-    "traditions": ["lutheran", "methodist"],
-    "themes": ["prayer", "community", "mission"],
+    "traditions": [
+      "lutheran",
+      "methodist"
+    ],
+    "themes": [
+      "prayer",
+      "community",
+      "mission"
+    ],
     "weight": 1.3,
     "headline": "A prayer meeting that ran in shifts for a hundred years.",
     "body": "The Moravian community at Herrnhut began a round-the-clock prayer watch in 1727, dividing the hours between them so that prayer never stopped. It is said to have continued for over a century, and out of that community came a missionary movement out of all proportion to its size.",
     "year": 1727,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "7"
   },
   {
     "id": "his-moravians-storm",
     "type": "history",
-    "traditions": ["methodist", "lutheran"],
-    "themes": ["fear", "assurance", "witness"],
+    "traditions": [
+      "methodist",
+      "lutheran"
+    ],
+    "themes": [
+      "fear",
+      "assurance",
+      "witness"
+    ],
     "weight": 1.2,
     "headline": "A storm at sea, an English priest terrified, and a group of Germans singing.",
     "body": "Crossing to Georgia in 1735, John Wesley's ship met a storm that split the mainsail. The English passengers screamed; a party of Moravians went on calmly singing a psalm. Wesley, badly shaken, concluded that they had something he did not, and the question drove him for three years.",
@@ -99,18 +165,31 @@
   {
     "id": "his-judson-burma",
     "type": "history",
-    "traditions": ["baptist"],
-    "themes": ["mission", "perseverance", "suffering"],
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "mission",
+      "perseverance",
+      "suffering"
+    ],
     "headline": "Six years of work before the first convert, and prison after that.",
     "body": "Adoniram Judson reached Burma in 1813 and waited six years for one baptism. He was later imprisoned for nearly two years, and lost his wife and children. He finished a translation of the Bible into Burmese that is still in use.",
     "year": 1813,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "8"
   },
   {
     "id": "his-carey-forty-years",
     "type": "history",
-    "traditions": ["baptist"],
-    "themes": ["mission", "translation", "india"],
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "mission",
+      "translation",
+      "india"
+    ],
     "headline": "A printing press, a flood, a fire, and forty years without going home.",
     "body": "Carey and his colleagues at Serampore translated Scripture into dozens of Indian languages. In 1812 a fire destroyed the press, manuscripts and years of work, including a polyglot dictionary. Carey began again, and the work was reprinted within months.",
     "year": 1812,
@@ -119,292 +198,488 @@
   {
     "id": "his-livingstone-heart",
     "type": "history",
-    "traditions": ["reformed", "ecumenical"],
-    "themes": ["mission", "africa", "burial"],
+    "traditions": [
+      "reformed",
+      "ecumenical"
+    ],
+    "themes": [
+      "mission",
+      "africa",
+      "burial"
+    ],
     "headline": "They buried his heart in Africa and carried the rest of him home.",
     "body": "David Livingstone died in what is now Zambia. His African companions Chuma and Susi buried his heart under a tree, dried his body, and carried it more than a thousand miles to the coast so it could be returned to Britain. He is buried in Westminster Abbey.",
     "year": 1873,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "8"
   },
   {
     "id": "his-taylor-chinese-dress",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["mission", "china", "culture"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "mission",
+      "china",
+      "culture"
+    ],
     "headline": "He adopted Chinese dress and other missionaries were appalled.",
     "body": "Hudson Taylor wore Chinese clothing and grew the queue, arguing that the gospel need not arrive dressed as an Englishman. Fellow missionaries thought it undignified. The mission he founded worked inland, away from the treaty ports, and reshaped how Protestant missions were run.",
     "year": 1865,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "8"
   },
   {
     "id": "his-slessor-twins",
     "type": "history",
-    "traditions": ["reformed"],
-    "themes": ["mission", "africa", "children"],
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "mission",
+      "africa",
+      "children"
+    ],
     "weight": 1.2,
     "headline": "A mill girl from Dundee who stopped the killing of twins.",
     "body": "Mary Slessor went to Calabar at twenty-eight, learned Efik, and lived in the interior rather than the mission compound. Twins were customarily killed as cursed; she took them in, raised many herself, and argued the practice down. She was eventually made a magistrate.",
     "year": 1876,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "8"
   },
   {
     "id": "his-clapham-abolition",
     "type": "history",
-    "traditions": ["anglican"],
-    "themes": ["justice", "slavery", "perseverance"],
+    "traditions": [
+      "anglican"
+    ],
+    "themes": [
+      "justice",
+      "slavery",
+      "perseverance"
+    ],
     "weight": 1.3,
     "headline": "Twenty years of losing votes before the bill passed.",
     "body": "Wilberforce brought abolition bills before Parliament again and again and was defeated again and again. The Clapham group around him funded, organised and researched for two decades. The slave trade was abolished in 1807; slavery itself in 1833, three days before Wilberforce died.",
     "year": 1807,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "8"
   },
   {
     "id": "his-equiano-narrative",
     "type": "history",
-    "traditions": ["anglican", "methodist"],
-    "themes": ["slavery", "testimony", "justice"],
+    "traditions": [
+      "anglican",
+      "methodist"
+    ],
+    "themes": [
+      "slavery",
+      "testimony",
+      "justice"
+    ],
     "headline": "The abolition argument that mattered most was written by someone who had been enslaved.",
     "body": "Olaudah Equiano was kidnapped as a child, sold into slavery, eventually bought his freedom, and published his own account. The book went through nine editions in his lifetime and put a first-person voice into a debate that had been conducted almost entirely by people who had never been in a hold.",
     "year": 1789,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "7"
   },
   {
     "id": "his-newton-testimony",
     "type": "history",
-    "traditions": ["anglican"],
-    "themes": ["repentance", "slavery", "witness"],
+    "traditions": [
+      "anglican"
+    ],
+    "themes": [
+      "repentance",
+      "slavery",
+      "witness"
+    ],
     "headline": "It took him thirty years to say publicly what he had done.",
     "body": "John Newton was converted while still working in the slave trade and continued in it for some years afterwards. Only decades later did he publish Thoughts upon the African Slave Trade, describing the business in detail and calling it a crime, then gave evidence toward abolition.",
     "year": 1788,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "7"
   },
   {
     "id": "his-booth-salvation-army",
     "type": "history",
-    "traditions": ["methodist"],
-    "themes": ["poverty", "mission", "organisation"],
+    "traditions": [
+      "methodist"
+    ],
+    "themes": [
+      "poverty",
+      "mission",
+      "organisation"
+    ],
     "headline": "They borrowed the structure of an army because nothing else worked.",
     "body": "William and Catherine Booth worked among the destitute in east London and found respectable congregations unwilling to receive their converts. So they built their own organisation with ranks, uniforms and brass bands, on the principle that you cannot preach to a man who has not eaten.",
     "year": 1878,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "8"
   },
   {
     "id": "his-azusa-street",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["revival", "pentecost", "unity"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "revival",
+      "pentecost",
+      "unity"
+    ],
     "weight": 1.2,
     "headline": "A revival in a converted stable, led by the son of former slaves.",
     "body": "William Seymour, denied entry to the classroom and made to listen from the hallway, began meetings on Azusa Street in Los Angeles in 1906. They ran for years, drew visitors from around the world, and were remarked upon at the time for being racially integrated. Pentecostalism spread from there.",
     "year": 1906,
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-edinburgh-1910",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["mission", "unity", "conference"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "mission",
+      "unity",
+      "conference"
+    ],
     "headline": "A missions conference that accidentally started the ecumenical movement.",
     "body": "Delegates met at Edinburgh in 1910 to coordinate world mission, and found that the divisions they had exported were the chief obstacle to the work. The organisational machinery they built to cooperate became, over the following decades, the modern ecumenical movement.",
     "year": 1910,
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-barmen-declaration",
     "type": "history",
-    "traditions": ["lutheran", "reformed"],
-    "themes": ["confession", "resistance", "authority"],
+    "traditions": [
+      "lutheran",
+      "reformed"
+    ],
+    "themes": [
+      "confession",
+      "resistance",
+      "authority"
+    ],
     "weight": 1.3,
     "headline": "A confession written to say that the state is not the church's lord.",
     "body": "As the German churches were being absorbed into the Nazi state, a synod at Barmen declared that the church cannot recognise any other event, power, figure or truth as God's revelation alongside Jesus Christ. It cost its signatories a great deal, and it is still confessional text for many.",
     "year": 1934,
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-vatican-ii-vernacular",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["council", "liturgy", "reform"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "council",
+      "liturgy",
+      "reform"
+    ],
     "weight": 1.2,
     "headline": "The Mass changed language for the first time in fourteen centuries.",
     "body": "Vatican II opened the liturgy to the vernacular, turned the altar toward the people, and reframed the church's relation to other Christians and to the modern world. It was called by a pope widely expected, at seventy-six, to do nothing in particular.",
     "year": 1965,
     "yearDisplay": "1962-1965",
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-anathemas-lifted",
     "type": "history",
-    "traditions": ["catholic", "orthodox"],
-    "themes": ["reconciliation", "schism", "unity"],
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "reconciliation",
+      "schism",
+      "unity"
+    ],
     "headline": "It took nine hundred and eleven years to take it back.",
     "body": "The mutual excommunications of 1054 were formally withdrawn in 1965, when Pope Paul VI and Patriarch Athenagoras expressed regret for them in simultaneous declarations at Rome and Constantinople. The churches are not reunited, but the anathemas no longer stand between them.",
     "year": 1965,
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-lewis-reluctant",
     "type": "history",
-    "traditions": ["anglican"],
-    "themes": ["conversion", "reason", "reluctance"],
+    "traditions": [
+      "anglican"
+    ],
+    "themes": [
+      "conversion",
+      "reason",
+      "reluctance"
+    ],
     "headline": "He described his own conversion as being dragged in kicking.",
     "body": "C. S. Lewis came to belief slowly and against his inclination, arguing his way there in conversation with Tolkien and others. He recorded it without any triumph, calling himself the most dejected and reluctant convert in all England — an unusually unflattering account of one's own faith.",
     "year": 1931,
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-kimbangu-congo",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["africa", "persecution", "indigenous-church"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "africa",
+      "persecution",
+      "indigenous-church"
+    ],
     "headline": "He preached for a few months and spent thirty years in prison for it.",
     "body": "Simon Kimbangu's ministry in the Belgian Congo lasted about six months in 1921 before the colonial authorities arrested him. He died in prison thirty years later. The church that grew from those months became one of the largest independent churches in Africa.",
     "year": 1921,
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-korean-pyongyang",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["revival", "korea", "confession"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "revival",
+      "korea",
+      "confession"
+    ],
     "headline": "A revival that began when the leaders confessed first.",
     "body": "At meetings in Pyongyang in 1907, missionaries and Korean elders began publicly confessing their own resentments — including against one another across the missionary and national divide. The movement that followed shaped Korean Protestantism, which grew from almost nothing to a national presence within a century.",
     "year": 1907,
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-welsh-revival",
     "type": "history",
-    "traditions": ["methodist", "reformed"],
-    "themes": ["revival", "wales", "singing"],
+    "traditions": [
+      "methodist",
+      "reformed"
+    ],
+    "themes": [
+      "revival",
+      "wales",
+      "singing"
+    ],
     "headline": "The pits went quiet because the pit ponies did not understand the new orders.",
     "body": "During the Welsh revival of 1904-05 the chapels filled nightly and singing ran for hours. The story told afterwards — repeated so often it became folklore — was that miners had stopped swearing so completely that the pit ponies no longer recognised the commands.",
     "year": 1904,
     "yearDisplay": "1904-1905",
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-hymn-singing-women",
     "type": "history",
-    "traditions": ["methodist", "anglican"],
-    "themes": ["hymns", "women", "worship"],
+    "traditions": [
+      "methodist",
+      "anglican"
+    ],
+    "themes": [
+      "hymns",
+      "women",
+      "worship"
+    ],
     "headline": "She wrote around eight thousand hymns and could not see any of them.",
     "body": "Fanny Crosby was blinded in infancy and wrote hymns for decades under scores of pen names, because publishers thought it looked bad to print so many by one author. She also worked for years in the New York slums, and asked to be remembered for that.",
     "year": 1915,
     "yearDisplay": "d. 1915",
-    "sourceId": "schaff-history"
+    "sourceId": "modern-history"
   },
   {
     "id": "his-watts-hymns",
     "type": "history",
-    "traditions": ["reformed", "baptist"],
-    "themes": ["hymns", "worship", "innovation"],
+    "traditions": [
+      "reformed",
+      "baptist"
+    ],
+    "themes": [
+      "hymns",
+      "worship",
+      "innovation"
+    ],
     "headline": "Told the psalms were good enough, he offered to do better.",
     "body": "English congregations sang metrical psalms and little else. The young Isaac Watts complained about the quality; his father told him to produce something better. He did, repeatedly, and effectively invented the English hymn as a form — including When I Survey the Wondrous Cross.",
     "year": 1707,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "7"
   },
   {
     "id": "his-bach-soli-deo",
     "type": "history",
-    "traditions": ["lutheran"],
-    "themes": ["music", "worship", "vocation"],
+    "traditions": [
+      "lutheran"
+    ],
+    "themes": [
+      "music",
+      "worship",
+      "vocation"
+    ],
     "weight": 1.2,
     "headline": "He signed his manuscripts the way a craftsman signs work he does not own.",
     "body": "Bach wrote SDG — Soli Deo Gloria, to God alone the glory — at the end of his scores, and JJ, Jesu Juva, help me Jesus, at the start. He was a working church musician producing cantatas to a weekly deadline, and treated the deadline as the assignment.",
     "year": 1750,
     "yearDisplay": "d. 1750",
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "7"
   },
   {
     "id": "his-handel-messiah",
     "type": "history",
-    "traditions": ["anglican"],
-    "themes": ["music", "scripture", "charity"],
+    "traditions": [
+      "anglican"
+    ],
+    "themes": [
+      "music",
+      "scripture",
+      "charity"
+    ],
     "headline": "Written in three weeks, and first performed for a debtors' prison.",
     "body": "Handel composed Messiah in about twenty-four days, setting a libretto that is almost entirely Scripture. Its premiere in Dublin in 1742 was a benefit; the proceeds went to a hospital, a charity, and the release of men held for debt.",
     "year": 1742,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "7"
   },
   {
     "id": "his-monastic-copying",
     "type": "history",
-    "traditions": ["catholic", "orthodox"],
-    "themes": ["scholarship", "preservation", "monasticism"],
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "scholarship",
+      "preservation",
+      "monasticism"
+    ],
     "weight": 1.2,
     "headline": "Much of classical literature survives because monks were bored and disciplined.",
     "body": "Copying was assigned as manual labour. Scribes left complaints in the margins — about the cold, the light, their fingers — and in doing so preserved not only Scripture and the Fathers but a great deal of pagan Greek and Latin literature that would otherwise have vanished entirely.",
     "year": 800,
     "yearDisplay": "c. 500-1200",
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "3"
   },
   {
     "id": "his-lindisfarne-gospels",
     "type": "history",
-    "traditions": ["anglican", "catholic"],
-    "themes": ["art", "scripture", "england"],
-    "headline": "One man, one book, and pigments that had crossed continents.",
-    "body": "The Lindisfarne Gospels appear to be the work of a single scribe and artist over years, using pigments including lapis lazuli that had travelled from what is now Afghanistan. Two and a half centuries later an English gloss was added between the Latin lines — the oldest surviving English gospels.",
+    "traditions": [
+      "anglican",
+      "catholic"
+    ],
+    "themes": [
+      "art",
+      "scripture",
+      "england"
+    ],
+    "headline": "One man, one book, and pigments made closer to home.",
+    "body": "The Lindisfarne Gospels appear to be the work of a single scribe and artist over years, using insular pigments including azurite — Raman analysis (2013) corrected the older claim of Afghan lapis lazuli. Two and a half centuries later an English gloss was added between the Latin lines — the oldest surviving English gospels.",
     "year": 715,
     "yearDisplay": "c. 715",
-    "sourceId": "bede-he"
+    "sourceId": "british-library"
   },
   {
     "id": "his-boniface-oak",
     "type": "history",
-    "traditions": ["catholic", "lutheran"],
-    "themes": ["mission", "courage", "germany"],
+    "traditions": [
+      "catholic",
+      "lutheran"
+    ],
+    "themes": [
+      "mission",
+      "courage",
+      "germany"
+    ],
     "headline": "He cut down the sacred oak and waited to be struck by lightning.",
     "body": "Boniface, evangelising among the Hessians, felled the oak dedicated to Thor and stood there. Nothing happened, and the account says many were baptised on the strength of it. He was killed decades later in Frisia, reportedly holding a book over his head.",
     "year": 723,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "3"
   },
   {
     "id": "his-francis-poverty",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["poverty", "renunciation", "reform"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "poverty",
+      "renunciation",
+      "reform"
+    ],
     "weight": 1.2,
     "headline": "He gave his clothes back to his father in the public square.",
     "body": "Francis of Assisi, a wealthy cloth merchant's son, broke with his father over the money he was giving away. He returned everything he owned, including what he was wearing, in front of the bishop and the town. The order he founded reshaped medieval Christianity within a generation.",
     "year": 1206,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "4"
   },
   {
     "id": "his-clare-assisi",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["poverty", "women", "monasticism"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "poverty",
+      "women",
+      "monasticism"
+    ],
     "headline": "She spent forty years arguing for the right to own nothing.",
     "body": "Clare of Assisi left home at eighteen to follow Francis, and founded an order of women. Successive popes pressed her to accept property for security. She refused, and the privilege of poverty was granted to her rule two days before she died.",
     "year": 1253,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "4"
   },
   {
     "id": "his-catherine-siena",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["women", "authority", "reform"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "women",
+      "authority",
+      "reform"
+    ],
     "headline": "She wrote to the pope telling him to go home, and he went.",
     "body": "Catherine of Siena, a laywoman with no office and no formal education, wrote bluntly to popes and princes. Her letters pressing Gregory XI to return the papacy from Avignon to Rome are credited with contributing to his decision to do so.",
     "year": 1377,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "5"
   },
   {
     "id": "his-hus-goose",
     "type": "history",
-    "traditions": ["reformed", "lutheran"],
-    "themes": ["reform", "martyrdom", "prophecy"],
+    "traditions": [
+      "reformed",
+      "lutheran"
+    ],
+    "themes": [
+      "reform",
+      "martyrdom",
+      "prophecy"
+    ],
     "headline": "A century before Luther, and burned for saying much the same things.",
     "body": "Jan Hus preached in Czech, attacked indulgences and clerical wealth, and was burned at Constance in 1415 despite a safe conduct. His name means goose; the story that he foretold a swan would follow whom they could not silence was later applied enthusiastically to Luther.",
     "year": 1415,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "5"
   },
   {
     "id": "his-wycliffe-bones",
     "type": "history",
-    "traditions": ["anglican", "reformed"],
-    "themes": ["translation", "reform", "scripture"],
+    "traditions": [
+      "anglican",
+      "reformed"
+    ],
+    "themes": [
+      "translation",
+      "reform",
+      "scripture"
+    ],
     "headline": "They dug him up forty-four years after he died and burned him anyway.",
     "body": "John Wycliffe argued for Scripture in English and against the wealth of the church, and died in his bed in 1384. A council later declared him a heretic; his remains were exhumed, burned, and the ashes thrown into the River Swift.",
     "year": 1428,
@@ -413,55 +688,228 @@
   {
     "id": "his-gutenberg-bible",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["printing", "scripture", "technology"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "printing",
+      "scripture",
+      "technology"
+    ],
     "weight": 1.3,
     "headline": "The technology that broke the church's monopoly on books printed a Bible first.",
     "body": "Gutenberg's press produced around 180 copies of the Latin Bible in the 1450s — as many books as a scriptorium might manage in a lifetime. Within seventy years the same machinery would carry the Reformation across Europe faster than any authority could answer it.",
     "year": 1455,
     "yearDisplay": "c. 1455",
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "5"
   },
   {
     "id": "his-geneva-bible-notes",
     "type": "history",
-    "traditions": ["reformed"],
-    "themes": ["scripture", "printing", "study"],
+    "traditions": [
+      "reformed"
+    ],
+    "themes": [
+      "scripture",
+      "printing",
+      "study"
+    ],
     "headline": "The first English Bible with verse numbers, and the first with study notes.",
     "body": "Produced by exiles in Geneva, it was small enough to hold, printed in readable roman type, divided into numbered verses, and heavily annotated. The notes were pointed enough that King James disliked it, which is part of why he commissioned another.",
     "year": 1560,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "6"
   },
   {
     "id": "his-pilgrims-leiden",
     "type": "history",
-    "traditions": ["reformed", "baptist"],
-    "themes": ["exile", "conscience", "migration"],
+    "traditions": [
+      "reformed",
+      "baptist"
+    ],
+    "themes": [
+      "exile",
+      "conscience",
+      "migration"
+    ],
     "headline": "They emigrated twice, and the second time was because the children were becoming Dutch.",
     "body": "The Separatists who sailed on the Mayflower had already left England for Holland years earlier and found tolerance there. They moved again in part because their children were assimilating and the community was dispersing — a migration driven as much by memory as by persecution.",
     "year": 1620,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "6"
   },
   {
     "id": "his-williams-liberty",
     "type": "history",
-    "traditions": ["baptist"],
-    "themes": ["liberty", "conscience", "church-and-state"],
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "liberty",
+      "conscience",
+      "church-and-state"
+    ],
     "weight": 1.2,
     "headline": "Banished for arguing that the magistrate has no business in the soul.",
     "body": "Roger Williams was expelled from Massachusetts for holding that civil authority had no jurisdiction over conscience, and that the land belonged to those already living on it. He founded Rhode Island on those terms, and helped establish the first Baptist church in America.",
     "year": 1636,
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "6"
   },
   {
     "id": "his-seminary-hymn-slave-galleries",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["slavery", "worship", "america"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "slavery",
+      "worship",
+      "america"
+    ],
     "headline": "The spirituals were composed by people forbidden to learn to read.",
     "body": "Enslaved Christians in America produced a body of sacred song — Deep River, Steal Away, Were You There — worked out orally and collectively, often carrying double meanings about escape. It is among the most significant bodies of Christian music, and almost none of its authors are named.",
     "year": 1850,
     "yearDisplay": "c. 1800-1865",
-    "sourceId": "schaff-history"
+    "sourceId": "schaff-history",
+    "locus": "8"
+  },
+  {
+    "id": "his-ugandan-martyrs",
+    "type": "history",
+    "traditions": [
+      "catholic",
+      "anglican"
+    ],
+    "themes": [
+      "martyrdom",
+      "africa",
+      "uganda"
+    ],
+    "headline": "Pages at the king’s court chose burning over compliance.",
+    "body": "In 1885-87 Kabaka Mwanga II ordered the execution of some thirty Christian pages and chiefs at Namugongo. Anglicans and Catholics died together; Charles Lwanga, leader of the Catholic pages, went first. Pilgrims gather there still.",
+    "year": 1885,
+    "sourceId": "ugandan-martyrs"
+  },
+  {
+    "id": "his-constantinople-ii",
+    "type": "history",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "council",
+      "christology",
+      "three-chapters"
+    ],
+    "headline": "A council that tried to heal a schism and created another.",
+    "body": "Constantinople II in 553 condemned the Three Chapters associated with Nestorius, seeking reconciliation with non-Chalcedonians. The West largely accepted it; parts of the East did not, and the healing it intended would wait more than a century.",
+    "year": 553,
+    "sourceId": "schaff-history",
+    "locus": "2"
+  },
+  {
+    "id": "his-constantinople-iii",
+    "type": "history",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "council",
+      "christology",
+      "will"
+    ],
+    "headline": "Two wills, one person — settled by a council that met for almost a year.",
+    "body": "Constantinople III in 680-81 affirmed that Christ has two wills, divine and human, acting in harmony. It closed the monothelite controversy and completed the Christological work of Chalcedon nearly two centuries later.",
+    "year": 680,
+    "yearDisplay": "680-81",
+    "sourceId": "schaff-history",
+    "locus": "3"
+  },
+  {
+    "id": "his-becket-1170",
+    "type": "history",
+    "traditions": [
+      "catholic",
+      "anglican"
+    ],
+    "themes": [
+      "martyrdom",
+      "church-state",
+      "england"
+    ],
+    "headline": "Four knights asked a rough question and a priest died before the altar.",
+    "body": "After Thomas Becket clashed with Henry II over the liberties of the church, four knights took the king’s exasperated words as a command and murdered Becket at Canterbury in 1170. The shrine made the place a pilgrimage centre and Chaucer’s starting point.",
+    "year": 1170,
+    "sourceId": "schaff-history",
+    "locus": "4"
+  },
+  {
+    "id": "his-tyndale-burning",
+    "type": "history",
+    "traditions": [
+      "reformed",
+      "anglican"
+    ],
+    "themes": [
+      "translation",
+      "martyrdom",
+      "scripture"
+    ],
+    "headline": "They strangled him before they burned him, and his last words were a prayer for the king’s eyes to be opened.",
+    "body": "William Tyndale gave England its first printed New Testament from the Greek and was hunted for it. Arrested near Brussels, he was executed in 1536; within three years his wording formed the backbone of the officially licensed Great Bible.",
+    "year": 1536,
+    "sourceId": "schaff-history",
+    "locus": "6"
+  },
+  {
+    "id": "his-cranmer-prayer-book",
+    "type": "history",
+    "traditions": [
+      "anglican"
+    ],
+    "themes": [
+      "liturgy",
+      "prayer-book",
+      "reformation"
+    ],
+    "headline": "He put the liturgy in the language people spoke at market.",
+    "body": "Thomas Cranmer’s 1549 Prayer Book gave English parishes a single, compact volume for daily prayer, baptism, eucharist and burial in English rather than Latin. The cadences - light, blessed, we beseech thee - have shaped English prose since.",
+    "year": 1549,
+    "sourceId": "schaff-history",
+    "locus": "6"
+  },
+  {
+    "id": "his-serampore-fire",
+    "type": "history",
+    "traditions": [
+      "baptist"
+    ],
+    "themes": [
+      "mission",
+      "translation",
+      "india"
+    ],
+    "headline": "A fire burned a decade of manuscripts and they began again the next morning.",
+    "body": "The 1812 fire at Serampore destroyed presses, type, and translations into a dozen languages. William Carey’s party cleared the site and resumed cutting type; within months printing was under way again, and much of the lost work was reconstructed.",
+    "year": 1812,
+    "sourceId": "carey-enquiry"
+  },
+  {
+    "id": "his-social-gospel",
+    "type": "history",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "justice",
+      "poverty",
+      "america"
+    ],
+    "headline": "Pastors who asked what the kingdom of God had to do with wages and tenements.",
+    "body": "The Social Gospel movement asked how Christian hope applied to industrial poverty, tying personal salvation to structural reform. Its advocates - Washington Gladden, Walter Rauschenbusch - shaped settlement houses, labour reform, and later civil rights preaching.",
+    "year": 1908,
+    "sourceId": "modern-history"
   }
 ]

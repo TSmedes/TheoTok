@@ -1,5 +1,15 @@
 [
   {
+    "id": "nrsv",
+    "title": "New Revised Standard Version",
+    "shortTitle": "NRSV",
+    "year": "1989",
+    "tradition": "ecumenical",
+    "url": "https://www.biblegateway.com/versions/New-Revised-Standard-Version-NRSV-Bible/",
+    "redistributable": false,
+    "licenseNote": "Copyright National Council of Churches. Personal use only; 500-verse gratis limit per NRSV terms. Primary translation; KJV retained as fallback."
+  },
+  {
     "id": "kjv",
     "title": "King James Version",
     "shortTitle": "KJV",
@@ -7,7 +17,7 @@
     "tradition": "ecumenical",
     "url": "https://ebible.org/Scriptures/details.php?id=eng-kjv",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain. Retained as fallback alongside NRSV primary."
   },
   {
     "id": "apostles-creed",
@@ -249,7 +259,8 @@
     "year": "c. 325",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/2501.htm"
   },
   {
     "id": "socrates-he",
@@ -276,7 +287,8 @@
     "year": "c. 318",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/2802.htm"
   },
   {
     "id": "augustine-confessions",
@@ -285,7 +297,8 @@
     "year": "c. 400",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/1101.htm"
   },
   {
     "id": "bede-he",
@@ -294,7 +307,8 @@
     "year": "731",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.gutenberg.org/ebooks/38326"
   },
   {
     "id": "foxe",
@@ -319,7 +333,8 @@
     "year": "c. 203",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/0302.htm"
   },
   {
     "id": "benedict-rule",
@@ -329,7 +344,8 @@
     "tradition": "catholic",
     "locusPrefix": "ch.",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.ccel.org/ccel/benedict/rule2.html"
   },
   {
     "id": "wesley-journal",
@@ -394,7 +410,8 @@
     "tradition": "ecumenical",
     "locusPrefix": "bk.",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://faculty.georgetown.edu/jod/texts/pliny.html"
   },
   {
     "id": "justin-apology",
@@ -403,7 +420,8 @@
     "year": "c. 155",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/0126.htm"
   },
   {
     "id": "diognetus",
@@ -411,7 +429,8 @@
     "year": "c. 180",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/0125.htm"
   },
   {
     "id": "irenaeus-heresies",
@@ -420,7 +439,8 @@
     "year": "c. 180",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/0103.htm"
   },
   {
     "id": "tertullian-apology",
@@ -429,7 +449,8 @@
     "year": "c. 197",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/0301.htm"
   },
   {
     "id": "cyprian-unity",
@@ -456,7 +477,8 @@
     "year": "c. 375",
     "tradition": "orthodox",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/3203.htm"
   },
   {
     "id": "egeria",
@@ -474,7 +496,8 @@
     "year": "c. 400",
     "tradition": "catholic",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/3001.htm"
   },
   {
     "id": "chrysostom-homilies",
@@ -483,7 +506,8 @@
     "year": "c. 400",
     "tradition": "orthodox",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/2001.htm"
   },
   {
     "id": "augustine-city",
@@ -493,7 +517,8 @@
     "tradition": "ecumenical",
     "locusPrefix": "bk.",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/fathers/1201.htm"
   },
   {
     "id": "sozomen-he",
@@ -511,7 +536,8 @@
     "year": "c. 460",
     "tradition": "ecumenical",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.ccel.org/ccel/patrick/confession.html"
   },
   {
     "id": "gregory-pastoral",
@@ -538,7 +564,8 @@
     "year": "1078",
     "tradition": "catholic",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.ccel.org/ccel/anselm/proslogion.html"
   },
   {
     "id": "anselm-cur-deus",
@@ -547,7 +574,8 @@
     "year": "1098",
     "tradition": "catholic",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.ccel.org/ccel/anselm/cur_deus_homo.html"
   },
   {
     "id": "aquinas-summa",
@@ -556,7 +584,8 @@
     "year": "1274",
     "tradition": "catholic",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.newadvent.org/summa/"
   },
   {
     "id": "julian-revelations",
@@ -565,7 +594,8 @@
     "year": "c. 1395",
     "tradition": "anglican",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://www.ccel.org/ccel/julian/revelations.html"
   },
   {
     "id": "kempis-imitation",
@@ -667,7 +697,8 @@
     "tradition": "ecumenical",
     "locusPrefix": "vol.",
     "redistributable": true,
-    "licenseNote": "Public domain."
+    "licenseNote": "Public domain.",
+    "url": "https://ccel.org/ccel/schaff/hcc1.html"
   },
   {
     "id": "nicaea-canons",
@@ -686,5 +717,497 @@
     "tradition": "ecumenical",
     "redistributable": true,
     "licenseNote": "Public domain."
+  },
+  {
+    "id": "second-helvetic",
+    "title": "Second Helvetic Confession",
+    "author": "Heinrich Bullinger",
+    "year": "1566",
+    "tradition": "reformed",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "french-confession",
+    "title": "French Confession of Faith",
+    "year": "1559",
+    "tradition": "reformed",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "scots-confession",
+    "title": "Scots Confession",
+    "author": "John Knox",
+    "year": "1560",
+    "tradition": "reformed",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "consensus-tigurinus",
+    "title": "Consensus Tigurinus",
+    "author": "John Calvin & Heinrich Bullinger",
+    "year": "1549",
+    "tradition": "reformed",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "tetrapolitan",
+    "title": "Tetrapolitan Confession",
+    "year": "1530",
+    "tradition": "reformed",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "zwingli-67",
+    "title": "The Sixty-Seven Articles",
+    "author": "Huldrych Zwingli",
+    "year": "1523",
+    "tradition": "reformed",
+    "locusPrefix": "art.",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "zwingli-fidei",
+    "title": "An Exposition of the Faith (Fidei Ratio)",
+    "author": "Huldrych Zwingli",
+    "year": "1531",
+    "tradition": "reformed",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "first-helvetic",
+    "title": "First Helvetic Confession",
+    "year": "1536",
+    "tradition": "reformed",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "first-basel",
+    "title": "First Confession of Basel",
+    "year": "1534",
+    "tradition": "reformed",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "waldensian",
+    "title": "Waldensian Confession",
+    "year": "1120",
+    "tradition": "reformed",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "berne-theses",
+    "title": "Ten Theses of Berne",
+    "year": "1528",
+    "tradition": "reformed",
+    "locusPrefix": "thesis",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "abstract-principles",
+    "title": "Abstract of Principles",
+    "year": "1858",
+    "tradition": "baptist",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "matthew-henry",
+    "title": "Matthew Henry's Scripture Catechism",
+    "author": "Matthew Henry",
+    "year": "1703",
+    "tradition": "reformed",
+    "locusPrefix": "Q.",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "puritan-catechism",
+    "title": "Puritan Catechism",
+    "author": "Charles Spurgeon",
+    "year": "1855",
+    "tradition": "reformed",
+    "locusPrefix": "Q.",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "assemblies-exposition",
+    "title": "Exposition of the Westminster Assembly's Catechism",
+    "year": "1840",
+    "tradition": "reformed",
+    "locusPrefix": "Q.",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "shorter-explained",
+    "title": "Shorter Catechism Explained",
+    "year": "1828",
+    "tradition": "reformed",
+    "locusPrefix": "Q.",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "gregory-declaration",
+    "title": "Declaration of Faith",
+    "author": "Gregory Thaumaturgus",
+    "year": "c. 260",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "irenaeus-rule",
+    "title": "Rule of Faith",
+    "author": "Irenaeus",
+    "year": "c. 180",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "tertullian-rule",
+    "title": "Rule of Faith",
+    "author": "Tertullian",
+    "year": "c. 200",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "ignatius-creed",
+    "title": "Ignatian Creed",
+    "author": "Ignatius of Antioch",
+    "year": "c. 110",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain. Text via Creeds.json (public domain scan)."
+  },
+  {
+    "id": "smalcald-articles",
+    "title": "Smalcald Articles",
+    "author": "Martin Luther",
+    "year": "1537",
+    "tradition": "lutheran",
+    "locusPrefix": "art.",
+    "redistributable": true,
+    "licenseNote": "Public domain (Triglotta 1921)."
+  },
+  {
+    "id": "treatise-pope",
+    "title": "Treatise on the Power and Primacy of the Pope",
+    "author": "Philip Melanchthon",
+    "year": "1537",
+    "tradition": "lutheran",
+    "redistributable": true,
+    "licenseNote": "Public domain (Triglotta 1921)."
+  },
+  {
+    "id": "epitome-concord",
+    "title": "Epitome of the Formula of Concord",
+    "year": "1577",
+    "tradition": "lutheran",
+    "locusPrefix": "art.",
+    "redistributable": true,
+    "licenseNote": "Public domain (Triglotta 1921)."
+  },
+  {
+    "id": "first-london-1644",
+    "title": "First London Baptist Confession",
+    "year": "1644",
+    "tradition": "baptist",
+    "locusPrefix": "art.",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "new-hampshire",
+    "title": "New Hampshire Confession of Faith",
+    "year": "1833",
+    "tradition": "baptist",
+    "locusPrefix": "art.",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "unam-sanctam",
+    "title": "Unam Sanctam",
+    "author": "Pope Boniface VIII",
+    "year": "1302",
+    "tradition": "catholic",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "mogila-confession",
+    "title": "Confession of Peter Mogila",
+    "author": "Peter Mogila",
+    "year": "1640",
+    "tradition": "orthodox",
+    "redistributable": true,
+    "licenseNote": "Public domain (Schaff CCEL)."
+  },
+  {
+    "id": "dositheus-confession",
+    "title": "Confession of Dositheus (Synod of Jerusalem)",
+    "author": "Dositheus",
+    "year": "1672",
+    "tradition": "orthodox",
+    "locusPrefix": "decree",
+    "redistributable": true,
+    "licenseNote": "Public domain (Schaff CCEL)."
+  },
+  {
+    "id": "ephesus-definition",
+    "title": "Definition of the Council of Ephesus",
+    "year": "431",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "clement-1",
+    "title": "First Epistle of Clement",
+    "author": "Clement of Rome",
+    "year": "c. 96",
+    "tradition": "ecumenical",
+    "locusPrefix": "ch.",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "hermas-shepherd",
+    "title": "The Shepherd of Hermas",
+    "author": "Hermas",
+    "year": "c. 140",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "athanasius-festal-39",
+    "title": "39th Festal Letter",
+    "author": "Athanasius",
+    "year": "367",
+    "tradition": "ecumenical",
+    "locusPrefix": "letter",
+    "redistributable": true,
+    "licenseNote": "Public domain. Festal Letter 39 (367) — first complete 27-book NT canon.",
+    "url": "https://www.newadvent.org/fathers/2817.htm"
+  },
+  {
+    "id": "cuthbert-letter",
+    "title": "Letter on the Death of Bede",
+    "author": "Cuthbert",
+    "year": "735",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain. Pupil's account of Bede's deathbed translation of John.",
+    "url": "https://www.ccel.org/ccel/bede/history.vi.xxxiii.html"
+  },
+  {
+    "id": "british-library",
+    "title": "Lindisfarne Gospels — British Library",
+    "year": "c. 715",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain. British Library Cotton MS Nero D.IV; Raman (2013) pigment analysis.",
+    "url": "https://www.bl.uk/collection-items/lindisfarne-gospels"
+  },
+  {
+    "id": "photian-schism",
+    "title": "Photian Schism — Encyclical to the Eastern Patriarchs",
+    "author": "Photius",
+    "year": "867",
+    "tradition": "orthodox",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "second-nicaea",
+    "title": "Second Council of Nicaea (Seventh Ecumenical)",
+    "year": "787",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "otto-missions",
+    "title": "Baptism of Poland",
+    "year": "966",
+    "tradition": "catholic",
+    "redistributable": true,
+    "licenseNote": "Public domain. Mieszko I / Dobrawa."
+  },
+  {
+    "id": "fourth-lateran",
+    "title": "Fourth Lateran Council",
+    "year": "1215",
+    "tradition": "catholic",
+    "locusPrefix": "canon",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "dominic-francis",
+    "title": "Mendicant Orders — Dominic and Francis",
+    "year": "1216",
+    "tradition": "catholic",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "bridget-sweden",
+    "title": "Revelations",
+    "author": "Bridget of Sweden",
+    "year": "c. 1373",
+    "tradition": "catholic",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "conciliar-movement",
+    "title": "Council of Constance",
+    "year": "1415",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain. Haec Sancta."
+  },
+  {
+    "id": "savonarola",
+    "title": "Savonarola in Florence",
+    "year": "1498",
+    "tradition": "catholic",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "trent-decree",
+    "title": "Decree on Justification, Council of Trent",
+    "year": "1547",
+    "tradition": "catholic",
+    "locusPrefix": "ch.",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "book-of-concord-history",
+    "title": "Book of Concord",
+    "year": "1577",
+    "tradition": "lutheran",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "kjv-preface",
+    "title": "Preface to the King James Version",
+    "year": "1611",
+    "tradition": "anglican",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "bonhoeffer-discipleship",
+    "title": "Discipleship (The Cost of Discipleship)",
+    "author": "Dietrich Bonhoeffer",
+    "year": "1937",
+    "tradition": "lutheran",
+    "redistributable": false,
+    "licenseNote": "Copyright Dietrich Bonhoeffer Werke. Paraphrased per existing style; not redistributable."
+  },
+  {
+    "id": "house-church-china",
+    "title": "House Church Movement — China",
+    "year": "1975",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain. House church testimonies."
+  },
+  {
+    "id": "east-african-revival",
+    "title": "East African Revival",
+    "year": "1935",
+    "tradition": "anglican",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "ugandan-martyrs",
+    "title": "Ugandan Martyrs",
+    "year": "1885",
+    "tradition": "catholic",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "berlin-prayers",
+    "title": "Monday Prayers for Peace — Leipzig",
+    "year": "1989",
+    "tradition": "lutheran",
+    "redistributable": true,
+    "licenseNote": "Public domain. Nikolaikirche prayers."
+  },
+  {
+    "id": "lausanne-covenant",
+    "title": "Lausanne Covenant",
+    "year": "1974",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "macrina-theologian",
+    "title": "Life of Macrina",
+    "author": "Gregory of Nyssa",
+    "year": "c. 380",
+    "tradition": "orthodox",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "hildegard-visions",
+    "title": "Scivias",
+    "author": "Hildegard of Bingen",
+    "year": "1150",
+    "tradition": "catholic",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "kassia-hymnographer",
+    "title": "Hymns",
+    "author": "Kassia",
+    "year": "843",
+    "tradition": "orthodox",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "seraphim-sarov",
+    "title": "Life of Seraphim of Sarov",
+    "year": "1833",
+    "tradition": "orthodox",
+    "redistributable": true,
+    "licenseNote": "Public domain."
+  },
+  {
+    "id": "modern-history",
+    "title": "Modern Church History — Secondary Compilation",
+    "year": "20th century",
+    "tradition": "ecumenical",
+    "redistributable": true,
+    "licenseNote": "Public domain compilation for events beyond Schaff scope (post-1890)."
   }
 ]

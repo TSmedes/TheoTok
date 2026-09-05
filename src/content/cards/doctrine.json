@@ -204,5 +204,373 @@
     "locus": "8",
     "prompt": "What is Holy Tradition?",
     "body": "By the name of Holy Tradition is meant the doctrine of the faith, the law of God, the sacraments, and the ritual as handed down by the true believers and worshippers of God by word and example from one to another, and from generation to generation."
+  },
+  {
+    "id": "doc-apology-4",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["justification", "faith"],
+    "weight": 1.4,
+    "sourceId": "augsburg",
+    "locus": "Apology IV",
+    "body": "We teach that justification is by faith alone: that faith is not mere knowledge of the history, but that trust which apprehends the promise of mercy for Christ's sake, through which we are accounted righteous."
+  },
+  {
+    "id": "doc-apology-12",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["repentance", "faith"],
+    "sourceId": "augsburg",
+    "locus": "Apology XII",
+    "body": "Repentance consists properly of two parts: contrition, which is terrors smiting the conscience through the knowledge of sin, and faith, which is born of the Gospel and believes that for Christ's sake sins are forgiven."
+  },
+  {
+    "id": "doc-smalcald-1-1",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["christology", "trinity"],
+    "sourceId": "smalcald-articles",
+    "locus": "I.1",
+    "body": "The first and chief article is this: that Jesus Christ, our God and Lord, died and was buried, and the third day he rose again, and ascended to heaven, that he might rule as King, and is God and man."
+  },
+  {
+    "id": "doc-smalcald-2-1",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["law", "gospel", "sin"],
+    "sourceId": "smalcald-articles",
+    "locus": "II.1",
+    "body": "The Law cannot be kept without Christ. The chief function of the Law is to reveal sin, that man may know his guilt and be led to seek grace."
+  },
+  {
+    "id": "doc-treatise-1",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["church", "authority", "papacy"],
+    "sourceId": "treatise-pope",
+    "locus": "1",
+    "body": "The Pope is not by divine law the head of the whole Church, nor is it necessary for salvation that any man acknowledge him as such; the Church remains under Christ alone as head."
+  },
+  {
+    "id": "doc-epitome-concord-1",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["sin", "original-sin"],
+    "sourceId": "epitome-concord",
+    "locus": "I",
+    "body": "We believe, teach, and confess that original sin is not a mere defect but such a deep corruption of human nature that nothing sound or uncorrupted has remained in man's body and soul."
+  },
+  {
+    "id": "doc-epitome-concord-3",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["righteousness", "faith"],
+    "weight": 1.3,
+    "sourceId": "epitome-concord",
+    "locus": "III",
+    "body": "The righteousness of faith before God consists in this alone: that God forgives sins out of pure grace, for Christ's sake, and reckons us righteous through faith which apprehends Christ's merit."
+  },
+  {
+    "id": "doc-large-catechism-1",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["commandments", "idolatry"],
+    "sourceId": "large-catechism",
+    "locus": "First Commandment",
+    "body": "Thou shalt have no other gods before me. That is, we should fear, love, and trust in God above all things."
+  },
+  {
+    "id": "doc-large-catechism-creed",
+    "type": "doctrine",
+    "traditions": ["lutheran"],
+    "themes": ["creed", "faith"],
+    "sourceId": "large-catechism",
+    "locus": "Creed I",
+    "body": "I believe in God the Father Almighty, Maker of heaven and earth. Here God wills to make himself known to us as Father, that we may know how heartfelt is his love toward us."
+  },
+  {
+    "id": "doc-first-london-1",
+    "type": "doctrine",
+    "traditions": ["baptist"],
+    "themes": ["scripture", "authority"],
+    "sourceId": "first-london-1644",
+    "locus": "I",
+    "body": "The rule of this knowledge, faith, and obedience, concerning the worship of God, in which is contained the whole duty of man, is the written word contained in the Holy Scriptures."
+  },
+  {
+    "id": "doc-first-london-7",
+    "type": "doctrine",
+    "traditions": ["baptist"],
+    "themes": ["christ", "mediator"],
+    "sourceId": "first-london-1644",
+    "locus": "VII",
+    "body": "The Lord Jesus Christ is the only Mediator of the covenant of grace, in whose person God and man are conjoined, and in whom alone salvation is to be found."
+  },
+  {
+    "id": "doc-first-london-33",
+    "type": "doctrine",
+    "traditions": ["baptist"],
+    "themes": ["baptism", "believers-baptism"],
+    "sourceId": "first-london-1644",
+    "locus": "XXXIII",
+    "body": "Baptism is an ordinance of the New Testament given by Christ, to be dispensed upon persons professing faith, who are disciples, upon the profession of their faith."
+  },
+  {
+    "id": "doc-new-hampshire-2",
+    "type": "doctrine",
+    "traditions": ["baptist"],
+    "themes": ["scripture", "truth"],
+    "sourceId": "new-hampshire",
+    "locus": "II",
+    "body": "We believe that the Holy Bible was written by men divinely inspired, and is a perfect treasure of heavenly instruction; that it has God for its author, salvation for its end, and truth without any mixture of error for its matter."
+  },
+  {
+    "id": "doc-new-hampshire-5",
+    "type": "doctrine",
+    "traditions": ["baptist"],
+    "themes": ["justification", "faith"],
+    "sourceId": "new-hampshire",
+    "locus": "V",
+    "body": "We believe that justification is God's gracious and full acquittal upon principles of righteousness of all sinners who believe in Christ, including the pardon of sin and the promise of eternal life on principles of righteousness."
+  },
+  {
+    "id": "doc-new-hampshire-8",
+    "type": "doctrine",
+    "traditions": ["baptist"],
+    "themes": ["church", "baptism", "discipline"],
+    "sourceId": "new-hampshire",
+    "locus": "VIII",
+    "body": "A visible church of Christ is a congregation of baptized believers, associated by covenant in the faith and fellowship of the gospel, observing the ordinances of Christ, governed by his laws."
+  },
+  {
+    "id": "doc-articles-39-1",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["trinity", "faith"],
+    "sourceId": "articles-39",
+    "locus": "I",
+    "body": "There is but one living and true God, everlasting, without body, parts, or passions; of infinite power, wisdom, and goodness; the Maker and Preserver of all things both visible and invisible."
+  },
+  {
+    "id": "doc-articles-39-2",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["christ", "incarnation"],
+    "sourceId": "articles-39",
+    "locus": "II",
+    "body": "The Son, which is the Word of the Father, begotten from everlasting of the Father, the very and eternal God, of one substance with the Father, took man's nature in the womb of the blessed Virgin, of her substance."
+  },
+  {
+    "id": "doc-articles-39-9",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["sin", "original-sin"],
+    "sourceId": "articles-39",
+    "locus": "IX",
+    "body": "Original sin standeth not in the following of Adam, but it is the fault and corruption of the nature of every man, that naturally is engendered of the offspring of Adam, whereby man is very far gone from original righteousness."
+  },
+  {
+    "id": "doc-articles-39-17",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["predestination", "election"],
+    "sourceId": "articles-39",
+    "locus": "XVII",
+    "body": "Predestination to life is the everlasting purpose of God, whereby before the foundations of the world were laid, he hath constantly decreed to deliver from curse and damnation those whom he hath chosen in Christ."
+  },
+  {
+    "id": "doc-articles-39-25",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["sacraments", "grace"],
+    "sourceId": "articles-39",
+    "locus": "XXV",
+    "body": "Sacraments ordained of Christ be not only badges or tokens of Christian men's profession, but rather they be certain sure witnesses and effectual signs of grace, by the which God doth work invisibly in us."
+  },
+  {
+    "id": "doc-articles-39-28",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["eucharist", "sacrament"],
+    "sourceId": "articles-39",
+    "locus": "XXVIII",
+    "body": "The Supper of the Lord is not only a sign of the love that Christians ought to have among themselves one to another, but rather it is a sacrament of our redemption by Christ's death."
+  },
+  {
+    "id": "doc-bcp-collect-purity",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["prayer", "purity", "worship"],
+    "weight": 1.4,
+    "sourceId": "bcp-1662",
+    "locus": "Collect for Purity",
+    "body": "Almighty God, unto whom all hearts be open, all desires known, and from whom no secrets are hid: cleanse the thoughts of our hearts by the inspiration of thy Holy Spirit, that we may perfectly love thee, and worthily magnify thy holy name."
+  },
+  {
+    "id": "doc-bcp-thanksgiving",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["thanksgiving", "prayer"],
+    "sourceId": "bcp-1662",
+    "locus": "General Thanksgiving",
+    "body": "We bless thee for our creation, preservation, and all the blessings of this life; but above all for thine inestimable love in the redemption of the world by our Lord Jesus Christ."
+  },
+  {
+    "id": "doc-bcp-catechism-1",
+    "type": "doctrine",
+    "traditions": ["anglican"],
+    "themes": ["catechism", "baptism", "vocation"],
+    "sourceId": "bcp-1662",
+    "locus": "Catechism",
+    "prompt": "What did your sponsors promise for you at your Baptism?",
+    "body": "That I should renounce the devil and all his works, the pomps and vanity of this wicked world, and all the sinful lusts of the flesh; that I should believe all the articles of the Christian faith; and that I should keep God's holy will and commandments."
+  },
+  {
+    "id": "doc-trent-catechism-sacrament",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["sacraments", "grace"],
+    "sourceId": "trent-catechism",
+    "locus": "Sacraments",
+    "body": "A sacrament is a sensible sign instituted by Christ to signify and confer grace, and there are seven sacraments of the New Law: Baptism, Confirmation, Eucharist, Penance, Extreme Unction, Orders, and Matrimony."
+  },
+  {
+    "id": "doc-trent-catechism-eucharist",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["eucharist", "presence"],
+    "weight": 1.3,
+    "sourceId": "trent-catechism",
+    "locus": "Eucharist",
+    "body": "In the Eucharist the whole Christ is truly, really, and substantially contained under the species of bread and wine, the substance of bread and wine being changed into the substance of his body and blood, which change the Church calls transubstantiation."
+  },
+  {
+    "id": "doc-trent-justification-7",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["justification", "grace", "faith"],
+    "sourceId": "trent-council",
+    "locus": "Session VI, ch.7",
+    "body": "Justification is not only the remission of sins, but also the sanctification and renewal of the inner man through the voluntary reception of grace and gifts, whereby an unjust man becomes just."
+  },
+  {
+    "id": "doc-trent-sacraments-1",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["sacraments", "grace"],
+    "sourceId": "trent-council",
+    "locus": "Canon 1 on Sacraments",
+    "body": "If any one shall say that the sacraments of the New Law were not all instituted by Jesus Christ our Lord, let him be anathema."
+  },
+  {
+    "id": "doc-unam-sanctam",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["church", "authority", "unity"],
+    "weight": 1.4,
+    "sourceId": "unam-sanctam",
+    "locus": "1",
+    "body": "That there is one holy, catholic, and apostolic Church we are compelled by the faith to believe and hold, and this we firmly believe and simply confess; and outside of her there is no salvation nor remission of sins."
+  },
+  {
+    "id": "doc-newman-development-5",
+    "type": "doctrine",
+    "traditions": ["catholic"],
+    "themes": ["development", "doctrine", "tradition"],
+    "sourceId": "newman-apologia",
+    "locus": "Essay on Development, ch.5",
+    "body": "The doctrine which is the growth of time is not a corruption of the faith once delivered, but the necessary expansion of principles which were at first but imperfectly apprehended."
+  },
+  {
+    "id": "doc-philaret-45",
+    "type": "doctrine",
+    "traditions": ["orthodox"],
+    "themes": ["creed", "faith"],
+    "sourceId": "philaret",
+    "locus": "45",
+    "prompt": "What is faith?",
+    "body": "Faith is the internal conviction of man in the existence of God and in all that he has revealed, with the outward confession thereof, and with the confidence that all that God has promised will come to pass."
+  },
+  {
+    "id": "doc-philaret-120",
+    "type": "doctrine",
+    "traditions": ["orthodox"],
+    "themes": ["prayer", "lord-prayer"],
+    "sourceId": "philaret",
+    "locus": "120",
+    "prompt": "What is the Lord's Prayer?",
+    "body": "The Lord's Prayer is that prayer which our Lord Jesus Christ taught his disciples, and which contains in itself all that we ought to ask of God."
+  },
+  {
+    "id": "doc-mogila-1",
+    "type": "doctrine",
+    "traditions": ["orthodox"],
+    "themes": ["faith", "creed"],
+    "sourceId": "mogila-confession",
+    "locus": "I.1",
+    "body": "Faith is to believe and hold for true, without any doubting, all that God has revealed, though it be above reason; and faith is the foundation of all Christian virtues."
+  },
+  {
+    "id": "doc-dositheus-6",
+    "type": "doctrine",
+    "traditions": ["orthodox"],
+    "themes": ["eucharist", "transubstantiation"],
+    "sourceId": "dositheus-confession",
+    "locus": "Decree 17",
+    "body": "We believe that after the consecration the bread and wine are changed into the very Body and Blood of Christ, which change the Church calls transmutation or transubstantiation."
+  },
+  {
+    "id": "doc-ephesus-1",
+    "type": "doctrine",
+    "traditions": ["ecumenical"],
+    "themes": ["christology", "theotokos", "council"],
+    "sourceId": "ephesus-definition",
+    "locus": "Definition",
+    "body": "We confess the holy Virgin to be Theotokos, because God the Word was incarnate and became man, and from the very conception united to himself the temple taken from her."
+  },
+  {
+    "id": "doc-ephesus-anathema-1",
+    "type": "doctrine",
+    "traditions": ["ecumenical"],
+    "themes": ["christology", "anathema"],
+    "sourceId": "ephesus-definition",
+    "locus": "Anathema I",
+    "body": "If anyone shall not confess that the Emmanuel is very God, and that therefore the holy Virgin is Theotokos, let him be anathema."
+  },
+  {
+    "id": "doc-clement-19",
+    "type": "doctrine",
+    "traditions": ["ecumenical"],
+    "themes": ["humility", "love", "unity"],
+    "sourceId": "clement-1",
+    "locus": "19",
+    "body": "Let us be humble, as is the example of our Lord Jesus, whose blood was given for us; let us love one another, that we may be approved, being humble in mind."
+  },
+  {
+    "id": "doc-hermas-command-5",
+    "type": "doctrine",
+    "traditions": ["ecumenical"],
+    "themes": ["patience", "anger", "virtue"],
+    "sourceId": "hermas-shepherd",
+    "locus": "Mandate 5",
+    "body": "Be patient and of good understanding, and thou shalt have mastery over all wicked works. If thou be patient, the Holy Spirit will dwell in thee and make thee pure."
+  },
+  {
+    "id": "doc-vincent-2-3",
+    "type": "doctrine",
+    "traditions": ["ecumenical"],
+    "themes": ["tradition", "catholicity", "rule"],
+    "sourceId": "vincent-commonitory",
+    "locus": "2.3",
+    "body": "We must hold that faith which has been believed everywhere, always, and by all. For that is truly and properly catholic."
+  },
+  {
+    "id": "doc-wesley-rules-1",
+    "type": "doctrine",
+    "traditions": ["methodist"],
+    "themes": ["discipline", "holiness"],
+    "sourceId": "wesley-sermons",
+    "locus": "General Rules",
+    "body": "It is expected of all who desire to continue in these societies that they should continue to evidence their desire of salvation by doing no harm, by avoiding evil of every kind."
   }
 ]

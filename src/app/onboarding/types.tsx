@@ -9,7 +9,7 @@ import { usePreferences } from '@/store/preferences';
 import { colors, fonts, spacing } from '@/theme/tokens';
 
 const COPY: Record<ContentType, { label: string; blurb: string }> = {
-  scripture: { label: 'Scripture', blurb: 'Passages from the King James Version, with the Apocrypha.' },
+  scripture: { label: 'Scripture', blurb: 'Passages from the New Revised Standard Version, with the Apocrypha.' },
   history: { label: 'Church History', blurb: 'What happened, and who it happened to — cited to the source.' },
   doctrine: { label: 'Doctrine', blurb: 'Creeds, confessions and catechisms, quoted and cited.' },
 };

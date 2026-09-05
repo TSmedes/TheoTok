@@ -24,34 +24,36 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SRC_DIR = join(ROOT, 'src', 'content', 'bible', 'kjv');
 const WEB_DIR = join(ROOT, 'public', 'bible', 'kjv');
+const SRC_DIR_NRSV = join(ROOT, 'src', 'content', 'bible', 'nrsv');
+const WEB_DIR_NRSV = join(ROOT, 'public', 'bible', 'nrsv');
 
-export function syncWebBible(): number {
+function syncDir(src: string, web: string): number {
   let sources: string[];
   try {
-    sources = readdirSync(SRC_DIR).filter((f) => f.endsWith('.json'));
+    sources = readdirSync(src).filter((f) => f.endsWith('.json'));
   } catch {
     throw new Error(
-      `No book files at ${SRC_DIR}. Run \`npm run build:bible\` first — it downloads and normalises the KJV text.`,
+      `No book files at ${src}. Run \`npm run build:bible\` first — it downloads and normalises the text.`,
     );
   }
 
   if (sources.length === 0) {
-    throw new Error(`${SRC_DIR} contains no .json books. Run \`npm run build:bible\` first.`);
+    throw new Error(`${src} contains no .json books. Run \`npm run build:bible\` first.`);
   }
 
-  mkdirSync(WEB_DIR, { recursive: true });
+  mkdirSync(web, { recursive: true });
 
   // Drop books that no longer exist upstream, so a removed book cannot linger
   // in the web copy and keep being served after it is gone from the source.
   const wanted = new Set(sources);
-  for (const existing of readdirSync(WEB_DIR)) {
-    if (!wanted.has(existing)) rmSync(join(WEB_DIR, existing), { recursive: true, force: true });
+  for (const existing of readdirSync(web)) {
+    if (!wanted.has(existing)) rmSync(join(web, existing), { recursive: true, force: true });
   }
 
   let copied = 0;
   for (const file of sources) {
-    const from = join(SRC_DIR, file);
-    const to = join(WEB_DIR, file);
+    const from = join(src, file);
+    const to = join(web, file);
 
     // Skip files that are already identical, so a repeated run is nearly free
     // and does not churn 80 files on every `npm run web`.
@@ -70,13 +72,20 @@ export function syncWebBible(): number {
   return copied;
 }
 
+export function syncWebBible(): number {
+  let total = 0;
+  try { total += syncDir(SRC_DIR, WEB_DIR); } catch (e) { console.warn((e as Error).message); }
+  try { total += syncDir(SRC_DIR_NRSV, WEB_DIR_NRSV); } catch (e) { console.warn((e as Error).message); }
+  return total;
+}
+
 // Only when run directly, not when build-bible.ts imports it. Compared as file
 // URLs because a bare string compare fails on Windows drive-letter paths.
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
   const copied = syncWebBible();
   console.log(
     copied === 0
-      ? 'public/bible/kjv is already up to date.'
-      : `Synced ${copied} book(s) to public/bible/kjv/.`,
+      ? 'public/bible/kjv and public/bible/nrsv are already up to date.'
+      : `Synced ${copied} book(s) to public/bible/kjv and public/bible/nrsv/.`,
   );
 }

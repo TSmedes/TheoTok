@@ -10,7 +10,7 @@
  */
 
 import { BOOKS, isBookId } from '../books';
-import { CARDS, SOURCES, SOURCES_BY_ID, lookupVerses, toRendered } from '../library';
+import { CARDS, SOURCES, SOURCES_BY_ID, lookupVerses, renderedFor, toRendered } from '../library';
 import { formatRef, renderCard } from '../render';
 import { refKey } from '../refs';
 import {
@@ -167,6 +167,16 @@ describe('rendered output', () => {
       .filter((r) => r.body.length > BODY_MAX_CHARS)
       .map((r) => `${r.id}: ${r.body.length} chars`);
     expect(tooLong).toEqual([]);
+  });
+
+  it('caches rendered cards, so scrolling back over one costs nothing', () => {
+    const card = CARDS[0];
+
+    expect(renderedFor(card)).toBe(renderedFor(card));
+    // Equal in content to the uncached path, so the cache cannot drift from it.
+    expect(renderedFor(card)).toEqual(toRendered(card));
+    // And not the uncached path's object, which allocates afresh every call.
+    expect(toRendered(card)).not.toBe(toRendered(card));
   });
 
   it('renders citations in the expected shape', () => {

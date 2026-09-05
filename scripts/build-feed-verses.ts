@@ -2,7 +2,7 @@
  * Build-time only. Collects every scripture reference the card library actually
  * cites and writes just those verses to `src/content/bible/feed-verses.json`.
  *
- * This is tier one of the two-tier data plan. The full KJV is ~5 MB, which is
+ * This is tier one of the two-tier data plan. The full NRSV is ~5 MB, which is
  * fine to ship but far too much to parse before first paint; this slice is a
  * couple of hundred KB, is loaded eagerly, and lets the feed render instantly.
  * The per-book files stay on disk for the reader sheet to load on demand.
@@ -18,7 +18,7 @@ import { refKey } from '../src/content/refs.ts';
 import type { Card, Ref } from '../src/content/types.ts';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const KJV_DIR = join(ROOT, 'src', 'content', 'bible', 'kjv');
+const KJV_DIR = join(ROOT, 'src', 'content', 'bible', 'nrsv');
 const CARDS_DIR = join(ROOT, 'src', 'content', 'cards');
 const OUT = join(ROOT, 'src', 'content', 'bible', 'feed-verses.json');
 

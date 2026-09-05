@@ -45,13 +45,13 @@ export function renderCard(card: Card, ctx: RenderContext): RenderedCard {
     case 'scripture': {
       const text = card.display ?? ctx.lookupVerses(card.ref);
       if (!text) throw new Error(`Card "${card.id}" has no text for ${formatRef(card.ref)}`);
-      const kjv = ctx.sources.get('kjv');
+      const nrsv = ctx.sources.get('nrsv') ?? ctx.sources.get('kjv');
       return {
         id: card.id,
         type: 'scripture',
         body: text,
         citation: formatRef(card.ref),
-        attribution: kjv?.title ?? 'King James Version',
+        attribution: nrsv?.title ?? 'New Revised Standard Version',
         // No cue: a passage is for reading, not for answering. Turning the
         // reference into a memory test makes Scripture the one thing in the
         // feed you have to work for, which is the wrong way round.

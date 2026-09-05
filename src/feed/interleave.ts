@@ -48,49 +48,67 @@ export function interleaveByType<T>(
 
   // Buckets preserve the shuffle's order within each type, so curation weights
   // still carry through.
-  const buckets = new Map<string, T[]>();
+  //
+  // Held as parallel arrays indexed by bucket rather than a Map of queues, and
+  // drained with a cursor rather than `shift()`. Shifting the majority bucket
+  // once per output item is an O(n) memmove inside an O(n) loop, which on a
+  // library where one type holds ~84% of the cards is the whole cost of the
+  // pass. A cursor makes each draw O(1).
   const order: string[] = [];
+  const lists: T[][] = [];
+  const cursors: number[] = [];
+  const indexOfType = new Map<string, number>();
   for (const item of items) {
     const type = typeOf(item);
-    let bucket = buckets.get(type);
-    if (!bucket) {
-      bucket = [];
-      buckets.set(type, bucket);
+    let bucket = indexOfType.get(type);
+    if (bucket === undefined) {
+      bucket = order.length;
+      indexOfType.set(type, bucket);
       order.push(type);
+      lists.push([]);
+      cursors.push(0);
     }
-    bucket.push(item);
+    lists[bucket].push(item);
   }
 
   const out: T[] = [];
-  let runType: string | undefined;
+  // Reused across iterations: the pass runs once per card, and two throwaway
+  // arrays per card is thousands of allocations for nothing.
+  const eligible: number[] = [];
+  const contenders: number[] = [];
+  let runBucket = -1;
   let runLength = 0;
 
   while (out.length < items.length) {
-    const eligible: { type: string; remaining: number }[] = [];
-    for (const type of order) {
-      const remaining = buckets.get(type)!.length;
+    eligible.length = 0;
+    let largest = 0;
+    for (let bucket = 0; bucket < order.length; bucket += 1) {
+      const remaining = lists[bucket].length - cursors[bucket];
       if (remaining === 0) continue;
-      if (runLength >= maxRun && type === runType) continue;
-      eligible.push({ type, remaining });
+      if (runLength >= maxRun && bucket === runBucket) continue;
+      eligible.push(bucket);
+      if (remaining > largest) largest = remaining;
     }
 
-    let choice: string;
+    let choice: number;
     if (eligible.length === 0) {
       // Only the current run's own type is left.
-      choice = runType!;
+      choice = runBucket;
     } else {
-      let largest = 0;
-      for (const e of eligible) if (e.remaining > largest) largest = e.remaining;
-      const contenders = eligible.filter((e) => e.remaining >= largest - SLACK);
-      choice = contenders[Math.floor(rand() * contenders.length)].type;
+      contenders.length = 0;
+      for (const bucket of eligible) {
+        if (lists[bucket].length - cursors[bucket] >= largest - SLACK) contenders.push(bucket);
+      }
+      choice = contenders[Math.floor(rand() * contenders.length)];
     }
 
-    out.push(buckets.get(choice)!.shift()!);
+    out.push(lists[choice][cursors[choice]]);
+    cursors[choice] += 1;
 
-    if (choice === runType) {
+    if (choice === runBucket) {
       runLength += 1;
     } else {
-      runType = choice;
+      runBucket = choice;
       runLength = 1;
     }
   }

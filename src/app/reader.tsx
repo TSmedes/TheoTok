@@ -128,7 +128,7 @@ function ChapterView({ refOf, citation }: { refOf: Ref; citation: string }) {
       <Text style={styles.chapterTitle}>
         {citationName(refOf.book)} {refOf.chapter}
       </Text>
-      <Text style={styles.sourceMeta}>{bookMeta(refOf.book).name} · King James Version</Text>
+      <Text style={styles.sourceMeta}>{bookMeta(refOf.book).name} · New Revised Standard Version</Text>
       {subtitle ? <Text style={styles.subtitle}>{subtitle}</Text> : null}
 
       <View style={styles.chapter}>

@@ -1,4 +1,4 @@
-/** One book of the bundled KJV, as written by scripts/build-bible.ts. */
+/** One book of the bundled Bible (NRSV primary, KJV fallback), as written by scripts/build-bible-nrsv.ts. */
 export interface BibleBook {
   id: string;
   name: string;

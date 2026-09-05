@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useDeferredValue, useMemo, useState } from 'react';
 import { useRouter } from 'expo-router';
 import { Alert, Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
+import Animated, { useAnimatedStyle, withTiming } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Chip } from '@/components/Chip';
@@ -24,7 +25,13 @@ const TYPE_LABELS: Record<ContentType, string> = {
 export default function SettingsScreen() {
   const insets = useSafeAreaInsets();
   const router = useRouter();
-  const { traditions, types, toggleTradition, toggleType, restartOnboarding } = usePreferences();
+  // Selectors rather than the whole store: without one this screen re-renders on
+  // every preferences change, and each of those renders used to rebuild the pool.
+  const traditions = usePreferences((s) => s.traditions);
+  const types = usePreferences((s) => s.types);
+  const toggleTradition = usePreferences((s) => s.toggleTradition);
+  const toggleType = usePreferences((s) => s.toggleType);
+  const restartOnboarding = usePreferences((s) => s.restartOnboarding);
   const revealAnswers = usePreferences((s) => s.revealAnswers);
   const setRevealAnswers = usePreferences((s) => s.setRevealAnswers);
   const motionPreference = usePreferences((s) => s.motion);
@@ -43,7 +50,23 @@ export default function SettingsScreen() {
   const savedCount = useSaved((s) => s.ids.length);
   const [reminderBusy, setReminderBusy] = useState(false);
 
-  const poolSize = buildPool(CARDS, { traditions, types }).length;
+  /**
+   * The count is the one thing on this screen that has to look at the library,
+   * so it is the one thing allowed to lag. The chips read the live values and
+   * paint immediately; this follows a beat later.
+   */
+  const countedTraditions = useDeferredValue(traditions);
+  const countedTypes = useDeferredValue(types);
+  const poolSize = useMemo(
+    () => buildPool(CARDS, { traditions: countedTraditions, types: countedTypes }).length,
+    [countedTraditions, countedTypes],
+  );
+
+  // While these disagree the number on screen is the previous filters' answer.
+  const countStale = countedTraditions !== traditions || countedTypes !== types;
+  const countStyle = useAnimatedStyle(() => ({
+    opacity: withTiming(countStale ? 0.4 : 1, { duration: 120 }),
+  }));
 
   // The scroll detents are iOS-only — see `@/motion/haptics` — so on Android the
   // switch beneath the master would govern nothing.
@@ -114,9 +137,9 @@ export default function SettingsScreen() {
           { paddingTop: insets.top + spacing.lg, paddingBottom: insets.bottom + 96 },
         ]}>
         <Text style={styles.title}>Options</Text>
-        <Text style={styles.subtitle}>
+        <Animated.Text style={[styles.subtitle, countStyle]}>
           {poolSize} {poolSize === 1 ? 'card' : 'cards'} in your feed
-        </Text>
+        </Animated.Text>
 
         <Section
           title="Content"

@@ -1,6 +1,7 @@
 import { useRouter } from 'expo-router';
-import { useCallback, useMemo, useRef, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
+import { useSharedValue } from 'react-native-reanimated';
 
 import { ActionRail } from '@/components/ActionRail';
 import { Card } from '@/components/Card';
@@ -55,11 +56,24 @@ export function CardDeck<T extends DeckItem>({
    * The feed's colours, as indices rather than names: the backdrop reads this
    * inside a worklet on every frame, and a list of small numbers crosses to the
    * UI thread far more cheaply than a list of strings.
+   *
+   * Read off the card rather than the rendered card, because this is the one
+   * place that touches every item in the list. `rendered` is a lazy getter — ask
+   * it for the type here and the whole pool renders on every filter change, for
+   * a value the raw card already carries.
    */
-  const types = useMemo(
-    () => data.map((item) => CONTENT_TYPES.indexOf(item.rendered.type)),
-    [data],
-  );
+  const types = useMemo(() => data.map((item) => CONTENT_TYPES.indexOf(item.card.type)), [data]);
+
+  /**
+   * Held in a shared value rather than passed as a plain array. A worklet that
+   * closes over a JS array copies the whole thing into the UI runtime each time
+   * the closure is rebuilt — which is any re-render of the backdrop, not just a
+   * change of list. Through a shared value it crosses once, when it changes.
+   */
+  const typesShared = useSharedValue<number[]>(types);
+  useEffect(() => {
+    typesShared.set(types);
+  }, [types, typesShared]);
 
   // One capture target for the whole screen, swapped to whichever card is being
   // shared — far cheaper than mounting a hidden copy behind every page.
@@ -128,7 +142,12 @@ export function CardDeck<T extends DeckItem>({
           );
         }}
         renderBackdrop={({ scrollY, height }) => (
-          <GradientBackdrop types={types} scrollY={scrollY} height={height} />
+          <GradientBackdrop
+            types={typesShared}
+            count={types.length}
+            scrollY={scrollY}
+            height={height}
+          />
         )}
         initialIndex={initialIndex}
         onIndexChange={handleIndexChange}

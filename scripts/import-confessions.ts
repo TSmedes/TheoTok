@@ -43,26 +43,49 @@ interface Plan {
 }
 
 /**
- * Caps are a balance decision, not a technical one. Structured public-domain
- * data for this material is overwhelmingly Reformed and Baptist, so importing
- * everything available would bury the other traditions and make their filters
- * feel empty. The remaining traditions are covered by hand-written cards in
- * doctrine.json.
+ * Caps removed per 2026-09-04 Decision 1 (no balancing, import all usable).
+ * All plans now use cap 9999 which stride treats as "all usable" — high-quality uncapped.
+ * Weighting per Decision 4: impactful new cards will be curated with weight 1.2–1.5 via hand file or later plan weight field.
  */
 const PLANS: Plan[] = [
-  { file: 'westminster_shorter_catechism', sourceId: 'wsc', traditions: ['reformed'], cap: 70, slug: 'wsc' },
-  { file: 'heidelberg_catechism', sourceId: 'heidelberg', traditions: ['reformed'], cap: 55, slug: 'heid' },
-  { file: 'westminster_confession_of_faith', sourceId: 'wcf', traditions: ['reformed'], cap: 38, slug: 'wcf' },
-  { file: 'belgic_confession_of_faith', sourceId: 'belgic', traditions: ['reformed'], cap: 26, slug: 'belgic' },
-  { file: 'canons_of_dort', sourceId: 'dort', traditions: ['reformed'], cap: 22, slug: 'dort' },
-  { file: 'catechism_for_young_children', sourceId: 'young-children', traditions: ['reformed'], cap: 28, slug: 'cyc' },
-  { file: 'london_baptist_1689', sourceId: 'lbcf-1689', traditions: ['baptist'], cap: 42, slug: 'lbcf' },
-  { file: 'keachs_catechism', sourceId: 'keach', traditions: ['baptist'], cap: 40, slug: 'keach' },
-  { file: 'apostles_creed', sourceId: 'apostles-creed', traditions: ['ecumenical'], cap: 6, slug: 'apostles' },
-  { file: 'nicene_creed', sourceId: 'nicene-creed', traditions: ['ecumenical'], cap: 6, slug: 'nicene' },
-  { file: 'athanasian_creed', sourceId: 'athanasian-creed', traditions: ['ecumenical'], cap: 8, slug: 'athanasian' },
-  { file: 'chalcedonian_definition', sourceId: 'chalcedon', traditions: ['ecumenical'], cap: 4, slug: 'chalcedon' },
-  { file: 'council_of_orange', sourceId: 'council-of-orange', traditions: ['ecumenical'], cap: 18, slug: 'orange' },
+  // Existing 13 (previously capped, now 9999)
+  { file: 'westminster_shorter_catechism', sourceId: 'wsc', traditions: ['reformed'], cap: 9999, slug: 'wsc' },
+  { file: 'heidelberg_catechism', sourceId: 'heidelberg', traditions: ['reformed'], cap: 9999, slug: 'heid' },
+  { file: 'westminster_confession_of_faith', sourceId: 'wcf', traditions: ['reformed'], cap: 9999, slug: 'wcf' },
+  { file: 'belgic_confession_of_faith', sourceId: 'belgic', traditions: ['reformed'], cap: 9999, slug: 'belgic' },
+  { file: 'canons_of_dort', sourceId: 'dort', traditions: ['reformed'], cap: 9999, slug: 'dort' },
+  { file: 'catechism_for_young_children', sourceId: 'young-children', traditions: ['reformed'], cap: 9999, slug: 'cyc' },
+  { file: 'london_baptist_1689', sourceId: 'lbcf-1689', traditions: ['baptist'], cap: 9999, slug: 'lbcf' },
+  { file: 'keachs_catechism', sourceId: 'keach', traditions: ['baptist'], cap: 9999, slug: 'keach' },
+  { file: 'apostles_creed', sourceId: 'apostles-creed', traditions: ['ecumenical'], cap: 9999, slug: 'apostles' },
+  { file: 'nicene_creed', sourceId: 'nicene-creed', traditions: ['ecumenical'], cap: 9999, slug: 'nicene' },
+  { file: 'athanasian_creed', sourceId: 'athanasian-creed', traditions: ['ecumenical'], cap: 9999, slug: 'athanasian' },
+  { file: 'chalcedonian_definition', sourceId: 'chalcedon', traditions: ['ecumenical'], cap: 9999, slug: 'chalcedon' },
+  { file: 'council_of_orange', sourceId: 'council-of-orange', traditions: ['ecumenical'], cap: 9999, slug: 'orange' },
+  // A2 Reformed additions (full usable per RESOURCE_EXPANSION.md)
+  { file: 'westminster_larger_catechism', sourceId: 'wlc', traditions: ['reformed'], cap: 9999, slug: 'wlc' },
+  { file: 'second_helvetic_confession', sourceId: 'second-helvetic', traditions: ['reformed'], cap: 9999, slug: 'helv2' },
+  { file: 'french_confession_of_faith', sourceId: 'french-confession', traditions: ['reformed'], cap: 9999, slug: 'french' },
+  { file: 'scots_confession', sourceId: 'scots-confession', traditions: ['reformed'], cap: 9999, slug: 'scots' },
+  { file: 'consensus_tigurinus', sourceId: 'consensus-tigurinus', traditions: ['reformed'], cap: 9999, slug: 'tigurinus' },
+  { file: 'tetrapolitan_confession', sourceId: 'tetrapolitan', traditions: ['reformed'], cap: 9999, slug: 'tetra' },
+  { file: 'zwinglis_67_articles', sourceId: 'zwingli-67', traditions: ['reformed'], cap: 9999, slug: 'z67' },
+  { file: 'zwinglis_fidei_ratio', sourceId: 'zwingli-fidei', traditions: ['reformed'], cap: 9999, slug: 'fidei' },
+  { file: 'first_helvetic_confession', sourceId: 'first-helvetic', traditions: ['reformed'], cap: 9999, slug: 'helv1' },
+  { file: 'first_confession_of_basel', sourceId: 'first-basel', traditions: ['reformed'], cap: 9999, slug: 'basel1' },
+  { file: 'waldensian_confession', sourceId: 'waldensian', traditions: ['reformed'], cap: 9999, slug: 'walden' },
+  { file: 'ten_theses_of_berne', sourceId: 'berne-theses', traditions: ['reformed'], cap: 9999, slug: 'berne' },
+  { file: 'abstract_of_principles', sourceId: 'abstract-principles', traditions: ['baptist'], cap: 9999, slug: 'abstract' },
+  { file: 'matthew_henrys_scripture_catechism', sourceId: 'matthew-henry', traditions: ['reformed'], cap: 9999, slug: 'mhenry' },
+  { file: 'puritan_catechism', sourceId: 'puritan-catechism', traditions: ['reformed'], cap: 9999, slug: 'puritan' },
+  { file: 'exposition_of_the_assemblies_catechism', sourceId: 'assemblies-exposition', traditions: ['reformed'], cap: 9999, slug: 'assemblies' },
+  { file: 'shorter_catechism_explained', sourceId: 'shorter-explained', traditions: ['reformed'], cap: 9999, slug: 'shorter-exp' },
+  { file: '1695_baptist_catechism', sourceId: 'baptist-catechism', traditions: ['baptist'], cap: 9999, slug: 'bap1695' },
+  // Single-para ecumenical creeds (1 card each)
+  { file: 'gregorys_declaration_of_faith', sourceId: 'gregory-declaration', traditions: ['ecumenical'], cap: 9999, slug: 'gregory' },
+  { file: 'irenaeus_rule_of_faith', sourceId: 'irenaeus-rule', traditions: ['ecumenical'], cap: 9999, slug: 'irenaeus' },
+  { file: 'tertullians_rule_of_faith', sourceId: 'tertullian-rule', traditions: ['ecumenical'], cap: 9999, slug: 'tertullian' },
+  { file: 'ignatius_creed', sourceId: 'ignatius-creed', traditions: ['ecumenical'], cap: 9999, slug: 'ignatius' },
 ];
 
 interface Candidate {

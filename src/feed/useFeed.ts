@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 
-import { CARDS, toRendered } from '@/content/library';
+import { CARDS, renderedFor } from '@/content/library';
 import type { Card, RenderedCard } from '@/content/types';
 import { useFeedSession, currentIndex } from '@/store/feedSession';
 import { usePreferences } from '@/store/preferences';
@@ -33,10 +33,22 @@ export interface Feed {
 const CARDS_BY_ID = new Map(CARDS.map((card) => [card.id, card]));
 
 export function useFeed(): Feed {
-  const traditions = usePreferences((s) => s.traditions);
-  const types = usePreferences((s) => s.types);
+  const selectedTraditions = usePreferences((s) => s.traditions);
+  const selectedTypes = usePreferences((s) => s.types);
   const markSeen = useSeen((s) => s.markSeen);
   const setIndex = useFeedSession((s) => s.setIndex);
+
+  /**
+   * Rebuilding the running order is the expensive half of a filter change, and
+   * it is not what the reader is looking at when they make one — they are on the
+   * Options screen, watching a chip. Deferring these lets the chip paint on the
+   * press frame and the feed catch up in a low-priority render behind it.
+   *
+   * The tab navigator keeps this screen mounted, so without it the whole rebuild
+   * lands inside the press and the chip cannot even draw its own pressed state.
+   */
+  const traditions = useDeferredValue(selectedTraditions);
+  const types = useDeferredValue(selectedTypes);
 
   // Bumped when a pass is appended, to recompute the pages.
   const [revision, setRevision] = useState(0);
@@ -54,12 +66,26 @@ export function useFeed(): Feed {
     return { order: built.sequence.map((c) => c.id), recycled: built.recycled };
   });
 
+  /**
+   * `rendered` is a getter rather than a value: the pool can run to thousands of
+   * cards and the reader sees perhaps ten of them, so rendering the lot up front
+   * is work thrown away. The list asks for one as it draws each row, and
+   * `renderedFor` caches, so scrolling back costs nothing.
+   */
   const pages = useMemo(() => {
     const cycleStarts = new Set(sequence.cycleStarts);
     return sequence.order.flatMap((id, i) => {
       const card = CARDS_BY_ID.get(id);
       if (!card) return [];
-      return [{ card, rendered: toRendered(card), startsNewCycle: cycleStarts.has(i) }];
+      return [
+        {
+          card,
+          startsNewCycle: cycleStarts.has(i),
+          get rendered() {
+            return renderedFor(card);
+          },
+        },
+      ];
     });
     // `revision` is the signal that the order was extended in place.
   }, [sequence, sequence.order.length, revision]);

@@ -2,8 +2,14 @@
   {
     "id": "his-didache-baptism",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["baptism", "early-church", "worship"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "baptism",
+      "early-church",
+      "worship"
+    ],
     "headline": "The oldest church manual we have is mostly practical advice.",
     "body": "The Didache is a short handbook from the generation after the apostles, and its instructions are strikingly ordinary: baptise in running water if you can; if not, still water; if you have neither, pour water three times on the head. Not theory about baptism, but what to do when the stream is dry.",
     "year": 100,
@@ -14,8 +20,14 @@
   {
     "id": "his-ignatius-wheat",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["martyrdom", "courage", "early-church"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "martyrdom",
+      "courage",
+      "early-church"
+    ],
     "weight": 1.4,
     "headline": "He begged them not to save him.",
     "body": "Ignatius, bishop of Antioch, was carried to Rome under guard to be killed. On the road he wrote ahead to the Christians there — not to ask for rescue, but to plead that they not intervene. \"I am God's wheat,\" he told them, \"and I am ground by the teeth of wild beasts that I may be found pure bread.\"",
@@ -27,8 +39,14 @@
   {
     "id": "his-pliny-letter",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["persecution", "worship", "early-church"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "persecution",
+      "worship",
+      "early-church"
+    ],
     "weight": 1.3,
     "headline": "The earliest outside description of Christian worship is a police report.",
     "body": "A Roman governor in Bithynia wrote to the emperor asking how to handle Christians. He had interrogated some, and reported what they did: they met before dawn, sang a hymn to Christ as to a god, and bound themselves by oath not to steal, commit adultery, or break their word.",
@@ -40,8 +58,14 @@
   {
     "id": "his-polycarp-eighty-six",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["martyrdom", "faithfulness", "early-church"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "martyrdom",
+      "faithfulness",
+      "early-church"
+    ],
     "weight": 1.4,
     "headline": "Eighty-six years, and he would not take it back.",
     "body": "Polycarp of Smyrna was an old man when the proconsul offered him his life for a single sentence: curse Christ. He answered, \"Eighty and six years have I served him, and he has done me no wrong. How then can I blaspheme my King, who saved me?\" He was burned in the stadium.",
@@ -53,8 +77,14 @@
   {
     "id": "his-justin-sunday",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["worship", "eucharist", "early-church"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "worship",
+      "eucharist",
+      "early-church"
+    ],
     "headline": "A description of Sunday worship written to an emperor who might have you killed.",
     "body": "Justin wrote an open defence of Christianity addressed to Antoninus Pius, and included a plain account of what Christians actually did on Sunday: readings from the apostles and prophets, a sermon, prayers, bread and wine, and a collection for orphans, widows and prisoners.",
     "year": 155,
@@ -65,8 +95,14 @@
   {
     "id": "his-diognetus-resident-aliens",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["citizenship", "witness", "early-church"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "citizenship",
+      "witness",
+      "early-church"
+    ],
     "weight": 1.3,
     "headline": "They live in their own countries, but as resident aliens.",
     "body": "An anonymous second-century writer tried to explain Christians to a curious outsider. They are not marked out by country, language or custom, he said. They live in their own lands, but as if passing through; every foreign country is their homeland, and every homeland foreign.",
@@ -78,8 +114,14 @@
   {
     "id": "his-irenaeus-rule",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["heresy", "tradition", "unity"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "heresy",
+      "tradition",
+      "unity"
+    ],
     "headline": "The churches scattered across the world all told the same story.",
     "body": "Faced with teachers claiming secret knowledge, Irenaeus argued from something anyone could check: the churches in Germany, Spain, Gaul, Egypt and the East, though speaking different languages, all handed on one faith. Truth was public and traceable, not whispered.",
     "year": 180,
@@ -90,8 +132,14 @@
   {
     "id": "his-tertullian-seed",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["persecution", "growth", "martyrdom"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "persecution",
+      "growth",
+      "martyrdom"
+    ],
     "weight": 1.3,
     "headline": "Killing them kept making more of them.",
     "body": "Tertullian addressed the Roman authorities with an argument they had not expected: their executions were counterproductive. \"The more you mow us down, the more we grow; the blood of Christians is seed.\" The persecutions ran for another century, and the church kept growing.",
@@ -103,8 +151,14 @@
   {
     "id": "his-perpetua-prison-diary",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["martyrdom", "women", "early-church"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "martyrdom",
+      "women",
+      "early-church"
+    ],
     "weight": 1.3,
     "headline": "A prison diary, and some of the oldest words we have from a Christian woman.",
     "body": "Perpetua was a young mother of good family, arrested at Carthage and held with her slave Felicity. While she waited to die she kept a diary — her visions, her father begging her to recant, the baby taken from her. It survives, and with it her own voice rather than someone else's account of her.",
@@ -115,8 +169,14 @@
   {
     "id": "his-origen-tortured",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["persecution", "scholarship", "early-church"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "persecution",
+      "scholarship",
+      "early-church"
+    ],
     "headline": "The greatest scholar of his age died of what they did to him in prison.",
     "body": "Origen of Alexandria wrote commentaries on nearly every book of Scripture and built the first great critical edition of the Old Testament. Under the Decian persecution he was imprisoned and racked. He was released when the emperor died, but never recovered, and died of his injuries.",
     "year": 254,
@@ -127,8 +187,14 @@
   {
     "id": "his-cyprian-lapsed",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["repentance", "church-discipline", "persecution"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "repentance",
+      "church-discipline",
+      "persecution"
+    ],
     "headline": "What do you do with the ones who cracked?",
     "body": "After the Decian persecution, thousands who had sacrificed to save their lives wanted to come back. Some said never; some said immediately. Cyprian of Carthage argued for a middle path of penance and restoration, and the fight over it shaped how the church has handled failure ever since.",
     "year": 251,
@@ -137,8 +203,14 @@
   {
     "id": "his-antony-desert",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["monasticism", "renunciation", "desert"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "monasticism",
+      "renunciation",
+      "desert"
+    ],
     "headline": "He heard one sentence read in church and gave everything away.",
     "body": "Antony was a young Egyptian landowner when he walked into a service and heard the words about selling all you have and giving to the poor. He took them as addressed to him, sold the family land, and went into the desert. Thousands followed him out there; monasticism starts roughly here.",
     "year": 356,
@@ -148,8 +220,14 @@
   {
     "id": "his-edict-of-milan",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["persecution", "empire", "toleration"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "persecution",
+      "empire",
+      "toleration"
+    ],
     "weight": 1.2,
     "headline": "Persecution ended not with a victory but with a permit.",
     "body": "After nearly three centuries in which being a Christian could cost you your life, the empire simply granted toleration. The rescript restored confiscated property and allowed open worship. Within a lifetime the persecuted church would be the establishment, with all the difficulty that brought.",
@@ -160,8 +238,14 @@
   {
     "id": "his-nicaea-scars",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["council", "trinity", "persecution"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "council",
+      "trinity",
+      "persecution"
+    ],
     "weight": 1.5,
     "headline": "The council met covered in scars.",
     "body": "When the bishops gathered at Nicaea in 325, many arrived maimed — eyes put out, hands crippled — from the persecution under Diocletian barely a decade before. The men who defined the Son as of one substance with the Father had already paid for that confession with their bodies.",
@@ -172,8 +256,14 @@
   {
     "id": "his-nicaea-usury",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["council", "clergy", "discipline"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "council",
+      "clergy",
+      "discipline"
+    ],
     "headline": "The council that defined the Trinity also banned clergy from lending at interest.",
     "body": "Nicaea is remembered for one word about the Son's relation to the Father. Its canons are mostly housekeeping: how to receive those who lapsed, who may be ordained, that clergy must not lend money at interest, and that one should not kneel to pray on Sundays.",
     "year": 325,
@@ -183,8 +273,14 @@
   {
     "id": "his-athanasius-exiles",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["trinity", "courage", "controversy"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "trinity",
+      "courage",
+      "controversy"
+    ],
     "weight": 1.3,
     "headline": "Exiled five times over a single letter.",
     "body": "Athanasius spent roughly seventeen of his forty-five years as bishop of Alexandria in exile, driven out five separate times for refusing to concede that the Son was merely like the Father rather than of the same substance with him. A Latin phrase stuck to him: Athanasius contra mundum.",
@@ -196,19 +292,33 @@
   {
     "id": "his-athanasius-festal-letter",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["canon", "scripture", "early-church"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "canon",
+      "scripture",
+      "early-church"
+    ],
     "weight": 1.2,
     "headline": "The first list of exactly our twenty-seven New Testament books was an Easter letter.",
     "body": "Every year the bishop of Alexandria wrote to the churches announcing the date of Easter. In 367 Athanasius used his to list the books to be read as Scripture — and the New Testament portion is precisely the twenty-seven we use, in a document whose main business was a calendar.",
     "year": 367,
-    "sourceId": "athanasius-incarnation"
+    "sourceId": "athanasius-festal-39",
+    "locus": "39"
   },
   {
     "id": "his-basil-hospital",
     "type": "history",
-    "traditions": ["orthodox", "ecumenical"],
-    "themes": ["mercy", "poverty", "institutions"],
+    "traditions": [
+      "orthodox",
+      "ecumenical"
+    ],
+    "themes": [
+      "mercy",
+      "poverty",
+      "institutions"
+    ],
     "weight": 1.2,
     "headline": "He built a town for the sick outside the city walls.",
     "body": "Basil of Caesarea used his inheritance and pressed the wealthy to fund a complex outside the city with lodging, a hospital, and quarters for lepers whom nobody else would touch. People called it the Basileias. It is among the earliest ancestors of the public hospital.",
@@ -219,8 +329,14 @@
   {
     "id": "his-egeria-pilgrimage",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["pilgrimage", "worship", "women"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "pilgrimage",
+      "worship",
+      "women"
+    ],
     "headline": "A nun took notes on the liturgy in Jerusalem and accidentally wrote a primary source.",
     "body": "Egeria travelled from the western edge of the empire to the Holy Land and wrote home describing what she saw. Her interest was practical — how services were kept, which psalms, at what hour — and the result is our best surviving picture of fourth-century worship in Jerusalem.",
     "year": 384,
@@ -230,8 +346,14 @@
   {
     "id": "his-augustine-tolle-lege",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["conversion", "scripture", "providence"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "conversion",
+      "scripture",
+      "providence"
+    ],
     "weight": 1.4,
     "headline": "A child's song in a garden next door.",
     "body": "Augustine was weeping under a fig tree in a Milan garden, unable to break with the life he had, when he heard a child chanting over the wall: tolle lege, tolle lege — take up and read. He opened Paul at random, read a few lines about putting on Christ, and wrote that he needed to read no further.",
@@ -242,8 +364,14 @@
   {
     "id": "his-augustine-restless",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["longing", "conversion", "rest"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "longing",
+      "conversion",
+      "rest"
+    ],
     "weight": 1.3,
     "headline": "The most quoted sentence in Christian literature is on the first page.",
     "body": "Augustine opens the Confessions not with his story but with an address to God, and lands almost at once on the line the whole book will spend thirteen volumes explaining: \"Thou hast made us for thyself, and our heart is restless until it rests in thee.\"",
@@ -255,8 +383,15 @@
   {
     "id": "his-jerome-vulgate",
     "type": "history",
-    "traditions": ["catholic", "ecumenical"],
-    "themes": ["translation", "scripture", "scholarship"],
+    "traditions": [
+      "catholic",
+      "ecumenical"
+    ],
+    "themes": [
+      "translation",
+      "scripture",
+      "scholarship"
+    ],
     "weight": 1.2,
     "headline": "He learned Hebrew in middle age to get the Old Testament right.",
     "body": "Commissioned to tidy up the Latin Bible, Jerome went further than asked. Rather than revise from the Greek, he moved to Bethlehem and learned Hebrew so he could translate the Old Testament from the original. The result, the Vulgate, was the Bible of the West for a thousand years.",
@@ -267,8 +402,14 @@
   {
     "id": "his-chrysostom-golden-mouth",
     "type": "history",
-    "traditions": ["orthodox"],
-    "themes": ["preaching", "courage", "poverty"],
+    "traditions": [
+      "orthodox"
+    ],
+    "themes": [
+      "preaching",
+      "courage",
+      "poverty"
+    ],
     "headline": "They called him Golden Mouth, and it got him exiled.",
     "body": "John of Antioch preached so well the nickname Chrysostom stuck to him permanently. Made archbishop of Constantinople, he attacked the luxury of the court and the clergy with the same directness, was banished twice, and died on the road under guard.",
     "year": 407,
@@ -277,8 +418,14 @@
   {
     "id": "his-city-of-god",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["empire", "providence", "apologetics"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "empire",
+      "providence",
+      "apologetics"
+    ],
     "weight": 1.2,
     "headline": "Rome fell, and Christians were blamed for it.",
     "body": "When the Goths sacked Rome in 410, the charge went up that the old gods had been abandoned and had withdrawn their protection. Augustine spent the next sixteen years answering it, and the answer became a theory of two cities and of history itself.",
@@ -289,8 +436,14 @@
   {
     "id": "his-patrick-slave",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["mission", "forgiveness", "ireland"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "mission",
+      "forgiveness",
+      "ireland"
+    ],
     "weight": 1.3,
     "headline": "He went back to the people who had enslaved him.",
     "body": "Patrick was taken from Britain by Irish raiders at sixteen and kept as a herdsman for six years before escaping. Years later he returned as a bishop to the same island, and wrote his own account of it — one of the very few documents we have from fifth-century Britain in a named voice.",
@@ -301,8 +454,14 @@
   {
     "id": "his-chalcedon-two-natures",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["council", "christology", "two-natures"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "council",
+      "christology",
+      "two-natures"
+    ],
     "weight": 1.2,
     "headline": "Four adverbs that mostly say what not to say.",
     "body": "Chalcedon settled how to speak of Christ as God and man by ruling out the wrong answers rather than explaining the mystery: two natures, inconfusedly, unchangeably, indivisibly, inseparably. The definition draws a fence around the confession instead of pretending to see inside it.",
@@ -312,8 +471,14 @@
   {
     "id": "his-vincent-canon",
     "type": "history",
-    "traditions": ["ecumenical"],
-    "themes": ["tradition", "orthodoxy", "development"],
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "tradition",
+      "orthodoxy",
+      "development"
+    ],
     "headline": "A rule of thumb for telling the faith from a fashion.",
     "body": "Vincent of Lerins wanted a test for distinguishing the catholic faith from novelty, and proposed one that has been argued over ever since: hold what has been believed everywhere, always, and by everyone. It is easier to state than to apply, which is much of why it endured.",
     "year": 434,
@@ -323,8 +488,15 @@
   {
     "id": "his-benedict-hours",
     "type": "history",
-    "traditions": ["catholic", "anglican"],
-    "themes": ["monasticism", "prayer", "rule"],
+    "traditions": [
+      "catholic",
+      "anglican"
+    ],
+    "themes": [
+      "monasticism",
+      "prayer",
+      "rule"
+    ],
     "weight": 1.2,
     "headline": "Seven times a day, for fifteen hundred years.",
     "body": "Benedict's Rule organised the monastic day around fixed hours of prayer, taking its warrant from the psalm: seven times a day do I praise thee. It was written for a single community, and became the pattern for Western monasticism and, through the daily offices, for much of the church.",
@@ -336,8 +508,14 @@
   {
     "id": "his-benedict-guests",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["hospitality", "monasticism", "rule"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "hospitality",
+      "monasticism",
+      "rule"
+    ],
     "headline": "Every guest is to be received as Christ.",
     "body": "The Rule of Benedict is largely administrative — when to eat, who sleeps where, what to do about latecomers. Then it says that all guests are to be welcomed as Christ himself, and that the poor and pilgrims are to be received with particular care, because in them Christ is more truly received.",
     "year": 530,
@@ -348,8 +526,14 @@
   {
     "id": "his-gregory-servant",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["office", "humility", "leadership"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "office",
+      "humility",
+      "leadership"
+    ],
     "headline": "The pope who invented the title picked the humblest one available.",
     "body": "When the patriarch of Constantinople took the style of universal bishop, Gregory objected and began signing himself servus servorum Dei — servant of the servants of God. It was a rebuke at the time. Popes have used it ever since.",
     "year": 595,
@@ -359,8 +543,15 @@
   {
     "id": "his-augustine-of-kent",
     "type": "history",
-    "traditions": ["anglican", "catholic"],
-    "themes": ["mission", "england", "conversion"],
+    "traditions": [
+      "anglican",
+      "catholic"
+    ],
+    "themes": [
+      "mission",
+      "england",
+      "conversion"
+    ],
     "headline": "The missionaries got frightened and tried to turn back.",
     "body": "Gregory the Great sent a party of monks from Rome to the English. Partway there they lost their nerve at reports of the people they were going to, and sent Augustine back to ask leave to abandon the mission. Gregory refused and sent them on. They landed in Kent and the king gave them a hearing.",
     "year": 597,
@@ -370,8 +561,15 @@
   {
     "id": "his-sparrow-hall",
     "type": "history",
-    "traditions": ["anglican", "ecumenical"],
-    "themes": ["conversion", "mortality", "england"],
+    "traditions": [
+      "anglican",
+      "ecumenical"
+    ],
+    "themes": [
+      "conversion",
+      "mortality",
+      "england"
+    ],
     "weight": 1.4,
     "headline": "A sparrow flies through a lit hall, and out again into the dark.",
     "body": "Debating whether to accept the new faith, one of King Edwin's counsellors compared a man's life to a sparrow flying through a warm hall in winter: in at one door, out at the other, and of what comes before or after we know nothing. If this teaching says anything certain about that, he said, it deserves a hearing.",
@@ -382,8 +580,15 @@
   {
     "id": "his-whitby-easter",
     "type": "history",
-    "traditions": ["anglican", "catholic"],
-    "themes": ["council", "unity", "england"],
+    "traditions": [
+      "anglican",
+      "catholic"
+    ],
+    "themes": [
+      "council",
+      "unity",
+      "england"
+    ],
     "headline": "A kingdom where the king kept Easter while the queen was still fasting for Lent.",
     "body": "Northumbria followed two different reckonings of Easter, Irish and Roman, and the royal household could end up celebrating and fasting at once. The Synod of Whitby settled on the Roman date — a decision about a calendar that decided which way English Christianity would face for centuries.",
     "year": 664,
@@ -393,8 +598,15 @@
   {
     "id": "his-caedmon",
     "type": "history",
-    "traditions": ["anglican", "ecumenical"],
-    "themes": ["poetry", "vocation", "england"],
+    "traditions": [
+      "anglican",
+      "ecumenical"
+    ],
+    "themes": [
+      "poetry",
+      "vocation",
+      "england"
+    ],
     "headline": "The first named English poet was a cowherd who left parties early to avoid singing.",
     "body": "Caedmon worked the monastery's cattle at Whitby and would slip out when the harp came round, because he had no songs. Bede reports that he dreamed of being told to sing of creation, woke able to do it, and spent the rest of his life turning Scripture into English verse.",
     "year": 680,
@@ -405,8 +617,14 @@
   {
     "id": "his-john-damascus-images",
     "type": "history",
-    "traditions": ["orthodox"],
-    "themes": ["icons", "incarnation", "controversy"],
+    "traditions": [
+      "orthodox"
+    ],
+    "themes": [
+      "icons",
+      "incarnation",
+      "controversy"
+    ],
     "weight": 1.2,
     "headline": "The argument for icons was an argument about the Incarnation.",
     "body": "When the emperor ordered images destroyed, John of Damascus answered from outside the empire's reach. He did not argue from custom but from Christmas: the invisible God had taken visible flesh, so matter could now carry holiness, and to refuse to depict Christ was to flinch at his humanity.",
@@ -417,8 +635,15 @@
   {
     "id": "his-anselm-faith-seeking",
     "type": "history",
-    "traditions": ["catholic", "anglican"],
-    "themes": ["reason", "faith", "theology"],
+    "traditions": [
+      "catholic",
+      "anglican"
+    ],
+    "themes": [
+      "reason",
+      "faith",
+      "theology"
+    ],
     "weight": 1.2,
     "headline": "I do not seek to understand in order to believe.",
     "body": "Anselm set out to prove God's existence using reason alone, and framed the whole project with a phrase that has defined theological method since: fides quaerens intellectum, faith seeking understanding. \"I do not seek to understand in order to believe, but I believe in order to understand.\"",
@@ -429,8 +654,15 @@
   {
     "id": "his-anselm-cur-deus",
     "type": "history",
-    "traditions": ["catholic", "anglican"],
-    "themes": ["atonement", "incarnation", "theology"],
+    "traditions": [
+      "catholic",
+      "anglican"
+    ],
+    "themes": [
+      "atonement",
+      "incarnation",
+      "theology"
+    ],
     "headline": "Why did God become man? He wrote a book with that title.",
     "body": "Anselm asked why salvation should require an incarnation at all, and answered that only a human owed the debt and only God could pay it, so only one who was both could settle it. Cur Deus Homo set the terms of Western atonement theology for the next nine hundred years.",
     "year": 1098,
@@ -439,8 +671,14 @@
   {
     "id": "his-aquinas-straw",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["theology", "mysticism", "humility"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "theology",
+      "mysticism",
+      "humility"
+    ],
     "weight": 1.3,
     "headline": "He stopped writing the greatest work of medieval theology and would not say why.",
     "body": "Aquinas had been dictating the Summa for years when, after Mass one December morning, he stopped. Pressed to continue, he said that compared with what he had seen, everything he had written seemed to him like straw. He died a few months later, the work unfinished.",
@@ -450,8 +688,15 @@
   {
     "id": "his-julian-hazelnut",
     "type": "history",
-    "traditions": ["anglican", "catholic"],
-    "themes": ["providence", "mysticism", "creation"],
+    "traditions": [
+      "anglican",
+      "catholic"
+    ],
+    "themes": [
+      "providence",
+      "mysticism",
+      "creation"
+    ],
     "weight": 1.4,
     "headline": "Everything that is made, held in the palm of a hand, the size of a hazelnut.",
     "body": "Julian of Norwich, gravely ill at thirty, received a series of visions and spent decades writing about them. In one she was shown something small as a hazelnut lying in her palm and told it was all that is made; it lasted, she was told, because God loves it.",
@@ -463,8 +708,15 @@
   {
     "id": "his-julian-well",
     "type": "history",
-    "traditions": ["anglican", "catholic"],
-    "themes": ["hope", "suffering", "mysticism"],
+    "traditions": [
+      "anglican",
+      "catholic"
+    ],
+    "themes": [
+      "hope",
+      "suffering",
+      "mysticism"
+    ],
     "headline": "All shall be well — said about a world she knew was not well.",
     "body": "Julian lived through plague that killed a third of Europe and wrote the most quoted line of English mysticism: all shall be well, and all shall be well, and all manner of thing shall be well. She records it as an answer given to her, not a conclusion she reached.",
     "year": 1395,
@@ -475,13 +727,151 @@
   {
     "id": "his-kempis-imitation",
     "type": "history",
-    "traditions": ["catholic"],
-    "themes": ["devotion", "humility", "anonymity"],
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "devotion",
+      "humility",
+      "anonymity"
+    ],
     "headline": "The most read Christian book after the Bible, by an author who wanted to be forgotten.",
     "body": "The Imitation of Christ came out of a movement that prized obscurity, and its most famous line is against the very learning that produces books: \"I would rather feel contrition than know how to define it.\" It has never been out of print in five centuries.",
     "year": 1420,
     "yearDisplay": "c. 1420",
     "sourceId": "kempis-imitation",
     "locus": "I.1"
+  },
+  {
+    "id": "his-photian-schism",
+    "type": "history",
+    "traditions": [
+      "orthodox"
+    ],
+    "themes": [
+      "schism",
+      "authority",
+      "filioque"
+    ],
+    "headline": "A patriarch who said the West had added to the creed without a council.",
+    "body": "Photius of Constantinople denounced the insertion of the filioque into the Nicene Creed without an ecumenical council and excommunicated Pope Nicholas I in 867. The mutual anathemas were lifted, but the dispute over authority and the procession of the Spirit has never fully healed.",
+    "year": 867,
+    "sourceId": "photian-schism"
+  },
+  {
+    "id": "his-iconoclast-council-787",
+    "type": "history",
+    "traditions": [
+      "orthodox",
+      "catholic"
+    ],
+    "themes": [
+      "council",
+      "icons",
+      "incarnation"
+    ],
+    "headline": "The argument ended when an empress called a council.",
+    "body": "After decades of imperial destruction of icons, Empress Irene called the Second Council of Nicaea in 787. It restored the veneration of images, not as worship but as honour passing to the prototype, on the ground that the Word had become visible flesh.",
+    "year": 787,
+    "sourceId": "second-nicaea"
+  },
+  {
+    "id": "his-otto-missions-poland",
+    "type": "history",
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "mission",
+      "poland",
+      "baptism"
+    ],
+    "headline": "A duke was baptised and a nation quietly changed religion.",
+    "body": "Mieszko I of Poland was baptised in 966, traditionally at the urging of his Christian wife Dobrawa. The act aligned Poland with Latin Christendom and set its ecclesiastical and political orientation toward Rome rather than toward Byzantium.",
+    "year": 966,
+    "sourceId": "otto-missions"
+  },
+  {
+    "id": "his-fourth-lateran",
+    "type": "history",
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "council",
+      "sacraments",
+      "judaism"
+    ],
+    "weight": 1.2,
+    "headline": "The council that defined annual confession and Easter communion.",
+    "body": "The Fourth Lateran Council in 1215 required every Christian to confess to their own priest at least once a year and receive the Eucharist at Easter. The same council required distinctive dress for Jews and Muslims, a reminder that reform and coercion often travelled together.",
+    "year": 1215,
+    "sourceId": "fourth-lateran",
+    "locus": "21"
+  },
+  {
+    "id": "his-dominic-francis-orders",
+    "type": "history",
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "poverty",
+      "preaching",
+      "orders"
+    ],
+    "headline": "Two men who tried to live the Gospel literally, and founded orders doing it differently.",
+    "body": "Dominic gathered preachers to meet heresy with learning; Francis stripped himself of all property and preached to town squares. Innocent III approved both in 1216, and the mendicant orders reshaped pastoral care in the towns where monasticism had retreated.",
+    "year": 1216,
+    "sourceId": "dominic-francis"
+  },
+  {
+    "id": "his-bridget-sweden",
+    "type": "history",
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "women",
+      "visions",
+      "reform"
+    ],
+    "headline": "She dictated revelations in Swedish and had them translated into Latin.",
+    "body": "Bridget of Sweden, noblewoman and mother of eight, reported visions of Christ and Mary, founded the Birgittines, and travelled to Rome where she pressed popes to return from Avignon. Her Revelations were widely copied and examined for orthodoxy.",
+    "year": 1373,
+    "yearDisplay": "d. 1373",
+    "sourceId": "bridget-sweden"
+  },
+  {
+    "id": "his-conciliar-movement",
+    "type": "history",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "council",
+      "authority",
+      "schism"
+    ],
+    "headline": "When three popes claimed the chair, a council tried to resolve it.",
+    "body": "The Council of Constance in 1415 deposed or accepted the resignation of three papal claimants and elected Martin V, ending the Western Schism. Its decree Haec Sancta claimed that a council holds authority even over a pope, a claim Rome later repudiated but conciliarists kept citing.",
+    "year": 1415,
+    "sourceId": "conciliar-movement"
+  },
+  {
+    "id": "his-savonarola-florence",
+    "type": "history",
+    "traditions": [
+      "catholic"
+    ],
+    "themes": [
+      "reform",
+      "prophecy",
+      "martyrdom"
+    ],
+    "headline": "He ruled a city by preaching and was burned in the square he once controlled.",
+    "body": "Dominican Girolamo Savonarola preached apocalyptic reform in Florence after the Medici fell, organized the Bonfire of the Vanities, and defied Alexander VI until he was excommunicated, tortured, and executed in 1498.",
+    "year": 1498,
+    "sourceId": "savonarola"
   }
 ]

@@ -6304,5 +6304,2127 @@
       "chapter": 22,
       "verseStart": 20
     }
+  },
+  {
+    "id": "scr-gen-9-6",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "image-of-god",
+      "life",
+      "blood"
+    ],
+    "ref": {
+      "book": "GEN",
+      "chapter": 9,
+      "verseStart": 6
+    }
+  },
+  {
+    "id": "scr-exo-19-5-6",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "covenant",
+      "priesthood",
+      "holiness",
+      "calling"
+    ],
+    "ref": {
+      "book": "EXO",
+      "chapter": 19,
+      "verseStart": 5,
+      "verseEnd": 6
+    },
+    "weight": 1.4
+  },
+  {
+    "id": "scr-lev-16-30",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "atonement",
+      "cleansing"
+    ],
+    "ref": {
+      "book": "LEV",
+      "chapter": 16,
+      "verseStart": 30
+    }
+  },
+  {
+    "id": "scr-deu-10-12-13",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "love",
+      "fear",
+      "walk",
+      "commandments"
+    ],
+    "ref": {
+      "book": "DEU",
+      "chapter": 10,
+      "verseStart": 12,
+      "verseEnd": 13
+    }
+  },
+  {
+    "id": "scr-deu-32-4",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "faithfulness",
+      "rock",
+      "justice"
+    ],
+    "ref": {
+      "book": "DEU",
+      "chapter": 32,
+      "verseStart": 4
+    }
+  },
+  {
+    "id": "scr-num-23-19",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "faithfulness",
+      "promise",
+      "god-truth"
+    ],
+    "ref": {
+      "book": "NUM",
+      "chapter": 23,
+      "verseStart": 19
+    }
+  },
+  {
+    "id": "scr-gen-17-7",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "covenant",
+      "everlasting"
+    ],
+    "ref": {
+      "book": "GEN",
+      "chapter": 17,
+      "verseStart": 7
+    }
+  },
+  {
+    "id": "scr-exo-15-26",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "healing",
+      "obedience"
+    ],
+    "ref": {
+      "book": "EXO",
+      "chapter": 15,
+      "verseStart": 26
+    }
+  },
+  {
+    "id": "scr-lev-20-26",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "holiness",
+      "set-apart"
+    ],
+    "ref": {
+      "book": "LEV",
+      "chapter": 20,
+      "verseStart": 26
+    }
+  },
+  {
+    "id": "scr-deu-7-9",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "faithfulness",
+      "covenant",
+      "love"
+    ],
+    "ref": {
+      "book": "DEU",
+      "chapter": 7,
+      "verseStart": 9
+    }
+  },
+  {
+    "id": "scr-gen-18-19",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "righteousness",
+      "justice"
+    ],
+    "ref": {
+      "book": "GEN",
+      "chapter": 18,
+      "verseStart": 19
+    }
+  },
+  {
+    "id": "scr-exo-23-2",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "justice",
+      "crowd"
+    ],
+    "ref": {
+      "book": "EXO",
+      "chapter": 23,
+      "verseStart": 2
+    }
+  },
+  {
+    "id": "scr-job-2-10",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "suffering",
+      "acceptance",
+      "sovereignty"
+    ],
+    "ref": {
+      "book": "JOB",
+      "chapter": 2,
+      "verseStart": 10
+    }
+  },
+  {
+    "id": "scr-job-13-15",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "trust",
+      "though-slain",
+      "hope"
+    ],
+    "ref": {
+      "book": "JOB",
+      "chapter": 13,
+      "verseStart": 15
+    }
+  },
+  {
+    "id": "scr-job-28-28",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "wisdom",
+      "fear-of-god"
+    ],
+    "ref": {
+      "book": "JOB",
+      "chapter": 28,
+      "verseStart": 28
+    }
+  },
+  {
+    "id": "scr-pro-12-25",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "anxiety",
+      "encouragement",
+      "word"
+    ],
+    "ref": {
+      "book": "PRO",
+      "chapter": 12,
+      "verseStart": 25
+    }
+  },
+  {
+    "id": "scr-pro-24-30-31",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "diligence",
+      "poverty",
+      "field",
+      "sloth"
+    ],
+    "ref": {
+      "book": "PRO",
+      "chapter": 24,
+      "verseStart": 30,
+      "verseEnd": 31
+    },
+    "weight": 1.4
+  },
+  {
+    "id": "scr-ecc-5-1-2",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "reverence",
+      "worship",
+      "listening"
+    ],
+    "ref": {
+      "book": "ECC",
+      "chapter": 5,
+      "verseStart": 1,
+      "verseEnd": 2
+    }
+  },
+  {
+    "id": "scr-pro-21-21",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "righteousness",
+      "kindness",
+      "life"
+    ],
+    "ref": {
+      "book": "PRO",
+      "chapter": 21,
+      "verseStart": 21
+    }
+  },
+  {
+    "id": "scr-job-5-17",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "discipline",
+      "blessed"
+    ],
+    "ref": {
+      "book": "JOB",
+      "chapter": 5,
+      "verseStart": 17
+    }
+  },
+  {
+    "id": "scr-pro-14-26",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "refuge",
+      "fear-of-god"
+    ],
+    "ref": {
+      "book": "PRO",
+      "chapter": 14,
+      "verseStart": 26
+    }
+  },
+  {
+    "id": "scr-ecc-7-12",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "wisdom",
+      "protection"
+    ],
+    "ref": {
+      "book": "ECC",
+      "chapter": 7,
+      "verseStart": 12
+    }
+  },
+  {
+    "id": "scr-pro-3-27-28",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "generosity",
+      "neighbour"
+    ],
+    "ref": {
+      "book": "PRO",
+      "chapter": 3,
+      "verseStart": 27,
+      "verseEnd": 28
+    }
+  },
+  {
+    "id": "scr-job-19-14",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "abandonment",
+      "friends"
+    ],
+    "ref": {
+      "book": "JOB",
+      "chapter": 19,
+      "verseStart": 14
+    }
+  },
+  {
+    "id": "scr-pro-16-32",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "patience",
+      "self-control"
+    ],
+    "ref": {
+      "book": "PRO",
+      "chapter": 16,
+      "verseStart": 32
+    }
+  },
+  {
+    "id": "scr-isa-58-6",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "fasting",
+      "justice",
+      "oppression",
+      "light"
+    ],
+    "ref": {
+      "book": "ISA",
+      "chapter": 58,
+      "verseStart": 6
+    }
+  },
+  {
+    "id": "scr-mic-7-18-19",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "pardon",
+      "mercy",
+      "compassion"
+    ],
+    "ref": {
+      "book": "MIC",
+      "chapter": 7,
+      "verseStart": 18,
+      "verseEnd": 19
+    }
+  },
+  {
+    "id": "scr-hos-2-14-15",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "mercy",
+      "wilderness",
+      "hope"
+    ],
+    "ref": {
+      "book": "HOS",
+      "chapter": 2,
+      "verseStart": 14,
+      "verseEnd": 15
+    }
+  },
+  {
+    "id": "scr-zec-7-9-10",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "justice",
+      "mercy",
+      "oppression"
+    ],
+    "ref": {
+      "book": "ZEC",
+      "chapter": 7,
+      "verseStart": 9,
+      "verseEnd": 10
+    }
+  },
+  {
+    "id": "scr-jer-22-3",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "justice",
+      "deliverance"
+    ],
+    "ref": {
+      "book": "JER",
+      "chapter": 22,
+      "verseStart": 3
+    }
+  },
+  {
+    "id": "scr-amo-5-14-15",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "seek-good",
+      "evil",
+      "hate"
+    ],
+    "ref": {
+      "book": "AMO",
+      "chapter": 5,
+      "verseStart": 14,
+      "verseEnd": 15
+    }
+  },
+  {
+    "id": "scr-isa-1-17",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "justice",
+      "correct",
+      "oppression"
+    ],
+    "ref": {
+      "book": "ISA",
+      "chapter": 1,
+      "verseStart": 17
+    }
+  },
+  {
+    "id": "scr-mal-2-6",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "teaching",
+      "truth"
+    ],
+    "ref": {
+      "book": "MAL",
+      "chapter": 2,
+      "verseStart": 6
+    }
+  },
+  {
+    "id": "scr-hos-12-6",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "mercy",
+      "justice",
+      "waiting"
+    ],
+    "ref": {
+      "book": "HOS",
+      "chapter": 12,
+      "verseStart": 6
+    }
+  },
+  {
+    "id": "scr-isa-30-15",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "return",
+      "rest",
+      "salvation"
+    ],
+    "ref": {
+      "book": "ISA",
+      "chapter": 30,
+      "verseStart": 15
+    }
+  },
+  {
+    "id": "scr-jer-9-23-24",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "boast",
+      "wisdom",
+      "knowledge",
+      "god"
+    ],
+    "ref": {
+      "book": "JER",
+      "chapter": 9,
+      "verseStart": 23,
+      "verseEnd": 24
+    }
+  },
+  {
+    "id": "scr-isa-61-3",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "beauty",
+      "ashes",
+      "mourning"
+    ],
+    "ref": {
+      "book": "ISA",
+      "chapter": 61,
+      "verseStart": 3
+    }
+  },
+  {
+    "id": "scr-mic-7-7",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "watch",
+      "hope",
+      "salvation"
+    ],
+    "ref": {
+      "book": "MIC",
+      "chapter": 7,
+      "verseStart": 7
+    }
+  },
+  {
+    "id": "scr-hos-10-12",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "sow",
+      "righteousness"
+    ],
+    "ref": {
+      "book": "HOS",
+      "chapter": 10,
+      "verseStart": 12
+    }
+  },
+  {
+    "id": "scr-isa-42-3",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "gentleness",
+      "bruised",
+      "reed"
+    ],
+    "ref": {
+      "book": "ISA",
+      "chapter": 42,
+      "verseStart": 3
+    }
+  },
+  {
+    "id": "scr-psa-13-1-2",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "lament",
+      "forgotten"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 13,
+      "verseStart": 1,
+      "verseEnd": 2
+    }
+  },
+  {
+    "id": "scr-psa-22-1",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "forsaken",
+      "lament",
+      "cry"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 22,
+      "verseStart": 1
+    }
+  },
+  {
+    "id": "scr-psa-42-9",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "rock",
+      "forgotten",
+      "lament"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 42,
+      "verseStart": 9
+    }
+  },
+  {
+    "id": "scr-psa-61-2",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "overwhelmed",
+      "rock",
+      "higher"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 61,
+      "verseStart": 2
+    }
+  },
+  {
+    "id": "scr-psa-73-28",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "nearness",
+      "good",
+      "refuge"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 73,
+      "verseStart": 28
+    }
+  },
+  {
+    "id": "scr-psa-131-1-2",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "humility",
+      "soul",
+      "weaned"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 131,
+      "verseStart": 1,
+      "verseEnd": 2
+    }
+  },
+  {
+    "id": "scr-psa-6-2",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "mercy",
+      "weak",
+      "healing"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 6,
+      "verseStart": 2
+    }
+  },
+  {
+    "id": "scr-psa-31-24",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "courage",
+      "heart",
+      "hope"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 31,
+      "verseStart": 24
+    }
+  },
+  {
+    "id": "scr-psa-62-8",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "trust",
+      "pour",
+      "heart"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 62,
+      "verseStart": 8
+    }
+  },
+  {
+    "id": "scr-psa-84-11",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "sun",
+      "shield",
+      "favor"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 84,
+      "verseStart": 11
+    }
+  },
+  {
+    "id": "scr-psa-116-1-2",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "love",
+      "hears",
+      "prayer"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 116,
+      "verseStart": 1,
+      "verseEnd": 2
+    }
+  },
+  {
+    "id": "scr-psa-27-4",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "dwell",
+      "house",
+      "beauty"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 27,
+      "verseStart": 4
+    }
+  },
+  {
+    "id": "scr-psa-63-7-8",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "help",
+      "shadow",
+      "cling"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 63,
+      "verseStart": 7,
+      "verseEnd": 8
+    }
+  },
+  {
+    "id": "scr-psa-90-1-2",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "dwelling",
+      "generation",
+      "eternity"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 90,
+      "verseStart": 1,
+      "verseEnd": 2
+    }
+  },
+  {
+    "id": "scr-psa-103-17-18",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "mercy",
+      "generations",
+      "covenant"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 103,
+      "verseStart": 17,
+      "verseEnd": 18
+    }
+  },
+  {
+    "id": "scr-psa-145-8-9",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "gracious",
+      "compassion"
+    ],
+    "ref": {
+      "book": "PSA",
+      "chapter": 145,
+      "verseStart": 8,
+      "verseEnd": 9
+    }
+  },
+  {
+    "id": "scr-mat-13-44",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "kingdom",
+      "treasure",
+      "hidden"
+    ],
+    "ref": {
+      "book": "MAT",
+      "chapter": 13,
+      "verseStart": 44
+    }
+  },
+  {
+    "id": "scr-luk-10-36-37",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "neighbor",
+      "mercy",
+      "go"
+    ],
+    "ref": {
+      "book": "LUK",
+      "chapter": 10,
+      "verseStart": 36,
+      "verseEnd": 37
+    }
+  },
+  {
+    "id": "scr-luk-14-11",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "humility",
+      "exalted"
+    ],
+    "ref": {
+      "book": "LUK",
+      "chapter": 14,
+      "verseStart": 11
+    }
+  },
+  {
+    "id": "scr-jhn-7-37-38",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "thirst",
+      "living-water"
+    ],
+    "ref": {
+      "book": "JHN",
+      "chapter": 7,
+      "verseStart": 37,
+      "verseEnd": 38
+    }
+  },
+  {
+    "id": "scr-mat-18-3",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "humble",
+      "child",
+      "kingdom"
+    ],
+    "ref": {
+      "book": "MAT",
+      "chapter": 18,
+      "verseStart": 3
+    }
+  },
+  {
+    "id": "scr-mat-20-28",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "service",
+      "ransom"
+    ],
+    "ref": {
+      "book": "MAT",
+      "chapter": 20,
+      "verseStart": 28
+    }
+  },
+  {
+    "id": "scr-mrk-10-14",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "receive",
+      "kingdom",
+      "child"
+    ],
+    "ref": {
+      "book": "MRK",
+      "chapter": 10,
+      "verseStart": 14
+    }
+  },
+  {
+    "id": "scr-luk-6-27-28",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "love",
+      "enemies",
+      "bless"
+    ],
+    "ref": {
+      "book": "LUK",
+      "chapter": 6,
+      "verseStart": 27,
+      "verseEnd": 28
+    }
+  },
+  {
+    "id": "scr-luk-15-4",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "seek",
+      "lost",
+      "sheep"
+    ],
+    "ref": {
+      "book": "LUK",
+      "chapter": 15,
+      "verseStart": 4
+    }
+  },
+  {
+    "id": "scr-jhn-8-31",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "abide",
+      "word",
+      "disciple"
+    ],
+    "ref": {
+      "book": "JHN",
+      "chapter": 8,
+      "verseStart": 31
+    }
+  },
+  {
+    "id": "scr-mat-5-6",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "hunger",
+      "righteousness",
+      "filled"
+    ],
+    "ref": {
+      "book": "MAT",
+      "chapter": 5,
+      "verseStart": 6
+    }
+  },
+  {
+    "id": "scr-luk-9-48",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "least",
+      "great"
+    ],
+    "ref": {
+      "book": "LUK",
+      "chapter": 9,
+      "verseStart": 48
+    }
+  },
+  {
+    "id": "scr-jhn-15-12",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "love",
+      "as-loved",
+      "command"
+    ],
+    "ref": {
+      "book": "JHN",
+      "chapter": 15,
+      "verseStart": 12
+    }
+  },
+  {
+    "id": "scr-mat-25-35-36",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "hunger",
+      "thirst",
+      "stranger"
+    ],
+    "ref": {
+      "book": "MAT",
+      "chapter": 25,
+      "verseStart": 35,
+      "verseEnd": 36
+    }
+  },
+  {
+    "id": "scr-mrk-12-42-44",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "widow",
+      "offering"
+    ],
+    "ref": {
+      "book": "MRK",
+      "chapter": 12,
+      "verseStart": 42,
+      "verseEnd": 44
+    }
+  },
+  {
+    "id": "scr-luk-18-16",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "children",
+      "kingdom"
+    ],
+    "ref": {
+      "book": "LUK",
+      "chapter": 18,
+      "verseStart": 16
+    }
+  },
+  {
+    "id": "scr-jhn-13-14-15",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "wash",
+      "feet",
+      "example"
+    ],
+    "ref": {
+      "book": "JHN",
+      "chapter": 13,
+      "verseStart": 14,
+      "verseEnd": 15
+    }
+  },
+  {
+    "id": "scr-mat-23-11",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "greatest",
+      "servant"
+    ],
+    "ref": {
+      "book": "MAT",
+      "chapter": 23,
+      "verseStart": 11
+    }
+  },
+  {
+    "id": "scr-act-2-44-45",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "fellowship",
+      "breaking-bread",
+      "wonder"
+    ],
+    "ref": {
+      "book": "ACT",
+      "chapter": 2,
+      "verseStart": 44,
+      "verseEnd": 45
+    }
+  },
+  {
+    "id": "scr-act-13-2-3",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "spirit",
+      "fasting",
+      "sending"
+    ],
+    "ref": {
+      "book": "ACT",
+      "chapter": 13,
+      "verseStart": 2,
+      "verseEnd": 3
+    }
+  },
+  {
+    "id": "scr-rom-8-15-16",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "spirit",
+      "adoption",
+      "witness"
+    ],
+    "ref": {
+      "book": "ROM",
+      "chapter": 8,
+      "verseStart": 15,
+      "verseEnd": 16
+    }
+  },
+  {
+    "id": "scr-1co-12-7",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "spirit",
+      "manifestation",
+      "common"
+    ],
+    "ref": {
+      "book": "1CO",
+      "chapter": 12,
+      "verseStart": 7
+    }
+  },
+  {
+    "id": "scr-eph-1-13-14",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "inheritance",
+      "spirit",
+      "guarantee"
+    ],
+    "ref": {
+      "book": "EPH",
+      "chapter": 1,
+      "verseStart": 13,
+      "verseEnd": 14
+    }
+  },
+  {
+    "id": "scr-eph-4-1-3",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "walk",
+      "worthy",
+      "unity"
+    ],
+    "ref": {
+      "book": "EPH",
+      "chapter": 4,
+      "verseStart": 1,
+      "verseEnd": 3
+    }
+  },
+  {
+    "id": "scr-rom-15-5-6",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "patience",
+      "harmony",
+      "glory"
+    ],
+    "ref": {
+      "book": "ROM",
+      "chapter": 15,
+      "verseStart": 5,
+      "verseEnd": 6
+    }
+  },
+  {
+    "id": "scr-gal-6-2",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "bear",
+      "burdens",
+      "law"
+    ],
+    "ref": {
+      "book": "GAL",
+      "chapter": 6,
+      "verseStart": 2
+    }
+  },
+  {
+    "id": "scr-col-1-9-10",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "knowledge",
+      "fruit"
+    ],
+    "ref": {
+      "book": "COL",
+      "chapter": 1,
+      "verseStart": 9,
+      "verseEnd": 10
+    }
+  },
+  {
+    "id": "scr-1co-14-26",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "edification",
+      "order"
+    ],
+    "ref": {
+      "book": "1CO",
+      "chapter": 14,
+      "verseStart": 26
+    }
+  },
+  {
+    "id": "scr-rom-16-19",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "wisdom",
+      "good",
+      "innocence"
+    ],
+    "ref": {
+      "book": "ROM",
+      "chapter": 16,
+      "verseStart": 19
+    }
+  },
+  {
+    "id": "scr-act-4-32",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "heart",
+      "soul",
+      "common"
+    ],
+    "ref": {
+      "book": "ACT",
+      "chapter": 4,
+      "verseStart": 32
+    }
+  },
+  {
+    "id": "scr-eph-2-19-22",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "household",
+      "cornerstone",
+      "dwelling"
+    ],
+    "ref": {
+      "book": "EPH",
+      "chapter": 2,
+      "verseStart": 19,
+      "verseEnd": 22
+    }
+  },
+  {
+    "id": "scr-1co-12-27",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "body",
+      "members",
+      "christ"
+    ],
+    "ref": {
+      "book": "1CO",
+      "chapter": 12,
+      "verseStart": 27
+    }
+  },
+  {
+    "id": "scr-rom-8-26",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "spirit",
+      "intercedes"
+    ],
+    "ref": {
+      "book": "ROM",
+      "chapter": 8,
+      "verseStart": 26
+    }
+  },
+  {
+    "id": "scr-act-20-28",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "flock",
+      "purchase",
+      "blood"
+    ],
+    "ref": {
+      "book": "ACT",
+      "chapter": 20,
+      "verseStart": 28
+    }
+  },
+  {
+    "id": "scr-1co-6-11",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "washed",
+      "sanctified",
+      "justified"
+    ],
+    "ref": {
+      "book": "1CO",
+      "chapter": 6,
+      "verseStart": 11
+    }
+  },
+  {
+    "id": "scr-eph-3-14-16",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "riches",
+      "glory",
+      "strengthened"
+    ],
+    "ref": {
+      "book": "EPH",
+      "chapter": 3,
+      "verseStart": 14,
+      "verseEnd": 16
+    }
+  },
+  {
+    "id": "scr-1th-4-13-14",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "sleep",
+      "hope",
+      "grieve"
+    ],
+    "ref": {
+      "book": "1TH",
+      "chapter": 4,
+      "verseStart": 13,
+      "verseEnd": 14
+    }
+  },
+  {
+    "id": "scr-tit-2-11-12",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "grace",
+      "training",
+      "godliness"
+    ],
+    "ref": {
+      "book": "TIT",
+      "chapter": 2,
+      "verseStart": 11,
+      "verseEnd": 12
+    }
+  },
+  {
+    "id": "scr-2ti-2-13",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "faithless",
+      "faithful"
+    ],
+    "ref": {
+      "book": "2TI",
+      "chapter": 2,
+      "verseStart": 13
+    }
+  },
+  {
+    "id": "scr-heb-13-14",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "city",
+      "to-come",
+      "seek"
+    ],
+    "ref": {
+      "book": "HEB",
+      "chapter": 13,
+      "verseStart": 14
+    }
+  },
+  {
+    "id": "scr-rev-22-17",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "spirit",
+      "bride",
+      "come"
+    ],
+    "ref": {
+      "book": "REV",
+      "chapter": 22,
+      "verseStart": 17
+    }
+  },
+  {
+    "id": "scr-1th-5-23",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "sanctify",
+      "spirit",
+      "soul"
+    ],
+    "ref": {
+      "book": "1TH",
+      "chapter": 5,
+      "verseStart": 23
+    }
+  },
+  {
+    "id": "scr-2ti-1-12",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "guard",
+      "entrusted"
+    ],
+    "ref": {
+      "book": "2TI",
+      "chapter": 1,
+      "verseStart": 12
+    }
+  },
+  {
+    "id": "scr-heb-10-23",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "hold",
+      "confession",
+      "hope"
+    ],
+    "ref": {
+      "book": "HEB",
+      "chapter": 10,
+      "verseStart": 23
+    }
+  },
+  {
+    "id": "scr-1pe-1-7",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "tested",
+      "fire",
+      "faith"
+    ],
+    "ref": {
+      "book": "1PE",
+      "chapter": 1,
+      "verseStart": 7
+    }
+  },
+  {
+    "id": "scr-rev-3-11",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "hold",
+      "fast",
+      "crown"
+    ],
+    "ref": {
+      "book": "REV",
+      "chapter": 3,
+      "verseStart": 11
+    }
+  },
+  {
+    "id": "scr-2th-2-16-17",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "comfort",
+      "heart",
+      "work"
+    ],
+    "ref": {
+      "book": "2TH",
+      "chapter": 2,
+      "verseStart": 16,
+      "verseEnd": 17
+    }
+  },
+  {
+    "id": "scr-heb-3-13",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "exhort",
+      "daily",
+      "hardening"
+    ],
+    "ref": {
+      "book": "HEB",
+      "chapter": 3,
+      "verseStart": 13
+    }
+  },
+  {
+    "id": "scr-1pe-5-10",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "restore",
+      "support",
+      "strength"
+    ],
+    "ref": {
+      "book": "1PE",
+      "chapter": 5,
+      "verseStart": 10
+    }
+  },
+  {
+    "id": "scr-heb-12-28",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "kingdom",
+      "unshaken",
+      "gratitude"
+    ],
+    "ref": {
+      "book": "HEB",
+      "chapter": 12,
+      "verseStart": 28
+    }
+  },
+  {
+    "id": "scr-tit-2-13-14",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "blessed-hope",
+      "grace"
+    ],
+    "ref": {
+      "book": "TIT",
+      "chapter": 2,
+      "verseStart": 13,
+      "verseEnd": 14
+    }
+  },
+  {
+    "id": "scr-1ti-3-16",
+    "type": "scripture",
+    "traditions": [
+      "ecumenical"
+    ],
+    "themes": [
+      "mystery",
+      "godliness"
+    ],
+    "ref": {
+      "book": "1TI",
+      "chapter": 3,
+      "verseStart": 16
+    }
+  },
+  {
+    "id": "scr-wis-9-1-2",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "wisdom",
+      "creation",
+      "understanding"
+    ],
+    "ref": {
+      "book": "WIS",
+      "chapter": 9,
+      "verseStart": 1,
+      "verseEnd": 2
+    }
+  },
+  {
+    "id": "scr-sir-15-14-15",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "choice",
+      "creation",
+      "commandment"
+    ],
+    "ref": {
+      "book": "SIR",
+      "chapter": 15,
+      "verseStart": 14,
+      "verseEnd": 15
+    }
+  },
+  {
+    "id": "scr-bar-4-36-37",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "joy",
+      "children",
+      "east"
+    ],
+    "ref": {
+      "book": "BAR",
+      "chapter": 4,
+      "verseStart": 36,
+      "verseEnd": 37
+    }
+  },
+  {
+    "id": "scr-tob-12-8",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "prayer",
+      "fasting",
+      "alms"
+    ],
+    "ref": {
+      "book": "TOB",
+      "chapter": 12,
+      "verseStart": 8
+    }
+  },
+  {
+    "id": "scr-jdt-9-11",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "strength",
+      "lowly",
+      "powerless"
+    ],
+    "ref": {
+      "book": "JDT",
+      "chapter": 9,
+      "verseStart": 11
+    }
+  },
+  {
+    "id": "scr-wis-6-12-13",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "wisdom",
+      "sought",
+      "teaching"
+    ],
+    "ref": {
+      "book": "WIS",
+      "chapter": 6,
+      "verseStart": 12,
+      "verseEnd": 13
+    }
+  },
+  {
+    "id": "scr-sir-35-12-13",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "bribes",
+      "justice"
+    ],
+    "ref": {
+      "book": "SIR",
+      "chapter": 35,
+      "verseStart": 12,
+      "verseEnd": 13
+    }
+  },
+  {
+    "id": "scr-wis-11-23-24",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "mercy",
+      "all",
+      "spare"
+    ],
+    "ref": {
+      "book": "WIS",
+      "chapter": 11,
+      "verseStart": 23,
+      "verseEnd": 24
+    }
+  },
+  {
+    "id": "scr-sir-2-7-8",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "trust",
+      "fear",
+      "reward"
+    ],
+    "ref": {
+      "book": "SIR",
+      "chapter": 2,
+      "verseStart": 7,
+      "verseEnd": 8
+    }
+  },
+  {
+    "id": "scr-bar-3-37",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "appeared",
+      "earth"
+    ],
+    "ref": {
+      "book": "BAR",
+      "chapter": 3,
+      "verseStart": 37
+    }
+  },
+  {
+    "id": "scr-1ma-4-36",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "cleanse",
+      "sanctuary"
+    ],
+    "ref": {
+      "book": "1MA",
+      "chapter": 4,
+      "verseStart": 36
+    }
+  },
+  {
+    "id": "scr-2ma-6-18-19",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "example",
+      "noble",
+      "death"
+    ],
+    "ref": {
+      "book": "2MA",
+      "chapter": 6,
+      "verseStart": 18,
+      "verseEnd": 19
+    }
+  },
+  {
+    "id": "scr-tob-4-7",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "alms",
+      "bread"
+    ],
+    "ref": {
+      "book": "TOB",
+      "chapter": 4,
+      "verseStart": 7
+    }
+  },
+  {
+    "id": "scr-wis-5-15-16",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "righteous",
+      "live",
+      "forever"
+    ],
+    "ref": {
+      "book": "WIS",
+      "chapter": 5,
+      "verseStart": 15,
+      "verseEnd": 16
+    }
+  },
+  {
+    "id": "scr-sir-38-8-9",
+    "type": "scripture",
+    "traditions": [
+      "catholic",
+      "orthodox"
+    ],
+    "themes": [
+      "physician",
+      "healing"
+    ],
+    "ref": {
+      "book": "SIR",
+      "chapter": 38,
+      "verseStart": 8,
+      "verseEnd": 9
+    }
   }
 ]

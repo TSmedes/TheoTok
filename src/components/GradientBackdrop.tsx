@@ -24,18 +24,18 @@ import type { GradientBackdropProps } from './gradientBackdropTypes';
  * animatable style, so there is no interpolating between them — and remounting
  * a gradient mid-fling would be the one thing guaranteed to drop frames.
  */
-export function GradientBackdrop({ types, scrollY, height }: GradientBackdropProps) {
+export function GradientBackdrop({ types, count, scrollY, height }: GradientBackdropProps) {
   const motion = useMotionPreference();
 
   // With reduced motion there is no Layer B, so every card is fully opaque and
   // nothing of this could ever show through. Don't pay for it.
-  if (motion === 'reduced' || scrollY === null || height <= 0 || types.length === 0) return null;
+  if (motion === 'reduced' || scrollY === null || height <= 0 || count === 0) return null;
 
-  return <Backdrop types={types} scrollY={scrollY} height={height} />;
+  return <Backdrop types={types} count={count} scrollY={scrollY} height={height} />;
 }
 
 function Backdrop({ types, scrollY, height }: GradientBackdropProps & { scrollY: SharedValue<number> }) {
-  const weights = useDerivedValue(() => blendWeights(scrollY.get(), height, types));
+  const weights = useDerivedValue(() => blendWeights(scrollY.get(), height, types.get()));
 
   return (
     <>

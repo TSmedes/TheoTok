@@ -1,7 +1,7 @@
 /**
  * Build-time only. Turns a curated reference list into scripture cards.
  *
- * The list holds references, not text: the KJV is already bundled, so a card
+ * The list holds references, not text: the NRSV is already bundled, so a card
  * needs only to say which verses it points at and the text is resolved at
  * render time. That keeps curation cheap to review and edit — the interesting
  * decision about a scripture card is *which passage*, not what it says.
@@ -20,7 +20,7 @@ import { fileURLToPath } from 'node:url';
 import { BOOKS } from '../src/content/books.ts';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const KJV_DIR = join(ROOT, 'src', 'content', 'bible', 'kjv');
+const KJV_DIR = join(ROOT, 'src', 'content', 'bible', 'nrsv');
 const OUT = join(ROOT, 'src', 'content', 'cards', 'scripture.json');
 
 /** Kept in step with src/content/schema.ts. */
@@ -419,6 +419,131 @@ REV 12:11      victory testimony blood
 REV 21:5       new-creation renewal
 REV 22:13      alpha-omega eternity
 REV 22:20      hope return maranatha
+
+# Expansion wave — law, wisdom, prophets, psalms, gospels, acts/pauline, pastoral, deuterocanon
+GEN 9:6        image-of-god life blood
+*EXO 19:5-6    covenant priesthood holiness calling
+LEV 16:30      atonement cleansing
+DEU 10:12-13   love fear walk commandments
+DEU 32:4       faithfulness rock justice
+NUM 23:19      faithfulness promise god-truth
+GEN 17:7       covenant everlasting
+EXO 15:26      healing obedience
+LEV 20:26      holiness set-apart
+DEU 7:9        faithfulness covenant love
+GEN 18:19      righteousness justice
+EXO 23:2       justice crowd
+JOB 2:10       suffering acceptance sovereignty
+JOB 13:15      trust though-slain hope
+JOB 28:28      wisdom fear-of-god
+PRO 12:25      anxiety encouragement word
+*PRO 24:30-31  diligence poverty field sloth
+ECC 5:1-2      reverence worship listening
+PRO 21:21      righteousness kindness life
+JOB 5:17       discipline blessed
+PRO 14:26      refuge fear-of-god
+ECC 7:12       wisdom protection
+PRO 3:27-28    generosity neighbour
+JOB 19:14      abandonment friends
+PRO 16:32      patience self-control
+ISA 58:6       fasting justice oppression light
+MIC 7:18-19    pardon mercy compassion
+HOS 2:14-15    mercy wilderness hope
+ZEC 7:9-10     justice mercy oppression
+JER 22:3       justice deliverance
+AMO 5:14-15    seek-good evil hate
+ISA 1:17       justice correct oppression
+MAL 2:6        teaching truth
+HOS 12:6       mercy justice waiting
+ISA 30:15      return rest salvation
+JER 9:23-24    boast wisdom knowledge god
+ISA 61:3       beauty ashes mourning
+MIC 7:7        watch hope salvation
+HOS 10:12      sow righteousness
+ISA 42:3       gentleness bruised reed
+PSA 13:1-2     lament forgotten
+PSA 22:1       forsaken lament cry
+PSA 42:9       rock forgotten lament
+PSA 61:2       overwhelmed rock higher
+PSA 73:28      nearness good refuge
+PSA 131:1-2    humility soul weaned
+PSA 6:2        mercy weak healing
+PSA 31:24      courage heart hope
+PSA 62:8       trust pour heart
+PSA 84:11      sun shield favor
+PSA 116:1-2    love hears prayer
+PSA 27:4       dwell house beauty
+PSA 63:7-8     help shadow cling
+PSA 90:1-2     dwelling generation eternity
+PSA 103:17-18  mercy generations covenant
+PSA 145:8-9    gracious compassion
+MAT 13:44      kingdom treasure hidden
+LUK 10:36-37   neighbor mercy go
+LUK 14:11      humility exalted
+JHN 7:37-38    thirst living-water
+MAT 18:3       humble child kingdom
+MAT 20:28      service ransom
+MRK 10:14      receive kingdom child
+LUK 6:27-28    love enemies bless
+LUK 15:4       seek lost sheep
+JHN 8:31       abide word disciple
+MAT 5:6        hunger righteousness filled
+LUK 9:48       least great
+JHN 15:12      love as-loved command
+MAT 25:35-36   hunger thirst stranger
+MRK 12:42-44   widow offering
+LUK 18:16      children kingdom
+JHN 13:14-15   wash feet example
+MAT 23:11      greatest servant
+ACT 2:44-45    fellowship breaking-bread wonder
+ACT 13:2-3     spirit fasting sending
+ROM 8:15-16    spirit adoption witness
+1CO 12:7       spirit manifestation common
+EPH 1:13-14    inheritance spirit guarantee
+EPH 4:1-3      walk worthy unity
+ROM 15:5-6     patience harmony glory
+GAL 6:2        bear burdens law
+COL 1:9-10     knowledge fruit
+1CO 14:26      edification order
+ROM 16:19      wisdom good innocence
+ACT 4:32       heart soul common
+EPH 2:19-22    household cornerstone dwelling
+1CO 12:27      body members christ
+ROM 8:26       spirit intercedes
+ACT 20:28      flock purchase blood
+1CO 6:11       washed sanctified justified
+EPH 3:14-16    riches glory strengthened
+1TH 4:13-14    sleep hope grieve
+TIT 2:11-12    grace training godliness
+2TI 2:13       faithless faithful
+HEB 13:14      city to-come seek
+REV 22:17      spirit bride come
+1TH 5:23       sanctify spirit soul
+2TI 1:12       guard entrusted
+HEB 10:23      hold confession hope
+1PE 1:7        tested fire faith
+REV 3:11       hold fast crown
+2TH 2:16-17    comfort heart work
+HEB 3:13       exhort daily hardening
+1PE 5:10       restore support strength
+HEB 12:28      kingdom unshaken gratitude
+TIT 2:13-14    blessed-hope grace
+1TI 3:16       mystery godliness
+WIS 9:1-2      wisdom creation understanding
+SIR 15:14-15   choice creation commandment
+BAR 4:36-37    joy children east
+TOB 12:8       prayer fasting alms
+JDT 9:11       strength lowly powerless
+WIS 6:12-13    wisdom sought teaching
+SIR 35:12-13   bribes justice
+WIS 11:23-24   mercy all spare
+SIR 2:7-8      trust fear reward
+BAR 3:37       appeared earth
+1MA 4:36       cleanse sanctuary
+2MA 6:18-19    example noble death
+TOB 4:7        alms bread
+WIS 5:15-16    righteous live forever
+SIR 38:8-9     physician healing
 `;
 
 interface Parsed {

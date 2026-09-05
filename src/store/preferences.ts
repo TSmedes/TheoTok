@@ -47,6 +47,8 @@ interface PreferencesState {
 
   setTraditions: (traditions: Tradition[]) => void;
   toggleTradition: (tradition: Tradition) => void;
+  /** Commits a whole selection at once, so a filter change is one feed rebuild. */
+  setTypes: (types: ContentType[]) => void;
   toggleType: (type: ContentType) => void;
   setRevealAnswers: (value: boolean) => void;
   setMotion: (value: MotionPreference) => void;
@@ -83,6 +85,10 @@ export const usePreferences = create<PreferencesState>()(
             ? state.traditions.filter((t) => t !== tradition)
             : [...state.traditions, tradition],
         })),
+
+      // Same invariant as `toggleType`: an empty selection would leave nothing to
+      // show at all, so it is refused rather than blanking the feed.
+      setTypes: (types) => set((state) => (types.length === 0 ? state : { types })),
 
       toggleType: (type) =>
         set((state) => {

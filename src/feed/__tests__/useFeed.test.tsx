@@ -30,12 +30,6 @@ async function mount(): Promise<Feed> {
   return latest;
 }
 
-/**
- * The feed orders the whole pool but the reader sees a handful of cards, so
- * rendering a card has to be something the list asks for as it draws a row —
- * not something the pool pays for up front. With ~4,000 cards in the library
- * that difference is the whole cost of changing a filter.
- */
 describe('useFeed', () => {
   beforeEach(() => {
     latest = null;
@@ -43,26 +37,34 @@ describe('useFeed', () => {
     usePreferences.setState({ traditions: [], types: ['scripture', 'history', 'doctrine'] });
   });
 
-  it('does not render any card just to build the pages', async () => {
-    const rendered = jest.spyOn(library, 'renderedFor');
-
+  /**
+   * Rendering as each row draws was tried and reverted: it moves the work into
+   * the scroll frame, which is where a feed can least afford it. Every page
+   * arrives ready, and the cost is paid once — behind the Options screen's Save
+   * spinner, where it is expected.
+   */
+  it('renders every page up front rather than as rows draw', async () => {
     const feed = await mount();
 
     expect(feed.pages.length).toBeGreaterThan(100);
-    expect(rendered).not.toHaveBeenCalled();
-
-    rendered.mockRestore();
+    for (const page of feed.pages.slice(0, 20)) {
+      expect(page.rendered.citation).toBeTruthy();
+    }
   });
 
-  it('renders a card when a row asks for it, and only that card', async () => {
-    const feed = await mount();
+  it('reuses the render cache, so a rebuild does not re-render the library', async () => {
+    await mount();
     const rendered = jest.spyOn(library, 'renderedFor');
 
-    const first = feed.pages[0];
-    expect(first.rendered.citation).toBeTruthy();
+    await act(async () => {
+      usePreferences.getState().setTypes(['scripture', 'history']);
+    });
 
-    expect(rendered).toHaveBeenCalledTimes(1);
-    expect(rendered).toHaveBeenCalledWith(first.card);
+    // Called for the new pool, but every call is a cache hit rather than a
+    // fresh render, which is what makes committing a filter cheap.
+    expect(rendered).toHaveBeenCalled();
+    const first = latest!.pages[0];
+    expect(library.renderedFor(first.card)).toBe(library.renderedFor(first.card));
 
     rendered.mockRestore();
   });

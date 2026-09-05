@@ -1,7 +1,6 @@
 import { useRouter } from 'expo-router';
-import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import { useCallback, useMemo, useRef, useState, type ReactNode } from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
-import { useSharedValue } from 'react-native-reanimated';
 
 import { ActionRail } from '@/components/ActionRail';
 import { Card } from '@/components/Card';
@@ -63,17 +62,6 @@ export function CardDeck<T extends DeckItem>({
    * a value the raw card already carries.
    */
   const types = useMemo(() => data.map((item) => CONTENT_TYPES.indexOf(item.card.type)), [data]);
-
-  /**
-   * Held in a shared value rather than passed as a plain array. A worklet that
-   * closes over a JS array copies the whole thing into the UI runtime each time
-   * the closure is rebuilt — which is any re-render of the backdrop, not just a
-   * change of list. Through a shared value it crosses once, when it changes.
-   */
-  const typesShared = useSharedValue<number[]>(types);
-  useEffect(() => {
-    typesShared.set(types);
-  }, [types, typesShared]);
 
   // One capture target for the whole screen, swapped to whichever card is being
   // shared — far cheaper than mounting a hidden copy behind every page.
@@ -142,12 +130,7 @@ export function CardDeck<T extends DeckItem>({
           );
         }}
         renderBackdrop={({ scrollY, height }) => (
-          <GradientBackdrop
-            types={typesShared}
-            count={types.length}
-            scrollY={scrollY}
-            height={height}
-          />
+          <GradientBackdrop types={types} scrollY={scrollY} height={height} />
         )}
         initialIndex={initialIndex}
         onIndexChange={handleIndexChange}

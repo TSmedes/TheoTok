@@ -58,10 +58,12 @@
     "build:bible": "node scripts/build-bible.ts",
     "build:bible-nrsv": "node scripts/build-bible-nrsv.ts",
     "build:verses": "node scripts/build-feed-verses.ts",
-    "build:content": "npm run build:confessions && npm run build:scripture && npm run build:verses && npm test",
+    "build:content": "npm run build:confessions && npm run build:scripture && npm run build:verses && npm run audit:cards-strict && npm test",
     "build:confessions": "node scripts/import-confessions.ts",
     "build:scripture": "node scripts/build-scripture-cards.ts",
     "sync:web-bible": "node scripts/sync-web-bible.ts",
+    "audit:cards": "node scripts/audit-cards.ts",
+    "audit:cards-strict": "node scripts/audit-cards.ts --strict",
     "check:citations": "node scripts/check-citations.ts",
     "check:citations-strict": "node scripts/check-citations.ts --strict",
     "build:web": "npm run sync:web-bible && expo export --platform web"

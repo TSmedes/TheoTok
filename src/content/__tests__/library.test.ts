@@ -10,6 +10,7 @@
  */
 
 import { BOOKS, isBookId } from '../books';
+import { analyse, hasLeadingMark, hasTrailingMark } from '../excerpt';
 import { CARDS, SOURCES, SOURCES_BY_ID, lookupVerses, renderedFor, toRendered } from '../library';
 import { formatRef, renderCard } from '../render';
 import { refKey } from '../refs';
@@ -167,6 +168,29 @@ describe('rendered output', () => {
       .filter((r) => r.body.length > BODY_MAX_CHARS)
       .map((r) => `${r.id}: ${r.body.length} chars`);
     expect(tooLong).toEqual([]);
+  });
+
+  it('every card is a whole thought, or says plainly that it is an excerpt', () => {
+    // A card is read with nothing around it. One that opens on a relative
+    // clause or stops on a comma asks the reader for context they do not have.
+    const bad: string[] = [];
+    for (const card of CARDS) {
+      const { body, id } = toRendered(card);
+      const flags = analyse(body);
+      if (flags.startsMidSentence && !hasLeadingMark(body)) bad.push(`${id}: opens mid-sentence`);
+      if (flags.endsMidSentence && !hasTrailingMark(body)) bad.push(`${id}: stops mid-sentence`);
+    }
+    expect(bad).toEqual([]);
+  });
+
+  it('never leaves half a quotation mark or bracket on a card', () => {
+    const unbalanced = CARDS.map((c) => toRendered(c))
+      .filter((r) => {
+        const flags = analyse(r.body);
+        return flags.orphanOpeners.length > 0 || flags.orphanClosers.length > 0;
+      })
+      .map((r) => `${r.id}: ${r.body.slice(0, 60)}`);
+    expect(unbalanced).toEqual([]);
   });
 
   it('caches rendered cards, so scrolling back over one costs nothing', () => {

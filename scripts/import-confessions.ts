@@ -18,6 +18,8 @@ import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { analyse, cleanExcerpt, ELISION_BUDGET } from '../src/content/excerpt.ts';
+
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CACHE_DIR = join(ROOT, 'node_modules', '.cache', 'theotok', 'creeds');
 const OUT = join(ROOT, 'src', 'content', 'cards', 'doctrine.generated.json');
@@ -51,6 +53,13 @@ const BODY_MAX = 400;
 const PROMPT_MAX = 120;
 /** Below this a "card" is a fragment rather than a thought. */
 const BODY_MIN = 25;
+/**
+ * What chunking may actually use. Every excerpt is run through `cleanExcerpt`
+ * afterwards, which can add a leading ellipsis, a trailing one and a completed
+ * pair of quotation marks; packing to the full BODY_MAX would push those cards
+ * past the schema limit.
+ */
+const CHUNK_MAX = BODY_MAX - ELISION_BUDGET;
 
 interface Plan {
   /** File name in the upstream repo, without .json. */
@@ -211,7 +220,7 @@ function candidates(doc: any): Candidate[] {
  * an answer from its question changes what it says.
  */
 function chunk(body: string): string[] {
-  if (body.length <= BODY_MAX) return [body];
+  if (body.length <= CHUNK_MAX) return [body];
 
   const sentences = body.match(/[^.!?]+[.!?]+["')\]]*\s*|[^.!?]+$/g) ?? [body];
   let chunks = pack(sentences);
@@ -220,15 +229,35 @@ function chunk(body: string): string[] {
   // Definition of Chalcedon is a single 1,200-character sentence, so sentence
   // splitting alone drops it entirely; its semicolons separate genuinely
   // self-contained clauses, and are the next honest boundary down.
-  if (chunks.some((c) => c.length > BODY_MAX)) {
+  if (chunks.some((c) => c.length > CHUNK_MAX)) {
     chunks = chunks.flatMap((c) =>
-      c.length <= BODY_MAX ? [c] : pack(c.split(/;\s*/).map((part, i, all) => (i < all.length - 1 ? `${part};` : part))),
+      c.length <= CHUNK_MAX ? [c] : pack(c.split(/;\s*/).map((part, i, all) => (i < all.length - 1 ? `${part};` : part))),
     );
   }
 
   // Anything still oversized is one unbroken clause; drop it rather than
   // truncating someone's confession mid-sentence.
-  return chunks.filter((c) => c.length <= BODY_MAX);
+  return heal(chunks.filter((c) => c.length <= CHUNK_MAX));
+}
+
+/**
+ * Rejoins neighbouring excerpts that only exist because the packer stopped a
+ * clause short. `pack` fills greedily, so this recovers little — around thirty
+ * cards across the whole corpus — but every one it recovers is a card that
+ * becomes a whole sentence instead of an ellipsis.
+ */
+function heal(chunks: string[]): string[] {
+  const out: string[] = [];
+  for (const piece of chunks) {
+    const previous = out[out.length - 1];
+    const joinable =
+      previous != null &&
+      analyse(previous).endsMidSentence &&
+      `${previous} ${piece}`.length <= CHUNK_MAX;
+    if (joinable) out[out.length - 1] = `${previous} ${piece}`;
+    else out.push(piece);
+  }
+  return out;
 }
 
 /** Greedily fills chunks up to the cap, never splitting a piece. */
@@ -239,7 +268,7 @@ function pack(pieces: string[]): string[] {
     const trimmed = piece.trim();
     if (!trimmed) continue;
     const candidate = current ? `${current} ${trimmed}` : trimmed;
-    if (candidate.length > BODY_MAX && current) {
+    if (candidate.length > CHUNK_MAX && current) {
       chunks.push(current);
       current = trimmed;
     } else {
@@ -351,14 +380,18 @@ async function main() {
     for (const c of all) {
       if (c.prompt != null) {
         // Catechism Q&A: keep whole or not at all.
-        if (c.body.length <= BODY_MAX && c.prompt.length <= PROMPT_MAX) expanded.push(c);
+        if (c.body.length <= BODY_MAX && c.prompt.length <= PROMPT_MAX) {
+          expanded.push({ ...c, body: cleanExcerpt(c.body) });
+        }
         continue;
       }
       const parts = chunk(c.body);
       parts.forEach((body, i) => {
         expanded.push({
           ...c,
-          body,
+          // The excerpt the feed shows, repaired to stand on its own. The full
+          // article goes to `writeDocument` untouched, above.
+          body: cleanExcerpt(body, { elideStart: i > 0, elideEnd: i < parts.length - 1 }),
           // Say so when a card is an excerpt, so the citation stays honest.
           locus:
             parts.length > 1
@@ -395,6 +428,15 @@ async function main() {
   }
 
   writeDocumentMap(PLANS.map((p) => p.sourceId));
+
+  // Repairing an excerpt can lengthen it. CHUNK_MAX reserves room for that, so
+  // an overflow here means the reservation is wrong — fail the build rather
+  // than write cards the schema will reject.
+  const overlong = cards.filter((c) => (c as { body: string }).body.length > BODY_MAX);
+  if (overlong.length > 0) {
+    const worst = overlong.map((c) => `${(c as { id: string }).id} (${(c as { body: string }).body.length})`);
+    throw new Error(`Cleaned bodies over ${BODY_MAX}: ${worst.join(', ')}`);
+  }
 
   // Ids must be unique across the whole library; catch collisions here rather
   // than in the test suite.

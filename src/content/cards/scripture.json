@@ -1,6 +1,6 @@
 [
   {
-    "id": "scr-gen-1-1",
+    "id": "scr-gen-1-1-2",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -12,7 +12,8 @@
     "ref": {
       "book": "GEN",
       "chapter": 1,
-      "verseStart": 1
+      "verseStart": 1,
+      "verseEnd": 2
     }
   },
   {
@@ -81,7 +82,8 @@
       "book": "GEN",
       "chapter": 8,
       "verseStart": 22
-    }
+    },
+    "display": "“As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night, shall not cease.”"
   },
   {
     "id": "scr-gen-12-2",
@@ -183,7 +185,8 @@
       "book": "EXO",
       "chapter": 14,
       "verseStart": 14
-    }
+    },
+    "display": "“The LORD will fight for you, and you have only to keep still.”"
   },
   {
     "id": "scr-exo-20-2-3",
@@ -233,7 +236,8 @@
       "book": "EXO",
       "chapter": 34,
       "verseStart": 6
-    }
+    },
+    "display": "The LORD passed before him, and proclaimed, “The LORD, the LORD, a God merciful and gracious, slow to anger, and abounding in steadfast love and faithfulness …”"
   },
   {
     "id": "scr-lev-19-18",
@@ -306,7 +310,7 @@
     }
   },
   {
-    "id": "scr-deu-30-19",
+    "id": "scr-deu-30-19-20",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -319,7 +323,8 @@
     "ref": {
       "book": "DEU",
       "chapter": 30,
-      "verseStart": 19
+      "verseStart": 19,
+      "verseEnd": 20
     }
   },
   {
@@ -337,7 +342,8 @@
       "book": "DEU",
       "chapter": 31,
       "verseStart": 6
-    }
+    },
+    "display": "“Be strong and bold; have no fear or dread of them, because it is the LORD your God who goes with you; he will not fail you or forsake you.”"
   },
   {
     "id": "scr-deu-33-27",
@@ -370,7 +376,8 @@
       "book": "JOS",
       "chapter": 1,
       "verseStart": 9
-    }
+    },
+    "display": "“I hereby command you: Be strong and courageous; do not be frightened or dismayed, for the LORD your God is with you wherever you go.”"
   },
   {
     "id": "scr-jos-24-15",
@@ -387,7 +394,8 @@
       "book": "JOS",
       "chapter": 24,
       "verseStart": 15
-    }
+    },
+    "display": "“Now if you are unwilling to serve the LORD, choose this day whom you will serve, whether the gods your ancestors served in the region beyond the River or the gods of the Amorites in whose land you are living; but as for me and my household, we will serve the LORD.”"
   },
   {
     "id": "scr-jdg-6-12",
@@ -421,7 +429,8 @@
       "book": "RUT",
       "chapter": 1,
       "verseStart": 16
-    }
+    },
+    "display": "But Ruth said, “Do not press me to leave you or to turn back from following you! Where you go, I will go; where you lodge, I will lodge; your people shall be my people, and your God my God.”"
   },
   {
     "id": "scr-1sa-3-10",
@@ -488,7 +497,8 @@
       "book": "1KI",
       "chapter": 19,
       "verseStart": 12
-    }
+    },
+    "display": "… and after the earthquake a fire, but the LORD was not in the fire; and after the fire a sound of sheer silence."
   },
   {
     "id": "scr-2ki-6-16",
@@ -525,7 +535,7 @@
     }
   },
   {
-    "id": "scr-2ch-7-14",
+    "id": "scr-2ch-7-13-14",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -538,7 +548,8 @@
     "ref": {
       "book": "2CH",
       "chapter": 7,
-      "verseStart": 14
+      "verseStart": 13,
+      "verseEnd": 14
     }
   },
   {
@@ -572,7 +583,8 @@
       "book": "EST",
       "chapter": 4,
       "verseStart": 14
-    }
+    },
+    "display": "“For if you keep silence at such a time as this, relief and deliverance will rise for the Jews from another quarter, but you and your father’s family will perish. Who knows? Perhaps you have come to royal dignity for just such a time as this.”"
   },
   {
     "id": "scr-job-1-21",
@@ -592,7 +604,7 @@
     }
   },
   {
-    "id": "scr-job-19-25",
+    "id": "scr-job-19-25-27",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -605,7 +617,8 @@
     "ref": {
       "book": "JOB",
       "chapter": 19,
-      "verseStart": 25
+      "verseStart": 25,
+      "verseEnd": 27
     },
     "weight": 1.4
   },
@@ -624,10 +637,11 @@
       "book": "JOB",
       "chapter": 38,
       "verseStart": 4
-    }
+    },
+    "display": "“Where were you when I laid the foundation of the earth? Tell me, if you have understanding.”"
   },
   {
-    "id": "scr-job-42-5",
+    "id": "scr-job-42-5-6",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -640,8 +654,10 @@
     "ref": {
       "book": "JOB",
       "chapter": 42,
-      "verseStart": 5
-    }
+      "verseStart": 5,
+      "verseEnd": 6
+    },
+    "display": "“I had heard of you by the hearing of the ear, but now my eye sees you; therefore I despise myself, and repent in dust and ashes.”"
   },
   {
     "id": "scr-psa-1-1-2",
@@ -1125,7 +1141,7 @@
     }
   },
   {
-    "id": "scr-psa-103-12",
+    "id": "scr-psa-103-11-12",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -1138,7 +1154,8 @@
     "ref": {
       "book": "PSA",
       "chapter": 103,
-      "verseStart": 12
+      "verseStart": 11,
+      "verseEnd": 12
     }
   },
   {
@@ -1565,7 +1582,7 @@
     }
   },
   {
-    "id": "scr-ecc-3-1-2",
+    "id": "scr-ecc-3-1-4",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -1579,8 +1596,9 @@
       "book": "ECC",
       "chapter": 3,
       "verseStart": 1,
-      "verseEnd": 2
-    }
+      "verseEnd": 4
+    },
+    "display": "For everything there is a season, and a time for every matter under heaven: a time to be born, and a time to die; a time to plant, and a time to pluck up what is planted; a time to kill, and a time to heal; a time to break down, and a time to build up; a time to weep, and a time to laugh; a time to mourn, and a time to dance …"
   },
   {
     "id": "scr-ecc-12-13",
@@ -1736,7 +1754,7 @@
     }
   },
   {
-    "id": "scr-isa-40-31",
+    "id": "scr-isa-40-30-31",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -1749,12 +1767,13 @@
     "ref": {
       "book": "ISA",
       "chapter": 40,
-      "verseStart": 31
+      "verseStart": 30,
+      "verseEnd": 31
     },
     "weight": 1.4
   },
   {
-    "id": "scr-isa-41-10",
+    "id": "scr-isa-41-9-10",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -1767,8 +1786,10 @@
     "ref": {
       "book": "ISA",
       "chapter": 41,
-      "verseStart": 10
-    }
+      "verseStart": 9,
+      "verseEnd": 10
+    },
+    "display": "… you whom I took from the ends of the earth, and called from its farthest corners, saying to you, “You are my servant, I have chosen you and not cast you off”; do not fear, for I am with you, do not be afraid, for I am your God; I will strengthen you, I will help you, I will uphold you with my victorious right hand."
   },
   {
     "id": "scr-isa-43-1-2",
@@ -1858,7 +1879,7 @@
     }
   },
   {
-    "id": "scr-isa-55-11",
+    "id": "scr-isa-55-10-11",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -1870,11 +1891,12 @@
     "ref": {
       "book": "ISA",
       "chapter": 55,
-      "verseStart": 11
+      "verseStart": 10,
+      "verseEnd": 11
     }
   },
   {
-    "id": "scr-isa-61-1",
+    "id": "scr-isa-61-1-2",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -1887,8 +1909,10 @@
     "ref": {
       "book": "ISA",
       "chapter": 61,
-      "verseStart": 1
-    }
+      "verseStart": 1,
+      "verseEnd": 2
+    },
+    "display": "The spirit of the Lord GOD is upon me, because the LORD has anointed me; he has sent me to bring good news to the oppressed, to bind up the brokenhearted, to proclaim liberty to the captives, and release to the prisoners; to proclaim the year of the LORD’s favor, and the day of vengeance of our God; to comfort all who mourn …"
   },
   {
     "id": "scr-isa-64-8",
@@ -1958,7 +1982,7 @@
     }
   },
   {
-    "id": "scr-jer-31-3",
+    "id": "scr-jer-31-2-3",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -1971,7 +1995,8 @@
     "ref": {
       "book": "JER",
       "chapter": 31,
-      "verseStart": 3
+      "verseStart": 2,
+      "verseEnd": 3
     }
   },
   {
@@ -2043,7 +2068,8 @@
       "chapter": 3,
       "verseStart": 17,
       "verseEnd": 18
-    }
+    },
+    "display": "“If our God whom we serve is able to deliver us from the furnace of blazing fire and out of your hand, O king, let him deliver us. But if not, be it known to you, O king, that we will not serve your gods and we will not worship the golden statue that you have set up.”"
   },
   {
     "id": "scr-dan-6-10",
@@ -2080,7 +2106,7 @@
     }
   },
   {
-    "id": "scr-jol-2-13",
+    "id": "scr-jol-2-12-13",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -2093,7 +2119,8 @@
     "ref": {
       "book": "JOL",
       "chapter": 2,
-      "verseStart": 13
+      "verseStart": 12,
+      "verseEnd": 13
     }
   },
   {
@@ -2126,7 +2153,8 @@
       "book": "JON",
       "chapter": 2,
       "verseStart": 9
-    }
+    },
+    "display": "“But I with the voice of thanksgiving will sacrifice to you; what I have vowed I will pay. Deliverance belongs to the LORD!”"
   },
   {
     "id": "scr-mic-6-8",
@@ -2147,7 +2175,7 @@
     "weight": 1.4
   },
   {
-    "id": "scr-nam-1-7",
+    "id": "scr-nam-1-7-8",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -2160,7 +2188,8 @@
     "ref": {
       "book": "NAM",
       "chapter": 1,
-      "verseStart": 7
+      "verseStart": 7,
+      "verseEnd": 8
     }
   },
   {
@@ -2199,7 +2228,7 @@
     }
   },
   {
-    "id": "scr-zep-3-17",
+    "id": "scr-zep-3-17-18",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -2212,7 +2241,8 @@
     "ref": {
       "book": "ZEP",
       "chapter": 3,
-      "verseStart": 17
+      "verseStart": 17,
+      "verseEnd": 18
     }
   },
   {
@@ -2247,7 +2277,8 @@
       "book": "ZEC",
       "chapter": 4,
       "verseStart": 6
-    }
+    },
+    "display": "He said to me, “This is the word of the LORD to Zerubbabel: Not by might, nor by power, but by my spirit, says the LORD of hosts.”"
   },
   {
     "id": "scr-mal-3-6",
@@ -2551,7 +2582,7 @@
     }
   },
   {
-    "id": "scr-man-1-14",
+    "id": "scr-man-1-13-14",
     "type": "scripture",
     "traditions": [
       "catholic",
@@ -2565,8 +2596,10 @@
     "ref": {
       "book": "MAN",
       "chapter": 1,
-      "verseStart": 14
-    }
+      "verseStart": 13,
+      "verseEnd": 14
+    },
+    "display": "… wherefore, I humbly beseech thee, forgive me, O Lord, forgive me, and destroy me not with mine iniquites. Be not angry with me for ever, by reserving evil for me; neither condemn me to the lower parts of the earth. For thou art the God, even the God of them that repent; and in me thou wilt shew all thy goodness: for thou wilt save me, that am unworthy, according to thy great mercy."
   },
   {
     "id": "scr-mat-4-4",
@@ -2602,6 +2635,7 @@
       "verseStart": 3,
       "verseEnd": 4
     },
+    "display": "Blessed are the poor in spirit, for theirs is the kingdom of heaven. “Blessed are those who mourn, for they will be comforted.”",
     "weight": 1.4
   },
   {
@@ -2619,7 +2653,8 @@
       "book": "MAT",
       "chapter": 5,
       "verseStart": 8
-    }
+    },
+    "display": "“Blessed are the pure in heart, for they will see God.”"
   },
   {
     "id": "scr-mat-5-14",
@@ -2636,7 +2671,8 @@
       "book": "MAT",
       "chapter": 5,
       "verseStart": 14
-    }
+    },
+    "display": "“You are the light of the world. A city built on a hill cannot be hid.”"
   },
   {
     "id": "scr-mat-5-16",
@@ -2656,7 +2692,7 @@
     }
   },
   {
-    "id": "scr-mat-5-44",
+    "id": "scr-mat-5-44-45",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -2669,7 +2705,8 @@
     "ref": {
       "book": "MAT",
       "chapter": 5,
-      "verseStart": 44
+      "verseStart": 44,
+      "verseEnd": 45
     }
   },
   {
@@ -2688,7 +2725,8 @@
       "chapter": 6,
       "verseStart": 9,
       "verseEnd": 10
-    }
+    },
+    "display": "“Pray then in this way: Our Father in heaven, hallowed be your name. Your kingdom come. Your will be done, on earth as it is in heaven.”"
   },
   {
     "id": "scr-mat-6-21",
@@ -2738,7 +2776,8 @@
       "book": "MAT",
       "chapter": 7,
       "verseStart": 7
-    }
+    },
+    "display": "“Ask, and it will be given you; search, and you will find; knock, and the door will be opened for you.”"
   },
   {
     "id": "scr-mat-7-12",
@@ -2754,7 +2793,8 @@
       "book": "MAT",
       "chapter": 7,
       "verseStart": 12
-    }
+    },
+    "display": "“In everything do to others as you would have them do to you; for this is the law and the prophets.”"
   },
   {
     "id": "scr-mat-10-29-30",
@@ -2791,6 +2831,7 @@
       "verseStart": 28,
       "verseEnd": 29
     },
+    "display": "“Come to me, all you that are weary and are carrying heavy burdens, and I will give you rest. Take my yoke upon you, and learn from me; for I am gentle and humble in heart, and you will find rest for your souls.”",
     "weight": 1.4
   },
   {
@@ -2808,7 +2849,8 @@
       "book": "MAT",
       "chapter": 16,
       "verseStart": 24
-    }
+    },
+    "display": "Then Jesus told his disciples, “If any want to become my followers, let them deny themselves and take up their cross and follow me.”"
   },
   {
     "id": "scr-mat-18-20",
@@ -2825,7 +2867,8 @@
       "book": "MAT",
       "chapter": 18,
       "verseStart": 20
-    }
+    },
+    "display": "“For where two or three are gathered in my name, I am there among them.”"
   },
   {
     "id": "scr-mat-22-37-39",
@@ -2844,7 +2887,8 @@
       "chapter": 22,
       "verseStart": 37,
       "verseEnd": 39
-    }
+    },
+    "display": "He said to him, “‘You shall love the Lord your God with all your heart, and with all your soul, and with all your mind.’ This is the greatest and first commandment. And a second is like it: ‘You shall love your neighbor as yourself.’”"
   },
   {
     "id": "scr-mat-25-40",
@@ -2879,7 +2923,8 @@
       "chapter": 28,
       "verseStart": 19,
       "verseEnd": 20
-    }
+    },
+    "display": "“Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything that I have commanded you. And remember, I am with you always, to the end of the age.”"
   },
   {
     "id": "scr-mrk-2-17",
@@ -2947,7 +2992,8 @@
       "book": "MRK",
       "chapter": 10,
       "verseStart": 15
-    }
+    },
+    "display": "“Truly I tell you, whoever does not receive the kingdom of God as a little child will never enter it.”"
   },
   {
     "id": "scr-mrk-10-45",
@@ -2964,10 +3010,11 @@
       "book": "MRK",
       "chapter": 10,
       "verseStart": 45
-    }
+    },
+    "display": "“For the Son of Man came not to be served but to serve, and to give his life a ransom for many.”"
   },
   {
-    "id": "scr-mrk-12-30-31",
+    "id": "scr-mrk-12-29-31",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -2980,7 +3027,7 @@
     "ref": {
       "book": "MRK",
       "chapter": 12,
-      "verseStart": 30,
+      "verseStart": 29,
       "verseEnd": 31
     }
   },
@@ -2998,10 +3045,11 @@
       "book": "LUK",
       "chapter": 1,
       "verseStart": 37
-    }
+    },
+    "display": "“For nothing will be impossible with God.”"
   },
   {
-    "id": "scr-luk-1-46-47",
+    "id": "scr-luk-1-46-49",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -3015,8 +3063,9 @@
       "book": "LUK",
       "chapter": 1,
       "verseStart": 46,
-      "verseEnd": 47
-    }
+      "verseEnd": 49
+    },
+    "display": "And Mary said, “My soul magnifies the Lord, and my spirit rejoices in God my Savior, for he has looked with favor on the lowliness of his servant. Surely, from now on all generations will call me blessed; for the Mighty One has done great things for me, and holy is his name.”"
   },
   {
     "id": "scr-luk-2-10-11",
@@ -3034,10 +3083,11 @@
       "chapter": 2,
       "verseStart": 10,
       "verseEnd": 11
-    }
+    },
+    "display": "But the angel said to them, “Do not be afraid; for see—I am bringing you good news of great joy for all the people: to you is born this day in the city of David a Savior, who is the Messiah, the Lord.”"
   },
   {
-    "id": "scr-luk-4-18",
+    "id": "scr-luk-4-18-19",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -3050,7 +3100,8 @@
     "ref": {
       "book": "LUK",
       "chapter": 4,
-      "verseStart": 18
+      "verseStart": 18,
+      "verseEnd": 19
     }
   },
   {
@@ -3070,7 +3121,7 @@
     }
   },
   {
-    "id": "scr-luk-6-37",
+    "id": "scr-luk-6-37-38",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -3082,7 +3133,8 @@
     "ref": {
       "book": "LUK",
       "chapter": 6,
-      "verseStart": 37
+      "verseStart": 37,
+      "verseEnd": 38
     }
   },
   {
@@ -3100,7 +3152,8 @@
       "book": "LUK",
       "chapter": 9,
       "verseStart": 23
-    }
+    },
+    "display": "Then he said to them all, “If any want to become my followers, let them deny themselves and take up their cross daily and follow me.”"
   },
   {
     "id": "scr-luk-10-27",
@@ -3253,6 +3306,7 @@
       "chapter": 3,
       "verseStart": 16
     },
+    "display": "“For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life.”",
     "weight": 1.4
   },
   {
@@ -3270,7 +3324,8 @@
       "book": "JHN",
       "chapter": 4,
       "verseStart": 24
-    }
+    },
+    "display": "“God is spirit, and those who worship him must worship in spirit and truth.”"
   },
   {
     "id": "scr-jhn-6-35",
@@ -3287,7 +3342,8 @@
       "book": "JHN",
       "chapter": 6,
       "verseStart": 35
-    }
+    },
+    "display": "Jesus said to them, “I am the bread of life. Whoever comes to me will never be hungry, and whoever believes in me will never be thirsty.”"
   },
   {
     "id": "scr-jhn-8-12",
@@ -3307,19 +3363,23 @@
     }
   },
   {
-    "id": "scr-jhn-8-32",
+    "id": "scr-jhn-8-31-32",
     "type": "scripture",
     "traditions": [
       "ecumenical"
     ],
     "themes": [
       "truth",
-      "freedom"
+      "freedom",
+      "abide",
+      "word",
+      "disciple"
     ],
     "ref": {
       "book": "JHN",
       "chapter": 8,
-      "verseStart": 32
+      "verseStart": 31,
+      "verseEnd": 32
     }
   },
   {
@@ -3353,7 +3413,8 @@
       "book": "JHN",
       "chapter": 10,
       "verseStart": 11
-    }
+    },
+    "display": "“I am the good shepherd. The good shepherd lays down his life for the sheep.”"
   },
   {
     "id": "scr-jhn-11-25-26",
@@ -3389,7 +3450,8 @@
       "chapter": 13,
       "verseStart": 34,
       "verseEnd": 35
-    }
+    },
+    "display": "“I give you a new commandment, that you love one another. Just as I have loved you, you also should love one another. By this everyone will know that you are my disciples, if you have love for one another.”"
   },
   {
     "id": "scr-jhn-14-1-2",
@@ -3407,7 +3469,8 @@
       "chapter": 14,
       "verseStart": 1,
       "verseEnd": 2
-    }
+    },
+    "display": "“Do not let your hearts be troubled. Believe in God, believe also in me. In my Father’s house there are many dwelling places. If it were not so, would I have told you that I go to prepare a place for you?”"
   },
   {
     "id": "scr-jhn-14-6",
@@ -3424,7 +3487,8 @@
       "book": "JHN",
       "chapter": 14,
       "verseStart": 6
-    }
+    },
+    "display": "Jesus said to him, “I am the way, and the truth, and the life. No one comes to the Father except through me.”"
   },
   {
     "id": "scr-jhn-14-27",
@@ -3492,7 +3556,8 @@
       "book": "JHN",
       "chapter": 16,
       "verseStart": 33
-    }
+    },
+    "display": "“I have said this to you, so that in me you may have peace. In the world you face persecution. But take courage; I have conquered the world!”"
   },
   {
     "id": "scr-jhn-20-29",
@@ -3526,7 +3591,8 @@
       "book": "ACT",
       "chapter": 1,
       "verseStart": 8
-    }
+    },
+    "display": "“But you will receive power when the Holy Spirit has come upon you; and you will be my witnesses in Jerusalem, in all Judea and Samaria, and to the ends of the earth.”"
   },
   {
     "id": "scr-act-2-42",
@@ -3560,7 +3626,8 @@
       "book": "ACT",
       "chapter": 4,
       "verseStart": 12
-    }
+    },
+    "display": "“There is salvation in no one else, for there is no other name under heaven given among mortals by which we must be saved.”"
   },
   {
     "id": "scr-act-17-28",
@@ -3593,7 +3660,8 @@
       "book": "ACT",
       "chapter": 20,
       "verseStart": 35
-    }
+    },
+    "display": "“In all this I have given you an example that by such work we must support the weak, remembering the words of the Lord Jesus, for he himself said, ‘It is more blessed to give than to receive.’”"
   },
   {
     "id": "scr-rom-1-16",
@@ -3613,7 +3681,7 @@
     }
   },
   {
-    "id": "scr-rom-3-23",
+    "id": "scr-rom-3-21-24",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -3626,11 +3694,13 @@
     "ref": {
       "book": "ROM",
       "chapter": 3,
-      "verseStart": 23
-    }
+      "verseStart": 21,
+      "verseEnd": 24
+    },
+    "display": "But now, apart from law, the righteousness of God has been disclosed, and is attested by the law and the prophets, the righteousness of God through faith in Jesus Christ for all who believe. For there is no distinction, since all have sinned and fall short of the glory of God; they are now justified by his grace as a gift, through the redemption that is in Christ Jesus …"
   },
   {
-    "id": "scr-rom-5-1",
+    "id": "scr-rom-5-1-2",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -3643,7 +3713,8 @@
     "ref": {
       "book": "ROM",
       "chapter": 5,
-      "verseStart": 1
+      "verseStart": 1,
+      "verseEnd": 2
     }
   },
   {
@@ -3736,7 +3807,7 @@
     "weight": 1.4
   },
   {
-    "id": "scr-rom-10-9",
+    "id": "scr-rom-10-8-9",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -3749,7 +3820,8 @@
     "ref": {
       "book": "ROM",
       "chapter": 10,
-      "verseStart": 9
+      "verseStart": 8,
+      "verseEnd": 9
     }
   },
   {
@@ -3890,7 +3962,7 @@
     }
   },
   {
-    "id": "scr-1co-13-4-5",
+    "id": "scr-1co-13-4-6",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -3904,7 +3976,7 @@
       "book": "1CO",
       "chapter": 13,
       "verseStart": 4,
-      "verseEnd": 5
+      "verseEnd": 6
     },
     "weight": 1.4
   },
@@ -4045,7 +4117,7 @@
     }
   },
   {
-    "id": "scr-2co-12-9",
+    "id": "scr-2co-12-8-9",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4058,12 +4130,13 @@
     "ref": {
       "book": "2CO",
       "chapter": 12,
-      "verseStart": 9
+      "verseStart": 8,
+      "verseEnd": 9
     },
     "weight": 1.4
   },
   {
-    "id": "scr-gal-2-20",
+    "id": "scr-gal-2-19-20",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4076,7 +4149,8 @@
     "ref": {
       "book": "GAL",
       "chapter": 2,
-      "verseStart": 20
+      "verseStart": 19,
+      "verseEnd": 20
     }
   },
   {
@@ -4167,7 +4241,7 @@
     }
   },
   {
-    "id": "scr-eph-3-20",
+    "id": "scr-eph-3-20-21",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4180,11 +4254,12 @@
     "ref": {
       "book": "EPH",
       "chapter": 3,
-      "verseStart": 20
+      "verseStart": 20,
+      "verseEnd": 21
     }
   },
   {
-    "id": "scr-eph-4-32",
+    "id": "scr-eph-4-31-32",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4196,7 +4271,8 @@
     "ref": {
       "book": "EPH",
       "chapter": 4,
-      "verseStart": 32
+      "verseStart": 31,
+      "verseEnd": 32
     }
   },
   {
@@ -4234,7 +4310,7 @@
     "weight": 1.4
   },
   {
-    "id": "scr-php-2-5-7",
+    "id": "scr-php-2-5-8",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4248,7 +4324,7 @@
       "book": "PHP",
       "chapter": 2,
       "verseStart": 5,
-      "verseEnd": 7
+      "verseEnd": 8
     }
   },
   {
@@ -4323,7 +4399,7 @@
     }
   },
   {
-    "id": "scr-col-1-16-17",
+    "id": "scr-col-1-15-17",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4336,12 +4412,12 @@
     "ref": {
       "book": "COL",
       "chapter": 1,
-      "verseStart": 16,
+      "verseStart": 15,
       "verseEnd": 17
     }
   },
   {
-    "id": "scr-col-3-2",
+    "id": "scr-col-3-2-3",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4354,11 +4430,12 @@
     "ref": {
       "book": "COL",
       "chapter": 3,
-      "verseStart": 2
+      "verseStart": 2,
+      "verseEnd": 3
     }
   },
   {
-    "id": "scr-col-3-23",
+    "id": "scr-col-3-23-24",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4371,7 +4448,8 @@
     "ref": {
       "book": "COL",
       "chapter": 3,
-      "verseStart": 23
+      "verseStart": 23,
+      "verseEnd": 24
     }
   },
   {
@@ -4426,7 +4504,7 @@
     }
   },
   {
-    "id": "scr-1ti-6-6",
+    "id": "scr-1ti-6-6-8",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4439,11 +4517,12 @@
     "ref": {
       "book": "1TI",
       "chapter": 6,
-      "verseStart": 6
+      "verseStart": 6,
+      "verseEnd": 8
     }
   },
   {
-    "id": "scr-2ti-1-7",
+    "id": "scr-2ti-1-6-7",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4456,7 +4535,8 @@
     "ref": {
       "book": "2TI",
       "chapter": 1,
-      "verseStart": 7
+      "verseStart": 6,
+      "verseEnd": 7
     }
   },
   {
@@ -4478,7 +4558,7 @@
     }
   },
   {
-    "id": "scr-tit-3-5",
+    "id": "scr-tit-3-4-5",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4491,7 +4571,8 @@
     "ref": {
       "book": "TIT",
       "chapter": 3,
-      "verseStart": 5
+      "verseStart": 4,
+      "verseEnd": 5
     }
   },
   {
@@ -4597,7 +4678,8 @@
       "book": "HEB",
       "chapter": 12,
       "verseStart": 2
-    }
+    },
+    "display": "… looking to Jesus the pioneer and perfecter of our faith, who for the sake of the joy that was set before him endured the cross, disregarding its shame, and has taken his seat at the right hand of the throne of God."
   },
   {
     "id": "scr-heb-13-8",
@@ -4616,7 +4698,7 @@
     }
   },
   {
-    "id": "scr-jas-1-2-3",
+    "id": "scr-jas-1-2-4",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4630,7 +4712,7 @@
       "book": "JAS",
       "chapter": 1,
       "verseStart": 2,
-      "verseEnd": 3
+      "verseEnd": 4
     }
   },
   {
@@ -4718,7 +4800,7 @@
     }
   },
   {
-    "id": "scr-1pe-1-3",
+    "id": "scr-1pe-1-3-5",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -4731,7 +4813,8 @@
     "ref": {
       "book": "1PE",
       "chapter": 1,
-      "verseStart": 3
+      "verseStart": 3,
+      "verseEnd": 5
     }
   },
   {
@@ -4989,7 +5072,8 @@
       "book": "1SA",
       "chapter": 2,
       "verseStart": 2
-    }
+    },
+    "display": "“There is no Holy One like the LORD, no one besides you; there is no Rock like our God.”"
   },
   {
     "id": "scr-1sa-15-22",
@@ -5005,7 +5089,8 @@
       "book": "1SA",
       "chapter": 15,
       "verseStart": 22
-    }
+    },
+    "display": "And Samuel said, “Has the LORD as great delight in burnt offerings and sacrifices, as in obedience to the voice of the LORD? Surely, to obey is better than sacrifice, and to heed than the fat of rams.”"
   },
   {
     "id": "scr-2ch-20-12",
@@ -5022,7 +5107,8 @@
       "book": "2CH",
       "chapter": 20,
       "verseStart": 12
-    }
+    },
+    "display": "“O our God, will you not execute judgment upon them? For we are powerless against this great multitude that is coming against us. We do not know what to do, but our eyes are on you.”"
   },
   {
     "id": "scr-ezr-3-11",
@@ -5039,7 +5125,8 @@
       "book": "EZR",
       "chapter": 3,
       "verseStart": 11
-    }
+    },
+    "display": "… and they sang responsively, praising and giving thanks to the LORD, “For he is good, for his steadfast love endures forever toward Israel.” And all the people responded with a great shout when they praised the LORD, because the foundation of the house of the LORD was laid."
   },
   {
     "id": "scr-neh-4-6",
@@ -5129,7 +5216,7 @@
     }
   },
   {
-    "id": "scr-psa-56-3",
+    "id": "scr-psa-56-1-3",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -5141,11 +5228,12 @@
     "ref": {
       "book": "PSA",
       "chapter": 56,
-      "verseStart": 3
+      "verseStart": 1,
+      "verseEnd": 3
     }
   },
   {
-    "id": "scr-psa-71-18",
+    "id": "scr-psa-71-18-19",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -5158,7 +5246,8 @@
     "ref": {
       "book": "PSA",
       "chapter": 71,
-      "verseStart": 18
+      "verseStart": 18,
+      "verseEnd": 19
     }
   },
   {
@@ -5467,7 +5556,8 @@
       "book": "MAT",
       "chapter": 6,
       "verseStart": 34
-    }
+    },
+    "display": "“So do not worry about tomorrow, for tomorrow will bring worries of its own. Today’s trouble is enough for today.”"
   },
   {
     "id": "scr-mat-9-36",
@@ -5586,7 +5676,8 @@
       "book": "LUK",
       "chapter": 11,
       "verseStart": 9
-    }
+    },
+    "display": "“So I say to you, Ask, and it will be given you; search, and you will find; knock, and the door will be opened for you.”"
   },
   {
     "id": "scr-luk-19-10",
@@ -5603,7 +5694,8 @@
       "book": "LUK",
       "chapter": 19,
       "verseStart": 10
-    }
+    },
+    "display": "“For the Son of Man came to seek out and to save the lost.”"
   },
   {
     "id": "scr-luk-24-32",
@@ -5637,7 +5729,8 @@
       "book": "JHN",
       "chapter": 5,
       "verseStart": 39
-    }
+    },
+    "display": "“You search the scriptures because you think that in them you have eternal life; and it is they that testify on my behalf.”"
   },
   {
     "id": "scr-jhn-12-24",
@@ -5657,7 +5750,7 @@
     }
   },
   {
-    "id": "scr-jhn-17-21",
+    "id": "scr-jhn-17-20-21",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -5670,8 +5763,10 @@
     "ref": {
       "book": "JHN",
       "chapter": 17,
-      "verseStart": 21
-    }
+      "verseStart": 20,
+      "verseEnd": 21
+    },
+    "display": "“I ask not only on behalf of these, but also on behalf of those who will believe in me through their word, that they may all be one. As you, Father, are in me and I am in you, may they also be in us, so that the world may believe that you have sent me.”"
   },
   {
     "id": "scr-act-3-6",
@@ -5826,7 +5921,7 @@
     }
   },
   {
-    "id": "scr-eph-1-7",
+    "id": "scr-eph-1-7-10",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -5839,25 +5934,8 @@
     "ref": {
       "book": "EPH",
       "chapter": 1,
-      "verseStart": 7
-    }
-  },
-  {
-    "id": "scr-eph-4-2-3",
-    "type": "scripture",
-    "traditions": [
-      "ecumenical"
-    ],
-    "themes": [
-      "humility",
-      "patience",
-      "unity"
-    ],
-    "ref": {
-      "book": "EPH",
-      "chapter": 4,
-      "verseStart": 2,
-      "verseEnd": 3
+      "verseStart": 7,
+      "verseEnd": 10
     }
   },
   {
@@ -5932,7 +6010,7 @@
     }
   },
   {
-    "id": "scr-1th-4-11",
+    "id": "scr-1th-4-10-12",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -5945,8 +6023,10 @@
     "ref": {
       "book": "1TH",
       "chapter": 4,
-      "verseStart": 11
-    }
+      "verseStart": 10,
+      "verseEnd": 12
+    },
+    "display": "… and indeed you do love all the brothers and sisters throughout Macedonia. But we urge you, beloved, to do so more and more, to aspire to live quietly, to mind your own affairs, and to work with your hands, as we directed you, so that you may behave properly toward outsiders and be dependent on no one."
   },
   {
     "id": "scr-1ti-4-12",
@@ -5983,7 +6063,7 @@
     }
   },
   {
-    "id": "scr-heb-6-19",
+    "id": "scr-heb-6-19-20",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -5996,7 +6076,8 @@
     "ref": {
       "book": "HEB",
       "chapter": 6,
-      "verseStart": 19
+      "verseStart": 19,
+      "verseEnd": 20
     }
   },
   {
@@ -6052,7 +6133,7 @@
     }
   },
   {
-    "id": "scr-1pe-3-15",
+    "id": "scr-1pe-3-14-15",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6065,8 +6146,10 @@
     "ref": {
       "book": "1PE",
       "chapter": 3,
-      "verseStart": 15
-    }
+      "verseStart": 14,
+      "verseEnd": 15
+    },
+    "display": "But even if you do suffer for doing what is right, you are blessed. Do not fear what they fear, and do not be intimidated, but in your hearts sanctify Christ as Lord. Always be ready to make your defense to anyone who demands from you an accounting for the hope that is in you …"
   },
   {
     "id": "scr-1pe-4-10",
@@ -6103,7 +6186,7 @@
     }
   },
   {
-    "id": "scr-1jn-2-15",
+    "id": "scr-1jn-2-15-16",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6116,7 +6199,8 @@
     "ref": {
       "book": "1JN",
       "chapter": 2,
-      "verseStart": 15
+      "verseStart": 15,
+      "verseEnd": 16
     }
   },
   {
@@ -6188,7 +6272,7 @@
     }
   },
   {
-    "id": "scr-rev-5-9",
+    "id": "scr-rev-5-9-10",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6201,7 +6285,8 @@
     "ref": {
       "book": "REV",
       "chapter": 5,
-      "verseStart": 9
+      "verseStart": 9,
+      "verseEnd": 10
     }
   },
   {
@@ -6239,7 +6324,7 @@
     }
   },
   {
-    "id": "scr-rev-21-4",
+    "id": "scr-rev-21-3-4",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6252,7 +6337,8 @@
     "ref": {
       "book": "REV",
       "chapter": 21,
-      "verseStart": 4
+      "verseStart": 3,
+      "verseEnd": 4
     },
     "weight": 1.4
   },
@@ -6286,7 +6372,8 @@
       "book": "REV",
       "chapter": 22,
       "verseStart": 13
-    }
+    },
+    "display": "“I am the Alpha and the Omega, the first and the last, the beginning and the end.”"
   },
   {
     "id": "scr-rev-22-20",
@@ -6340,6 +6427,7 @@
       "verseStart": 5,
       "verseEnd": 6
     },
+    "display": "“Now therefore, if you obey my voice and keep my covenant, you shall be my treasured possession out of all the peoples. Indeed, the whole earth is mine, but you shall be for me a priestly kingdom and a holy nation. These are the words that you shall speak to the Israelites.”",
     "weight": 1.4
   },
   {
@@ -6378,7 +6466,7 @@
     }
   },
   {
-    "id": "scr-deu-32-4",
+    "id": "scr-deu-32-4-5",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6391,7 +6479,8 @@
     "ref": {
       "book": "DEU",
       "chapter": 32,
-      "verseStart": 4
+      "verseStart": 4,
+      "verseEnd": 5
     }
   },
   {
@@ -6460,7 +6549,7 @@
     }
   },
   {
-    "id": "scr-deu-7-9",
+    "id": "scr-deu-7-9-10",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6473,7 +6562,8 @@
     "ref": {
       "book": "DEU",
       "chapter": 7,
-      "verseStart": 9
+      "verseStart": 9,
+      "verseEnd": 10
     }
   },
   {
@@ -6490,10 +6580,11 @@
       "book": "GEN",
       "chapter": 18,
       "verseStart": 19
-    }
+    },
+    "display": "“No, for I have chosen him, that he may charge his children and his household after him to keep the way of the LORD by doing righteousness and justice; so that the LORD may bring about for Abraham what he has promised him.”"
   },
   {
-    "id": "scr-exo-23-2",
+    "id": "scr-exo-23-2-3",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6505,7 +6596,8 @@
     "ref": {
       "book": "EXO",
       "chapter": 23,
-      "verseStart": 2
+      "verseStart": 2,
+      "verseEnd": 3
     }
   },
   {
@@ -6556,7 +6648,8 @@
       "book": "JOB",
       "chapter": 28,
       "verseStart": 28
-    }
+    },
+    "display": "“And he said to humankind, ‘Truly, the fear of the Lord, that is wisdom; and to depart from evil is understanding.’”"
   },
   {
     "id": "scr-pro-12-25",
@@ -6644,7 +6737,8 @@
       "book": "JOB",
       "chapter": 5,
       "verseStart": 17
-    }
+    },
+    "display": "“How happy is the one whom God reproves; therefore do not despise the discipline of the Almighty.”"
   },
   {
     "id": "scr-pro-14-26",
@@ -6696,7 +6790,7 @@
     }
   },
   {
-    "id": "scr-job-19-14",
+    "id": "scr-job-19-14-15",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6708,7 +6802,8 @@
     "ref": {
       "book": "JOB",
       "chapter": 19,
-      "verseStart": 14
+      "verseStart": 14,
+      "verseEnd": 15
     }
   },
   {
@@ -6834,7 +6929,7 @@
     }
   },
   {
-    "id": "scr-isa-1-17",
+    "id": "scr-isa-1-16-17",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6847,7 +6942,8 @@
     "ref": {
       "book": "ISA",
       "chapter": 1,
-      "verseStart": 17
+      "verseStart": 16,
+      "verseEnd": 17
     }
   },
   {
@@ -6884,7 +6980,7 @@
     }
   },
   {
-    "id": "scr-isa-30-15",
+    "id": "scr-isa-30-15-16",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6897,7 +6993,8 @@
     "ref": {
       "book": "ISA",
       "chapter": 30,
-      "verseStart": 15
+      "verseStart": 15,
+      "verseEnd": 16
     }
   },
   {
@@ -6920,7 +7017,7 @@
     }
   },
   {
-    "id": "scr-isa-61-3",
+    "id": "scr-isa-61-2-3",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6933,8 +7030,10 @@
     "ref": {
       "book": "ISA",
       "chapter": 61,
-      "verseStart": 3
-    }
+      "verseStart": 2,
+      "verseEnd": 3
+    },
+    "display": "… to proclaim the year of the LORD’s favor, and the day of vengeance of our God; to comfort all who mourn; to provide for those who mourn in Zion— to give them a garland instead of ashes, the oil of gladness instead of mourning, the mantle of praise instead of a faint spirit. They will be called oaks of righteousness, the planting of the LORD, to display his glory."
   },
   {
     "id": "scr-mic-7-7",
@@ -6970,7 +7069,7 @@
     }
   },
   {
-    "id": "scr-isa-42-3",
+    "id": "scr-isa-42-2-3",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -6983,7 +7082,8 @@
     "ref": {
       "book": "ISA",
       "chapter": 42,
-      "verseStart": 3
+      "verseStart": 2,
+      "verseEnd": 3
     }
   },
   {
@@ -7038,7 +7138,7 @@
     }
   },
   {
-    "id": "scr-psa-61-2",
+    "id": "scr-psa-61-2-3",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7051,7 +7151,8 @@
     "ref": {
       "book": "PSA",
       "chapter": 61,
-      "verseStart": 2
+      "verseStart": 2,
+      "verseEnd": 3
     }
   },
   {
@@ -7124,7 +7225,7 @@
     }
   },
   {
-    "id": "scr-psa-62-8",
+    "id": "scr-psa-62-8-9",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7137,7 +7238,8 @@
     "ref": {
       "book": "PSA",
       "chapter": 62,
-      "verseStart": 8
+      "verseStart": 8,
+      "verseEnd": 9
     }
   },
   {
@@ -7193,7 +7295,7 @@
     }
   },
   {
-    "id": "scr-psa-63-7-8",
+    "id": "scr-psa-63-5-8",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7206,7 +7308,7 @@
     "ref": {
       "book": "PSA",
       "chapter": 63,
-      "verseStart": 7,
+      "verseStart": 5,
       "verseEnd": 8
     }
   },
@@ -7278,7 +7380,8 @@
       "book": "MAT",
       "chapter": 13,
       "verseStart": 44
-    }
+    },
+    "display": "“The kingdom of heaven is like treasure hidden in a field, which someone found and hid; then in his joy he goes and sells all that he has and buys that field.”"
   },
   {
     "id": "scr-luk-10-36-37",
@@ -7296,7 +7399,8 @@
       "chapter": 10,
       "verseStart": 36,
       "verseEnd": 37
-    }
+    },
+    "display": "“Which of these three, do you think, was a neighbor to the man who fell into the hands of the robbers?” He said, “The one who showed him mercy.” Jesus said to him, “Go and do likewise.”"
   },
   {
     "id": "scr-luk-14-11",
@@ -7312,7 +7416,8 @@
       "book": "LUK",
       "chapter": 14,
       "verseStart": 11
-    }
+    },
+    "display": "“For all who exalt themselves will be humbled, and those who humble themselves will be exalted.”"
   },
   {
     "id": "scr-jhn-7-37-38",
@@ -7332,7 +7437,7 @@
     }
   },
   {
-    "id": "scr-mat-18-3",
+    "id": "scr-mat-18-2-3",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7345,11 +7450,13 @@
     "ref": {
       "book": "MAT",
       "chapter": 18,
-      "verseStart": 3
-    }
+      "verseStart": 2,
+      "verseEnd": 3
+    },
+    "display": "He called a child, whom he put among them, and said, “Truly I tell you, unless you change and become like children, you will never enter the kingdom of heaven.”"
   },
   {
-    "id": "scr-mat-20-28",
+    "id": "scr-mat-20-26-28",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7361,8 +7468,10 @@
     "ref": {
       "book": "MAT",
       "chapter": 20,
-      "verseStart": 28
-    }
+      "verseStart": 26,
+      "verseEnd": 28
+    },
+    "display": "“It will not be so among you; but whoever wishes to be great among you must be your servant, and whoever wishes to be first among you must be your slave; just as the Son of Man came not to be served but to serve, and to give his life a ransom for many.”"
   },
   {
     "id": "scr-mrk-10-14",
@@ -7379,7 +7488,8 @@
       "book": "MRK",
       "chapter": 10,
       "verseStart": 14
-    }
+    },
+    "display": "But when Jesus saw this, he was indignant and said to them, “Let the little children come to me; do not stop them; for it is to such as these that the kingdom of God belongs.”"
   },
   {
     "id": "scr-luk-6-27-28",
@@ -7397,7 +7507,8 @@
       "chapter": 6,
       "verseStart": 27,
       "verseEnd": 28
-    }
+    },
+    "display": "“But I say to you that listen, Love your enemies, do good to those who hate you, bless those who curse you, pray for those who abuse you.”"
   },
   {
     "id": "scr-luk-15-4",
@@ -7414,24 +7525,8 @@
       "book": "LUK",
       "chapter": 15,
       "verseStart": 4
-    }
-  },
-  {
-    "id": "scr-jhn-8-31",
-    "type": "scripture",
-    "traditions": [
-      "ecumenical"
-    ],
-    "themes": [
-      "abide",
-      "word",
-      "disciple"
-    ],
-    "ref": {
-      "book": "JHN",
-      "chapter": 8,
-      "verseStart": 31
-    }
+    },
+    "display": "“Which one of you, having a hundred sheep and losing one of them, does not leave the ninety-nine in the wilderness and go after the one that is lost until he finds it?”"
   },
   {
     "id": "scr-mat-5-6",
@@ -7448,10 +7543,11 @@
       "book": "MAT",
       "chapter": 5,
       "verseStart": 6
-    }
+    },
+    "display": "“Blessed are those who hunger and thirst for righteousness, for they will be filled.”"
   },
   {
-    "id": "scr-luk-9-48",
+    "id": "scr-luk-9-47-48",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7463,7 +7559,8 @@
     "ref": {
       "book": "LUK",
       "chapter": 9,
-      "verseStart": 48
+      "verseStart": 47,
+      "verseEnd": 48
     }
   },
   {
@@ -7481,7 +7578,8 @@
       "book": "JHN",
       "chapter": 15,
       "verseStart": 12
-    }
+    },
+    "display": "“This is my commandment, that you love one another as I have loved you.”"
   },
   {
     "id": "scr-mat-25-35-36",
@@ -7499,7 +7597,8 @@
       "chapter": 25,
       "verseStart": 35,
       "verseEnd": 36
-    }
+    },
+    "display": "… for I was hungry and you gave me food, I was thirsty and you gave me something to drink, I was a stranger and you welcomed me, I was naked and you gave me clothing, I was sick and you took care of me, I was in prison and you visited me.’"
   },
   {
     "id": "scr-mrk-12-42-44",
@@ -7532,7 +7631,8 @@
       "book": "LUK",
       "chapter": 18,
       "verseStart": 16
-    }
+    },
+    "display": "But Jesus called for them and said, “Let the little children come to me, and do not stop them; for it is to such as these that the kingdom of God belongs.”"
   },
   {
     "id": "scr-jhn-13-14-15",
@@ -7605,7 +7705,7 @@
     }
   },
   {
-    "id": "scr-rom-8-15-16",
+    "id": "scr-rom-8-15-17",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7619,7 +7719,7 @@
       "book": "ROM",
       "chapter": 8,
       "verseStart": 15,
-      "verseEnd": 16
+      "verseEnd": 17
     }
   },
   {
@@ -7666,7 +7766,9 @@
     "themes": [
       "walk",
       "worthy",
-      "unity"
+      "unity",
+      "humility",
+      "patience"
     ],
     "ref": {
       "book": "EPH",
@@ -7863,7 +7965,7 @@
     }
   },
   {
-    "id": "scr-eph-3-14-16",
+    "id": "scr-eph-3-14-17",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7877,7 +7979,7 @@
       "book": "EPH",
       "chapter": 3,
       "verseStart": 14,
-      "verseEnd": 16
+      "verseEnd": 17
     }
   },
   {
@@ -7899,7 +8001,7 @@
     }
   },
   {
-    "id": "scr-tit-2-11-12",
+    "id": "scr-tit-2-11-13",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7913,11 +8015,11 @@
       "book": "TIT",
       "chapter": 2,
       "verseStart": 11,
-      "verseEnd": 12
+      "verseEnd": 13
     }
   },
   {
-    "id": "scr-2ti-2-13",
+    "id": "scr-2ti-2-11-13",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7929,7 +8031,8 @@
     "ref": {
       "book": "2TI",
       "chapter": 2,
-      "verseStart": 13
+      "verseStart": 11,
+      "verseEnd": 13
     }
   },
   {
@@ -7984,7 +8087,7 @@
     }
   },
   {
-    "id": "scr-2ti-1-12",
+    "id": "scr-2ti-1-11-12",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -7996,7 +8099,8 @@
     "ref": {
       "book": "2TI",
       "chapter": 1,
-      "verseStart": 12
+      "verseStart": 11,
+      "verseEnd": 12
     }
   },
   {
@@ -8017,7 +8121,7 @@
     }
   },
   {
-    "id": "scr-1pe-1-7",
+    "id": "scr-1pe-1-6-7",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -8030,7 +8134,8 @@
     "ref": {
       "book": "1PE",
       "chapter": 1,
-      "verseStart": 7
+      "verseStart": 6,
+      "verseEnd": 7
     }
   },
   {
@@ -8103,7 +8208,7 @@
     }
   },
   {
-    "id": "scr-heb-12-28",
+    "id": "scr-heb-12-28-29",
     "type": "scripture",
     "traditions": [
       "ecumenical"
@@ -8116,7 +8221,8 @@
     "ref": {
       "book": "HEB",
       "chapter": 12,
-      "verseStart": 28
+      "verseStart": 28,
+      "verseEnd": 29
     }
   },
   {
@@ -8134,7 +8240,8 @@
       "chapter": 2,
       "verseStart": 13,
       "verseEnd": 14
-    }
+    },
+    "display": "… while we wait for the blessed hope and the manifestation of the glory of our great God and Savior, Jesus Christ. He it is who gave himself for us that he might redeem us from all iniquity and purify for himself a people of his own who are zealous for good deeds."
   },
   {
     "id": "scr-1ti-3-16",
@@ -8153,7 +8260,7 @@
     }
   },
   {
-    "id": "scr-wis-9-1-2",
+    "id": "scr-wis-9-1-4",
     "type": "scripture",
     "traditions": [
       "catholic",
@@ -8168,8 +8275,9 @@
       "book": "WIS",
       "chapter": 9,
       "verseStart": 1,
-      "verseEnd": 2
-    }
+      "verseEnd": 4
+    },
+    "display": "O God of my fathers, and Lord of mercy, who hast made all things with thy word, And ordained man through thy wisdom, that he should have dominion over the creatures which thou hast made, And order the world according to equity and righteousness, and execute judgment with an upright heart: Give me wisdom, that sitteth by thy throne; and reject me not from among thy children …"
   },
   {
     "id": "scr-sir-15-14-15",
@@ -8210,7 +8318,7 @@
     }
   },
   {
-    "id": "scr-tob-12-8",
+    "id": "scr-tob-12-8-10",
     "type": "scripture",
     "traditions": [
       "catholic",
@@ -8224,7 +8332,8 @@
     "ref": {
       "book": "TOB",
       "chapter": 12,
-      "verseStart": 8
+      "verseStart": 8,
+      "verseEnd": 10
     }
   },
   {
@@ -8371,7 +8480,8 @@
       "chapter": 6,
       "verseStart": 18,
       "verseEnd": 19
-    }
+    },
+    "display": "Eleazar, one of the principal scribes, an aged man, and of a well favoured countenance, was constrained to open his mouth, and to eat swine’s flesh. But he, choosing rather to die gloriously, than to live stained with such an abomination, spit it forth, and came of his own accord to the torment …"
   },
   {
     "id": "scr-tob-4-7",

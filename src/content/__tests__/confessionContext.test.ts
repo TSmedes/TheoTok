@@ -9,6 +9,7 @@
  */
 
 import { CONFESSION_IDS } from '../confessions/confessionIds.generated';
+import { ELLIPSIS } from '../excerpt';
 import { WINDOW, contextWindow } from '../confessions/window';
 import { CARDS, SOURCES_BY_ID } from '../library';
 import { formatLocus, formatSourceCitation } from '../render';
@@ -163,5 +164,21 @@ describe('confession documents', () => {
       CARDS.filter((c) => c.type === 'doctrine' && c.sourceId === 'heidelberg').length,
     );
     expect(longest).toBeGreaterThan(400);
+  });
+
+  it('keep the text verbatim, with none of the repairs a card needs', () => {
+    // Cards are trimmed and marked so they read alone; a document is what the
+    // reader opens when the card is not enough, and must be the text as
+    // written. An ellipsis here would mean the repair leaked into the source.
+    const marked: string[] = [];
+    for (const id of CONFESSION_IDS) {
+      const document = require(`../confessions/${id}.json`) as {
+        entries: { locus: string; body: string }[];
+      };
+      for (const entry of document.entries) {
+        if (entry.body.includes(ELLIPSIS)) marked.push(`${id} ${entry.locus}`);
+      }
+    }
+    expect(marked).toEqual([]);
   });
 });

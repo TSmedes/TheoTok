@@ -14,14 +14,15 @@
  */
 
 import { readFileSync, writeFileSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { join as join_, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { BOOKS } from '../src/content/books.ts';
+import { analyse, cleanExcerpt } from '../src/content/excerpt.ts';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const KJV_DIR = join(ROOT, 'src', 'content', 'bible', 'nrsv');
-const OUT = join(ROOT, 'src', 'content', 'cards', 'scripture.json');
+const ROOT = join_(dirname(fileURLToPath(import.meta.url)), '..');
+const KJV_DIR = join_(ROOT, 'src', 'content', 'bible', 'nrsv');
+const OUT = join_(ROOT, 'src', 'content', 'cards', 'scripture.json');
 
 /** Kept in step with src/content/schema.ts. */
 const BODY_MAX = 400;
@@ -35,7 +36,7 @@ const BODY_MAX = 400;
  */
 const LIST = `
 # Law
-GEN 1:1        creation beginning
+GEN 1:1-2      creation beginning
 *GEN 1:27      image-of-god humanity dignity
 GEN 2:18       marriage companionship
 GEN 3:9        sin hiding god-seeks
@@ -53,7 +54,7 @@ LEV 19:18      love-neighbour law
 NUM 6:24-26    blessing benediction peace
 DEU 6:4-5      shema love god oneness
 DEU 8:3        word bread dependence
-DEU 30:19      choice life covenant
+DEU 30:19-20   choice life covenant
 DEU 31:6       courage presence fear
 DEU 33:27      refuge everlasting
 JOS 1:9        courage presence fear
@@ -66,13 +67,13 @@ RUT 1:16       loyalty covenant belonging
 1KI 19:12      presence stillness still-small-voice
 2KI 6:16       providence unseen-help fear
 1CH 16:11      seeking prayer strength
-2CH 7:14       repentance healing prayer
+2CH 7:13-14    repentance healing prayer
 NEH 8:10       joy strength
 EST 4:14       providence courage calling
 JOB 1:21       suffering worship loss
-*JOB 19:25     hope redeemer resurrection
+*JOB 19:25-27  hope redeemer resurrection
 JOB 38:4       creation humility mystery
-JOB 42:5       encounter seeing repentance
+JOB 42:5-6     encounter seeing repentance
 
 # Psalms
 *PSA 1:1-2     blessedness law delight
@@ -103,7 +104,7 @@ PSA 90:12      mortality wisdom time
 PSA 91:1-2     refuge shelter trust
 PSA 100:4-5    thanksgiving worship mercy
 PSA 103:8      mercy patience character-of-god
-PSA 103:12     forgiveness removal sin
+PSA 103:11-12  forgiveness removal sin
 PSA 116:15     death saints precious
 PSA 118:24     joy day rejoicing
 PSA 119:105    word guidance light
@@ -131,7 +132,7 @@ PRO 22:6       children formation
 PRO 27:17      friendship sharpening
 PRO 31:30      beauty fear-of-god
 ECC 1:2        vanity meaning
-ECC 3:1-2      time providence seasons
+ECC 3:1-4      time providence seasons
 ECC 12:13      duty fear-of-god conclusion
 SNG 8:6-7      love death jealousy
 
@@ -143,34 +144,34 @@ ISA 26:3       peace trust mind
 ISA 30:21      guidance voice way
 ISA 40:8       word permanence
 ISA 40:11      shepherd tenderness care
-*ISA 40:31     endurance hope waiting
-ISA 41:10      fear presence strength
+*ISA 40:30-31  endurance hope waiting
+ISA 41:9-10    fear presence strength
 ISA 43:1-2     redemption naming waters
 ISA 49:15      mother-love faithfulness
 *ISA 53:5      atonement suffering healing
 ISA 53:6       sin straying substitution
 ISA 55:8-9     mystery thoughts transcendence
-ISA 55:11      word efficacy
-ISA 61:1       gospel liberty anointing
+ISA 55:10-11   word efficacy
+ISA 61:1-2     gospel liberty anointing
 ISA 64:8       potter creation submission
 JER 1:5        calling foreknowledge
 JER 17:9       heart deceit sin
 JER 29:11      providence hope future
-JER 31:3       love everlasting drawing
+JER 31:2-3     love everlasting drawing
 JER 31:33      new-covenant law heart
 *LAM 3:22-23   mercy faithfulness morning
 EZK 36:26      new-heart regeneration spirit
 DAN 3:17-18    courage faithfulness fire
 DAN 6:10       prayer courage habit
 HOS 6:6        mercy sacrifice knowledge
-JOL 2:13       repentance mercy rending
+JOL 2:12-13    repentance mercy rending
 AMO 5:24       justice righteousness
 JON 2:9        salvation deliverance
 *MIC 6:8       justice mercy humility
-NAM 1:7        refuge goodness knowing
+NAM 1:7-8      refuge goodness knowing
 HAB 2:4        faith righteousness living
 HAB 3:17-18    joy suffering rejoicing
-ZEP 3:17       joy love singing
+ZEP 3:17-18    joy love singing
 HAG 2:9        peace glory temple
 ZEC 4:6        spirit power weakness
 MAL 3:6        immutability faithfulness
@@ -192,7 +193,7 @@ BAR 3:14       wisdom seeking understanding
 1MA 3:19       victory heaven strength
 2MA 7:9        resurrection martyrdom hope
 2MA 12:45      prayer-for-the-dead resurrection
-MAN 1:14       repentance mercy confession
+MAN 1:13-14    repentance mercy confession
 
 # Gospels
 MAT 4:4        word bread temptation
@@ -200,7 +201,7 @@ MAT 4:4        word bread temptation
 MAT 5:8        purity heart seeing-god
 MAT 5:14       light witness city
 MAT 5:16       works light glory
-MAT 5:44       enemies love prayer
+MAT 5:44-45    enemies love prayer
 MAT 6:9-10     lords-prayer kingdom prayer
 MAT 6:21       treasure heart
 MAT 6:33       kingdom priority provision
@@ -218,13 +219,13 @@ MRK 8:36       soul world gain
 MRK 9:24       faith unbelief prayer
 MRK 10:15      children kingdom receiving
 MRK 10:45      service ransom son-of-man
-MRK 12:30-31   love commandment neighbour
+MRK 12:29-31   love commandment neighbour
 LUK 1:37       power impossibility
-LUK 1:46-47    magnificat praise mary
+LUK 1:46-49    magnificat praise mary
 LUK 2:10-11    incarnation joy nativity
-LUK 4:18       gospel liberty anointing
+LUK 4:18-19    gospel liberty anointing
 LUK 6:31       golden-rule ethics
-LUK 6:37       judgment forgiveness
+LUK 6:37-38    judgment forgiveness
 LUK 9:23       discipleship cross daily
 LUK 10:27      love god neighbour
 LUK 12:34      treasure heart
@@ -238,7 +239,7 @@ JHN 3:3        regeneration new-birth kingdom
 JHN 4:24       worship spirit truth
 JHN 6:35       bread hunger christ
 JHN 8:12       light darkness following
-JHN 8:32       truth freedom
+JHN 8:31-32    truth freedom abide word disciple
 JHN 10:10      abundance life thief
 JHN 10:11      shepherd sacrifice
 JHN 11:25-26   resurrection life death
@@ -258,14 +259,14 @@ ACT 4:12       salvation name exclusivity
 ACT 17:28      presence being creation
 ACT 20:35      giving blessedness
 ROM 1:16       gospel power salvation
-ROM 3:23       sin universality glory
-ROM 5:1        justification peace faith
+ROM 3:21-24    sin universality glory
+ROM 5:1-2      justification peace faith
 *ROM 5:8       love atonement sinners
 ROM 6:23       sin death gift
 *ROM 8:1       condemnation freedom christ
 ROM 8:28       providence suffering hope
 *ROM 8:38-39   love security separation
-ROM 10:9       confession faith salvation
+ROM 10:8-9     confession faith salvation
 ROM 12:1       worship sacrifice body
 ROM 12:2       transformation mind world
 ROM 12:21      evil good overcoming
@@ -274,7 +275,7 @@ ROM 15:13      hope joy peace
 1CO 6:19-20    body temple purchase
 1CO 10:13      temptation faithfulness escape
 1CO 10:31      glory eating chief-end
-*1CO 13:4-5    love charity patience
+*1CO 13:4-6    love charity patience
 1CO 13:13      faith hope love
 1CO 15:20      resurrection firstfruits
 1CO 15:55      death victory resurrection
@@ -283,32 +284,32 @@ ROM 15:13      hope joy peace
 2CO 4:17-18    suffering glory unseen
 2CO 5:17       new-creation regeneration
 2CO 5:21       atonement righteousness exchange
-*2CO 12:9      weakness grace suffering
-GAL 2:20       union-with-christ faith crucified
+*2CO 12:8-9    weakness grace suffering
+GAL 2:19-20    union-with-christ faith crucified
 GAL 5:1        freedom liberty bondage
 GAL 5:22-23    fruit spirit virtue
 GAL 6:9        perseverance weariness harvest
 EPH 2:8-9      grace faith works
 EPH 2:10       works creation purpose
-EPH 3:20       power prayer abundance
-EPH 4:32       kindness forgiveness
+EPH 3:20-21    power prayer abundance
+EPH 4:31-32    kindness forgiveness
 EPH 6:11       armour spiritual-warfare
 *PHP 1:6       perseverance confidence god-finishes
-PHP 2:5-7      incarnation humility kenosis
+PHP 2:5-8      incarnation humility kenosis
 PHP 3:13-14    perseverance forgetting pressing
 *PHP 4:6-7     anxiety prayer peace
 PHP 4:8        thought virtue meditation
 PHP 4:13       strength sufficiency christ
-COL 1:16-17    creation christology preeminence
-COL 3:2        mind heaven affection
-COL 3:23       work service heartily
+COL 1:15-17    creation christology preeminence
+COL 3:2-3      mind heaven affection
+COL 3:23-24    work service heartily
 1TH 5:16-18    joy prayer thanksgiving
 2TH 3:3        faithfulness protection
 1TI 1:15       gospel sinners salvation
-1TI 6:6        contentment godliness gain
-2TI 1:7        fear power love
+1TI 6:6-8      contentment godliness gain
+2TI 1:6-7      fear power love
 2TI 3:16-17    scripture inspiration sufficiency
-TIT 3:5        mercy regeneration works
+TIT 3:4-5      mercy regeneration works
 PHM 1:6        fellowship faith communication
 *HEB 4:12      word living discernment
 HEB 4:15-16    priesthood temptation grace
@@ -316,13 +317,13 @@ HEB 4:15-16    priesthood temptation grace
 HEB 11:6       faith pleasing seeking
 HEB 12:2       perseverance looking-to-jesus joy
 HEB 13:8       immutability christ
-JAS 1:2-3      trials joy patience
+JAS 1:2-4      trials joy patience
 JAS 1:17       gifts goodness immutability
 JAS 1:22       obedience hearing doing
 JAS 2:17       faith works
 JAS 4:8        nearness drawing repentance
 JAS 5:16       confession prayer healing
-1PE 1:3        hope resurrection mercy
+1PE 1:3-5      hope resurrection mercy
 1PE 2:9        election priesthood calling
 1PE 5:7        anxiety care casting
 2PE 3:9        patience repentance longsuffering
@@ -348,8 +349,8 @@ JOB 23:10      testing gold refining
 PSA 4:8        sleep peace safety
 PSA 25:4-5     guidance teaching truth
 PSA 40:1-2     waiting deliverance rock
-PSA 56:3       fear trust
-PSA 71:18      age witness generations
+PSA 56:1-3     fear trust
+PSA 71:18-19   age witness generations
 PSA 86:15      mercy patience character-of-god
 PSA 95:6-7     worship shepherd kneeling
 PSA 107:1      thanksgiving mercy goodness
@@ -379,7 +380,7 @@ LUK 19:10      salvation seeking lost
 LUK 24:32      scripture heart emmaus
 JHN 5:39       scripture christ witness
 JHN 12:24      death fruit grain
-JHN 17:21      unity prayer mission
+JHN 17:20-21   unity prayer mission
 ACT 3:6        poverty healing giving
 ACT 16:25      prison praise midnight
 ROM 2:4        kindness repentance patience
@@ -389,33 +390,32 @@ ROM 14:8       life death belonging
 2CO 3:18       transformation glory beholding
 2CO 9:7        giving cheerfulness
 GAL 3:28       unity equality baptism
-EPH 1:7        redemption forgiveness grace
-EPH 4:2-3      humility patience unity
+EPH 1:7-10     redemption forgiveness grace
 EPH 5:1-2      imitation love sacrifice
 PHP 2:3-4      humility others esteem
 COL 3:12-13    compassion forgiveness virtue
 COL 4:6        speech grace conversation
-1TH 4:11       quietness work ambition
+1TH 4:10-12    quietness work ambition
 1TI 4:12       youth example ministry
 2TI 4:7        perseverance finishing faith
-HEB 6:19       hope anchor steadfast
+HEB 6:19-20    hope anchor steadfast
 HEB 10:24-25   fellowship encouragement assembly
 HEB 13:2       hospitality angels strangers
 JAS 3:17       wisdom purity peace
-1PE 3:15       apologetics hope meekness
+1PE 3:14-15    apologetics hope meekness
 1PE 4:10       gifts stewardship service
 2PE 1:3        power godliness knowledge
-1JN 2:15       world love affection
+1JN 2:15-16    world love affection
 1JN 5:14       prayer confidence will
 REV 2:10       faithfulness crown death
 
 # Revelation
 REV 1:8        alpha-omega eternity almighty
 REV 3:20       invitation door fellowship
-REV 5:9        redemption nations worship
+REV 5:9-10     redemption nations worship
 REV 7:9        nations worship multitude
 REV 12:11      victory testimony blood
-*REV 21:4      new-creation grief hope
+*REV 21:3-4    new-creation grief hope
 REV 21:5       new-creation renewal
 REV 22:13      alpha-omega eternity
 REV 22:20      hope return maranatha
@@ -425,14 +425,14 @@ GEN 9:6        image-of-god life blood
 *EXO 19:5-6    covenant priesthood holiness calling
 LEV 16:30      atonement cleansing
 DEU 10:12-13   love fear walk commandments
-DEU 32:4       faithfulness rock justice
+DEU 32:4-5     faithfulness rock justice
 NUM 23:19      faithfulness promise god-truth
 GEN 17:7       covenant everlasting
 EXO 15:26      healing obedience
 LEV 20:26      holiness set-apart
-DEU 7:9        faithfulness covenant love
+DEU 7:9-10     faithfulness covenant love
 GEN 18:19      righteousness justice
-EXO 23:2       justice crowd
+EXO 23:2-3     justice crowd
 JOB 2:10       suffering acceptance sovereignty
 JOB 13:15      trust though-slain hope
 JOB 28:28      wisdom fear-of-god
@@ -444,7 +444,7 @@ JOB 5:17       discipline blessed
 PRO 14:26      refuge fear-of-god
 ECC 7:12       wisdom protection
 PRO 3:27-28    generosity neighbour
-JOB 19:14      abandonment friends
+JOB 19:14-15   abandonment friends
 PRO 16:32      patience self-control
 ISA 58:6       fasting justice oppression light
 MIC 7:18-19    pardon mercy compassion
@@ -452,28 +452,28 @@ HOS 2:14-15    mercy wilderness hope
 ZEC 7:9-10     justice mercy oppression
 JER 22:3       justice deliverance
 AMO 5:14-15    seek-good evil hate
-ISA 1:17       justice correct oppression
+ISA 1:16-17    justice correct oppression
 MAL 2:6        teaching truth
 HOS 12:6       mercy justice waiting
-ISA 30:15      return rest salvation
+ISA 30:15-16   return rest salvation
 JER 9:23-24    boast wisdom knowledge god
-ISA 61:3       beauty ashes mourning
+ISA 61:2-3     beauty ashes mourning
 MIC 7:7        watch hope salvation
 HOS 10:12      sow righteousness
-ISA 42:3       gentleness bruised reed
+ISA 42:2-3     gentleness bruised reed
 PSA 13:1-2     lament forgotten
 PSA 22:1       forsaken lament cry
 PSA 42:9       rock forgotten lament
-PSA 61:2       overwhelmed rock higher
+PSA 61:2-3     overwhelmed rock higher
 PSA 73:28      nearness good refuge
 PSA 131:1-2    humility soul weaned
 PSA 6:2        mercy weak healing
 PSA 31:24      courage heart hope
-PSA 62:8       trust pour heart
+PSA 62:8-9     trust pour heart
 PSA 84:11      sun shield favor
 PSA 116:1-2    love hears prayer
 PSA 27:4       dwell house beauty
-PSA 63:7-8     help shadow cling
+PSA 63:5-8     help shadow cling
 PSA 90:1-2     dwelling generation eternity
 PSA 103:17-18  mercy generations covenant
 PSA 145:8-9    gracious compassion
@@ -481,14 +481,13 @@ MAT 13:44      kingdom treasure hidden
 LUK 10:36-37   neighbor mercy go
 LUK 14:11      humility exalted
 JHN 7:37-38    thirst living-water
-MAT 18:3       humble child kingdom
-MAT 20:28      service ransom
+MAT 18:2-3     humble child kingdom
+MAT 20:26-28   service ransom
 MRK 10:14      receive kingdom child
 LUK 6:27-28    love enemies bless
 LUK 15:4       seek lost sheep
-JHN 8:31       abide word disciple
 MAT 5:6        hunger righteousness filled
-LUK 9:48       least great
+LUK 9:47-48    least great
 JHN 15:12      love as-loved command
 MAT 25:35-36   hunger thirst stranger
 MRK 12:42-44   widow offering
@@ -497,10 +496,10 @@ JHN 13:14-15   wash feet example
 MAT 23:11      greatest servant
 ACT 2:44-45    fellowship breaking-bread wonder
 ACT 13:2-3     spirit fasting sending
-ROM 8:15-16    spirit adoption witness
+ROM 8:15-17    spirit adoption witness
 1CO 12:7       spirit manifestation common
 EPH 1:13-14    inheritance spirit guarantee
-EPH 4:1-3      walk worthy unity
+EPH 4:1-3      walk worthy unity humility patience
 ROM 15:5-6     patience harmony glory
 GAL 6:2        bear burdens law
 COL 1:9-10     knowledge fruit
@@ -512,27 +511,27 @@ EPH 2:19-22    household cornerstone dwelling
 ROM 8:26       spirit intercedes
 ACT 20:28      flock purchase blood
 1CO 6:11       washed sanctified justified
-EPH 3:14-16    riches glory strengthened
+EPH 3:14-17    riches glory strengthened
 1TH 4:13-14    sleep hope grieve
-TIT 2:11-12    grace training godliness
-2TI 2:13       faithless faithful
+TIT 2:11-13    grace training godliness
+2TI 2:11-13    faithless faithful
 HEB 13:14      city to-come seek
 REV 22:17      spirit bride come
 1TH 5:23       sanctify spirit soul
-2TI 1:12       guard entrusted
+2TI 1:11-12    guard entrusted
 HEB 10:23      hold confession hope
-1PE 1:7        tested fire faith
+1PE 1:6-7      tested fire faith
 REV 3:11       hold fast crown
 2TH 2:16-17    comfort heart work
 HEB 3:13       exhort daily hardening
 1PE 5:10       restore support strength
-HEB 12:28      kingdom unshaken gratitude
+HEB 12:28-29   kingdom unshaken gratitude
 TIT 2:13-14    blessed-hope grace
 1TI 3:16       mystery godliness
-WIS 9:1-2      wisdom creation understanding
+WIS 9:1-4      wisdom creation understanding
 SIR 15:14-15   choice creation commandment
 BAR 4:36-37    joy children east
-TOB 12:8       prayer fasting alms
+TOB 12:8-10    prayer fasting alms
 JDT 9:11       strength lowly powerless
 WIS 6:12-13    wisdom sought teaching
 SIR 35:12-13   bribes justice
@@ -595,35 +594,119 @@ function parse(): Parsed[] {
   return out;
 }
 
-const bookCache = new Map<string, any>();
-function verseText(p: Parsed): string {
-  let book = bookCache.get(p.book);
-  if (!book) {
-    book = JSON.parse(readFileSync(join(KJV_DIR, `${p.book}.json`), 'utf8'));
-    bookCache.set(p.book, book);
+/**
+ * How far a reference may be stretched to reach a sentence boundary. Beyond
+ * this the passage stops being the one that was curated: three verses either
+ * side of "Be still, and know that I am God" is a different card.
+ */
+const WIDEN_MAX = 3;
+
+/**
+ * The NRSV numbers verses, not sentences, so a curated reference regularly
+ * opens on a lowercase word or closes on a comma. Where the neighbouring verse
+ * completes the thought and the whole still fits a card, take it — a whole
+ * sentence always reads better than an elided one.
+ *
+ * Returns the widened reference, or the original where widening would not help
+ * or would not fit.
+ */
+function widen(p: Parsed): Parsed {
+  const chapter = chapterOf(p);
+  const lastVerse = Math.max(...Object.keys(chapter).map(Number));
+  let start = p.verseStart;
+  let end = p.verseEnd ?? p.verseStart;
+
+  for (let step = 0; step < WIDEN_MAX; step++) {
+    const flags = analyse(join(chapter, start, end));
+    let moved = false;
+
+    if (flags.startsMidSentence && start > 1) {
+      if (fits(join(chapter, start - 1, end))) {
+        start -= 1;
+        moved = true;
+      }
+    }
+
+    if (flags.endsMidSentence && end < lastVerse) {
+      if (fits(join(chapter, start, end + 1))) {
+        end += 1;
+        moved = true;
+      }
+    }
+
+    if (!moved) break;
   }
+
+  if (start === p.verseStart && end === (p.verseEnd ?? p.verseStart)) return p;
+  return { ...p, verseStart: start, verseEnd: end === start ? undefined : end };
+}
+
+/**
+ * Whether a passage fits a card once it has been repaired. A passage that still
+ * ends mid-sentence gains an ellipsis, so measuring the raw text would let a
+ * widening overflow the schema by the width of its own mark.
+ */
+function fits(text: string): boolean {
+  return cleanExcerpt(text).length <= BODY_MAX;
+}
+
+/** How the reference is written in LIST, so a widening can be reported back to it. */
+function label(p: Parsed): string {
+  const range = p.verseEnd ? `${p.verseStart}-${p.verseEnd}` : String(p.verseStart);
+  return `${p.book} ${p.chapter}:${range}`;
+}
+
+function join(chapter: Record<string, string>, start: number, end: number): string {
+  const parts: string[] = [];
+  for (let v = start; v <= end; v++) if (chapter[String(v)]) parts.push(chapter[String(v)]);
+  return parts.join(' ');
+}
+
+function chapterOf(p: Parsed): Record<string, string> {
+  const book = loadBook(p.book);
   const chapter = book.chapters[String(p.chapter)];
   if (!chapter) throw new Error(`${p.book} ${p.chapter} does not exist`);
-  const last = p.verseEnd ?? p.verseStart;
-  const parts: string[] = [];
-  for (let v = p.verseStart; v <= last; v++) {
-    const text = chapter[String(v)];
-    if (!text) throw new Error(`${p.book} ${p.chapter}:${v} does not exist`);
-    parts.push(text);
+  return chapter;
+}
+
+const bookCache = new Map<string, any>();
+function loadBook(id: string): any {
+  let book = bookCache.get(id);
+  if (!book) {
+    book = JSON.parse(readFileSync(join_(KJV_DIR, `${id}.json`), 'utf8'));
+    bookCache.set(id, book);
   }
-  return parts.join(' ');
+  return book;
+}
+
+function verseText(p: Parsed): string {
+  const chapter = chapterOf(p);
+  const last = p.verseEnd ?? p.verseStart;
+  for (let v = p.verseStart; v <= last; v++) {
+    if (!chapter[String(v)]) throw new Error(`${p.book} ${p.chapter}:${v} does not exist`);
+  }
+  return join(chapter, p.verseStart, last);
 }
 
 function main() {
   const parsed = parse();
   const cards: unknown[] = [];
   const tooLong: string[] = [];
+  const widened: string[] = [];
 
-  for (const p of parsed) {
+  for (const curated of parsed) {
+    const p = widen(curated);
+    if (label(p) !== label(curated)) {
+      widened.push(`${label(curated)} \u2192 ${label(p)}  ${p.themes.join(' ')}`);
+    }
+
     const text = verseText(p);
-    const label = `${p.book} ${p.chapter}:${p.verseStart}${p.verseEnd ? `-${p.verseEnd}` : ''}`;
-    if (text.length > BODY_MAX) {
-      tooLong.push(`${label} (${text.length} chars)`);
+    // Widening could not reach a boundary, so say so on the card instead. The
+    // `ref` stays as curated: the reader still opens the right verses, and this
+    // only changes the sentence the feed shows.
+    const display = cleanExcerpt(text);
+    if (Math.max(text.length, display.length) > BODY_MAX) {
+      tooLong.push(`${label(p)} (${Math.max(text.length, display.length)} chars)`);
       continue;
     }
 
@@ -643,6 +726,7 @@ function main() {
       themes: p.themes,
       ref,
     };
+    if (display !== text) card.display = display;
     if (p.weight) card.weight = p.weight;
     cards.push(card);
   }
@@ -650,6 +734,12 @@ function main() {
   writeFileSync(OUT, `${JSON.stringify(cards, null, 2)}\n`);
 
   console.log(`Wrote ${cards.length} scripture cards to src/content/cards/scripture.json`);
+  if (widened.length > 0) {
+    console.log(
+      `\n${widened.length} reference(s) widened to a sentence boundary. Fold these back into LIST:`,
+    );
+    for (const w of widened) console.log(`  ${w}`);
+  }
   if (tooLong.length > 0) {
     console.log(`\nSkipped ${tooLong.length} passage(s) longer than ${BODY_MAX} characters:`);
     for (const t of tooLong) console.log(`  ${t}`);

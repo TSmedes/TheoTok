@@ -27,14 +27,15 @@ export const ELLIPSIS = '…';
 export const ELISION_BUDGET = 6;
 
 /** Openers we balance, and what closes them. */
-const PAIRS: Record<string, string> = { '(': ')', '[': ']', '{': '}', '“': '”' };
+const PAIRS: Record<string, string> = { '(': ')', '[': ']', '{': '}', '“': '”', '‘': '’' };
 const CLOSERS: Record<string, string> = { ')': '(', ']': '[', '}': '{', '”': '“' };
-const QUOTES = new Set(['"', '“', '”']);
+const QUOTES = new Set(['"', '“', '”', '‘', '’']);
+const PARTNER: Record<string, string> = { '"': '"', '“': '”', '”': '“', '‘': '’', '’': '‘' };
 
 /*
- * Apostrophes are left alone entirely. In this corpus `'` and `’` are far more
- * often possessive ("God's", "the Jews’ law") than a nested quotation, and
- * balancing them would eat the apostrophe out of the middle of a word.
+ * The straight `'` is left alone entirely: in this corpus it is always an
+ * apostrophe ("God's"), never a quotation mark. Its curly cousin `’` is both,
+ * and `singleQuoteIsClosing` decides which.
  */
 
 /** A truncated parenthetical this long or shorter is dropped whole. */
@@ -65,6 +66,23 @@ function looksLikeCloser(text: string, i: number): boolean {
   return after == null || /[\s.,;:!?)\]}]/.test(after);
 }
 
+/**
+ * Whether a curly `’` closes a quotation or is simply an apostrophe.
+ *
+ * The NRSV nests reported speech in single quotes — Matthew 25 has the king
+ * quoting himself — so an excerpt can end on a closing `’` whose opener is in
+ * the verse before. But `’` is also the possessive in "the Jews’ law", and
+ * treating that as a quotation would hang an opening mark on the front of the
+ * card. It counts as a quotation mark only where one is actually in play: a
+ * `‘` is open, or the excerpt ends on it.
+ */
+function singleQuoteIsClosing(text: string, i: number, singleOpen: boolean): boolean {
+  const before = text[i - 1];
+  const after = text[i + 1];
+  if (/[A-Za-z]/.test(before ?? '') && /[A-Za-z]/.test(after ?? '')) return false;
+  return singleOpen || i === text.length - 1;
+}
+
 function scan(text: string): { orphanOpeners: number[]; orphanClosers: number[] } {
   const stack: { char: string; index: number }[] = [];
   const orphanClosers: number[] = [];
@@ -77,6 +95,14 @@ function scan(text: string): { orphanOpeners: number[]; orphanClosers: number[] 
       if (top?.char === '"') stack.pop();
       else if (looksLikeCloser(text, i)) orphanClosers.push(i);
       else stack.push({ char, index: i });
+      continue;
+    }
+
+    if (char === '’') {
+      const top = stack[stack.length - 1];
+      if (!singleQuoteIsClosing(text, i, top?.char === '‘')) continue;
+      if (top?.char === '‘') stack.pop();
+      else orphanClosers.push(i);
       continue;
     }
 
@@ -138,6 +164,19 @@ export function analyse(text: string): ExcerptFlags {
   };
 }
 
+/**
+ * The text an excerpt actually says, with its repairs taken back off. A card
+ * reading `"… this is my body," etc. …` clears BODY_MIN on length alone while
+ * saying almost nothing; measuring it stripped is what catches that.
+ */
+export function substance(text: string): string {
+  return text
+    .replace(/…/g, '')
+    .replace(/["“”‘’()[\]{}]/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
 export interface CleanOptions {
   /**
    * Force the marks on. Chunkers know from the excerpt's position whether text
@@ -184,8 +223,8 @@ export function cleanExcerpt(text: string, opts: CleanOptions = {}): string {
   const { orphanOpeners, orphanClosers } = scan(out);
   const orphanClose = orphanClosers.find((i) => QUOTES.has(out[i]));
   const orphanOpen = orphanOpeners.find((i) => QUOTES.has(out[i]));
-  const openQuote = orphanClose == null ? '' : out[orphanClose] === '"' ? '"' : '“';
-  const closeQuote = orphanOpen == null ? '' : out[orphanOpen] === '"' ? '"' : '”';
+  const openQuote = orphanClose == null ? '' : PARTNER[out[orphanClose]];
+  const closeQuote = orphanOpen == null ? '' : PARTNER[out[orphanOpen]];
 
   if (elideEnd && !TRAILING_MARK.test(out)) out = `${out} ${ELLIPSIS}`;
   out = `${openQuote}${out}${closeQuote}`;
@@ -193,7 +232,14 @@ export function cleanExcerpt(text: string, opts: CleanOptions = {}): string {
     out = `${openQuote}${ELLIPSIS} ${out.slice(openQuote.length)}`;
   }
 
-  return dropUnbalancedQuotes(out.replace(/\s{2,}/g, ' ').trim());
+  return dropUnbalancedQuotes(tightenQuotes(out.replace(/\s{2,}/g, ' ').trim()));
+}
+
+/** Closes the gap the upstream texts leave just inside a quotation mark. */
+function tightenQuotes(text: string): string {
+  return text
+    .replace(/(^|[\s([{])(["“‘])\s+/g, '$1$2')
+    .replace(/\s+(["”’])($|[\s.,;:!?)\]}])/g, '$1$2');
 }
 
 /**

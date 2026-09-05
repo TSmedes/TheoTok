@@ -18,7 +18,7 @@ import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { analyse, cleanExcerpt, ELISION_BUDGET } from '../src/content/excerpt.ts';
+import { analyse, cleanExcerpt, substance, ELISION_BUDGET } from '../src/content/excerpt.ts';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CACHE_DIR = join(ROOT, 'node_modules', '.cache', 'theotok', 'creeds');
@@ -53,6 +53,13 @@ const BODY_MAX = 400;
 const PROMPT_MAX = 120;
 /** Below this a "card" is a fragment rather than a thought. */
 const BODY_MIN = 25;
+/**
+ * The same floor for an excerpt, which has to clear a higher bar. A whole
+ * article can be one short sentence and still stand — Zwingli's theses are
+ * exactly that — but a *piece* of an article this short is what the cut left
+ * over, not what it was aiming at.
+ */
+const EXCERPT_MIN = 35;
 /**
  * What chunking may actually use. Every excerpt is run through `cleanExcerpt`
  * afterwards, which can add a leading ellipsis, a trailing one and a completed
@@ -241,20 +248,31 @@ function chunk(body: string): string[] {
 }
 
 /**
- * Rejoins neighbouring excerpts that only exist because the packer stopped a
- * clause short. `pack` fills greedily, so this recovers little — around thirty
- * cards across the whole corpus — but every one it recovers is a card that
- * becomes a whole sentence instead of an ellipsis.
+ * Below this an excerpt is a phrase, not a thought. Tetrapolitan 18 quotes the
+ * words of institution clause by clause, and splitting on those semicolons
+ * yields cards reading only `"this is my body," etc.`
+ */
+const STANDALONE_MIN = 60;
+
+/**
+ * Rejoins neighbouring excerpts that should never have been separate: one that
+ * stops mid-sentence, and one too short to say anything on its own. `pack`
+ * fills greedily, so this recovers only what the semicolon pass over-cut — but
+ * every card it recovers is one that carries a thought instead of a phrase.
  */
 function heal(chunks: string[]): string[] {
   const out: string[] = [];
   for (const piece of chunks) {
     const previous = out[out.length - 1];
-    const joinable =
-      previous != null &&
-      analyse(previous).endsMidSentence &&
-      `${previous} ${piece}`.length <= CHUNK_MAX;
-    if (joinable) out[out.length - 1] = `${previous} ${piece}`;
+    if (previous == null || `${previous} ${piece}`.length > CHUNK_MAX) {
+      out.push(piece);
+      continue;
+    }
+    const orphaned =
+      analyse(previous).endsMidSentence ||
+      previous.length < STANDALONE_MIN ||
+      piece.length < STANDALONE_MIN;
+    if (orphaned) out[out.length - 1] = `${previous} ${piece}`;
     else out.push(piece);
   }
   return out;
@@ -401,7 +419,10 @@ async function main() {
       });
     }
 
-    const usable = expanded.filter((c) => c.body.length >= BODY_MIN);
+    // Measured on what the card says, not on the marks the repair added.
+    const usable = expanded.filter(
+      (c) => substance(c.body).length >= (c.locus?.includes('part ') ? EXCERPT_MIN : BODY_MIN),
+    );
 
     const chosen = stride(usable, plan.cap);
 

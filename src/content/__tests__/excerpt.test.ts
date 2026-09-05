@@ -1,4 +1,4 @@
-import { analyse, cleanExcerpt, hasLeadingMark, hasTrailingMark } from '../excerpt';
+import { analyse, cleanExcerpt, hasLeadingMark, hasTrailingMark, substance } from '../excerpt';
 
 describe('reading an excerpt', () => {
   it('leaves a whole sentence exactly as it found it', () => {
@@ -80,6 +80,28 @@ describe('repairing an excerpt', () => {
     // The full stop stays: the sentence did finish, the article did not.
     expect(cleanExcerpt('The Church is holy.', { elideEnd: true })).toBe('The Church is holy. …');
     expect(cleanExcerpt('The Church is holy.', { elideStart: true })).toBe('… The Church is holy.');
+  });
+
+  it('completes a nested quotation without touching a possessive', () => {
+    // Matthew 25:35 — the king is quoted inside the parable, so the verse ends
+    // on a single closing quote whose opener is two verses back.
+    expect(cleanExcerpt('for I was hungry and you gave me food, and you visited me.’')).toBe(
+      '‘… for I was hungry and you gave me food, and you visited me.’',
+    );
+    // The same character, mid-sentence, is the plural possessive and stays put.
+    const possessive = 'The Jews’ law was given through Moses.';
+    expect(cleanExcerpt(possessive)).toBe(possessive);
+  });
+
+  it('closes the gap the sources leave inside a quotation mark', () => {
+    expect(cleanExcerpt('He said, " drink ye all of it. "')).toBe('He said, "drink ye all of it."');
+  });
+
+  it('measures what an excerpt says, not the marks it carries', () => {
+    // A card reading `"… this is my body," etc. …` clears a length floor while
+    // saying almost nothing.
+    expect(substance('"… this is my body," etc. …')).toBe('this is my body, etc.');
+    expect(substance('The LORD is my shepherd.')).toBe('The LORD is my shepherd.');
   });
 
   it('never marks the same end twice', () => {
